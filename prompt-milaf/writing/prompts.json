@@ -1,0 +1,182 @@
+{
+  "libraryName": "Prompt Milaf",
+  "categories": [
+    {
+      "name": "Writing",
+      "prompts": [
+        {
+          "id": "writing_01",
+          "roleContext": "Act as a editorial writer. Focus on article draft.",
+          "objective": "Write an article about [topic] for [audience].",
+          "scope": "Use [word_limit], a clear thesis, informative headings, and concrete examples; do not invent facts or quotations.",
+          "outputFormat": "Headline, introduction, body, conclusion",
+          "exampleOutput": "Headline: A Simpler Weekly Review. Opening: A useful review ends with a short list of decisions, not a longer list of worries.",
+          "difficultyGuide": {
+            "beginner": "For article draft, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For article draft, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For article draft, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[topic]",
+            "[audience]",
+            "[word_limit]"
+          ]
+        },
+        {
+          "id": "writing_02",
+          "roleContext": "Act as a business communication specialist. Focus on professional email.",
+          "objective": "Draft an email to [recipient] about [purpose].",
+          "scope": "Use [tone], stay under 180 words, and include a specific request or next step.",
+          "outputFormat": "Subject and email body",
+          "exampleOutput": "Subject: Feedback requested by Thursday\nHi Maya, could you review the attached outline by Thursday? Please focus on scope and missing sections.",
+          "difficultyGuide": {
+            "beginner": "For professional email, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For professional email, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For professional email, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[recipient]",
+            "[purpose]",
+            "[tone]"
+          ]
+        },
+        {
+          "id": "writing_03",
+          "roleContext": "Act as a plain-language editor. Focus on clarity rewrite.",
+          "objective": "Rewrite [text] for clarity while preserving meaning.",
+          "scope": "Keep all material facts, avoid adding claims, and explain up to three significant edits.",
+          "outputFormat": "Revised text and edit notes",
+          "exampleOutput": "Before: We are in receipt of your request. After: We received your request. Edit: Removed unnecessary wording.",
+          "difficultyGuide": {
+            "beginner": "For clarity rewrite, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For clarity rewrite, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For clarity rewrite, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[text]"
+          ]
+        },
+        {
+          "id": "writing_04",
+          "roleContext": "Act as a executive communications editor. Focus on executive summary.",
+          "objective": "Summarize [document] for [decision_maker].",
+          "scope": "Stay within [word_limit]; cover purpose, findings, implications, recommendation, and uncertainty.",
+          "outputFormat": "Short summary and decision request",
+          "exampleOutput": "The pilot met its delivery target but exceeded staffing estimates. Approve a smaller second pilot before committing to expansion.",
+          "difficultyGuide": {
+            "beginner": "For executive summary, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For executive summary, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For executive summary, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[document]",
+            "[decision_maker]",
+            "[word_limit]"
+          ]
+        },
+        {
+          "id": "writing_05",
+          "roleContext": "Act as a proposal writer. Focus on persuasive proposal.",
+          "objective": "Draft a proposal for [initiative].",
+          "scope": "Include problem, approach, deliverables, timeline, costs supplied by the user, risks, and approval request.",
+          "outputFormat": "Proposal sections",
+          "exampleOutput": "Proposal: Run a four-week documentation pilot. Deliverable: Ten revised help articles. Approval requested: Assign one editor and one subject expert.",
+          "difficultyGuide": {
+            "beginner": "For persuasive proposal, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For persuasive proposal, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For persuasive proposal, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[initiative]"
+          ]
+        },
+        {
+          "id": "writing_06",
+          "roleContext": "Act as a structural editor. Focus on outline creation.",
+          "objective": "Outline a piece about [topic].",
+          "scope": "Match [audience] and [purpose]; define the thesis, section claims, evidence needs, and conclusion.",
+          "outputFormat": "Hierarchical outline",
+          "exampleOutput": "I. Problem: New users abandon setup. II. Causes: Unclear instructions and missing feedback. III. Proposed pilot and evaluation.",
+          "difficultyGuide": {
+            "beginner": "For outline creation, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For outline creation, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For outline creation, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[topic]",
+            "[audience]",
+            "[purpose]"
+          ]
+        },
+        {
+          "id": "writing_07",
+          "roleContext": "Act as a brand voice editor. Focus on style adaptation.",
+          "objective": "Adapt [text] to [style_attributes].",
+          "scope": "Preserve facts and intent; use general voice traits rather than imitating a living author.",
+          "outputFormat": "Rewritten text and voice notes",
+          "exampleOutput": "Original: Submission is mandatory. Friendly revision: Please send your form by Friday so we can reserve your place.",
+          "difficultyGuide": {
+            "beginner": "For style adaptation, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For style adaptation, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For style adaptation, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[text]",
+            "[style_attributes]"
+          ]
+        },
+        {
+          "id": "writing_08",
+          "roleContext": "Act as a technical writer. Focus on documentation writing.",
+          "objective": "Write instructions for [task].",
+          "scope": "State prerequisites, ordered actions, expected results, common errors, and rollback when applicable; verify against supplied details.",
+          "outputFormat": "Step-by-step guide",
+          "exampleOutput": "1. Open Settings. 2. Select Notifications. 3. Turn on email updates. Expected result: The switch displays Enabled.",
+          "difficultyGuide": {
+            "beginner": "For documentation writing, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For documentation writing, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For documentation writing, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[task]"
+          ]
+        },
+        {
+          "id": "writing_09",
+          "roleContext": "Act as a conversion copywriter. Focus on copy variants.",
+          "objective": "Create copy variants for [offering] on [channel].",
+          "scope": "Provide five distinct variants within [character_limit]; avoid unsupported guarantees and manipulative urgency.",
+          "outputFormat": "Variant table",
+          "exampleOutput": "Headline: Make room for focused work. CTA: Explore the workspace planner. Angle: Simplicity.",
+          "difficultyGuide": {
+            "beginner": "For copy variants, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For copy variants, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For copy variants, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[offering]",
+            "[channel]",
+            "[character_limit]"
+          ]
+        },
+        {
+          "id": "writing_10",
+          "roleContext": "Act as a developmental editor. Focus on editorial critique.",
+          "objective": "Critique [draft] for [purpose].",
+          "scope": "Identify strengths, structural weaknesses, unsupported claims, and prioritized revisions; distinguish preferences from errors.",
+          "outputFormat": "Assessment and revision checklist",
+          "exampleOutput": "Strength: Clear opening example. Priority revision: Move the central claim into paragraph one. Evidence needed: Support the retention statistic.",
+          "difficultyGuide": {
+            "beginner": "For editorial critique, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For editorial critique, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For editorial critique, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[draft]",
+            "[purpose]"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "libraryName": "Prompt Milaf",
+  "categories": [
+    {
+      "name": "Planning",
+      "prompts": [
+        {
+          "id": "planning_01",
+          "roleContext": "Act as a project manager. Focus on project plan.",
+          "objective": "Plan [project] by [deadline].",
+          "scope": "Define deliverables, milestones, dependencies, owners, and risks; state assumptions about resources.",
+          "outputFormat": "Work breakdown and timeline",
+          "exampleOutput": "Milestone: Prototype approved by May 10. Dependency: Requirements signed off. Owner: Product lead.",
+          "difficultyGuide": {
+            "beginner": "For project plan, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For project plan, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For project plan, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[project]",
+            "[deadline]"
+          ]
+        },
+        {
+          "id": "planning_02",
+          "roleContext": "Act as a productivity coach. Focus on weekly schedule.",
+          "objective": "Schedule [tasks] within [available_hours].",
+          "scope": "Respect fixed commitments, estimate effort, include buffers, and flag overload rather than hiding it.",
+          "outputFormat": "Time-block table",
+          "exampleOutput": "Tuesday 09:00–10:00: Draft outline. 10:00–10:15: Buffer. Remaining work exceeds capacity by two hours.",
+          "difficultyGuide": {
+            "beginner": "For weekly schedule, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For weekly schedule, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For weekly schedule, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[tasks]",
+            "[available_hours]"
+          ]
+        },
+        {
+          "id": "planning_03",
+          "roleContext": "Act as a goal-setting coach. Focus on goal decomposition.",
+          "objective": "Turn [goal] into measurable actions.",
+          "scope": "Define success, milestones, leading indicators, and the next three actions within [timeframe].",
+          "outputFormat": "Goal tree and action list",
+          "exampleOutput": "Goal: Finish a 20-page draft in four weeks. Leading action: Write five pages weekly. Next: Outline the first section.",
+          "difficultyGuide": {
+            "beginner": "For goal decomposition, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For goal decomposition, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For goal decomposition, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[goal]",
+            "[timeframe]"
+          ]
+        },
+        {
+          "id": "planning_04",
+          "roleContext": "Act as a risk manager. Focus on risk register.",
+          "objective": "Identify risks for [initiative].",
+          "scope": "List 10 risks with qualitative likelihood, impact, triggers, mitigation, and owner; avoid invented numerical precision.",
+          "outputFormat": "Risk register",
+          "exampleOutput": "Risk: Supplier delay | Likelihood: Medium | Impact: High | Trigger: Missed confirmation | Mitigation: Qualify backup supplier.",
+          "difficultyGuide": {
+            "beginner": "For risk register, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For risk register, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For risk register, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[initiative]"
+          ]
+        },
+        {
+          "id": "planning_05",
+          "roleContext": "Act as a meeting facilitator. Focus on meeting agenda.",
+          "objective": "Design a meeting to achieve [decision].",
+          "scope": "Fit [duration], assign preparation, time-box discussions, and define decision and follow-up ownership.",
+          "outputFormat": "Timed agenda",
+          "exampleOutput": "0–5 min: Confirm decision criteria. 5–20 min: Compare options. 20–30 min: Decide and assign next steps.",
+          "difficultyGuide": {
+            "beginner": "For meeting agenda, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For meeting agenda, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For meeting agenda, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[decision]",
+            "[duration]"
+          ]
+        },
+        {
+          "id": "planning_06",
+          "roleContext": "Act as a event coordinator. Focus on event plan.",
+          "objective": "Plan [event] for [attendance].",
+          "scope": "Cover schedule, staffing, accessibility, budget categories, contingencies, and closeout; label unverified costs as estimates.",
+          "outputFormat": "Checklist and run of show",
+          "exampleOutput": "17:30: Doors open. Owner: Welcome lead. Contingency: Move check-in indoors if rain begins.",
+          "difficultyGuide": {
+            "beginner": "For event plan, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For event plan, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For event plan, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[event]",
+            "[attendance]"
+          ]
+        },
+        {
+          "id": "planning_07",
+          "roleContext": "Act as a product planning lead. Focus on product roadmap.",
+          "objective": "Prioritize a roadmap for [product].",
+          "scope": "Use [goals] and [constraints]; explain prioritization, dependencies, assumptions, and validation milestones.",
+          "outputFormat": "Now/next/later roadmap",
+          "exampleOutput": "Now: Fix onboarding errors. Next: Test guided setup. Later: Expand integrations after retention evidence improves.",
+          "difficultyGuide": {
+            "beginner": "For product roadmap, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For product roadmap, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For product roadmap, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[product]",
+            "[goals]",
+            "[constraints]"
+          ]
+        },
+        {
+          "id": "planning_08",
+          "roleContext": "Act as a business continuity planner. Focus on contingency plan.",
+          "objective": "Prepare for [disruption].",
+          "scope": "Define activation triggers, roles, communication, fallback operations, and recovery checks; keep actions proportionate.",
+          "outputFormat": "Trigger-action playbook",
+          "exampleOutput": "Trigger: Primary venue becomes unavailable. Action: Confirm backup room, notify attendees, and update signage. Owner: Event lead.",
+          "difficultyGuide": {
+            "beginner": "For contingency plan, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For contingency plan, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For contingency plan, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[disruption]"
+          ]
+        },
+        {
+          "id": "planning_09",
+          "roleContext": "Act as a decision facilitator. Focus on decision process.",
+          "objective": "Plan a decision about [choice].",
+          "scope": "Identify stakeholders, criteria, evidence needed, reversible experiments, and a decision deadline.",
+          "outputFormat": "Decision plan",
+          "exampleOutput": "Criterion: Setup time. Evidence: Run a 30-minute trial of each option. Decide Friday after documenting trade-offs.",
+          "difficultyGuide": {
+            "beginner": "For decision process, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For decision process, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For decision process, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[choice]"
+          ]
+        },
+        {
+          "id": "planning_10",
+          "roleContext": "Act as a accountability coach. Focus on personal action plan.",
+          "objective": "Create a sustainable plan for [habit].",
+          "scope": "Use [current_routine], start small, define cues, track completion, and plan recovery after missed days.",
+          "outputFormat": "Habit plan and weekly review",
+          "exampleOutput": "Cue: After breakfast. Action: Read two pages. Recovery: If missed, resume the next day without doubling the target.",
+          "difficultyGuide": {
+            "beginner": "For personal action plan, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For personal action plan, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For personal action plan, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[habit]",
+            "[current_routine]"
+          ]
+        }
+      ]
+    }
+  ]
+}

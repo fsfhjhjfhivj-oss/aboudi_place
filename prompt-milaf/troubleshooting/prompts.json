@@ -1,0 +1,178 @@
+{
+  "libraryName": "Prompt Milaf",
+  "categories": [
+    {
+      "name": "Troubleshooting",
+      "prompts": [
+        {
+          "id": "troubleshooting_01",
+          "roleContext": "Act as a technical support engineer. Focus on software failure.",
+          "objective": "Troubleshoot [symptom] in [application].",
+          "scope": "Start with low-risk checks, request essential environment details, and define success; avoid destructive resets without consent.",
+          "outputFormat": "Ordered diagnostic checklist",
+          "exampleOutput": "1. Record the exact error. 2. Restart the application. 3. Check whether a new file opens. Stop if unsaved work could be lost.",
+          "difficultyGuide": {
+            "beginner": "For software failure, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For software failure, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For software failure, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[symptom]",
+            "[application]"
+          ]
+        },
+        {
+          "id": "troubleshooting_02",
+          "roleContext": "Act as a network support specialist. Focus on network issue.",
+          "objective": "Diagnose [connectivity_problem].",
+          "scope": "Separate device, local network, DNS, and service hypotheses; use safe tests and redact sensitive configuration.",
+          "outputFormat": "Diagnostic decision tree",
+          "exampleOutput": "If other sites load but one hostname fails, compare DNS resolution and service status before changing router settings.",
+          "difficultyGuide": {
+            "beginner": "For network issue, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For network issue, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For network issue, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[connectivity_problem]"
+          ]
+        },
+        {
+          "id": "troubleshooting_03",
+          "roleContext": "Act as a data platform engineer. Focus on data pipeline failure.",
+          "objective": "Diagnose [pipeline_failure] using [logs].",
+          "scope": "Trace source, extraction, transformation, and loading; identify safe retries, idempotency risks, and validation checks.",
+          "outputFormat": "Triage table and recovery plan",
+          "exampleOutput": "Evidence: Row count dropped after the filter step. Check: Compare rejected rows by rule. Recovery: Reprocess only after confirming duplicate handling.",
+          "difficultyGuide": {
+            "beginner": "For data pipeline failure, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For data pipeline failure, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For data pipeline failure, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[pipeline_failure]",
+            "[logs]"
+          ]
+        },
+        {
+          "id": "troubleshooting_04",
+          "roleContext": "Act as a spreadsheet specialist. Focus on spreadsheet error.",
+          "objective": "Fix [formula_problem] in [workbook_context].",
+          "scope": "Inspect ranges, types, references, and locale; provide a minimal correction and verification cells.",
+          "outputFormat": "Diagnosis and formulas",
+          "exampleOutput": "Cause: SUM range excludes the final row. Fix: =SUM(B2:B10). Check: Compare with a manual sum of the same nine cells.",
+          "difficultyGuide": {
+            "beginner": "For spreadsheet error, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For spreadsheet error, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For spreadsheet error, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[formula_problem]",
+            "[workbook_context]"
+          ]
+        },
+        {
+          "id": "troubleshooting_05",
+          "roleContext": "Act as a build and release engineer. Focus on build failure.",
+          "objective": "Diagnose [build_error] in [environment].",
+          "scope": "Check dependency versions, lockfiles, runtime, and configuration; prefer reproducible fixes over broad upgrades.",
+          "outputFormat": "Hypotheses, commands, patch",
+          "exampleOutput": "Hypothesis: Runtime version differs from CI. Check the configured version and rerun with the same runtime before changing dependencies.",
+          "difficultyGuide": {
+            "beginner": "For build failure, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For build failure, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For build failure, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[build_error]",
+            "[environment]"
+          ]
+        },
+        {
+          "id": "troubleshooting_06",
+          "roleContext": "Act as a machine learning engineer. Focus on model quality issue.",
+          "objective": "Investigate [model_symptom] using [evaluation_data].",
+          "scope": "Check leakage, splits, baselines, imbalance, drift, and metric choice; do not assume retraining is the first fix.",
+          "outputFormat": "Diagnostic matrix and experiments",
+          "exampleOutput": "Training accuracy is high but validation accuracy is low. Check group overlap, compare a simpler baseline, and inspect learning curves.",
+          "difficultyGuide": {
+            "beginner": "For model quality issue, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For model quality issue, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For model quality issue, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[model_symptom]",
+            "[evaluation_data]"
+          ]
+        },
+        {
+          "id": "troubleshooting_07",
+          "roleContext": "Act as a frontend engineer. Focus on website rendering issue.",
+          "objective": "Diagnose [rendering_problem] in [browser_context].",
+          "scope": "Inspect console errors, network requests, layout, and browser differences; provide minimal reproducible checks.",
+          "outputFormat": "Checklist and candidate patch",
+          "exampleOutput": "Observation: Content exists but is hidden. Check computed display and visibility rules before investigating the data API.",
+          "difficultyGuide": {
+            "beginner": "For website rendering issue, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For website rendering issue, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For website rendering issue, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[rendering_problem]",
+            "[browser_context]"
+          ]
+        },
+        {
+          "id": "troubleshooting_08",
+          "roleContext": "Act as a hardware support technician. Focus on device issue.",
+          "objective": "Troubleshoot [device_symptom] safely.",
+          "scope": "Start with external power, cables, settings, and manufacturer guidance; stop for overheating, swelling, smoke, or electrical hazards.",
+          "outputFormat": "Safe checks and escalation criteria",
+          "exampleOutput": "Check that the charger and outlet work. If the battery is swollen or the device smells burnt, stop using it and seek qualified service.",
+          "difficultyGuide": {
+            "beginner": "For device issue, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For device issue, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For device issue, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[device_symptom]"
+          ]
+        },
+        {
+          "id": "troubleshooting_09",
+          "roleContext": "Act as a process improvement specialist. Focus on workflow bottleneck.",
+          "objective": "Diagnose delays in [workflow].",
+          "scope": "Map steps, queues, handoffs, and rework; distinguish processing time from waiting time and propose reversible tests.",
+          "outputFormat": "Workflow map and experiment plan",
+          "exampleOutput": "Processing takes 20 minutes, but approval waits two days. Pilot twice-daily approval windows and compare total lead time.",
+          "difficultyGuide": {
+            "beginner": "For workflow bottleneck, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For workflow bottleneck, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For workflow bottleneck, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[workflow]"
+          ]
+        },
+        {
+          "id": "troubleshooting_10",
+          "roleContext": "Act as a incident review facilitator. Focus on incident postmortem.",
+          "objective": "Write a blameless review of [incident].",
+          "scope": "Use [timeline] and [evidence]; distinguish facts from hypotheses and assign corrective actions with owners and verification.",
+          "outputFormat": "Summary, timeline, causes, actions",
+          "exampleOutput": "Fact: Deployment began at 14:00; errors rose at 14:05. Hypothesis: Configuration mismatch. Action: Add a configuration validation check; owner: Release lead.",
+          "difficultyGuide": {
+            "beginner": "For incident postmortem, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For incident postmortem, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For incident postmortem, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[incident]",
+            "[timeline]",
+            "[evidence]"
+          ]
+        }
+      ]
+    }
+  ]
+}

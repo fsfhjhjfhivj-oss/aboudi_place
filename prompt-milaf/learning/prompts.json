@@ -1,0 +1,176 @@
+{
+  "libraryName": "Prompt Milaf",
+  "categories": [
+    {
+      "name": "Learning",
+      "prompts": [
+        {
+          "id": "learning_01",
+          "roleContext": "Act as a patient tutor. Focus on explain a concept.",
+          "objective": "Explain [concept] to [learner_level].",
+          "scope": "Use plain language, one analogy, one example, and a three-question understanding check.",
+          "outputFormat": "Explanation and quiz",
+          "exampleOutput": "A variable is a named value. If score = 5 and score increases by 2, the new score is 7.",
+          "difficultyGuide": {
+            "beginner": "For explain a concept, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For explain a concept, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For explain a concept, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[concept]",
+            "[learner_level]"
+          ]
+        },
+        {
+          "id": "learning_02",
+          "roleContext": "Act as a curriculum designer. Focus on learning roadmap.",
+          "objective": "Create a roadmap for learning [skill].",
+          "scope": "Fit [available_time], sequence prerequisites, and define milestones and practice tasks.",
+          "outputFormat": "Weekly roadmap",
+          "exampleOutput": "Week 1: Learn spreadsheet references. Practice: Build a five-row budget. Milestone: Correctly copy formulas without breaking references.",
+          "difficultyGuide": {
+            "beginner": "For learning roadmap, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For learning roadmap, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For learning roadmap, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[skill]",
+            "[available_time]"
+          ]
+        },
+        {
+          "id": "learning_03",
+          "roleContext": "Act as a Socratic tutor. Focus on socratic tutoring.",
+          "objective": "Guide me through [problem] without immediately revealing the answer.",
+          "scope": "Ask one question at a time, adapt to my responses, and offer progressively stronger hints on request.",
+          "outputFormat": "One question per turn",
+          "exampleOutput": "What operation would isolate x in the equation x + 4 = 9?",
+          "difficultyGuide": {
+            "beginner": "For socratic tutoring, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For socratic tutoring, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For socratic tutoring, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[problem]"
+          ]
+        },
+        {
+          "id": "learning_04",
+          "roleContext": "Act as a instructional designer. Focus on practice exercises.",
+          "objective": "Create exercises for [topic].",
+          "scope": "Provide eight problems from easy to hard; put answers in a separate section and explain common errors.",
+          "outputFormat": "Exercises and answer key",
+          "exampleOutput": "Exercise: Solve 3x = 12. Answer: x = 4; divide both sides by 3.",
+          "difficultyGuide": {
+            "beginner": "For practice exercises, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For practice exercises, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For practice exercises, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[topic]"
+          ]
+        },
+        {
+          "id": "learning_05",
+          "roleContext": "Act as a learning coach. Focus on flashcards.",
+          "objective": "Create flashcards from [material].",
+          "scope": "Produce 15 atomic question-answer pairs; avoid ambiguous wording and unsupported additions.",
+          "outputFormat": "JSON array of front/back objects",
+          "exampleOutput": "[{\"front\":\"What is the derivative of x²?\",\"back\":\"2x\"}]",
+          "difficultyGuide": {
+            "beginner": "For flashcards, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For flashcards, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For flashcards, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[material]"
+          ]
+        },
+        {
+          "id": "learning_06",
+          "roleContext": "Act as a conceptual learning specialist. Focus on misconception repair.",
+          "objective": "Identify likely misconceptions about [topic].",
+          "scope": "Present five misconceptions with corrections, counterexamples, and short diagnostic questions.",
+          "outputFormat": "Misconception table",
+          "exampleOutput": "Misconception: Multiplication always increases a number. Counterexample: 8 × 0.5 = 4.",
+          "difficultyGuide": {
+            "beginner": "For misconception repair, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For misconception repair, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For misconception repair, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[topic]"
+          ]
+        },
+        {
+          "id": "learning_07",
+          "roleContext": "Act as a subject tutor. Focus on worked examples.",
+          "objective": "Demonstrate how to solve [problem_type].",
+          "scope": "Provide one fully worked example, one partially completed example, and one independent problem.",
+          "outputFormat": "Step-by-step examples",
+          "exampleOutput": "Solve 2x + 3 = 11: Subtract 3 to get 2x = 8; divide by 2 to get x = 4.",
+          "difficultyGuide": {
+            "beginner": "For worked examples, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For worked examples, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For worked examples, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[problem_type]"
+          ]
+        },
+        {
+          "id": "learning_08",
+          "roleContext": "Act as a assessment designer. Focus on assessment rubric.",
+          "objective": "Create a rubric for [assignment].",
+          "scope": "Use four criteria and four performance levels with observable descriptors; align with [learning_goals].",
+          "outputFormat": "Rubric table",
+          "exampleOutput": "Evidence, proficient: Uses relevant examples and explains how each supports the main claim.",
+          "difficultyGuide": {
+            "beginner": "For assessment rubric, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For assessment rubric, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For assessment rubric, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[assignment]",
+            "[learning_goals]"
+          ]
+        },
+        {
+          "id": "learning_09",
+          "roleContext": "Act as a study coach. Focus on retrieval schedule.",
+          "objective": "Build a retrieval-practice schedule for [exam].",
+          "scope": "Use [deadline] and [available_time]; interleave topics and reserve time for correcting errors.",
+          "outputFormat": "Calendar and review checklist",
+          "exampleOutput": "Monday: Recall key definitions without notes for 10 minutes; check answers and log two weak areas.",
+          "difficultyGuide": {
+            "beginner": "For retrieval schedule, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For retrieval schedule, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For retrieval schedule, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[exam]",
+            "[deadline]",
+            "[available_time]"
+          ]
+        },
+        {
+          "id": "learning_10",
+          "roleContext": "Act as a learning evaluator. Focus on teach-back feedback.",
+          "objective": "Evaluate my explanation of [concept].",
+          "scope": "Use [explanation]; identify accurate points, omissions, and errors, then request a revised explanation.",
+          "outputFormat": "Feedback and revision prompt",
+          "exampleOutput": "Accurate: You identify evaporation as liquid becoming gas. Missing: It can occur below boiling temperature. Explain that distinction next.",
+          "difficultyGuide": {
+            "beginner": "For teach-back feedback, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For teach-back feedback, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For teach-back feedback, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[concept]",
+            "[explanation]"
+          ]
+        }
+      ]
+    }
+  ]
+}

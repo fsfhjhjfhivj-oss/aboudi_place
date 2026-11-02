@@ -1,0 +1,179 @@
+{
+  "libraryName": "Prompt Milaf",
+  "categories": [
+    {
+      "name": "Creativity",
+      "prompts": [
+        {
+          "id": "creative_01",
+          "roleContext": "Act as a creative facilitator. Focus on brainstorm ideas.",
+          "objective": "Generate 10 distinct ideas for [topic] serving [audience].",
+          "scope": "Give each idea a title, rationale, and feasibility rating; respect [constraints].",
+          "outputFormat": "Numbered list",
+          "exampleOutput": "Seed-Swap Stories: Neighbors exchange seeds and gardening stories. Feasibility: High.",
+          "difficultyGuide": {
+            "beginner": "For brainstorm ideas, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For brainstorm ideas, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For brainstorm ideas, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[topic]",
+            "[audience]",
+            "[constraints]"
+          ]
+        },
+        {
+          "id": "creative_02",
+          "roleContext": "Act as a fiction editor. Focus on story premises.",
+          "objective": "Create five story premises in [genre].",
+          "scope": "Include protagonist, desire, obstacle, and twist; keep each under 80 words.",
+          "outputFormat": "Labeled premise cards",
+          "exampleOutput": "An archivist must recover her brother’s identity before the records erase her own.",
+          "difficultyGuide": {
+            "beginner": "For story premises, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For story premises, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For story premises, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[genre]"
+          ]
+        },
+        {
+          "id": "creative_03",
+          "roleContext": "Act as a naming strategist. Focus on brand names.",
+          "objective": "Suggest 12 names for [product].",
+          "scope": "Group by naming style; explain meanings; do not claim trademark availability.",
+          "outputFormat": "Table",
+          "exampleOutput": "Mosslight | Evocative | Suggests gentle, nature-inspired illumination; availability unverified.",
+          "difficultyGuide": {
+            "beginner": "For brand names, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For brand names, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For brand names, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[product]"
+          ]
+        },
+        {
+          "id": "creative_04",
+          "roleContext": "Act as a worldbuilding consultant. Focus on worldbuilding.",
+          "objective": "Build a fictional society around [premise].",
+          "scope": "Cover environment, economy, governance, customs, and conflict within 600 words.",
+          "outputFormat": "Sections and plot hooks",
+          "exampleOutput": "Memories serve as currency; a counterfeiter gives an entire village the same childhood.",
+          "difficultyGuide": {
+            "beginner": "For worldbuilding, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For worldbuilding, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For worldbuilding, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[premise]"
+          ]
+        },
+        {
+          "id": "creative_05",
+          "roleContext": "Act as a creative director. Focus on campaign concepts.",
+          "objective": "Develop three campaigns for [offering].",
+          "scope": "Include insight, tagline, visual, and call to action; avoid unsupported claims.",
+          "outputFormat": "Concept cards",
+          "exampleOutput": "Insight: Beginners fear wasted supplies. Tagline: Start small. Visual: A tiny painted landscape. CTA: Try the starter kit.",
+          "difficultyGuide": {
+            "beginner": "For campaign concepts, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For campaign concepts, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For campaign concepts, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[offering]"
+          ]
+        },
+        {
+          "id": "creative_06",
+          "roleContext": "Act as a game designer. Focus on game design.",
+          "objective": "Design a playable game about [theme].",
+          "scope": "Specify materials, setup, turns, scoring, and ending for [duration].",
+          "outputFormat": "Rules and example turn",
+          "exampleOutput": "Draw one weather card. Rain moves your seed two spaces; reaching a garden scores one point.",
+          "difficultyGuide": {
+            "beginner": "For game design, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For game design, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For game design, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[theme]",
+            "[duration]"
+          ]
+        },
+        {
+          "id": "creative_07",
+          "roleContext": "Act as a creative educator. Focus on inventive analogies.",
+          "objective": "Explain [concept] through five analogies.",
+          "scope": "Explain the mapping and one limitation for each; adapt to [audience].",
+          "outputFormat": "Numbered list",
+          "exampleOutput": "A cache resembles a desk drawer: frequently used tools stay nearby. Unlike a drawer, it may replace items automatically.",
+          "difficultyGuide": {
+            "beginner": "For inventive analogies, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For inventive analogies, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For inventive analogies, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[concept]",
+            "[audience]"
+          ]
+        },
+        {
+          "id": "creative_08",
+          "roleContext": "Act as a writing workshop leader. Focus on constrained writing.",
+          "objective": "Write an original piece about [subject] under [constraint].",
+          "scope": "Stay within [word_limit] and check compliance explicitly.",
+          "outputFormat": "Creative text and checklist",
+          "exampleOutput": "Snow covered the station. Someone left a lantern burning. Somewhere a bell answered. Check: Three sentences beginning with S.",
+          "difficultyGuide": {
+            "beginner": "For constrained writing, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For constrained writing, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For constrained writing, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[subject]",
+            "[constraint]",
+            "[word_limit]"
+          ]
+        },
+        {
+          "id": "creative_09",
+          "roleContext": "Act as a service designer. Focus on service redesign.",
+          "objective": "Reimagine [service] for [user_group].",
+          "scope": "Propose six concepts with frustrations, benefits, prototypes, and assumptions.",
+          "outputFormat": "Table",
+          "exampleOutput": "Uncertain waits | Return-window tickets | Less waiting onsite | One-hour pilot | Assumes visitors can return.",
+          "difficultyGuide": {
+            "beginner": "For service redesign, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For service redesign, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For service redesign, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[service]",
+            "[user_group]"
+          ]
+        },
+        {
+          "id": "creative_10",
+          "roleContext": "Act as a storyboard artist. Focus on storyboard.",
+          "objective": "Translate [scene] into eight shots conveying [emotion].",
+          "scope": "Specify framing, action, movement, sound, and duration within [runtime].",
+          "outputFormat": "Shot table",
+          "exampleOutput": "1 | Close-up | Hand above unopened letter | Static | Clock ticking | 4 seconds.",
+          "difficultyGuide": {
+            "beginner": "For storyboard, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For storyboard, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For storyboard, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[scene]",
+            "[emotion]",
+            "[runtime]"
+          ]
+        }
+      ]
+    }
+  ]
+}

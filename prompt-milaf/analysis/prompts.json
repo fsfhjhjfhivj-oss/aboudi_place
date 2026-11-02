@@ -1,0 +1,177 @@
+{
+  "libraryName": "Prompt Milaf",
+  "categories": [
+    {
+      "name": "Analysis",
+      "prompts": [
+        {
+          "id": "analysis_01",
+          "roleContext": "Act as a data analyst. Focus on explore a dataset.",
+          "objective": "Explore [dataset] to answer [question].",
+          "scope": "Inspect schema, missingness, duplicates, distributions, and outliers; calculate only from available data.",
+          "outputFormat": "Quality report, summaries, findings",
+          "exampleOutput": "Rows: 120. Missing age: 12 (10%). Next step: Compare missingness across groups before choosing a treatment.",
+          "difficultyGuide": {
+            "beginner": "For explore a dataset, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For explore a dataset, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For explore a dataset, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[dataset]",
+            "[question]"
+          ]
+        },
+        {
+          "id": "analysis_02",
+          "roleContext": "Act as a decision analyst. Focus on compare alternatives.",
+          "objective": "Compare [options] against [criteria].",
+          "scope": "Use supplied evidence and explicit weights; distinguish unknowns from low scores and test weight sensitivity.",
+          "outputFormat": "Decision matrix and recommendation",
+          "exampleOutput": "A scores 4 on cost and 2 on flexibility; B scores 3 and 5. Recommendation depends on the agreed criterion weights.",
+          "difficultyGuide": {
+            "beginner": "For compare alternatives, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For compare alternatives, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For compare alternatives, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[options]",
+            "[criteria]"
+          ]
+        },
+        {
+          "id": "analysis_03",
+          "roleContext": "Act as a operations analyst. Focus on root-cause analysis.",
+          "objective": "Analyze causes of [problem] using [evidence].",
+          "scope": "Separate symptoms, correlations, and supported causes; provide tests for competing explanations.",
+          "outputFormat": "Cause tree and validation plan",
+          "exampleOutput": "Observation: Delays cluster after shift changes. Hypothesis: Handoffs omit status updates. Test: Audit handoff records against delay timestamps.",
+          "difficultyGuide": {
+            "beginner": "For root-cause analysis, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For root-cause analysis, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For root-cause analysis, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[problem]",
+            "[evidence]"
+          ]
+        },
+        {
+          "id": "analysis_04",
+          "roleContext": "Act as a time-series analyst. Focus on trend analysis.",
+          "objective": "Analyze trends in [series].",
+          "scope": "Check frequency, gaps, seasonality, structural changes, and uncertainty; avoid treating extrapolation as certainty.",
+          "outputFormat": "Trend summary and caveats",
+          "exampleOutput": "Values rose from 100 to 120: a 20% increase. Three observations are insufficient to establish seasonality.",
+          "difficultyGuide": {
+            "beginner": "For trend analysis, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For trend analysis, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For trend analysis, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[series]"
+          ]
+        },
+        {
+          "id": "analysis_05",
+          "roleContext": "Act as a customer insights analyst. Focus on segment analysis.",
+          "objective": "Compare [segments] on [metric].",
+          "scope": "Report sample sizes, denominators, absolute and relative differences, and possible confounders.",
+          "outputFormat": "Segment table and interpretation",
+          "exampleOutput": "A: 30/100 converted (30%). B: 40/200 (20%). Difference: 10 percentage points; selection differences may explain part of it.",
+          "difficultyGuide": {
+            "beginner": "For segment analysis, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For segment analysis, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For segment analysis, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[segments]",
+            "[metric]"
+          ]
+        },
+        {
+          "id": "analysis_06",
+          "roleContext": "Act as a statistical analyst. Focus on hypothesis testing.",
+          "objective": "Evaluate [hypothesis] using [data].",
+          "scope": "Check design and assumptions before choosing a test; report effect size, uncertainty, and limitations, not significance alone.",
+          "outputFormat": "Method, results, interpretation",
+          "exampleOutput": "Illustrative result: Mean difference 2.1 units, 95% CI [-0.4, 4.6]. The estimate is uncertain; this does not prove no effect.",
+          "difficultyGuide": {
+            "beginner": "For hypothesis testing, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For hypothesis testing, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For hypothesis testing, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[hypothesis]",
+            "[data]"
+          ]
+        },
+        {
+          "id": "analysis_07",
+          "roleContext": "Act as a scenario planning analyst. Focus on scenario analysis.",
+          "objective": "Model outcomes for [decision] under [assumptions].",
+          "scope": "Define base, favorable, and adverse scenarios; show formulas and sensitivity without assigning unsupported probabilities.",
+          "outputFormat": "Scenario table and sensitivity notes",
+          "exampleOutput": "Revenue = customers × price. Base: 100 × $20 = $2,000. Adverse: 70 × $20 = $1,400.",
+          "difficultyGuide": {
+            "beginner": "For scenario analysis, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For scenario analysis, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For scenario analysis, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[decision]",
+            "[assumptions]"
+          ]
+        },
+        {
+          "id": "analysis_08",
+          "roleContext": "Act as a qualitative data analyst. Focus on qualitative coding.",
+          "objective": "Analyze themes in [responses].",
+          "scope": "Create a codebook, code supplied excerpts, track contradictions, and distinguish mentions from respondent prevalence.",
+          "outputFormat": "Codebook and theme table",
+          "exampleOutput": "Code: Setup friction. Excerpt: “I could not find the next button.” Theme: Navigation uncertainty. Count unit: One response.",
+          "difficultyGuide": {
+            "beginner": "For qualitative coding, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For qualitative coding, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For qualitative coding, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[responses]"
+          ]
+        },
+        {
+          "id": "analysis_09",
+          "roleContext": "Act as a measurement strategist. Focus on kpi design.",
+          "objective": "Define KPIs for [objective].",
+          "scope": "Specify formulas, units, data sources, reporting cadence, owners, and gaming risks; separate outcomes from activities.",
+          "outputFormat": "Metric dictionary",
+          "exampleOutput": "Completion rate = completed setups / started setups. Unit: Percent. Guardrail: Track support requests to detect confusing completions.",
+          "difficultyGuide": {
+            "beginner": "For kpi design, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For kpi design, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For kpi design, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[objective]"
+          ]
+        },
+        {
+          "id": "analysis_10",
+          "roleContext": "Act as a data visualization specialist. Focus on chart selection.",
+          "objective": "Recommend visualizations for [data] and [audience].",
+          "scope": "Match charts to questions, explain encodings, identify misleading choices, and state accessibility requirements.",
+          "outputFormat": "Chart plan",
+          "exampleOutput": "Question: How did volume change monthly? Chart: Line chart. Encoding: Month on x-axis, count on y-axis. Avoid a truncated axis that exaggerates variation.",
+          "difficultyGuide": {
+            "beginner": "For chart selection, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For chart selection, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For chart selection, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[data]",
+            "[audience]"
+          ]
+        }
+      ]
+    }
+  ]
+}

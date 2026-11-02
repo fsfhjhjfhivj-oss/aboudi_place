@@ -1,0 +1,1388 @@
+{
+  "libraryName": "Prompt Milaf",
+  "categories": [
+    {
+      "name": "Creativity",
+      "prompts": [
+        {
+          "id": "creative_01",
+          "roleContext": "Act as a creative facilitator. Focus on brainstorm ideas.",
+          "objective": "Generate 10 distinct ideas for [topic] serving [audience].",
+          "scope": "Give each idea a title, rationale, and feasibility rating; respect [constraints].",
+          "outputFormat": "Numbered list",
+          "exampleOutput": "Seed-Swap Stories: Neighbors exchange seeds and gardening stories. Feasibility: High.",
+          "difficultyGuide": {
+            "beginner": "For brainstorm ideas, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For brainstorm ideas, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For brainstorm ideas, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[topic]",
+            "[audience]",
+            "[constraints]"
+          ]
+        },
+        {
+          "id": "creative_02",
+          "roleContext": "Act as a fiction editor. Focus on story premises.",
+          "objective": "Create five story premises in [genre].",
+          "scope": "Include protagonist, desire, obstacle, and twist; keep each under 80 words.",
+          "outputFormat": "Labeled premise cards",
+          "exampleOutput": "An archivist must recover her brother’s identity before the records erase her own.",
+          "difficultyGuide": {
+            "beginner": "For story premises, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For story premises, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For story premises, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[genre]"
+          ]
+        },
+        {
+          "id": "creative_03",
+          "roleContext": "Act as a naming strategist. Focus on brand names.",
+          "objective": "Suggest 12 names for [product].",
+          "scope": "Group by naming style; explain meanings; do not claim trademark availability.",
+          "outputFormat": "Table",
+          "exampleOutput": "Mosslight | Evocative | Suggests gentle, nature-inspired illumination; availability unverified.",
+          "difficultyGuide": {
+            "beginner": "For brand names, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For brand names, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For brand names, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[product]"
+          ]
+        },
+        {
+          "id": "creative_04",
+          "roleContext": "Act as a worldbuilding consultant. Focus on worldbuilding.",
+          "objective": "Build a fictional society around [premise].",
+          "scope": "Cover environment, economy, governance, customs, and conflict within 600 words.",
+          "outputFormat": "Sections and plot hooks",
+          "exampleOutput": "Memories serve as currency; a counterfeiter gives an entire village the same childhood.",
+          "difficultyGuide": {
+            "beginner": "For worldbuilding, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For worldbuilding, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For worldbuilding, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[premise]"
+          ]
+        },
+        {
+          "id": "creative_05",
+          "roleContext": "Act as a creative director. Focus on campaign concepts.",
+          "objective": "Develop three campaigns for [offering].",
+          "scope": "Include insight, tagline, visual, and call to action; avoid unsupported claims.",
+          "outputFormat": "Concept cards",
+          "exampleOutput": "Insight: Beginners fear wasted supplies. Tagline: Start small. Visual: A tiny painted landscape. CTA: Try the starter kit.",
+          "difficultyGuide": {
+            "beginner": "For campaign concepts, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For campaign concepts, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For campaign concepts, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[offering]"
+          ]
+        },
+        {
+          "id": "creative_06",
+          "roleContext": "Act as a game designer. Focus on game design.",
+          "objective": "Design a playable game about [theme].",
+          "scope": "Specify materials, setup, turns, scoring, and ending for [duration].",
+          "outputFormat": "Rules and example turn",
+          "exampleOutput": "Draw one weather card. Rain moves your seed two spaces; reaching a garden scores one point.",
+          "difficultyGuide": {
+            "beginner": "For game design, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For game design, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For game design, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[theme]",
+            "[duration]"
+          ]
+        },
+        {
+          "id": "creative_07",
+          "roleContext": "Act as a creative educator. Focus on inventive analogies.",
+          "objective": "Explain [concept] through five analogies.",
+          "scope": "Explain the mapping and one limitation for each; adapt to [audience].",
+          "outputFormat": "Numbered list",
+          "exampleOutput": "A cache resembles a desk drawer: frequently used tools stay nearby. Unlike a drawer, it may replace items automatically.",
+          "difficultyGuide": {
+            "beginner": "For inventive analogies, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For inventive analogies, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For inventive analogies, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[concept]",
+            "[audience]"
+          ]
+        },
+        {
+          "id": "creative_08",
+          "roleContext": "Act as a writing workshop leader. Focus on constrained writing.",
+          "objective": "Write an original piece about [subject] under [constraint].",
+          "scope": "Stay within [word_limit] and check compliance explicitly.",
+          "outputFormat": "Creative text and checklist",
+          "exampleOutput": "Snow covered the station. Someone left a lantern burning. Somewhere a bell answered. Check: Three sentences beginning with S.",
+          "difficultyGuide": {
+            "beginner": "For constrained writing, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For constrained writing, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For constrained writing, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[subject]",
+            "[constraint]",
+            "[word_limit]"
+          ]
+        },
+        {
+          "id": "creative_09",
+          "roleContext": "Act as a service designer. Focus on service redesign.",
+          "objective": "Reimagine [service] for [user_group].",
+          "scope": "Propose six concepts with frustrations, benefits, prototypes, and assumptions.",
+          "outputFormat": "Table",
+          "exampleOutput": "Uncertain waits | Return-window tickets | Less waiting onsite | One-hour pilot | Assumes visitors can return.",
+          "difficultyGuide": {
+            "beginner": "For service redesign, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For service redesign, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For service redesign, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[service]",
+            "[user_group]"
+          ]
+        },
+        {
+          "id": "creative_10",
+          "roleContext": "Act as a storyboard artist. Focus on storyboard.",
+          "objective": "Translate [scene] into eight shots conveying [emotion].",
+          "scope": "Specify framing, action, movement, sound, and duration within [runtime].",
+          "outputFormat": "Shot table",
+          "exampleOutput": "1 | Close-up | Hand above unopened letter | Static | Clock ticking | 4 seconds.",
+          "difficultyGuide": {
+            "beginner": "For storyboard, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For storyboard, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For storyboard, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[scene]",
+            "[emotion]",
+            "[runtime]"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coding",
+      "prompts": [
+        {
+          "id": "coding_01",
+          "roleContext": "Act as a software engineer. Focus on implement a feature.",
+          "objective": "Implement [feature] in [language].",
+          "scope": "Provide runnable code, dependencies, usage, and tests; state assumptions and omit secrets.",
+          "outputFormat": "Code blocks and tests",
+          "exampleOutput": "def clamp(x, low, high): return max(low, min(x, high))\nassert clamp(12, 0, 10) == 10",
+          "difficultyGuide": {
+            "beginner": "For implement a feature, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For implement a feature, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For implement a feature, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[feature]",
+            "[language]"
+          ]
+        },
+        {
+          "id": "coding_02",
+          "roleContext": "Act as a debugging engineer. Focus on debug code.",
+          "objective": "Diagnose [error] in [code].",
+          "scope": "Rank hypotheses, suggest distinguishing checks, and provide a minimal patch; do not claim unperformed execution.",
+          "outputFormat": "Diagnosis, patch, regression test",
+          "exampleOutput": "Cause: return is inside the loop. Fix: Move return after the loop. Test: total([2, 3]) should equal 5.",
+          "difficultyGuide": {
+            "beginner": "For debug code, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For debug code, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For debug code, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[error]",
+            "[code]"
+          ]
+        },
+        {
+          "id": "coding_03",
+          "roleContext": "Act as a senior reviewer. Focus on code review.",
+          "objective": "Review [code] for correctness and maintainability.",
+          "scope": "Prioritize actionable findings; distinguish defects, risks, and optional style changes.",
+          "outputFormat": "Findings table",
+          "exampleOutput": "High | SQL construction | User input concatenated into query | Replace with parameters.",
+          "difficultyGuide": {
+            "beginner": "For code review, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For code review, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For code review, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[code]"
+          ]
+        },
+        {
+          "id": "coding_04",
+          "roleContext": "Act as a test engineer. Focus on generate tests.",
+          "objective": "Create tests for [module] using [framework].",
+          "scope": "Cover normal, boundary, invalid, and regression cases; derive expected results from [specification].",
+          "outputFormat": "Test plan and code",
+          "exampleOutput": "def test_empty_sum():\n    assert sum_values([]) == 0",
+          "difficultyGuide": {
+            "beginner": "For generate tests, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For generate tests, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For generate tests, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[module]",
+            "[framework]",
+            "[specification]"
+          ]
+        },
+        {
+          "id": "coding_05",
+          "roleContext": "Act as a API architect. Focus on api design.",
+          "objective": "Design an API for [domain].",
+          "scope": "Specify resources, validation, authorization assumptions, pagination, errors, and examples.",
+          "outputFormat": "Endpoint table and JSON",
+          "exampleOutput": "POST /tasks -> 201 {\"id\":\"task_123\",\"title\":\"Review draft\",\"status\":\"open\"}",
+          "difficultyGuide": {
+            "beginner": "For api design, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For api design, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For api design, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[domain]"
+          ]
+        },
+        {
+          "id": "coding_06",
+          "roleContext": "Act as a database engineer. Focus on sql query.",
+          "objective": "Answer [question] using [schema].",
+          "scope": "Use [dialect]; explain nulls, duplicates, joins, and date assumptions; avoid destructive operations.",
+          "outputFormat": "SQL and sample rows",
+          "exampleOutput": "SELECT customer_id, COUNT(*) AS orders FROM orders GROUP BY customer_id;\nSample: customer_id=42, orders=3.",
+          "difficultyGuide": {
+            "beginner": "For sql query, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For sql query, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For sql query, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[question]",
+            "[schema]",
+            "[dialect]"
+          ]
+        },
+        {
+          "id": "coding_07",
+          "roleContext": "Act as a refactoring specialist. Focus on refactor code.",
+          "objective": "Refactor [code] without changing documented behavior.",
+          "scope": "Make incremental changes and provide characterization tests; flag intentional behavior changes.",
+          "outputFormat": "Plan, revised code, tests",
+          "exampleOutput": "Extract repeated validation into validate_email(); confirm the same valid and invalid inputs retain their results.",
+          "difficultyGuide": {
+            "beginner": "For refactor code, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For refactor code, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For refactor code, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[code]"
+          ]
+        },
+        {
+          "id": "coding_08",
+          "roleContext": "Act as a defensive security engineer. Focus on security review.",
+          "objective": "Review [component] within [authorized_scope].",
+          "scope": "Identify trust boundaries, evidence-backed risks, mitigations, and safe checks.",
+          "outputFormat": "Threat table",
+          "exampleOutput": "Session cookie | Script access | Set HttpOnly | Verify Set-Cookie response headers.",
+          "difficultyGuide": {
+            "beginner": "For security review, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For security review, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For security review, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[component]",
+            "[authorized_scope]"
+          ]
+        },
+        {
+          "id": "coding_09",
+          "roleContext": "Act as a performance engineer. Focus on optimize performance.",
+          "objective": "Improve [program] against [target].",
+          "scope": "Start with a benchmark plan; distinguish measurements from hypotheses and preserve correctness.",
+          "outputFormat": "Baseline, hypotheses, changes, validation",
+          "exampleOutput": "Hypothesis: Repeated parsing dominates runtime. Benchmark parsing separately before introducing a cache.",
+          "difficultyGuide": {
+            "beginner": "For optimize performance, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For optimize performance, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For optimize performance, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[program]",
+            "[target]"
+          ]
+        },
+        {
+          "id": "coding_10",
+          "roleContext": "Act as a technical documentation engineer. Focus on document code.",
+          "objective": "Document [module] for [audience].",
+          "scope": "Include purpose, installation, minimal usage, inputs, outputs, errors, and limitations; verify against supplied code.",
+          "outputFormat": "README-style sections",
+          "exampleOutput": "Usage: normalize([2, 4]) returns [0.5, 1.0]. Limitation: An all-zero input requires an explicit policy.",
+          "difficultyGuide": {
+            "beginner": "For document code, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For document code, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For document code, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[module]",
+            "[audience]"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research",
+      "prompts": [
+        {
+          "id": "research_01",
+          "roleContext": "Act as a research-methods advisor. Focus on research question.",
+          "objective": "Turn [topic] into a focused research question.",
+          "scope": "Offer five questions with population, variables, scope, and feasibility; avoid assuming causation.",
+          "outputFormat": "Question table",
+          "exampleOutput": "Among first-year students, how is weekly study-group attendance associated with course completion?",
+          "difficultyGuide": {
+            "beginner": "For research question, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For research question, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For research question, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[topic]"
+          ]
+        },
+        {
+          "id": "research_02",
+          "roleContext": "Act as a research librarian. Focus on search strategy.",
+          "objective": "Design a search strategy for [question].",
+          "scope": "Provide concepts, synonyms, Boolean strings, inclusion criteria, and screening steps; do not invent results.",
+          "outputFormat": "Search protocol",
+          "exampleOutput": "(\"remote work\" OR telework) AND (productivity OR performance); include empirical studies matching the specified population.",
+          "difficultyGuide": {
+            "beginner": "For search strategy, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For search strategy, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For search strategy, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[question]"
+          ]
+        },
+        {
+          "id": "research_03",
+          "roleContext": "Act as a evidence synthesis researcher. Focus on literature synthesis.",
+          "objective": "Synthesize [provided_sources] on [question].",
+          "scope": "Use supplied sources only; compare findings, methods, limitations, and disagreements with traceable citations.",
+          "outputFormat": "Evidence matrix and synthesis",
+          "exampleOutput": "Study A reports higher retention; Study B finds no difference. Their follow-up periods differ, limiting direct comparison.",
+          "difficultyGuide": {
+            "beginner": "For literature synthesis, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For literature synthesis, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For literature synthesis, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[provided_sources]",
+            "[question]"
+          ]
+        },
+        {
+          "id": "research_04",
+          "roleContext": "Act as a source evaluation specialist. Focus on source credibility.",
+          "objective": "Evaluate [source] for use in [project].",
+          "scope": "Assess authorship, methods, evidence, conflicts, currency, and relevance; distinguish missing information from defects.",
+          "outputFormat": "Assessment rubric",
+          "exampleOutput": "Methods are described, but sampling is unclear. Confidence: Moderate for description, low for population generalization.",
+          "difficultyGuide": {
+            "beginner": "For source credibility, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For source credibility, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For source credibility, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[source]",
+            "[project]"
+          ]
+        },
+        {
+          "id": "research_05",
+          "roleContext": "Act as a research scientist. Focus on hypothesis design.",
+          "objective": "Develop testable hypotheses about [phenomenon].",
+          "scope": "Specify variables, predicted relationships, alternatives, and falsification criteria; label exploratory ideas.",
+          "outputFormat": "Hypothesis cards",
+          "exampleOutput": "H1: Reminder recipients submit more assignments. Test: Randomly assign reminders and compare submission proportions.",
+          "difficultyGuide": {
+            "beginner": "For hypothesis design, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For hypothesis design, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For hypothesis design, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[phenomenon]"
+          ]
+        },
+        {
+          "id": "research_06",
+          "roleContext": "Act as a qualitative researcher. Focus on interview guide.",
+          "objective": "Create an interview guide for [participants] about [topic].",
+          "scope": "Write 10 neutral questions, probes, opening consent language, and closing prompts; avoid leading phrasing.",
+          "outputFormat": "Interview script",
+          "exampleOutput": "Tell me about the last time you scheduled an appointment. Probe: What happened after you chose a time?",
+          "difficultyGuide": {
+            "beginner": "For interview guide, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For interview guide, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For interview guide, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[participants]",
+            "[topic]"
+          ]
+        },
+        {
+          "id": "research_07",
+          "roleContext": "Act as a survey methodologist. Focus on survey design.",
+          "objective": "Draft a survey measuring [construct].",
+          "scope": "Provide 12 items, response scales, skip logic, and a pilot plan; do not claim the instrument is validated.",
+          "outputFormat": "Survey and pilot checklist",
+          "exampleOutput": "Item: In the past seven days, how often did you feel prepared for class? Never / Rarely / Sometimes / Often / Always.",
+          "difficultyGuide": {
+            "beginner": "For survey design, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For survey design, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For survey design, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[construct]"
+          ]
+        },
+        {
+          "id": "research_08",
+          "roleContext": "Act as a experimental-design advisor. Focus on experiment plan.",
+          "objective": "Design a study testing [intervention].",
+          "scope": "Specify outcomes, randomization, controls, confounders, ethics, and analysis; identify inputs needed for power calculations.",
+          "outputFormat": "Study protocol",
+          "exampleOutput": "Randomize users to two onboarding flows. Primary outcome: Setup completion within 24 hours. Predefine exclusions before analysis.",
+          "difficultyGuide": {
+            "beginner": "For experiment plan, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For experiment plan, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For experiment plan, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[intervention]"
+          ]
+        },
+        {
+          "id": "research_09",
+          "roleContext": "Act as a research strategist. Focus on research gaps.",
+          "objective": "Identify gaps in [evidence_collection].",
+          "scope": "Separate documented omissions from speculative opportunities; rank five gaps by significance and feasibility.",
+          "outputFormat": "Gap matrix",
+          "exampleOutput": "Observed gap: All supplied studies use urban samples. Next study: Test whether findings transfer to rural participants.",
+          "difficultyGuide": {
+            "beginner": "For research gaps, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For research gaps, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For research gaps, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[evidence_collection]"
+          ]
+        },
+        {
+          "id": "research_10",
+          "roleContext": "Act as a policy research analyst. Focus on evidence brief.",
+          "objective": "Summarize evidence for [decision].",
+          "scope": "Use [sources], separate findings from recommendations, and state uncertainty and missing evidence in 500 words.",
+          "outputFormat": "Executive brief",
+          "exampleOutput": "Finding: Two small pilots reported shorter queues. Limitation: Neither used a comparison group. Recommendation: Run a controlled pilot before expansion.",
+          "difficultyGuide": {
+            "beginner": "For evidence brief, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For evidence brief, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For evidence brief, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[decision]",
+            "[sources]"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Learning",
+      "prompts": [
+        {
+          "id": "learning_01",
+          "roleContext": "Act as a patient tutor. Focus on explain a concept.",
+          "objective": "Explain [concept] to [learner_level].",
+          "scope": "Use plain language, one analogy, one example, and a three-question understanding check.",
+          "outputFormat": "Explanation and quiz",
+          "exampleOutput": "A variable is a named value. If score = 5 and score increases by 2, the new score is 7.",
+          "difficultyGuide": {
+            "beginner": "For explain a concept, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For explain a concept, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For explain a concept, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[concept]",
+            "[learner_level]"
+          ]
+        },
+        {
+          "id": "learning_02",
+          "roleContext": "Act as a curriculum designer. Focus on learning roadmap.",
+          "objective": "Create a roadmap for learning [skill].",
+          "scope": "Fit [available_time], sequence prerequisites, and define milestones and practice tasks.",
+          "outputFormat": "Weekly roadmap",
+          "exampleOutput": "Week 1: Learn spreadsheet references. Practice: Build a five-row budget. Milestone: Correctly copy formulas without breaking references.",
+          "difficultyGuide": {
+            "beginner": "For learning roadmap, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For learning roadmap, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For learning roadmap, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[skill]",
+            "[available_time]"
+          ]
+        },
+        {
+          "id": "learning_03",
+          "roleContext": "Act as a Socratic tutor. Focus on socratic tutoring.",
+          "objective": "Guide me through [problem] without immediately revealing the answer.",
+          "scope": "Ask one question at a time, adapt to my responses, and offer progressively stronger hints on request.",
+          "outputFormat": "One question per turn",
+          "exampleOutput": "What operation would isolate x in the equation x + 4 = 9?",
+          "difficultyGuide": {
+            "beginner": "For socratic tutoring, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For socratic tutoring, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For socratic tutoring, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[problem]"
+          ]
+        },
+        {
+          "id": "learning_04",
+          "roleContext": "Act as a instructional designer. Focus on practice exercises.",
+          "objective": "Create exercises for [topic].",
+          "scope": "Provide eight problems from easy to hard; put answers in a separate section and explain common errors.",
+          "outputFormat": "Exercises and answer key",
+          "exampleOutput": "Exercise: Solve 3x = 12. Answer: x = 4; divide both sides by 3.",
+          "difficultyGuide": {
+            "beginner": "For practice exercises, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For practice exercises, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For practice exercises, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[topic]"
+          ]
+        },
+        {
+          "id": "learning_05",
+          "roleContext": "Act as a learning coach. Focus on flashcards.",
+          "objective": "Create flashcards from [material].",
+          "scope": "Produce 15 atomic question-answer pairs; avoid ambiguous wording and unsupported additions.",
+          "outputFormat": "JSON array of front/back objects",
+          "exampleOutput": "[{\"front\":\"What is the derivative of x²?\",\"back\":\"2x\"}]",
+          "difficultyGuide": {
+            "beginner": "For flashcards, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For flashcards, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For flashcards, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[material]"
+          ]
+        },
+        {
+          "id": "learning_06",
+          "roleContext": "Act as a conceptual learning specialist. Focus on misconception repair.",
+          "objective": "Identify likely misconceptions about [topic].",
+          "scope": "Present five misconceptions with corrections, counterexamples, and short diagnostic questions.",
+          "outputFormat": "Misconception table",
+          "exampleOutput": "Misconception: Multiplication always increases a number. Counterexample: 8 × 0.5 = 4.",
+          "difficultyGuide": {
+            "beginner": "For misconception repair, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For misconception repair, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For misconception repair, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[topic]"
+          ]
+        },
+        {
+          "id": "learning_07",
+          "roleContext": "Act as a subject tutor. Focus on worked examples.",
+          "objective": "Demonstrate how to solve [problem_type].",
+          "scope": "Provide one fully worked example, one partially completed example, and one independent problem.",
+          "outputFormat": "Step-by-step examples",
+          "exampleOutput": "Solve 2x + 3 = 11: Subtract 3 to get 2x = 8; divide by 2 to get x = 4.",
+          "difficultyGuide": {
+            "beginner": "For worked examples, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For worked examples, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For worked examples, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[problem_type]"
+          ]
+        },
+        {
+          "id": "learning_08",
+          "roleContext": "Act as a assessment designer. Focus on assessment rubric.",
+          "objective": "Create a rubric for [assignment].",
+          "scope": "Use four criteria and four performance levels with observable descriptors; align with [learning_goals].",
+          "outputFormat": "Rubric table",
+          "exampleOutput": "Evidence, proficient: Uses relevant examples and explains how each supports the main claim.",
+          "difficultyGuide": {
+            "beginner": "For assessment rubric, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For assessment rubric, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For assessment rubric, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[assignment]",
+            "[learning_goals]"
+          ]
+        },
+        {
+          "id": "learning_09",
+          "roleContext": "Act as a study coach. Focus on retrieval schedule.",
+          "objective": "Build a retrieval-practice schedule for [exam].",
+          "scope": "Use [deadline] and [available_time]; interleave topics and reserve time for correcting errors.",
+          "outputFormat": "Calendar and review checklist",
+          "exampleOutput": "Monday: Recall key definitions without notes for 10 minutes; check answers and log two weak areas.",
+          "difficultyGuide": {
+            "beginner": "For retrieval schedule, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For retrieval schedule, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For retrieval schedule, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[exam]",
+            "[deadline]",
+            "[available_time]"
+          ]
+        },
+        {
+          "id": "learning_10",
+          "roleContext": "Act as a learning evaluator. Focus on teach-back feedback.",
+          "objective": "Evaluate my explanation of [concept].",
+          "scope": "Use [explanation]; identify accurate points, omissions, and errors, then request a revised explanation.",
+          "outputFormat": "Feedback and revision prompt",
+          "exampleOutput": "Accurate: You identify evaporation as liquid becoming gas. Missing: It can occur below boiling temperature. Explain that distinction next.",
+          "difficultyGuide": {
+            "beginner": "For teach-back feedback, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For teach-back feedback, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For teach-back feedback, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[concept]",
+            "[explanation]"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Planning",
+      "prompts": [
+        {
+          "id": "planning_01",
+          "roleContext": "Act as a project manager. Focus on project plan.",
+          "objective": "Plan [project] by [deadline].",
+          "scope": "Define deliverables, milestones, dependencies, owners, and risks; state assumptions about resources.",
+          "outputFormat": "Work breakdown and timeline",
+          "exampleOutput": "Milestone: Prototype approved by May 10. Dependency: Requirements signed off. Owner: Product lead.",
+          "difficultyGuide": {
+            "beginner": "For project plan, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For project plan, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For project plan, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[project]",
+            "[deadline]"
+          ]
+        },
+        {
+          "id": "planning_02",
+          "roleContext": "Act as a productivity coach. Focus on weekly schedule.",
+          "objective": "Schedule [tasks] within [available_hours].",
+          "scope": "Respect fixed commitments, estimate effort, include buffers, and flag overload rather than hiding it.",
+          "outputFormat": "Time-block table",
+          "exampleOutput": "Tuesday 09:00–10:00: Draft outline. 10:00–10:15: Buffer. Remaining work exceeds capacity by two hours.",
+          "difficultyGuide": {
+            "beginner": "For weekly schedule, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For weekly schedule, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For weekly schedule, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[tasks]",
+            "[available_hours]"
+          ]
+        },
+        {
+          "id": "planning_03",
+          "roleContext": "Act as a goal-setting coach. Focus on goal decomposition.",
+          "objective": "Turn [goal] into measurable actions.",
+          "scope": "Define success, milestones, leading indicators, and the next three actions within [timeframe].",
+          "outputFormat": "Goal tree and action list",
+          "exampleOutput": "Goal: Finish a 20-page draft in four weeks. Leading action: Write five pages weekly. Next: Outline the first section.",
+          "difficultyGuide": {
+            "beginner": "For goal decomposition, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For goal decomposition, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For goal decomposition, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[goal]",
+            "[timeframe]"
+          ]
+        },
+        {
+          "id": "planning_04",
+          "roleContext": "Act as a risk manager. Focus on risk register.",
+          "objective": "Identify risks for [initiative].",
+          "scope": "List 10 risks with qualitative likelihood, impact, triggers, mitigation, and owner; avoid invented numerical precision.",
+          "outputFormat": "Risk register",
+          "exampleOutput": "Risk: Supplier delay | Likelihood: Medium | Impact: High | Trigger: Missed confirmation | Mitigation: Qualify backup supplier.",
+          "difficultyGuide": {
+            "beginner": "For risk register, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For risk register, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For risk register, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[initiative]"
+          ]
+        },
+        {
+          "id": "planning_05",
+          "roleContext": "Act as a meeting facilitator. Focus on meeting agenda.",
+          "objective": "Design a meeting to achieve [decision].",
+          "scope": "Fit [duration], assign preparation, time-box discussions, and define decision and follow-up ownership.",
+          "outputFormat": "Timed agenda",
+          "exampleOutput": "0–5 min: Confirm decision criteria. 5–20 min: Compare options. 20–30 min: Decide and assign next steps.",
+          "difficultyGuide": {
+            "beginner": "For meeting agenda, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For meeting agenda, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For meeting agenda, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[decision]",
+            "[duration]"
+          ]
+        },
+        {
+          "id": "planning_06",
+          "roleContext": "Act as a event coordinator. Focus on event plan.",
+          "objective": "Plan [event] for [attendance].",
+          "scope": "Cover schedule, staffing, accessibility, budget categories, contingencies, and closeout; label unverified costs as estimates.",
+          "outputFormat": "Checklist and run of show",
+          "exampleOutput": "17:30: Doors open. Owner: Welcome lead. Contingency: Move check-in indoors if rain begins.",
+          "difficultyGuide": {
+            "beginner": "For event plan, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For event plan, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For event plan, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[event]",
+            "[attendance]"
+          ]
+        },
+        {
+          "id": "planning_07",
+          "roleContext": "Act as a product planning lead. Focus on product roadmap.",
+          "objective": "Prioritize a roadmap for [product].",
+          "scope": "Use [goals] and [constraints]; explain prioritization, dependencies, assumptions, and validation milestones.",
+          "outputFormat": "Now/next/later roadmap",
+          "exampleOutput": "Now: Fix onboarding errors. Next: Test guided setup. Later: Expand integrations after retention evidence improves.",
+          "difficultyGuide": {
+            "beginner": "For product roadmap, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For product roadmap, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For product roadmap, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[product]",
+            "[goals]",
+            "[constraints]"
+          ]
+        },
+        {
+          "id": "planning_08",
+          "roleContext": "Act as a business continuity planner. Focus on contingency plan.",
+          "objective": "Prepare for [disruption].",
+          "scope": "Define activation triggers, roles, communication, fallback operations, and recovery checks; keep actions proportionate.",
+          "outputFormat": "Trigger-action playbook",
+          "exampleOutput": "Trigger: Primary venue becomes unavailable. Action: Confirm backup room, notify attendees, and update signage. Owner: Event lead.",
+          "difficultyGuide": {
+            "beginner": "For contingency plan, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For contingency plan, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For contingency plan, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[disruption]"
+          ]
+        },
+        {
+          "id": "planning_09",
+          "roleContext": "Act as a decision facilitator. Focus on decision process.",
+          "objective": "Plan a decision about [choice].",
+          "scope": "Identify stakeholders, criteria, evidence needed, reversible experiments, and a decision deadline.",
+          "outputFormat": "Decision plan",
+          "exampleOutput": "Criterion: Setup time. Evidence: Run a 30-minute trial of each option. Decide Friday after documenting trade-offs.",
+          "difficultyGuide": {
+            "beginner": "For decision process, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For decision process, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For decision process, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[choice]"
+          ]
+        },
+        {
+          "id": "planning_10",
+          "roleContext": "Act as a accountability coach. Focus on personal action plan.",
+          "objective": "Create a sustainable plan for [habit].",
+          "scope": "Use [current_routine], start small, define cues, track completion, and plan recovery after missed days.",
+          "outputFormat": "Habit plan and weekly review",
+          "exampleOutput": "Cue: After breakfast. Action: Read two pages. Recovery: If missed, resume the next day without doubling the target.",
+          "difficultyGuide": {
+            "beginner": "For personal action plan, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For personal action plan, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For personal action plan, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[habit]",
+            "[current_routine]"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Writing",
+      "prompts": [
+        {
+          "id": "writing_01",
+          "roleContext": "Act as a editorial writer. Focus on article draft.",
+          "objective": "Write an article about [topic] for [audience].",
+          "scope": "Use [word_limit], a clear thesis, informative headings, and concrete examples; do not invent facts or quotations.",
+          "outputFormat": "Headline, introduction, body, conclusion",
+          "exampleOutput": "Headline: A Simpler Weekly Review. Opening: A useful review ends with a short list of decisions, not a longer list of worries.",
+          "difficultyGuide": {
+            "beginner": "For article draft, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For article draft, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For article draft, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[topic]",
+            "[audience]",
+            "[word_limit]"
+          ]
+        },
+        {
+          "id": "writing_02",
+          "roleContext": "Act as a business communication specialist. Focus on professional email.",
+          "objective": "Draft an email to [recipient] about [purpose].",
+          "scope": "Use [tone], stay under 180 words, and include a specific request or next step.",
+          "outputFormat": "Subject and email body",
+          "exampleOutput": "Subject: Feedback requested by Thursday\nHi Maya, could you review the attached outline by Thursday? Please focus on scope and missing sections.",
+          "difficultyGuide": {
+            "beginner": "For professional email, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For professional email, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For professional email, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[recipient]",
+            "[purpose]",
+            "[tone]"
+          ]
+        },
+        {
+          "id": "writing_03",
+          "roleContext": "Act as a plain-language editor. Focus on clarity rewrite.",
+          "objective": "Rewrite [text] for clarity while preserving meaning.",
+          "scope": "Keep all material facts, avoid adding claims, and explain up to three significant edits.",
+          "outputFormat": "Revised text and edit notes",
+          "exampleOutput": "Before: We are in receipt of your request. After: We received your request. Edit: Removed unnecessary wording.",
+          "difficultyGuide": {
+            "beginner": "For clarity rewrite, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For clarity rewrite, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For clarity rewrite, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[text]"
+          ]
+        },
+        {
+          "id": "writing_04",
+          "roleContext": "Act as a executive communications editor. Focus on executive summary.",
+          "objective": "Summarize [document] for [decision_maker].",
+          "scope": "Stay within [word_limit]; cover purpose, findings, implications, recommendation, and uncertainty.",
+          "outputFormat": "Short summary and decision request",
+          "exampleOutput": "The pilot met its delivery target but exceeded staffing estimates. Approve a smaller second pilot before committing to expansion.",
+          "difficultyGuide": {
+            "beginner": "For executive summary, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For executive summary, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For executive summary, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[document]",
+            "[decision_maker]",
+            "[word_limit]"
+          ]
+        },
+        {
+          "id": "writing_05",
+          "roleContext": "Act as a proposal writer. Focus on persuasive proposal.",
+          "objective": "Draft a proposal for [initiative].",
+          "scope": "Include problem, approach, deliverables, timeline, costs supplied by the user, risks, and approval request.",
+          "outputFormat": "Proposal sections",
+          "exampleOutput": "Proposal: Run a four-week documentation pilot. Deliverable: Ten revised help articles. Approval requested: Assign one editor and one subject expert.",
+          "difficultyGuide": {
+            "beginner": "For persuasive proposal, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For persuasive proposal, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For persuasive proposal, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[initiative]"
+          ]
+        },
+        {
+          "id": "writing_06",
+          "roleContext": "Act as a structural editor. Focus on outline creation.",
+          "objective": "Outline a piece about [topic].",
+          "scope": "Match [audience] and [purpose]; define the thesis, section claims, evidence needs, and conclusion.",
+          "outputFormat": "Hierarchical outline",
+          "exampleOutput": "I. Problem: New users abandon setup. II. Causes: Unclear instructions and missing feedback. III. Proposed pilot and evaluation.",
+          "difficultyGuide": {
+            "beginner": "For outline creation, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For outline creation, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For outline creation, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[topic]",
+            "[audience]",
+            "[purpose]"
+          ]
+        },
+        {
+          "id": "writing_07",
+          "roleContext": "Act as a brand voice editor. Focus on style adaptation.",
+          "objective": "Adapt [text] to [style_attributes].",
+          "scope": "Preserve facts and intent; use general voice traits rather than imitating a living author.",
+          "outputFormat": "Rewritten text and voice notes",
+          "exampleOutput": "Original: Submission is mandatory. Friendly revision: Please send your form by Friday so we can reserve your place.",
+          "difficultyGuide": {
+            "beginner": "For style adaptation, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For style adaptation, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For style adaptation, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[text]",
+            "[style_attributes]"
+          ]
+        },
+        {
+          "id": "writing_08",
+          "roleContext": "Act as a technical writer. Focus on documentation writing.",
+          "objective": "Write instructions for [task].",
+          "scope": "State prerequisites, ordered actions, expected results, common errors, and rollback when applicable; verify against supplied details.",
+          "outputFormat": "Step-by-step guide",
+          "exampleOutput": "1. Open Settings. 2. Select Notifications. 3. Turn on email updates. Expected result: The switch displays Enabled.",
+          "difficultyGuide": {
+            "beginner": "For documentation writing, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For documentation writing, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For documentation writing, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[task]"
+          ]
+        },
+        {
+          "id": "writing_09",
+          "roleContext": "Act as a conversion copywriter. Focus on copy variants.",
+          "objective": "Create copy variants for [offering] on [channel].",
+          "scope": "Provide five distinct variants within [character_limit]; avoid unsupported guarantees and manipulative urgency.",
+          "outputFormat": "Variant table",
+          "exampleOutput": "Headline: Make room for focused work. CTA: Explore the workspace planner. Angle: Simplicity.",
+          "difficultyGuide": {
+            "beginner": "For copy variants, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For copy variants, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For copy variants, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[offering]",
+            "[channel]",
+            "[character_limit]"
+          ]
+        },
+        {
+          "id": "writing_10",
+          "roleContext": "Act as a developmental editor. Focus on editorial critique.",
+          "objective": "Critique [draft] for [purpose].",
+          "scope": "Identify strengths, structural weaknesses, unsupported claims, and prioritized revisions; distinguish preferences from errors.",
+          "outputFormat": "Assessment and revision checklist",
+          "exampleOutput": "Strength: Clear opening example. Priority revision: Move the central claim into paragraph one. Evidence needed: Support the retention statistic.",
+          "difficultyGuide": {
+            "beginner": "For editorial critique, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For editorial critique, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For editorial critique, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[draft]",
+            "[purpose]"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Analysis",
+      "prompts": [
+        {
+          "id": "analysis_01",
+          "roleContext": "Act as a data analyst. Focus on explore a dataset.",
+          "objective": "Explore [dataset] to answer [question].",
+          "scope": "Inspect schema, missingness, duplicates, distributions, and outliers; calculate only from available data.",
+          "outputFormat": "Quality report, summaries, findings",
+          "exampleOutput": "Rows: 120. Missing age: 12 (10%). Next step: Compare missingness across groups before choosing a treatment.",
+          "difficultyGuide": {
+            "beginner": "For explore a dataset, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For explore a dataset, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For explore a dataset, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[dataset]",
+            "[question]"
+          ]
+        },
+        {
+          "id": "analysis_02",
+          "roleContext": "Act as a decision analyst. Focus on compare alternatives.",
+          "objective": "Compare [options] against [criteria].",
+          "scope": "Use supplied evidence and explicit weights; distinguish unknowns from low scores and test weight sensitivity.",
+          "outputFormat": "Decision matrix and recommendation",
+          "exampleOutput": "A scores 4 on cost and 2 on flexibility; B scores 3 and 5. Recommendation depends on the agreed criterion weights.",
+          "difficultyGuide": {
+            "beginner": "For compare alternatives, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For compare alternatives, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For compare alternatives, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[options]",
+            "[criteria]"
+          ]
+        },
+        {
+          "id": "analysis_03",
+          "roleContext": "Act as a operations analyst. Focus on root-cause analysis.",
+          "objective": "Analyze causes of [problem] using [evidence].",
+          "scope": "Separate symptoms, correlations, and supported causes; provide tests for competing explanations.",
+          "outputFormat": "Cause tree and validation plan",
+          "exampleOutput": "Observation: Delays cluster after shift changes. Hypothesis: Handoffs omit status updates. Test: Audit handoff records against delay timestamps.",
+          "difficultyGuide": {
+            "beginner": "For root-cause analysis, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For root-cause analysis, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For root-cause analysis, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[problem]",
+            "[evidence]"
+          ]
+        },
+        {
+          "id": "analysis_04",
+          "roleContext": "Act as a time-series analyst. Focus on trend analysis.",
+          "objective": "Analyze trends in [series].",
+          "scope": "Check frequency, gaps, seasonality, structural changes, and uncertainty; avoid treating extrapolation as certainty.",
+          "outputFormat": "Trend summary and caveats",
+          "exampleOutput": "Values rose from 100 to 120: a 20% increase. Three observations are insufficient to establish seasonality.",
+          "difficultyGuide": {
+            "beginner": "For trend analysis, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For trend analysis, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For trend analysis, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[series]"
+          ]
+        },
+        {
+          "id": "analysis_05",
+          "roleContext": "Act as a customer insights analyst. Focus on segment analysis.",
+          "objective": "Compare [segments] on [metric].",
+          "scope": "Report sample sizes, denominators, absolute and relative differences, and possible confounders.",
+          "outputFormat": "Segment table and interpretation",
+          "exampleOutput": "A: 30/100 converted (30%). B: 40/200 (20%). Difference: 10 percentage points; selection differences may explain part of it.",
+          "difficultyGuide": {
+            "beginner": "For segment analysis, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For segment analysis, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For segment analysis, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[segments]",
+            "[metric]"
+          ]
+        },
+        {
+          "id": "analysis_06",
+          "roleContext": "Act as a statistical analyst. Focus on hypothesis testing.",
+          "objective": "Evaluate [hypothesis] using [data].",
+          "scope": "Check design and assumptions before choosing a test; report effect size, uncertainty, and limitations, not significance alone.",
+          "outputFormat": "Method, results, interpretation",
+          "exampleOutput": "Illustrative result: Mean difference 2.1 units, 95% CI [-0.4, 4.6]. The estimate is uncertain; this does not prove no effect.",
+          "difficultyGuide": {
+            "beginner": "For hypothesis testing, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For hypothesis testing, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For hypothesis testing, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[hypothesis]",
+            "[data]"
+          ]
+        },
+        {
+          "id": "analysis_07",
+          "roleContext": "Act as a scenario planning analyst. Focus on scenario analysis.",
+          "objective": "Model outcomes for [decision] under [assumptions].",
+          "scope": "Define base, favorable, and adverse scenarios; show formulas and sensitivity without assigning unsupported probabilities.",
+          "outputFormat": "Scenario table and sensitivity notes",
+          "exampleOutput": "Revenue = customers × price. Base: 100 × $20 = $2,000. Adverse: 70 × $20 = $1,400.",
+          "difficultyGuide": {
+            "beginner": "For scenario analysis, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For scenario analysis, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For scenario analysis, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[decision]",
+            "[assumptions]"
+          ]
+        },
+        {
+          "id": "analysis_08",
+          "roleContext": "Act as a qualitative data analyst. Focus on qualitative coding.",
+          "objective": "Analyze themes in [responses].",
+          "scope": "Create a codebook, code supplied excerpts, track contradictions, and distinguish mentions from respondent prevalence.",
+          "outputFormat": "Codebook and theme table",
+          "exampleOutput": "Code: Setup friction. Excerpt: “I could not find the next button.” Theme: Navigation uncertainty. Count unit: One response.",
+          "difficultyGuide": {
+            "beginner": "For qualitative coding, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For qualitative coding, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For qualitative coding, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[responses]"
+          ]
+        },
+        {
+          "id": "analysis_09",
+          "roleContext": "Act as a measurement strategist. Focus on kpi design.",
+          "objective": "Define KPIs for [objective].",
+          "scope": "Specify formulas, units, data sources, reporting cadence, owners, and gaming risks; separate outcomes from activities.",
+          "outputFormat": "Metric dictionary",
+          "exampleOutput": "Completion rate = completed setups / started setups. Unit: Percent. Guardrail: Track support requests to detect confusing completions.",
+          "difficultyGuide": {
+            "beginner": "For kpi design, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For kpi design, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For kpi design, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[objective]"
+          ]
+        },
+        {
+          "id": "analysis_10",
+          "roleContext": "Act as a data visualization specialist. Focus on chart selection.",
+          "objective": "Recommend visualizations for [data] and [audience].",
+          "scope": "Match charts to questions, explain encodings, identify misleading choices, and state accessibility requirements.",
+          "outputFormat": "Chart plan",
+          "exampleOutput": "Question: How did volume change monthly? Chart: Line chart. Encoding: Month on x-axis, count on y-axis. Avoid a truncated axis that exaggerates variation.",
+          "difficultyGuide": {
+            "beginner": "For chart selection, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For chart selection, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For chart selection, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[data]",
+            "[audience]"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "prompts": [
+        {
+          "id": "troubleshooting_01",
+          "roleContext": "Act as a technical support engineer. Focus on software failure.",
+          "objective": "Troubleshoot [symptom] in [application].",
+          "scope": "Start with low-risk checks, request essential environment details, and define success; avoid destructive resets without consent.",
+          "outputFormat": "Ordered diagnostic checklist",
+          "exampleOutput": "1. Record the exact error. 2. Restart the application. 3. Check whether a new file opens. Stop if unsaved work could be lost.",
+          "difficultyGuide": {
+            "beginner": "For software failure, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For software failure, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For software failure, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[symptom]",
+            "[application]"
+          ]
+        },
+        {
+          "id": "troubleshooting_02",
+          "roleContext": "Act as a network support specialist. Focus on network issue.",
+          "objective": "Diagnose [connectivity_problem].",
+          "scope": "Separate device, local network, DNS, and service hypotheses; use safe tests and redact sensitive configuration.",
+          "outputFormat": "Diagnostic decision tree",
+          "exampleOutput": "If other sites load but one hostname fails, compare DNS resolution and service status before changing router settings.",
+          "difficultyGuide": {
+            "beginner": "For network issue, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For network issue, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For network issue, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[connectivity_problem]"
+          ]
+        },
+        {
+          "id": "troubleshooting_03",
+          "roleContext": "Act as a data platform engineer. Focus on data pipeline failure.",
+          "objective": "Diagnose [pipeline_failure] using [logs].",
+          "scope": "Trace source, extraction, transformation, and loading; identify safe retries, idempotency risks, and validation checks.",
+          "outputFormat": "Triage table and recovery plan",
+          "exampleOutput": "Evidence: Row count dropped after the filter step. Check: Compare rejected rows by rule. Recovery: Reprocess only after confirming duplicate handling.",
+          "difficultyGuide": {
+            "beginner": "For data pipeline failure, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For data pipeline failure, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For data pipeline failure, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[pipeline_failure]",
+            "[logs]"
+          ]
+        },
+        {
+          "id": "troubleshooting_04",
+          "roleContext": "Act as a spreadsheet specialist. Focus on spreadsheet error.",
+          "objective": "Fix [formula_problem] in [workbook_context].",
+          "scope": "Inspect ranges, types, references, and locale; provide a minimal correction and verification cells.",
+          "outputFormat": "Diagnosis and formulas",
+          "exampleOutput": "Cause: SUM range excludes the final row. Fix: =SUM(B2:B10). Check: Compare with a manual sum of the same nine cells.",
+          "difficultyGuide": {
+            "beginner": "For spreadsheet error, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For spreadsheet error, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For spreadsheet error, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[formula_problem]",
+            "[workbook_context]"
+          ]
+        },
+        {
+          "id": "troubleshooting_05",
+          "roleContext": "Act as a build and release engineer. Focus on build failure.",
+          "objective": "Diagnose [build_error] in [environment].",
+          "scope": "Check dependency versions, lockfiles, runtime, and configuration; prefer reproducible fixes over broad upgrades.",
+          "outputFormat": "Hypotheses, commands, patch",
+          "exampleOutput": "Hypothesis: Runtime version differs from CI. Check the configured version and rerun with the same runtime before changing dependencies.",
+          "difficultyGuide": {
+            "beginner": "For build failure, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For build failure, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For build failure, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[build_error]",
+            "[environment]"
+          ]
+        },
+        {
+          "id": "troubleshooting_06",
+          "roleContext": "Act as a machine learning engineer. Focus on model quality issue.",
+          "objective": "Investigate [model_symptom] using [evaluation_data].",
+          "scope": "Check leakage, splits, baselines, imbalance, drift, and metric choice; do not assume retraining is the first fix.",
+          "outputFormat": "Diagnostic matrix and experiments",
+          "exampleOutput": "Training accuracy is high but validation accuracy is low. Check group overlap, compare a simpler baseline, and inspect learning curves.",
+          "difficultyGuide": {
+            "beginner": "For model quality issue, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For model quality issue, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For model quality issue, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[model_symptom]",
+            "[evaluation_data]"
+          ]
+        },
+        {
+          "id": "troubleshooting_07",
+          "roleContext": "Act as a frontend engineer. Focus on website rendering issue.",
+          "objective": "Diagnose [rendering_problem] in [browser_context].",
+          "scope": "Inspect console errors, network requests, layout, and browser differences; provide minimal reproducible checks.",
+          "outputFormat": "Checklist and candidate patch",
+          "exampleOutput": "Observation: Content exists but is hidden. Check computed display and visibility rules before investigating the data API.",
+          "difficultyGuide": {
+            "beginner": "For website rendering issue, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For website rendering issue, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For website rendering issue, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[rendering_problem]",
+            "[browser_context]"
+          ]
+        },
+        {
+          "id": "troubleshooting_08",
+          "roleContext": "Act as a hardware support technician. Focus on device issue.",
+          "objective": "Troubleshoot [device_symptom] safely.",
+          "scope": "Start with external power, cables, settings, and manufacturer guidance; stop for overheating, swelling, smoke, or electrical hazards.",
+          "outputFormat": "Safe checks and escalation criteria",
+          "exampleOutput": "Check that the charger and outlet work. If the battery is swollen or the device smells burnt, stop using it and seek qualified service.",
+          "difficultyGuide": {
+            "beginner": "For device issue, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For device issue, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For device issue, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[device_symptom]"
+          ]
+        },
+        {
+          "id": "troubleshooting_09",
+          "roleContext": "Act as a process improvement specialist. Focus on workflow bottleneck.",
+          "objective": "Diagnose delays in [workflow].",
+          "scope": "Map steps, queues, handoffs, and rework; distinguish processing time from waiting time and propose reversible tests.",
+          "outputFormat": "Workflow map and experiment plan",
+          "exampleOutput": "Processing takes 20 minutes, but approval waits two days. Pilot twice-daily approval windows and compare total lead time.",
+          "difficultyGuide": {
+            "beginner": "For workflow bottleneck, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For workflow bottleneck, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For workflow bottleneck, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[workflow]"
+          ]
+        },
+        {
+          "id": "troubleshooting_10",
+          "roleContext": "Act as a incident review facilitator. Focus on incident postmortem.",
+          "objective": "Write a blameless review of [incident].",
+          "scope": "Use [timeline] and [evidence]; distinguish facts from hypotheses and assign corrective actions with owners and verification.",
+          "outputFormat": "Summary, timeline, causes, actions",
+          "exampleOutput": "Fact: Deployment began at 14:00; errors rose at 14:05. Hypothesis: Configuration mismatch. Action: Add a configuration validation check; owner: Release lead.",
+          "difficultyGuide": {
+            "beginner": "For incident postmortem, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For incident postmortem, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For incident postmortem, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[incident]",
+            "[timeline]",
+            "[evidence]"
+          ]
+        }
+      ]
+    }
+  ]
+}

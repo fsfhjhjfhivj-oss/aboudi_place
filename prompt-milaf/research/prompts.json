@@ -1,0 +1,174 @@
+{
+  "libraryName": "Prompt Milaf",
+  "categories": [
+    {
+      "name": "Research",
+      "prompts": [
+        {
+          "id": "research_01",
+          "roleContext": "Act as a research-methods advisor. Focus on research question.",
+          "objective": "Turn [topic] into a focused research question.",
+          "scope": "Offer five questions with population, variables, scope, and feasibility; avoid assuming causation.",
+          "outputFormat": "Question table",
+          "exampleOutput": "Among first-year students, how is weekly study-group attendance associated with course completion?",
+          "difficultyGuide": {
+            "beginner": "For research question, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For research question, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For research question, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[topic]"
+          ]
+        },
+        {
+          "id": "research_02",
+          "roleContext": "Act as a research librarian. Focus on search strategy.",
+          "objective": "Design a search strategy for [question].",
+          "scope": "Provide concepts, synonyms, Boolean strings, inclusion criteria, and screening steps; do not invent results.",
+          "outputFormat": "Search protocol",
+          "exampleOutput": "(\"remote work\" OR telework) AND (productivity OR performance); include empirical studies matching the specified population.",
+          "difficultyGuide": {
+            "beginner": "For search strategy, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For search strategy, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For search strategy, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[question]"
+          ]
+        },
+        {
+          "id": "research_03",
+          "roleContext": "Act as a evidence synthesis researcher. Focus on literature synthesis.",
+          "objective": "Synthesize [provided_sources] on [question].",
+          "scope": "Use supplied sources only; compare findings, methods, limitations, and disagreements with traceable citations.",
+          "outputFormat": "Evidence matrix and synthesis",
+          "exampleOutput": "Study A reports higher retention; Study B finds no difference. Their follow-up periods differ, limiting direct comparison.",
+          "difficultyGuide": {
+            "beginner": "For literature synthesis, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For literature synthesis, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For literature synthesis, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[provided_sources]",
+            "[question]"
+          ]
+        },
+        {
+          "id": "research_04",
+          "roleContext": "Act as a source evaluation specialist. Focus on source credibility.",
+          "objective": "Evaluate [source] for use in [project].",
+          "scope": "Assess authorship, methods, evidence, conflicts, currency, and relevance; distinguish missing information from defects.",
+          "outputFormat": "Assessment rubric",
+          "exampleOutput": "Methods are described, but sampling is unclear. Confidence: Moderate for description, low for population generalization.",
+          "difficultyGuide": {
+            "beginner": "For source credibility, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For source credibility, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For source credibility, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[source]",
+            "[project]"
+          ]
+        },
+        {
+          "id": "research_05",
+          "roleContext": "Act as a research scientist. Focus on hypothesis design.",
+          "objective": "Develop testable hypotheses about [phenomenon].",
+          "scope": "Specify variables, predicted relationships, alternatives, and falsification criteria; label exploratory ideas.",
+          "outputFormat": "Hypothesis cards",
+          "exampleOutput": "H1: Reminder recipients submit more assignments. Test: Randomly assign reminders and compare submission proportions.",
+          "difficultyGuide": {
+            "beginner": "For hypothesis design, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For hypothesis design, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For hypothesis design, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[phenomenon]"
+          ]
+        },
+        {
+          "id": "research_06",
+          "roleContext": "Act as a qualitative researcher. Focus on interview guide.",
+          "objective": "Create an interview guide for [participants] about [topic].",
+          "scope": "Write 10 neutral questions, probes, opening consent language, and closing prompts; avoid leading phrasing.",
+          "outputFormat": "Interview script",
+          "exampleOutput": "Tell me about the last time you scheduled an appointment. Probe: What happened after you chose a time?",
+          "difficultyGuide": {
+            "beginner": "For interview guide, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For interview guide, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For interview guide, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[participants]",
+            "[topic]"
+          ]
+        },
+        {
+          "id": "research_07",
+          "roleContext": "Act as a survey methodologist. Focus on survey design.",
+          "objective": "Draft a survey measuring [construct].",
+          "scope": "Provide 12 items, response scales, skip logic, and a pilot plan; do not claim the instrument is validated.",
+          "outputFormat": "Survey and pilot checklist",
+          "exampleOutput": "Item: In the past seven days, how often did you feel prepared for class? Never / Rarely / Sometimes / Often / Always.",
+          "difficultyGuide": {
+            "beginner": "For survey design, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For survey design, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For survey design, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[construct]"
+          ]
+        },
+        {
+          "id": "research_08",
+          "roleContext": "Act as a experimental-design advisor. Focus on experiment plan.",
+          "objective": "Design a study testing [intervention].",
+          "scope": "Specify outcomes, randomization, controls, confounders, ethics, and analysis; identify inputs needed for power calculations.",
+          "outputFormat": "Study protocol",
+          "exampleOutput": "Randomize users to two onboarding flows. Primary outcome: Setup completion within 24 hours. Predefine exclusions before analysis.",
+          "difficultyGuide": {
+            "beginner": "For experiment plan, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For experiment plan, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For experiment plan, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[intervention]"
+          ]
+        },
+        {
+          "id": "research_09",
+          "roleContext": "Act as a research strategist. Focus on research gaps.",
+          "objective": "Identify gaps in [evidence_collection].",
+          "scope": "Separate documented omissions from speculative opportunities; rank five gaps by significance and feasibility.",
+          "outputFormat": "Gap matrix",
+          "exampleOutput": "Observed gap: All supplied studies use urban samples. Next study: Test whether findings transfer to rural participants.",
+          "difficultyGuide": {
+            "beginner": "For research gaps, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For research gaps, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For research gaps, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[evidence_collection]"
+          ]
+        },
+        {
+          "id": "research_10",
+          "roleContext": "Act as a policy research analyst. Focus on evidence brief.",
+          "objective": "Summarize evidence for [decision].",
+          "scope": "Use [sources], separate findings from recommendations, and state uncertainty and missing evidence in 500 words.",
+          "outputFormat": "Executive brief",
+          "exampleOutput": "Finding: Two small pilots reported shorter queues. Limitation: Neither used a comparison group. Recommendation: Run a controlled pilot before expansion.",
+          "difficultyGuide": {
+            "beginner": "For evidence brief, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For evidence brief, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For evidence brief, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[decision]",
+            "[sources]"
+          ]
+        }
+      ]
+    }
+  ]
+}

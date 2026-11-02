@@ -1,0 +1,179 @@
+{
+  "libraryName": "Prompt Milaf",
+  "categories": [
+    {
+      "name": "Coding",
+      "prompts": [
+        {
+          "id": "coding_01",
+          "roleContext": "Act as a software engineer. Focus on implement a feature.",
+          "objective": "Implement [feature] in [language].",
+          "scope": "Provide runnable code, dependencies, usage, and tests; state assumptions and omit secrets.",
+          "outputFormat": "Code blocks and tests",
+          "exampleOutput": "def clamp(x, low, high): return max(low, min(x, high))\nassert clamp(12, 0, 10) == 10",
+          "difficultyGuide": {
+            "beginner": "For implement a feature, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For implement a feature, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For implement a feature, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[feature]",
+            "[language]"
+          ]
+        },
+        {
+          "id": "coding_02",
+          "roleContext": "Act as a debugging engineer. Focus on debug code.",
+          "objective": "Diagnose [error] in [code].",
+          "scope": "Rank hypotheses, suggest distinguishing checks, and provide a minimal patch; do not claim unperformed execution.",
+          "outputFormat": "Diagnosis, patch, regression test",
+          "exampleOutput": "Cause: return is inside the loop. Fix: Move return after the loop. Test: total([2, 3]) should equal 5.",
+          "difficultyGuide": {
+            "beginner": "For debug code, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For debug code, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For debug code, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[error]",
+            "[code]"
+          ]
+        },
+        {
+          "id": "coding_03",
+          "roleContext": "Act as a senior reviewer. Focus on code review.",
+          "objective": "Review [code] for correctness and maintainability.",
+          "scope": "Prioritize actionable findings; distinguish defects, risks, and optional style changes.",
+          "outputFormat": "Findings table",
+          "exampleOutput": "High | SQL construction | User input concatenated into query | Replace with parameters.",
+          "difficultyGuide": {
+            "beginner": "For code review, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For code review, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For code review, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[code]"
+          ]
+        },
+        {
+          "id": "coding_04",
+          "roleContext": "Act as a test engineer. Focus on generate tests.",
+          "objective": "Create tests for [module] using [framework].",
+          "scope": "Cover normal, boundary, invalid, and regression cases; derive expected results from [specification].",
+          "outputFormat": "Test plan and code",
+          "exampleOutput": "def test_empty_sum():\n    assert sum_values([]) == 0",
+          "difficultyGuide": {
+            "beginner": "For generate tests, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For generate tests, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For generate tests, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[module]",
+            "[framework]",
+            "[specification]"
+          ]
+        },
+        {
+          "id": "coding_05",
+          "roleContext": "Act as a API architect. Focus on api design.",
+          "objective": "Design an API for [domain].",
+          "scope": "Specify resources, validation, authorization assumptions, pagination, errors, and examples.",
+          "outputFormat": "Endpoint table and JSON",
+          "exampleOutput": "POST /tasks -> 201 {\"id\":\"task_123\",\"title\":\"Review draft\",\"status\":\"open\"}",
+          "difficultyGuide": {
+            "beginner": "For api design, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For api design, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For api design, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[domain]"
+          ]
+        },
+        {
+          "id": "coding_06",
+          "roleContext": "Act as a database engineer. Focus on sql query.",
+          "objective": "Answer [question] using [schema].",
+          "scope": "Use [dialect]; explain nulls, duplicates, joins, and date assumptions; avoid destructive operations.",
+          "outputFormat": "SQL and sample rows",
+          "exampleOutput": "SELECT customer_id, COUNT(*) AS orders FROM orders GROUP BY customer_id;\nSample: customer_id=42, orders=3.",
+          "difficultyGuide": {
+            "beginner": "For sql query, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For sql query, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For sql query, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[question]",
+            "[schema]",
+            "[dialect]"
+          ]
+        },
+        {
+          "id": "coding_07",
+          "roleContext": "Act as a refactoring specialist. Focus on refactor code.",
+          "objective": "Refactor [code] without changing documented behavior.",
+          "scope": "Make incremental changes and provide characterization tests; flag intentional behavior changes.",
+          "outputFormat": "Plan, revised code, tests",
+          "exampleOutput": "Extract repeated validation into validate_email(); confirm the same valid and invalid inputs retain their results.",
+          "difficultyGuide": {
+            "beginner": "For refactor code, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For refactor code, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For refactor code, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[code]"
+          ]
+        },
+        {
+          "id": "coding_08",
+          "roleContext": "Act as a defensive security engineer. Focus on security review.",
+          "objective": "Review [component] within [authorized_scope].",
+          "scope": "Identify trust boundaries, evidence-backed risks, mitigations, and safe checks.",
+          "outputFormat": "Threat table",
+          "exampleOutput": "Session cookie | Script access | Set HttpOnly | Verify Set-Cookie response headers.",
+          "difficultyGuide": {
+            "beginner": "For security review, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For security review, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For security review, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[component]",
+            "[authorized_scope]"
+          ]
+        },
+        {
+          "id": "coding_09",
+          "roleContext": "Act as a performance engineer. Focus on optimize performance.",
+          "objective": "Improve [program] against [target].",
+          "scope": "Start with a benchmark plan; distinguish measurements from hypotheses and preserve correctness.",
+          "outputFormat": "Baseline, hypotheses, changes, validation",
+          "exampleOutput": "Hypothesis: Repeated parsing dominates runtime. Benchmark parsing separately before introducing a cache.",
+          "difficultyGuide": {
+            "beginner": "For optimize performance, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For optimize performance, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For optimize performance, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[program]",
+            "[target]"
+          ]
+        },
+        {
+          "id": "coding_10",
+          "roleContext": "Act as a technical documentation engineer. Focus on document code.",
+          "objective": "Document [module] for [audience].",
+          "scope": "Include purpose, installation, minimal usage, inputs, outputs, errors, and limitations; verify against supplied code.",
+          "outputFormat": "README-style sections",
+          "exampleOutput": "Usage: normalize([2, 4]) returns [0.5, 1.0]. Limitation: An all-zero input requires an explicit policy.",
+          "difficultyGuide": {
+            "beginner": "For document code, use one simple case, define unfamiliar terms, and explain each step.",
+            "intermediate": "For document code, compare two approaches, address edge cases, and justify the selected approach.",
+            "expert": "For document code, examine assumptions, failure modes, trade-offs, and a rigorous validation strategy."
+          },
+          "templates": [
+            "[module]",
+            "[audience]"
+          ]
+        }
+      ]
+    }
+  ]
+}
