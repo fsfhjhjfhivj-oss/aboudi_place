@@ -1,0 +1,935 @@
+{
+  "libraryName": "Prompt Milaf",
+  "categories": [
+    {
+      "name": "Environments",
+      "prompts": [
+        {
+          "id": "environments_01",
+          "title": "Brutalist retreat / Locked-off study",
+          "tags": [
+            "environments",
+            "cinematic",
+            "image",
+            "locked-off-study"
+          ],
+          "variant": "locked-off-study",
+          "medium": "image",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a image generation prompt featuring a remote concrete retreat above a fog-filled valley for [creative_goal].",
+          "scope": "A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Preserve coherent architecture, horizon, and believable scale. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict a remote concrete retreat above a fog-filled valley. A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement. Illuminate with soft directional side light; preserve believable textures and 16:9 composition. Preserve coherent architecture, horizon, and believable scale.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: image; 16:9; Single editorial still.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a image generation prompt featuring a remote concrete retreat above a fog-filled valley for \"[creative_goal]\". A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Preserve coherent architecture, horizon, and believable scale. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "a remote concrete retreat above a fog-filled valley",
+            "camera": "A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement.",
+            "lighting": "soft directional side light",
+            "aspectRatio": "16:9",
+            "durationSeconds": null,
+            "continuity": "Preserve coherent architecture, horizon, and believable scale."
+          }
+        },
+        {
+          "id": "environments_02",
+          "title": "Brutalist retreat / Slow push-in",
+          "tags": [
+            "environments",
+            "cinematic",
+            "video",
+            "slow-push-in"
+          ],
+          "variant": "slow-push-in",
+          "medium": "video",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a video generation prompt featuring a remote concrete retreat above a fog-filled valley for [creative_goal].",
+          "scope": "A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Preserve coherent architecture, horizon, and believable scale. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict a remote concrete retreat above a fog-filled valley. A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion. Illuminate with soft directional side light; preserve believable textures and 16:9 composition. Preserve coherent architecture, horizon, and believable scale.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: video; 16:9; 6-second target, subject to model support.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a video generation prompt featuring a remote concrete retreat above a fog-filled valley for \"[creative_goal]\". A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Preserve coherent architecture, horizon, and believable scale. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "a remote concrete retreat above a fog-filled valley",
+            "camera": "A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion.",
+            "lighting": "soft directional side light",
+            "aspectRatio": "16:9",
+            "durationSeconds": 6,
+            "continuity": "Preserve coherent architecture, horizon, and believable scale."
+          }
+        },
+        {
+          "id": "environments_03",
+          "title": "Brutalist retreat / Lateral track",
+          "tags": [
+            "environments",
+            "cinematic",
+            "video",
+            "lateral-track"
+          ],
+          "variant": "lateral-track",
+          "medium": "video",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a video generation prompt featuring a remote concrete retreat above a fog-filled valley for [creative_goal].",
+          "scope": "A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut. Use warm low-angle rim light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Preserve coherent architecture, horizon, and believable scale. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict a remote concrete retreat above a fog-filled valley. A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut. Illuminate with warm low-angle rim light; preserve believable textures and 16:9 composition. Preserve coherent architecture, horizon, and believable scale.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: video; 16:9; 6-second target, subject to model support.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a video generation prompt featuring a remote concrete retreat above a fog-filled valley for \"[creative_goal]\". A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut. Use warm low-angle rim light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Preserve coherent architecture, horizon, and believable scale. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "a remote concrete retreat above a fog-filled valley",
+            "camera": "A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut.",
+            "lighting": "warm low-angle rim light",
+            "aspectRatio": "16:9",
+            "durationSeconds": 6,
+            "continuity": "Preserve coherent architecture, horizon, and believable scale."
+          }
+        },
+        {
+          "id": "environments_04",
+          "title": "Brutalist retreat / Detail to reveal",
+          "tags": [
+            "environments",
+            "cinematic",
+            "video",
+            "detail-to-reveal"
+          ],
+          "variant": "detail-to-reveal",
+          "medium": "video",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a video generation prompt featuring a remote concrete retreat above a fog-filled valley for [creative_goal].",
+          "scope": "Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity. Use a broad diffused key and restrained fill, restrained amber and charcoal grading, believable materials, and 9:16 framing. Preserve coherent architecture, horizon, and believable scale. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict a remote concrete retreat above a fog-filled valley. Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity. Illuminate with a broad diffused key and restrained fill; preserve believable textures and 9:16 composition. Preserve coherent architecture, horizon, and believable scale.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: video; 9:16; 6-second target, subject to model support.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a video generation prompt featuring a remote concrete retreat above a fog-filled valley for \"[creative_goal]\". Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity. Use a broad diffused key and restrained fill, restrained amber and charcoal grading, believable materials, and 9:16 framing. Preserve coherent architecture, horizon, and believable scale. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "a remote concrete retreat above a fog-filled valley",
+            "camera": "Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity.",
+            "lighting": "a broad diffused key and restrained fill",
+            "aspectRatio": "9:16",
+            "durationSeconds": 6,
+            "continuity": "Preserve coherent architecture, horizon, and believable scale."
+          }
+        },
+        {
+          "id": "environments_05",
+          "title": "Brutalist retreat / Editorial hero",
+          "tags": [
+            "environments",
+            "cinematic",
+            "image",
+            "editorial-hero"
+          ],
+          "variant": "editorial-hero",
+          "medium": "image",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a image generation prompt featuring a remote concrete retreat above a fog-filled valley for [creative_goal].",
+          "scope": "A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point. Use high-contrast motivated light with readable shadow detail, restrained amber and charcoal grading, believable materials, and 4:5 framing. Preserve coherent architecture, horizon, and believable scale. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict a remote concrete retreat above a fog-filled valley. A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point. Illuminate with high-contrast motivated light with readable shadow detail; preserve believable textures and 4:5 composition. Preserve coherent architecture, horizon, and believable scale.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: image; 4:5; Single editorial still.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a image generation prompt featuring a remote concrete retreat above a fog-filled valley for \"[creative_goal]\". A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point. Use high-contrast motivated light with readable shadow detail, restrained amber and charcoal grading, believable materials, and 4:5 framing. Preserve coherent architecture, horizon, and believable scale. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "a remote concrete retreat above a fog-filled valley",
+            "camera": "A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point.",
+            "lighting": "high-contrast motivated light with readable shadow detail",
+            "aspectRatio": "4:5",
+            "durationSeconds": null,
+            "continuity": "Preserve coherent architecture, horizon, and believable scale."
+          }
+        },
+        {
+          "id": "environments_06",
+          "title": "Forest sanctuary / Locked-off study",
+          "tags": [
+            "environments",
+            "cinematic",
+            "image",
+            "locked-off-study"
+          ],
+          "variant": "locked-off-study",
+          "medium": "image",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a image generation prompt featuring a mossy woodland clearing with a narrow stream for [creative_goal].",
+          "scope": "A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Keep water direction, tree positions, and lighting consistent. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict a mossy woodland clearing with a narrow stream. A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement. Illuminate with soft directional side light; preserve believable textures and 16:9 composition. Keep water direction, tree positions, and lighting consistent.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: image; 16:9; Single editorial still.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a image generation prompt featuring a mossy woodland clearing with a narrow stream for \"[creative_goal]\". A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Keep water direction, tree positions, and lighting consistent. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "a mossy woodland clearing with a narrow stream",
+            "camera": "A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement.",
+            "lighting": "soft directional side light",
+            "aspectRatio": "16:9",
+            "durationSeconds": null,
+            "continuity": "Keep water direction, tree positions, and lighting consistent."
+          }
+        },
+        {
+          "id": "environments_07",
+          "title": "Forest sanctuary / Slow push-in",
+          "tags": [
+            "environments",
+            "cinematic",
+            "video",
+            "slow-push-in"
+          ],
+          "variant": "slow-push-in",
+          "medium": "video",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a video generation prompt featuring a mossy woodland clearing with a narrow stream for [creative_goal].",
+          "scope": "A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Keep water direction, tree positions, and lighting consistent. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict a mossy woodland clearing with a narrow stream. A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion. Illuminate with soft directional side light; preserve believable textures and 16:9 composition. Keep water direction, tree positions, and lighting consistent.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: video; 16:9; 6-second target, subject to model support.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a video generation prompt featuring a mossy woodland clearing with a narrow stream for \"[creative_goal]\". A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Keep water direction, tree positions, and lighting consistent. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "a mossy woodland clearing with a narrow stream",
+            "camera": "A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion.",
+            "lighting": "soft directional side light",
+            "aspectRatio": "16:9",
+            "durationSeconds": 6,
+            "continuity": "Keep water direction, tree positions, and lighting consistent."
+          }
+        },
+        {
+          "id": "environments_08",
+          "title": "Forest sanctuary / Lateral track",
+          "tags": [
+            "environments",
+            "cinematic",
+            "video",
+            "lateral-track"
+          ],
+          "variant": "lateral-track",
+          "medium": "video",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a video generation prompt featuring a mossy woodland clearing with a narrow stream for [creative_goal].",
+          "scope": "A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut. Use warm low-angle rim light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Keep water direction, tree positions, and lighting consistent. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict a mossy woodland clearing with a narrow stream. A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut. Illuminate with warm low-angle rim light; preserve believable textures and 16:9 composition. Keep water direction, tree positions, and lighting consistent.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: video; 16:9; 6-second target, subject to model support.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a video generation prompt featuring a mossy woodland clearing with a narrow stream for \"[creative_goal]\". A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut. Use warm low-angle rim light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Keep water direction, tree positions, and lighting consistent. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "a mossy woodland clearing with a narrow stream",
+            "camera": "A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut.",
+            "lighting": "warm low-angle rim light",
+            "aspectRatio": "16:9",
+            "durationSeconds": 6,
+            "continuity": "Keep water direction, tree positions, and lighting consistent."
+          }
+        },
+        {
+          "id": "environments_09",
+          "title": "Forest sanctuary / Detail to reveal",
+          "tags": [
+            "environments",
+            "cinematic",
+            "video",
+            "detail-to-reveal"
+          ],
+          "variant": "detail-to-reveal",
+          "medium": "video",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a video generation prompt featuring a mossy woodland clearing with a narrow stream for [creative_goal].",
+          "scope": "Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity. Use a broad diffused key and restrained fill, restrained amber and charcoal grading, believable materials, and 9:16 framing. Keep water direction, tree positions, and lighting consistent. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict a mossy woodland clearing with a narrow stream. Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity. Illuminate with a broad diffused key and restrained fill; preserve believable textures and 9:16 composition. Keep water direction, tree positions, and lighting consistent.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: video; 9:16; 6-second target, subject to model support.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a video generation prompt featuring a mossy woodland clearing with a narrow stream for \"[creative_goal]\". Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity. Use a broad diffused key and restrained fill, restrained amber and charcoal grading, believable materials, and 9:16 framing. Keep water direction, tree positions, and lighting consistent. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "a mossy woodland clearing with a narrow stream",
+            "camera": "Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity.",
+            "lighting": "a broad diffused key and restrained fill",
+            "aspectRatio": "9:16",
+            "durationSeconds": 6,
+            "continuity": "Keep water direction, tree positions, and lighting consistent."
+          }
+        },
+        {
+          "id": "environments_10",
+          "title": "Forest sanctuary / Editorial hero",
+          "tags": [
+            "environments",
+            "cinematic",
+            "image",
+            "editorial-hero"
+          ],
+          "variant": "editorial-hero",
+          "medium": "image",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a image generation prompt featuring a mossy woodland clearing with a narrow stream for [creative_goal].",
+          "scope": "A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point. Use high-contrast motivated light with readable shadow detail, restrained amber and charcoal grading, believable materials, and 4:5 framing. Keep water direction, tree positions, and lighting consistent. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict a mossy woodland clearing with a narrow stream. A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point. Illuminate with high-contrast motivated light with readable shadow detail; preserve believable textures and 4:5 composition. Keep water direction, tree positions, and lighting consistent.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: image; 4:5; Single editorial still.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a image generation prompt featuring a mossy woodland clearing with a narrow stream for \"[creative_goal]\". A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point. Use high-contrast motivated light with readable shadow detail, restrained amber and charcoal grading, believable materials, and 4:5 framing. Keep water direction, tree positions, and lighting consistent. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "a mossy woodland clearing with a narrow stream",
+            "camera": "A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point.",
+            "lighting": "high-contrast motivated light with readable shadow detail",
+            "aspectRatio": "4:5",
+            "durationSeconds": null,
+            "continuity": "Keep water direction, tree positions, and lighting consistent."
+          }
+        },
+        {
+          "id": "environments_11",
+          "title": "Future transit / Locked-off study",
+          "tags": [
+            "environments",
+            "cinematic",
+            "image",
+            "locked-off-study"
+          ],
+          "variant": "locked-off-study",
+          "medium": "image",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a image generation prompt featuring an original near-future railway platform at dawn for [creative_goal].",
+          "scope": "A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict an original near-future railway platform at dawn. A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement. Illuminate with soft directional side light; preserve believable textures and 16:9 composition. Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: image; 16:9; Single editorial still.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a image generation prompt featuring an original near-future railway platform at dawn for \"[creative_goal]\". A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "an original near-future railway platform at dawn",
+            "camera": "A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement.",
+            "lighting": "soft directional side light",
+            "aspectRatio": "16:9",
+            "durationSeconds": null,
+            "continuity": "Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions."
+          }
+        },
+        {
+          "id": "environments_12",
+          "title": "Future transit / Slow push-in",
+          "tags": [
+            "environments",
+            "cinematic",
+            "video",
+            "slow-push-in"
+          ],
+          "variant": "slow-push-in",
+          "medium": "video",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a video generation prompt featuring an original near-future railway platform at dawn for [creative_goal].",
+          "scope": "A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict an original near-future railway platform at dawn. A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion. Illuminate with soft directional side light; preserve believable textures and 16:9 composition. Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: video; 16:9; 6-second target, subject to model support.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a video generation prompt featuring an original near-future railway platform at dawn for \"[creative_goal]\". A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "an original near-future railway platform at dawn",
+            "camera": "A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion.",
+            "lighting": "soft directional side light",
+            "aspectRatio": "16:9",
+            "durationSeconds": 6,
+            "continuity": "Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions."
+          }
+        },
+        {
+          "id": "environments_13",
+          "title": "Future transit / Lateral track",
+          "tags": [
+            "environments",
+            "cinematic",
+            "video",
+            "lateral-track"
+          ],
+          "variant": "lateral-track",
+          "medium": "video",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a video generation prompt featuring an original near-future railway platform at dawn for [creative_goal].",
+          "scope": "A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut. Use warm low-angle rim light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict an original near-future railway platform at dawn. A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut. Illuminate with warm low-angle rim light; preserve believable textures and 16:9 composition. Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: video; 16:9; 6-second target, subject to model support.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a video generation prompt featuring an original near-future railway platform at dawn for \"[creative_goal]\". A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut. Use warm low-angle rim light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "an original near-future railway platform at dawn",
+            "camera": "A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut.",
+            "lighting": "warm low-angle rim light",
+            "aspectRatio": "16:9",
+            "durationSeconds": 6,
+            "continuity": "Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions."
+          }
+        },
+        {
+          "id": "environments_14",
+          "title": "Future transit / Detail to reveal",
+          "tags": [
+            "environments",
+            "cinematic",
+            "video",
+            "detail-to-reveal"
+          ],
+          "variant": "detail-to-reveal",
+          "medium": "video",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a video generation prompt featuring an original near-future railway platform at dawn for [creative_goal].",
+          "scope": "Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity. Use a broad diffused key and restrained fill, restrained amber and charcoal grading, believable materials, and 9:16 framing. Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict an original near-future railway platform at dawn. Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity. Illuminate with a broad diffused key and restrained fill; preserve believable textures and 9:16 composition. Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: video; 9:16; 6-second target, subject to model support.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a video generation prompt featuring an original near-future railway platform at dawn for \"[creative_goal]\". Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity. Use a broad diffused key and restrained fill, restrained amber and charcoal grading, believable materials, and 9:16 framing. Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "an original near-future railway platform at dawn",
+            "camera": "Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity.",
+            "lighting": "a broad diffused key and restrained fill",
+            "aspectRatio": "9:16",
+            "durationSeconds": 6,
+            "continuity": "Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions."
+          }
+        },
+        {
+          "id": "environments_15",
+          "title": "Future transit / Editorial hero",
+          "tags": [
+            "environments",
+            "cinematic",
+            "image",
+            "editorial-hero"
+          ],
+          "variant": "editorial-hero",
+          "medium": "image",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a image generation prompt featuring an original near-future railway platform at dawn for [creative_goal].",
+          "scope": "A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point. Use high-contrast motivated light with readable shadow detail, restrained amber and charcoal grading, believable materials, and 4:5 framing. Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict an original near-future railway platform at dawn. A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point. Illuminate with high-contrast motivated light with readable shadow detail; preserve believable textures and 4:5 composition. Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: image; 4:5; Single editorial still.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a image generation prompt featuring an original near-future railway platform at dawn for \"[creative_goal]\". A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point. Use high-contrast motivated light with readable shadow detail, restrained amber and charcoal grading, believable materials, and 4:5 framing. Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "an original near-future railway platform at dawn",
+            "camera": "A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point.",
+            "lighting": "high-contrast motivated light with readable shadow detail",
+            "aspectRatio": "4:5",
+            "durationSeconds": null,
+            "continuity": "Maintain rail alignment and architecture; avoid pseudo-readable signage and unsafe visual instructions."
+          }
+        },
+        {
+          "id": "environments_16",
+          "title": "Coastal room / Locked-off study",
+          "tags": [
+            "environments",
+            "cinematic",
+            "image",
+            "locked-off-study"
+          ],
+          "variant": "locked-off-study",
+          "medium": "image",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a image generation prompt featuring a quiet limestone room overlooking a bright blue sea for [creative_goal].",
+          "scope": "A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Preserve window geometry and water horizon; do not change the room layout. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict a quiet limestone room overlooking a bright blue sea. A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement. Illuminate with soft directional side light; preserve believable textures and 16:9 composition. Preserve window geometry and water horizon; do not change the room layout.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: image; 16:9; Single editorial still.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a image generation prompt featuring a quiet limestone room overlooking a bright blue sea for \"[creative_goal]\". A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Preserve window geometry and water horizon; do not change the room layout. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "a quiet limestone room overlooking a bright blue sea",
+            "camera": "A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement.",
+            "lighting": "soft directional side light",
+            "aspectRatio": "16:9",
+            "durationSeconds": null,
+            "continuity": "Preserve window geometry and water horizon; do not change the room layout."
+          }
+        },
+        {
+          "id": "environments_17",
+          "title": "Coastal room / Slow push-in",
+          "tags": [
+            "environments",
+            "cinematic",
+            "video",
+            "slow-push-in"
+          ],
+          "variant": "slow-push-in",
+          "medium": "video",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a video generation prompt featuring a quiet limestone room overlooking a bright blue sea for [creative_goal].",
+          "scope": "A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Preserve window geometry and water horizon; do not change the room layout. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict a quiet limestone room overlooking a bright blue sea. A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion. Illuminate with soft directional side light; preserve believable textures and 16:9 composition. Preserve window geometry and water horizon; do not change the room layout.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: video; 16:9; 6-second target, subject to model support.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a video generation prompt featuring a quiet limestone room overlooking a bright blue sea for \"[creative_goal]\". A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Preserve window geometry and water horizon; do not change the room layout. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "a quiet limestone room overlooking a bright blue sea",
+            "camera": "A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion.",
+            "lighting": "soft directional side light",
+            "aspectRatio": "16:9",
+            "durationSeconds": 6,
+            "continuity": "Preserve window geometry and water horizon; do not change the room layout."
+          }
+        },
+        {
+          "id": "environments_18",
+          "title": "Coastal room / Lateral track",
+          "tags": [
+            "environments",
+            "cinematic",
+            "video",
+            "lateral-track"
+          ],
+          "variant": "lateral-track",
+          "medium": "video",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a video generation prompt featuring a quiet limestone room overlooking a bright blue sea for [creative_goal].",
+          "scope": "A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut. Use warm low-angle rim light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Preserve window geometry and water horizon; do not change the room layout. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict a quiet limestone room overlooking a bright blue sea. A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut. Illuminate with warm low-angle rim light; preserve believable textures and 16:9 composition. Preserve window geometry and water horizon; do not change the room layout.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: video; 16:9; 6-second target, subject to model support.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a video generation prompt featuring a quiet limestone room overlooking a bright blue sea for \"[creative_goal]\". A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut. Use warm low-angle rim light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Preserve window geometry and water horizon; do not change the room layout. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "a quiet limestone room overlooking a bright blue sea",
+            "camera": "A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut.",
+            "lighting": "warm low-angle rim light",
+            "aspectRatio": "16:9",
+            "durationSeconds": 6,
+            "continuity": "Preserve window geometry and water horizon; do not change the room layout."
+          }
+        },
+        {
+          "id": "environments_19",
+          "title": "Coastal room / Detail to reveal",
+          "tags": [
+            "environments",
+            "cinematic",
+            "video",
+            "detail-to-reveal"
+          ],
+          "variant": "detail-to-reveal",
+          "medium": "video",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a video generation prompt featuring a quiet limestone room overlooking a bright blue sea for [creative_goal].",
+          "scope": "Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity. Use a broad diffused key and restrained fill, restrained amber and charcoal grading, believable materials, and 9:16 framing. Preserve window geometry and water horizon; do not change the room layout. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict a quiet limestone room overlooking a bright blue sea. Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity. Illuminate with a broad diffused key and restrained fill; preserve believable textures and 9:16 composition. Preserve window geometry and water horizon; do not change the room layout.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: video; 9:16; 6-second target, subject to model support.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a video generation prompt featuring a quiet limestone room overlooking a bright blue sea for \"[creative_goal]\". Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity. Use a broad diffused key and restrained fill, restrained amber and charcoal grading, believable materials, and 9:16 framing. Preserve window geometry and water horizon; do not change the room layout. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "a quiet limestone room overlooking a bright blue sea",
+            "camera": "Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity.",
+            "lighting": "a broad diffused key and restrained fill",
+            "aspectRatio": "9:16",
+            "durationSeconds": 6,
+            "continuity": "Preserve window geometry and water horizon; do not change the room layout."
+          }
+        },
+        {
+          "id": "environments_20",
+          "title": "Coastal room / Editorial hero",
+          "tags": [
+            "environments",
+            "cinematic",
+            "image",
+            "editorial-hero"
+          ],
+          "variant": "editorial-hero",
+          "medium": "image",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a image generation prompt featuring a quiet limestone room overlooking a bright blue sea for [creative_goal].",
+          "scope": "A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point. Use high-contrast motivated light with readable shadow detail, restrained amber and charcoal grading, believable materials, and 4:5 framing. Preserve window geometry and water horizon; do not change the room layout. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict a quiet limestone room overlooking a bright blue sea. A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point. Illuminate with high-contrast motivated light with readable shadow detail; preserve believable textures and 4:5 composition. Preserve window geometry and water horizon; do not change the room layout.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: image; 4:5; Single editorial still.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a image generation prompt featuring a quiet limestone room overlooking a bright blue sea for \"[creative_goal]\". A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point. Use high-contrast motivated light with readable shadow detail, restrained amber and charcoal grading, believable materials, and 4:5 framing. Preserve window geometry and water horizon; do not change the room layout. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "a quiet limestone room overlooking a bright blue sea",
+            "camera": "A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point.",
+            "lighting": "high-contrast motivated light with readable shadow detail",
+            "aspectRatio": "4:5",
+            "durationSeconds": null,
+            "continuity": "Preserve window geometry and water horizon; do not change the room layout."
+          }
+        },
+        {
+          "id": "environments_21",
+          "title": "Lunar landscape / Locked-off study",
+          "tags": [
+            "environments",
+            "cinematic",
+            "image",
+            "locked-off-study"
+          ],
+          "variant": "locked-off-study",
+          "medium": "image",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a image generation prompt featuring an original science-fiction outpost on a barren moon for [creative_goal].",
+          "scope": "A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Use a coherent fictional lighting model and preserve the outpost geometry. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict an original science-fiction outpost on a barren moon. A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement. Illuminate with soft directional side light; preserve believable textures and 16:9 composition. Use a coherent fictional lighting model and preserve the outpost geometry.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: image; 16:9; Single editorial still.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a image generation prompt featuring an original science-fiction outpost on a barren moon for \"[creative_goal]\". A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Use a coherent fictional lighting model and preserve the outpost geometry. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "an original science-fiction outpost on a barren moon",
+            "camera": "A locked-off composition with deliberate negative space, layered foreground and background, and no camera movement.",
+            "lighting": "soft directional side light",
+            "aspectRatio": "16:9",
+            "durationSeconds": null,
+            "continuity": "Use a coherent fictional lighting model and preserve the outpost geometry."
+          }
+        },
+        {
+          "id": "environments_22",
+          "title": "Lunar landscape / Slow push-in",
+          "tags": [
+            "environments",
+            "cinematic",
+            "video",
+            "slow-push-in"
+          ],
+          "variant": "slow-push-in",
+          "medium": "video",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a video generation prompt featuring an original science-fiction outpost on a barren moon for [creative_goal].",
+          "scope": "A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Use a coherent fictional lighting model and preserve the outpost geometry. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict an original science-fiction outpost on a barren moon. A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion. Illuminate with soft directional side light; preserve believable textures and 16:9 composition. Use a coherent fictional lighting model and preserve the outpost geometry.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: video; 16:9; 6-second target, subject to model support.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a video generation prompt featuring an original science-fiction outpost on a barren moon for \"[creative_goal]\". A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion. Use soft directional side light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Use a coherent fictional lighting model and preserve the outpost geometry. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "an original science-fiction outpost on a barren moon",
+            "camera": "A single continuous slow push-in toward the subject with coherent perspective and subtle environmental motion.",
+            "lighting": "soft directional side light",
+            "aspectRatio": "16:9",
+            "durationSeconds": 6,
+            "continuity": "Use a coherent fictional lighting model and preserve the outpost geometry."
+          }
+        },
+        {
+          "id": "environments_23",
+          "title": "Lunar landscape / Lateral track",
+          "tags": [
+            "environments",
+            "cinematic",
+            "video",
+            "lateral-track"
+          ],
+          "variant": "lateral-track",
+          "medium": "video",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a video generation prompt featuring an original science-fiction outpost on a barren moon for [creative_goal].",
+          "scope": "A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut. Use warm low-angle rim light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Use a coherent fictional lighting model and preserve the outpost geometry. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict an original science-fiction outpost on a barren moon. A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut. Illuminate with warm low-angle rim light; preserve believable textures and 16:9 composition. Use a coherent fictional lighting model and preserve the outpost geometry.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: video; 16:9; 6-second target, subject to model support.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a video generation prompt featuring an original science-fiction outpost on a barren moon for \"[creative_goal]\". A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut. Use warm low-angle rim light, restrained amber and charcoal grading, believable materials, and 16:9 framing. Use a coherent fictional lighting model and preserve the outpost geometry. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "an original science-fiction outpost on a barren moon",
+            "camera": "A single smooth left-to-right lateral track with controlled parallax; do not orbit or cut.",
+            "lighting": "warm low-angle rim light",
+            "aspectRatio": "16:9",
+            "durationSeconds": 6,
+            "continuity": "Use a coherent fictional lighting model and preserve the outpost geometry."
+          }
+        },
+        {
+          "id": "environments_24",
+          "title": "Lunar landscape / Detail to reveal",
+          "tags": [
+            "environments",
+            "cinematic",
+            "video",
+            "detail-to-reveal"
+          ],
+          "variant": "detail-to-reveal",
+          "medium": "video",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a video generation prompt featuring an original science-fiction outpost on a barren moon for [creative_goal].",
+          "scope": "Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity. Use a broad diffused key and restrained fill, restrained amber and charcoal grading, believable materials, and 9:16 framing. Use a coherent fictional lighting model and preserve the outpost geometry. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict an original science-fiction outpost on a barren moon. Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity. Illuminate with a broad diffused key and restrained fill; preserve believable textures and 9:16 composition. Use a coherent fictional lighting model and preserve the outpost geometry.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: video; 9:16; 6-second target, subject to model support.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a video generation prompt featuring an original science-fiction outpost on a barren moon for \"[creative_goal]\". Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity. Use a broad diffused key and restrained fill, restrained amber and charcoal grading, believable materials, and 9:16 framing. Use a coherent fictional lighting model and preserve the outpost geometry. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "an original science-fiction outpost on a barren moon",
+            "camera": "Begin on a tactile close detail, then slowly pull back to reveal the full subject; maintain material continuity.",
+            "lighting": "a broad diffused key and restrained fill",
+            "aspectRatio": "9:16",
+            "durationSeconds": 6,
+            "continuity": "Use a coherent fictional lighting model and preserve the outpost geometry."
+          }
+        },
+        {
+          "id": "environments_25",
+          "title": "Lunar landscape / Editorial hero",
+          "tags": [
+            "environments",
+            "cinematic",
+            "image",
+            "editorial-hero"
+          ],
+          "variant": "editorial-hero",
+          "medium": "image",
+          "roleContext": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated.",
+          "objective": "Write a image generation prompt featuring an original science-fiction outpost on a barren moon for [creative_goal].",
+          "scope": "A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point. Use high-contrast motivated light with readable shadow detail, restrained amber and charcoal grading, believable materials, and 4:5 framing. Use a coherent fictional lighting model and preserve the outpost geometry. Respect [additional_constraints]. For video, plan one shot lasting [duration_seconds] seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool.",
+          "outputFormat": "A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist.",
+          "exampleOutput": "Positive prompt: Depict an original science-fiction outpost on a barren moon. A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point. Illuminate with high-contrast motivated light with readable shadow detail; preserve believable textures and 4:5 composition. Use a coherent fictional lighting model and preserve the outpost geometry.\nAvoid: Flicker, warped anatomy or geometry, unwanted text, random cuts, inconsistent shadows.\nShot spec: image; 4:5; Single editorial still.",
+          "difficultyGuide": {
+            "beginner": "Use one subject, one clear lighting setup, and one still composition or slow camera movement.",
+            "intermediate": "Add lens character, layered staging, motivated lighting, and explicit continuity checks.",
+            "expert": "Specify temporal beats, optical behavior, reference constraints, controlled negative space, and failure criteria without promising unsupported model controls."
+          },
+          "promptText": "Act as a cinematographer and visual prompt director. Prepare a production-ready prompt, not a claim that media has been generated. Write a image generation prompt featuring an original science-fiction outpost on a barren moon for \"[creative_goal]\". A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point. Use high-contrast motivated light with readable shadow detail, restrained amber and charcoal grading, believable materials, and 4:5 framing. Use a coherent fictional lighting model and preserve the outpost geometry. Respect \"[additional_constraints]\". For video, plan one shot lasting \"[duration_seconds]\" seconds and describe opening, movement, and ending; for images, describe a single instant rather than motion over time. If a reference is mentioned, require the authorized reference as an actual input. Do not imply exact model support for duration, controls, seeds, or negative prompts without checking the selected tool. Return: A standalone positive prompt paragraph, an avoid list, a shot specification, and a brief consistency checklist. Use \"[difficulty]\": beginner for one subject and simple staging; intermediate for layered composition and continuity checks; expert for precise optics, temporal beats, and explicit failure criteria. Ask for any missing reference image before claiming reference consistency. Do not invent completed rendering or test results.",
+          "templates": [
+            "[creative_goal]",
+            "[additional_constraints]",
+            "[duration_seconds]",
+            "[difficulty]"
+          ],
+          "cinematography": {
+            "subject": "an original science-fiction outpost on a barren moon",
+            "camera": "A bold editorial still with a strong silhouette, asymmetric balance, and one clear visual focal point.",
+            "lighting": "high-contrast motivated light with readable shadow detail",
+            "aspectRatio": "4:5",
+            "durationSeconds": null,
+            "continuity": "Use a coherent fictional lighting model and preserve the outpost geometry."
+          }
+        }
+      ]
+    }
+  ]
+}
