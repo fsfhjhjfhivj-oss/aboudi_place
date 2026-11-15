@@ -1,0 +1,116 @@
+{
+  "libraryName": "Prompt Milaf",
+  "structuralValidation": "passed",
+  "semanticReviewPerformed": false,
+  "note": "Checks structure, uniqueness, fields, and placeholders only. Examples and output quality are not independently verified. Workflow and shot-treatment variants are intentional.",
+  "totalPrompts": 1000,
+  "totalCategories": 24,
+  "mediumCounts": {
+    "text": 800,
+    "image": 80,
+    "video": 120
+  },
+  "promptTextCharacters": {
+    "min": 809,
+    "median": 1460,
+    "max": 1613
+  },
+  "categories": [
+    {
+      "name": "Creativity",
+      "prompts": 50
+    },
+    {
+      "name": "Coding",
+      "prompts": 50
+    },
+    {
+      "name": "Research",
+      "prompts": 50
+    },
+    {
+      "name": "Learning",
+      "prompts": 50
+    },
+    {
+      "name": "Planning",
+      "prompts": 50
+    },
+    {
+      "name": "Writing",
+      "prompts": 50
+    },
+    {
+      "name": "Analysis",
+      "prompts": 50
+    },
+    {
+      "name": "Troubleshooting",
+      "prompts": 50
+    },
+    {
+      "name": "Business",
+      "prompts": 50
+    },
+    {
+      "name": "Marketing",
+      "prompts": 50
+    },
+    {
+      "name": "Productivity",
+      "prompts": 50
+    },
+    {
+      "name": "Design",
+      "prompts": 50
+    },
+    {
+      "name": "Career",
+      "prompts": 50
+    },
+    {
+      "name": "Leadership",
+      "prompts": 50
+    },
+    {
+      "name": "Customer Support",
+      "prompts": 50
+    },
+    {
+      "name": "Personal Development",
+      "prompts": 50
+    },
+    {
+      "name": "Camera Motion",
+      "prompts": 25
+    },
+    {
+      "name": "Lighting",
+      "prompts": 25
+    },
+    {
+      "name": "Product Ads",
+      "prompts": 25
+    },
+    {
+      "name": "Characters",
+      "prompts": 25
+    },
+    {
+      "name": "Image-to-Video",
+      "prompts": 25
+    },
+    {
+      "name": "Visual Effects",
+      "prompts": 25
+    },
+    {
+      "name": "Fashion Editorial",
+      "prompts": 25
+    },
+    {
+      "name": "Environments",
+      "prompts": 25
+    }
+  ]
+}

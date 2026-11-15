@@ -1,0 +1,1001 @@
+id,title,category,medium,variant,tags,path
+creative_01,Generate 10 distinct ideas for [topic] serving [audience],Creativity,text,original,creativity;original,creativity/prompts.json
+creative_02,Create five story premises in [genre],Creativity,text,original,creativity;original,creativity/prompts.json
+creative_03,Suggest 12 names for [product],Creativity,text,original,creativity;original,creativity/prompts.json
+creative_04,Build a fictional society around [premise],Creativity,text,original,creativity;original,creativity/prompts.json
+creative_05,Develop three campaigns for [offering],Creativity,text,original,creativity;original,creativity/prompts.json
+creative_06,Design a playable game about [theme],Creativity,text,original,creativity;original,creativity/prompts.json
+creative_07,Explain [concept] through five analogies,Creativity,text,original,creativity;original,creativity/prompts.json
+creative_08,Write an original piece about [subject] under [constraint],Creativity,text,original,creativity;original,creativity/prompts.json
+creative_09,Reimagine [service] for [user_group],Creativity,text,original,creativity;original,creativity/prompts.json
+creative_10,Translate [scene] into eight shots conveying [emotion],Creativity,text,original,creativity;original,creativity/prompts.json
+creative_11,Create 10 podcast concepts about [topic] for [audience],Creativity,text,original,creativity;original,creativity/prompts.json
+creative_12,Write three original poems about [subject] in [form],Creativity,text,original,creativity;original,creativity/prompts.json
+creative_13,Develop a character for [story] with [central_conflict],Creativity,text,original,creativity;original,creativity/prompts.json
+creative_14,Create 12 improvisation exercises for [group],Creativity,text,original,creativity;original,creativity/prompts.json
+creative_15,Design an exhibition about [theme] within [space_constraints],Creativity,text,original,creativity;original,creativity/prompts.json
+creative_16,Generate alternative uses for [object] under [constraints],Creativity,text,original,creativity;original,creativity/prompts.json
+creative_17,Create a seven-day creative challenge around [medium],Creativity,text,original,creativity;original,creativity/prompts.json
+creative_18,Design an interactive fictional mystery for [participants],Creativity,text,original,creativity;original,creativity/prompts.json
+creative_19,Write six image-generation prompts for [subject] with [visual_goal],Creativity,text,original,creativity;original,creativity/prompts.json
+creative_20,Reframe [problem] through six different lenses,Creativity,text,original,creativity;original,creativity/prompts.json
+creative_21,Album concept — Create a first usable version,Creativity,text,create,creative;create;album-concept,creativity/prompts.json
+creative_22,Album concept — Review an existing version,Creativity,text,review,creative;review;album-concept,creativity/prompts.json
+creative_23,Album concept — Improve an existing version,Creativity,text,revise,creative;revise;album-concept,creativity/prompts.json
+creative_24,Public installation — Create a first usable version,Creativity,text,create,creative;create;public-installation,creativity/prompts.json
+creative_25,Public installation — Review an existing version,Creativity,text,review,creative;review;public-installation,creativity/prompts.json
+creative_26,Public installation — Improve an existing version,Creativity,text,revise,creative;revise;public-installation,creativity/prompts.json
+creative_27,Comic sequence — Create a first usable version,Creativity,text,create,creative;create;comic-sequence,creativity/prompts.json
+creative_28,Comic sequence — Review an existing version,Creativity,text,review,creative;review;comic-sequence,creativity/prompts.json
+creative_29,Comic sequence — Improve an existing version,Creativity,text,revise,creative;revise;comic-sequence,creativity/prompts.json
+creative_30,Creative collaboration — Create a first usable version,Creativity,text,create,creative;create;creative-collaboration,creativity/prompts.json
+creative_31,Creative collaboration — Review an existing version,Creativity,text,review,creative;review;creative-collaboration,creativity/prompts.json
+creative_32,Creative collaboration — Improve an existing version,Creativity,text,revise,creative;revise;creative-collaboration,creativity/prompts.json
+creative_33,Alternative ending — Create a first usable version,Creativity,text,create,creative;create;alternative-ending,creativity/prompts.json
+creative_34,Alternative ending — Review an existing version,Creativity,text,review,creative;review;alternative-ending,creativity/prompts.json
+creative_35,Alternative ending — Improve an existing version,Creativity,text,revise,creative;revise;alternative-ending,creativity/prompts.json
+creative_36,Festival concept — Create a first usable version,Creativity,text,create,creative;create;festival-concept,creativity/prompts.json
+creative_37,Festival concept — Review an existing version,Creativity,text,review,creative;review;festival-concept,creativity/prompts.json
+creative_38,Festival concept — Improve an existing version,Creativity,text,revise,creative;revise;festival-concept,creativity/prompts.json
+creative_39,Invented language — Create a first usable version,Creativity,text,create,creative;create;invented-language,creativity/prompts.json
+creative_40,Invented language — Review an existing version,Creativity,text,review,creative;review;invented-language,creativity/prompts.json
+creative_41,Invented language — Improve an existing version,Creativity,text,revise,creative;revise;invented-language,creativity/prompts.json
+creative_42,Object storytelling — Create a first usable version,Creativity,text,create,creative;create;object-storytelling,creativity/prompts.json
+creative_43,Object storytelling — Review an existing version,Creativity,text,review,creative;review;object-storytelling,creativity/prompts.json
+creative_44,Object storytelling — Improve an existing version,Creativity,text,revise,creative;revise;object-storytelling,creativity/prompts.json
+creative_45,Interactive narrative — Create a first usable version,Creativity,text,create,creative;create;interactive-narrative,creativity/prompts.json
+creative_46,Interactive narrative — Review an existing version,Creativity,text,review,creative;review;interactive-narrative,creativity/prompts.json
+creative_47,Interactive narrative — Improve an existing version,Creativity,text,revise,creative;revise;interactive-narrative,creativity/prompts.json
+creative_48,Creative remix — Create a first usable version,Creativity,text,create,creative;create;creative-remix,creativity/prompts.json
+creative_49,Creative remix — Review an existing version,Creativity,text,review,creative;review;creative-remix,creativity/prompts.json
+creative_50,Creative remix — Improve an existing version,Creativity,text,revise,creative;revise;creative-remix,creativity/prompts.json
+coding_01,Implement [feature] in [language],Coding,text,original,coding;original,coding/prompts.json
+coding_02,Diagnose [error] in [code],Coding,text,original,coding;original,coding/prompts.json
+coding_03,Review [code] for correctness and maintainability,Coding,text,original,coding;original,coding/prompts.json
+coding_04,Create tests for [module] using [framework],Coding,text,original,coding;original,coding/prompts.json
+coding_05,Design an API for [domain],Coding,text,original,coding;original,coding/prompts.json
+coding_06,Answer [question] using [schema],Coding,text,original,coding;original,coding/prompts.json
+coding_07,Refactor [code] without changing documented behavior,Coding,text,original,coding;original,coding/prompts.json
+coding_08,Review [component] within [authorized_scope],Coding,text,original,coding;original,coding/prompts.json
+coding_09,Improve [program] against [target],Coding,text,original,coding;original,coding/prompts.json
+coding_10,Document [module] for [audience],Coding,text,original,coding;original,coding/prompts.json
+coding_11,Build a CLI for [task] in [language],Coding,text,original,coding;original,coding/prompts.json
+coding_12,Plan migration from [current_system] to [target_system],Coding,text,original,coding;original,coding/prompts.json
+coding_13,Write a parser for [input_format] producing [output_schema],Coding,text,original,coding;original,coding/prompts.json
+coding_14,Design safe concurrent processing for [workload],Coding,text,original,coding;original,coding/prompts.json
+coding_15,Assess dependencies in [manifest],Coding,text,original,coding;original,coding/prompts.json
+coding_16,Design configuration handling for [application],Coding,text,original,coding;original,coding/prompts.json
+coding_17,Compare algorithms for [problem],Coding,text,original,coding;original,coding/prompts.json
+coding_18,Add observability to [service],Coding,text,original,coding;original,coding/prompts.json
+coding_19,Improve accessibility of [component],Coding,text,original,coding;original,coding/prompts.json
+coding_20,Propose an architecture for [application] under [constraints],Coding,text,original,coding;original,coding/prompts.json
+coding_21,File importer — Create a first usable version,Coding,text,create,coding;create;file-importer,coding/prompts.json
+coding_22,File importer — Review an existing version,Coding,text,review,coding;review;file-importer,coding/prompts.json
+coding_23,File importer — Improve an existing version,Coding,text,revise,coding;revise;file-importer,coding/prompts.json
+coding_24,Webhook handler — Create a first usable version,Coding,text,create,coding;create;webhook-handler,coding/prompts.json
+coding_25,Webhook handler — Review an existing version,Coding,text,review,coding;review;webhook-handler,coding/prompts.json
+coding_26,Webhook handler — Improve an existing version,Coding,text,revise,coding;revise;webhook-handler,coding/prompts.json
+coding_27,Feature flag — Create a first usable version,Coding,text,create,coding;create;feature-flag,coding/prompts.json
+coding_28,Feature flag — Review an existing version,Coding,text,review,coding;review;feature-flag,coding/prompts.json
+coding_29,Feature flag — Improve an existing version,Coding,text,revise,coding;revise;feature-flag,coding/prompts.json
+coding_30,Cache policy — Create a first usable version,Coding,text,create,coding;create;cache-policy,coding/prompts.json
+coding_31,Cache policy — Review an existing version,Coding,text,review,coding;review;cache-policy,coding/prompts.json
+coding_32,Cache policy — Improve an existing version,Coding,text,revise,coding;revise;cache-policy,coding/prompts.json
+coding_33,Background job — Create a first usable version,Coding,text,create,coding;create;background-job,coding/prompts.json
+coding_34,Background job — Review an existing version,Coding,text,review,coding;review;background-job,coding/prompts.json
+coding_35,Background job — Improve an existing version,Coding,text,revise,coding;revise;background-job,coding/prompts.json
+coding_36,Serialization — Create a first usable version,Coding,text,create,coding;create;serialization,coding/prompts.json
+coding_37,Serialization — Review an existing version,Coding,text,review,coding;review;serialization,coding/prompts.json
+coding_38,Serialization — Improve an existing version,Coding,text,revise,coding;revise;serialization,coding/prompts.json
+coding_39,Search function — Create a first usable version,Coding,text,create,coding;create;search-function,coding/prompts.json
+coding_40,Search function — Review an existing version,Coding,text,review,coding;review;search-function,coding/prompts.json
+coding_41,Search function — Improve an existing version,Coding,text,revise,coding;revise;search-function,coding/prompts.json
+coding_42,Permission model — Create a first usable version,Coding,text,create,coding;create;permission-model,coding/prompts.json
+coding_43,Permission model — Review an existing version,Coding,text,review,coding;review;permission-model,coding/prompts.json
+coding_44,Permission model — Improve an existing version,Coding,text,revise,coding;revise;permission-model,coding/prompts.json
+coding_45,Repository automation — Create a first usable version,Coding,text,create,coding;create;repository-automation,coding/prompts.json
+coding_46,Repository automation — Review an existing version,Coding,text,review,coding;review;repository-automation,coding/prompts.json
+coding_47,Repository automation — Improve an existing version,Coding,text,revise,coding;revise;repository-automation,coding/prompts.json
+coding_48,Error taxonomy — Create a first usable version,Coding,text,create,coding;create;error-taxonomy,coding/prompts.json
+coding_49,Error taxonomy — Review an existing version,Coding,text,review,coding;review;error-taxonomy,coding/prompts.json
+coding_50,Error taxonomy — Improve an existing version,Coding,text,revise,coding;revise;error-taxonomy,coding/prompts.json
+research_01,Turn [topic] into a focused research question,Research,text,original,research;original,research/prompts.json
+research_02,Design a search strategy for [question],Research,text,original,research;original,research/prompts.json
+research_03,Synthesize [provided_sources] on [question],Research,text,original,research;original,research/prompts.json
+research_04,Evaluate [source] for use in [project],Research,text,original,research;original,research/prompts.json
+research_05,Develop testable hypotheses about [phenomenon],Research,text,original,research;original,research/prompts.json
+research_06,Create an interview guide for [participants] about [topic],Research,text,original,research;original,research/prompts.json
+research_07,Draft a survey measuring [construct],Research,text,original,research;original,research/prompts.json
+research_08,Design a study testing [intervention],Research,text,original,research;original,research/prompts.json
+research_09,Identify gaps in [evidence_collection],Research,text,original,research;original,research/prompts.json
+research_10,Summarize evidence for [decision],Research,text,original,research;original,research/prompts.json
+research_11,Draft a review protocol for [question],Research,text,original,research;original,research/prompts.json
+research_12,Identify ethical issues in [study],Research,text,original,research;original,research/prompts.json
+research_13,Verify claims in [text] using [sources],Research,text,original,research;original,research/prompts.json
+research_14,Investigate [historical_question] from [materials],Research,text,original,research;original,research/prompts.json
+research_15,Create a data management plan for [project],Research,text,original,research;original,research/prompts.json
+research_16,Design a mixed-methods study of [phenomenon],Research,text,original,research;original,research/prompts.json
+research_17,Plan a replication of [study],Research,text,original,research;original,research/prompts.json
+research_18,Assess whether [claim] follows from [study_design],Research,text,original,research;original,research/prompts.json
+research_19,Turn [findings] into a research presentation outline for [audience],Research,text,original,research;original,research/prompts.json
+research_20,Outline a research grant for [project],Research,text,original,research;original,research/prompts.json
+research_21,Observation protocol — Create a first usable version,Research,text,create,research;create;observation-protocol,research/prompts.json
+research_22,Observation protocol — Review an existing version,Research,text,review,research;review;observation-protocol,research/prompts.json
+research_23,Observation protocol — Improve an existing version,Research,text,revise,research;revise;observation-protocol,research/prompts.json
+research_24,Citation audit — Create a first usable version,Research,text,create,research;create;citation-audit,research/prompts.json
+research_25,Citation audit — Review an existing version,Research,text,review,research;review;citation-audit,research/prompts.json
+research_26,Citation audit — Improve an existing version,Research,text,revise,research;revise;citation-audit,research/prompts.json
+research_27,Concept definition — Create a first usable version,Research,text,create,research;create;concept-definition,research/prompts.json
+research_28,Concept definition — Review an existing version,Research,text,review,research;review;concept-definition,research/prompts.json
+research_29,Concept definition — Improve an existing version,Research,text,revise,research;revise;concept-definition,research/prompts.json
+research_30,Sampling strategy — Create a first usable version,Research,text,create,research;create;sampling-strategy,research/prompts.json
+research_31,Sampling strategy — Review an existing version,Research,text,review,research;review;sampling-strategy,research/prompts.json
+research_32,Sampling strategy — Improve an existing version,Research,text,revise,research;revise;sampling-strategy,research/prompts.json
+research_33,Pilot study — Create a first usable version,Research,text,create,research;create;pilot-study,research/prompts.json
+research_34,Pilot study — Review an existing version,Research,text,review,research;review;pilot-study,research/prompts.json
+research_35,Pilot study — Improve an existing version,Research,text,revise,research;revise;pilot-study,research/prompts.json
+research_36,Evidence disagreement — Create a first usable version,Research,text,create,research;create;evidence-disagreement,research/prompts.json
+research_37,Evidence disagreement — Review an existing version,Research,text,review,research;review;evidence-disagreement,research/prompts.json
+research_38,Evidence disagreement — Improve an existing version,Research,text,revise,research;revise;evidence-disagreement,research/prompts.json
+research_39,Archival plan — Create a first usable version,Research,text,create,research;create;archival-plan,research/prompts.json
+research_40,Archival plan — Review an existing version,Research,text,review,research;review;archival-plan,research/prompts.json
+research_41,Archival plan — Improve an existing version,Research,text,revise,research;revise;archival-plan,research/prompts.json
+research_42,Preregistration — Create a first usable version,Research,text,create,research;create;preregistration,research/prompts.json
+research_43,Preregistration — Review an existing version,Research,text,review,research;review;preregistration,research/prompts.json
+research_44,Preregistration — Improve an existing version,Research,text,revise,research;revise;preregistration,research/prompts.json
+research_45,Research limitations — Create a first usable version,Research,text,create,research;create;research-limitations,research/prompts.json
+research_46,Research limitations — Review an existing version,Research,text,review,research;review;research-limitations,research/prompts.json
+research_47,Research limitations — Improve an existing version,Research,text,revise,research;revise;research-limitations,research/prompts.json
+research_48,Public research summary — Create a first usable version,Research,text,create,research;create;public-research-summary,research/prompts.json
+research_49,Public research summary — Review an existing version,Research,text,review,research;review;public-research-summary,research/prompts.json
+research_50,Public research summary — Improve an existing version,Research,text,revise,research;revise;public-research-summary,research/prompts.json
+learning_01,Explain [concept] to [learner_level],Learning,text,original,learning;original,learning/prompts.json
+learning_02,Create a roadmap for learning [skill],Learning,text,original,learning;original,learning/prompts.json
+learning_03,Guide me through [problem] without immediately revealing the answer,Learning,text,original,learning;original,learning/prompts.json
+learning_04,Create exercises for [topic],Learning,text,original,learning;original,learning/prompts.json
+learning_05,Create flashcards from [material],Learning,text,original,learning;original,learning/prompts.json
+learning_06,Identify likely misconceptions about [topic],Learning,text,original,learning;original,learning/prompts.json
+learning_07,Demonstrate how to solve [problem_type],Learning,text,original,learning;original,learning/prompts.json
+learning_08,Create a rubric for [assignment],Learning,text,original,learning;original,learning/prompts.json
+learning_09,Build a retrieval-practice schedule for [exam],Learning,text,original,learning;original,learning/prompts.json
+learning_10,Evaluate my explanation of [concept],Learning,text,original,learning;original,learning/prompts.json
+learning_11,Create a conversation lesson for [language] about [situation],Learning,text,original,learning;original,learning/prompts.json
+learning_12,Diagnose mistakes in [solution],Learning,text,original,learning;original,learning/prompts.json
+learning_13,Build a comprehension lesson from [passage],Learning,text,original,learning;original,learning/prompts.json
+learning_14,Design a practical project for learning [skill],Learning,text,original,learning;original,learning/prompts.json
+learning_15,Run a mock oral exam on [topic],Learning,text,original,learning;original,learning/prompts.json
+learning_16,Create mnemonics for [material],Learning,text,original,learning;original,learning/prompts.json
+learning_17,Connect [concept_a] and [concept_b],Learning,text,original,learning;original,learning/prompts.json
+learning_18,Review my learning progress using [study_log],Learning,text,original,learning;original,learning/prompts.json
+learning_19,Teach me to interpret [chart_or_table],Learning,text,original,learning;original,learning/prompts.json
+learning_20,Create a deliberate-practice routine for [skill],Learning,text,original,learning;original,learning/prompts.json
+learning_21,Historical reasoning — Create a first usable version,Learning,text,create,learning;create;historical-reasoning,learning/prompts.json
+learning_22,Historical reasoning — Review an existing version,Learning,text,review,learning;review;historical-reasoning,learning/prompts.json
+learning_23,Historical reasoning — Improve an existing version,Learning,text,revise,learning;revise;historical-reasoning,learning/prompts.json
+learning_24,Scientific reasoning — Create a first usable version,Learning,text,create,learning;create;scientific-reasoning,learning/prompts.json
+learning_25,Scientific reasoning — Review an existing version,Learning,text,review,learning;review;scientific-reasoning,learning/prompts.json
+learning_26,Scientific reasoning — Improve an existing version,Learning,text,revise,learning;revise;scientific-reasoning,learning/prompts.json
+learning_27,Debugging practice — Create a first usable version,Learning,text,create,learning;create;debugging-practice,learning/prompts.json
+learning_28,Debugging practice — Review an existing version,Learning,text,review,learning;review;debugging-practice,learning/prompts.json
+learning_29,Debugging practice — Improve an existing version,Learning,text,revise,learning;revise;debugging-practice,learning/prompts.json
+learning_30,Writing practice — Create a first usable version,Learning,text,create,learning;create;writing-practice,learning/prompts.json
+learning_31,Writing practice — Review an existing version,Learning,text,review,learning;review;writing-practice,learning/prompts.json
+learning_32,Writing practice — Improve an existing version,Learning,text,revise,learning;revise;writing-practice,learning/prompts.json
+learning_33,Lab preparation — Create a first usable version,Learning,text,create,learning;create;lab-preparation,learning/prompts.json
+learning_34,Lab preparation — Review an existing version,Learning,text,review,learning;review;lab-preparation,learning/prompts.json
+learning_35,Lab preparation — Improve an existing version,Learning,text,revise,learning;revise;lab-preparation,learning/prompts.json
+learning_36,Exam wrapper — Create a first usable version,Learning,text,create,learning;create;exam-wrapper,learning/prompts.json
+learning_37,Exam wrapper — Review an existing version,Learning,text,review,learning;review;exam-wrapper,learning/prompts.json
+learning_38,Exam wrapper — Improve an existing version,Learning,text,revise,learning;revise;exam-wrapper,learning/prompts.json
+learning_39,Peer teaching — Create a first usable version,Learning,text,create,learning;create;peer-teaching,learning/prompts.json
+learning_40,Peer teaching — Review an existing version,Learning,text,review,learning;review;peer-teaching,learning/prompts.json
+learning_41,Peer teaching — Improve an existing version,Learning,text,revise,learning;revise;peer-teaching,learning/prompts.json
+learning_42,Learning transfer — Create a first usable version,Learning,text,create,learning;create;learning-transfer,learning/prompts.json
+learning_43,Learning transfer — Review an existing version,Learning,text,review,learning;review;learning-transfer,learning/prompts.json
+learning_44,Learning transfer — Improve an existing version,Learning,text,revise,learning;revise;learning-transfer,learning/prompts.json
+learning_45,Concept map — Create a first usable version,Learning,text,create,learning;create;concept-map,learning/prompts.json
+learning_46,Concept map — Review an existing version,Learning,text,review,learning;review;concept-map,learning/prompts.json
+learning_47,Concept map — Improve an existing version,Learning,text,revise,learning;revise;concept-map,learning/prompts.json
+learning_48,Feedback literacy — Create a first usable version,Learning,text,create,learning;create;feedback-literacy,learning/prompts.json
+learning_49,Feedback literacy — Review an existing version,Learning,text,review,learning;review;feedback-literacy,learning/prompts.json
+learning_50,Feedback literacy — Improve an existing version,Learning,text,revise,learning;revise;feedback-literacy,learning/prompts.json
+planning_01,Plan [project] by [deadline],Planning,text,original,planning;original,planning/prompts.json
+planning_02,Schedule [tasks] within [available_hours],Planning,text,original,planning;original,planning/prompts.json
+planning_03,Turn [goal] into measurable actions,Planning,text,original,planning;original,planning/prompts.json
+planning_04,Identify risks for [initiative],Planning,text,original,planning;original,planning/prompts.json
+planning_05,Design a meeting to achieve [decision],Planning,text,original,planning;original,planning/prompts.json
+planning_06,Plan [event] for [attendance],Planning,text,original,planning;original,planning/prompts.json
+planning_07,Prioritize a roadmap for [product],Planning,text,original,planning;original,planning/prompts.json
+planning_08,Prepare for [disruption],Planning,text,original,planning;original,planning/prompts.json
+planning_09,Plan a decision about [choice],Planning,text,original,planning;original,planning/prompts.json
+planning_10,Create a sustainable plan for [habit],Planning,text,original,planning;original,planning/prompts.json
+planning_11,Plan the launch of [offering] by [deadline],Planning,text,original,planning;original,planning/prompts.json
+planning_12,Allocate [resources] across [projects],Planning,text,original,planning;original,planning/prompts.json
+planning_13,Plan a workshop about [topic] for [participants],Planning,text,original,planning;original,planning/prompts.json
+planning_14,Create an onboarding plan for [role],Planning,text,original,planning;original,planning/prompts.json
+planning_15,Plan a handover of [responsibility],Planning,text,original,planning;original,planning/prompts.json
+planning_16,Plan a volunteer program for [cause],Planning,text,original,planning;original,planning/prompts.json
+planning_17,Plan the organization of [space],Planning,text,original,planning;original,planning/prompts.json
+planning_18,Create a quarterly strategy for [team],Planning,text,original,planning;original,planning/prompts.json
+planning_19,Prepare a negotiation about [issue],Planning,text,original,planning;original,planning/prompts.json
+planning_20,Plan a practical improvement to [operation],Planning,text,original,planning;original,planning/prompts.json
+planning_21,Research sprint — Create a first usable version,Planning,text,create,planning;create;research-sprint,planning/prompts.json
+planning_22,Research sprint — Review an existing version,Planning,text,review,planning;review;research-sprint,planning/prompts.json
+planning_23,Research sprint — Improve an existing version,Planning,text,revise,planning;revise;research-sprint,planning/prompts.json
+planning_24,Content calendar — Create a first usable version,Planning,text,create,planning;create;content-calendar,planning/prompts.json
+planning_25,Content calendar — Review an existing version,Planning,text,review,planning;review;content-calendar,planning/prompts.json
+planning_26,Content calendar — Improve an existing version,Planning,text,revise,planning;revise;content-calendar,planning/prompts.json
+planning_27,Maintenance calendar — Create a first usable version,Planning,text,create,planning;create;maintenance-calendar,planning/prompts.json
+planning_28,Maintenance calendar — Review an existing version,Planning,text,review,planning;review;maintenance-calendar,planning/prompts.json
+planning_29,Maintenance calendar — Improve an existing version,Planning,text,revise,planning;revise;maintenance-calendar,planning/prompts.json
+planning_30,Study group — Create a first usable version,Planning,text,create,planning;create;study-group,planning/prompts.json
+planning_31,Study group — Review an existing version,Planning,text,review,planning;review;study-group,planning/prompts.json
+planning_32,Study group — Improve an existing version,Planning,text,revise,planning;revise;study-group,planning/prompts.json
+planning_33,Move coordination — Create a first usable version,Planning,text,create,planning;create;move-coordination,planning/prompts.json
+planning_34,Move coordination — Review an existing version,Planning,text,review,planning;review;move-coordination,planning/prompts.json
+planning_35,Move coordination — Improve an existing version,Planning,text,revise,planning;revise;move-coordination,planning/prompts.json
+planning_36,Decision review — Create a first usable version,Planning,text,create,planning;create;decision-review,planning/prompts.json
+planning_37,Decision review — Review an existing version,Planning,text,review,planning;review;decision-review,planning/prompts.json
+planning_38,Decision review — Improve an existing version,Planning,text,revise,planning;revise;decision-review,planning/prompts.json
+planning_39,Volunteer rota — Create a first usable version,Planning,text,create,planning;create;volunteer-rota,planning/prompts.json
+planning_40,Volunteer rota — Review an existing version,Planning,text,review,planning;review;volunteer-rota,planning/prompts.json
+planning_41,Volunteer rota — Improve an existing version,Planning,text,revise,planning;revise;volunteer-rota,planning/prompts.json
+planning_42,Budget process — Create a first usable version,Planning,text,create,planning;create;budget-process,planning/prompts.json
+planning_43,Budget process — Review an existing version,Planning,text,review,planning;review;budget-process,planning/prompts.json
+planning_44,Budget process — Improve an existing version,Planning,text,revise,planning;revise;budget-process,planning/prompts.json
+planning_45,Seasonal preparation — Create a first usable version,Planning,text,create,planning;create;seasonal-preparation,planning/prompts.json
+planning_46,Seasonal preparation — Review an existing version,Planning,text,review,planning;review;seasonal-preparation,planning/prompts.json
+planning_47,Seasonal preparation — Improve an existing version,Planning,text,revise,planning;revise;seasonal-preparation,planning/prompts.json
+planning_48,Exit plan — Create a first usable version,Planning,text,create,planning;create;exit-plan,planning/prompts.json
+planning_49,Exit plan — Review an existing version,Planning,text,review,planning;review;exit-plan,planning/prompts.json
+planning_50,Exit plan — Improve an existing version,Planning,text,revise,planning;revise;exit-plan,planning/prompts.json
+writing_01,Write an article about [topic] for [audience],Writing,text,original,writing;original,writing/prompts.json
+writing_02,Draft an email to [recipient] about [purpose],Writing,text,original,writing;original,writing/prompts.json
+writing_03,Rewrite [text] for clarity while preserving meaning,Writing,text,original,writing;original,writing/prompts.json
+writing_04,Summarize [document] for [decision_maker],Writing,text,original,writing;original,writing/prompts.json
+writing_05,Draft a proposal for [initiative],Writing,text,original,writing;original,writing/prompts.json
+writing_06,Outline a piece about [topic],Writing,text,original,writing;original,writing/prompts.json
+writing_07,Adapt [text] to [style_attributes],Writing,text,original,writing;original,writing/prompts.json
+writing_08,Write instructions for [task],Writing,text,original,writing;original,writing/prompts.json
+writing_09,Create copy variants for [offering] on [channel],Writing,text,original,writing;original,writing/prompts.json
+writing_10,Critique [draft] for [purpose],Writing,text,original,writing;original,writing/prompts.json
+writing_11,Write a speech about [topic] for [occasion],Writing,text,original,writing;original,writing/prompts.json
+writing_12,Rewrite my resume bullets for [target_role] using [experience],Writing,text,original,writing;original,writing/prompts.json
+writing_13,Write a cover letter for [job_description] using [background],Writing,text,original,writing;original,writing/prompts.json
+writing_14,Write release notes from [changes],Writing,text,original,writing;original,writing/prompts.json
+writing_15,Draft a response to [customer_message],Writing,text,original,writing;original,writing/prompts.json
+writing_16,Create an FAQ for [product_or_process] using [source_material],Writing,text,original,writing;original,writing/prompts.json
+writing_17,Turn [notes] into a coherent nonfiction narrative,Writing,text,original,writing;original,writing/prompts.json
+writing_18,Write interface text for [user_flow],Writing,text,original,writing;original,writing/prompts.json
+writing_19,Write an abstract from [paper],Writing,text,original,writing;original,writing/prompts.json
+writing_20,Rewrite [dialogue] to reveal [relationship_dynamic],Writing,text,original,writing;original,writing/prompts.json
+writing_21,Newsletter — Create a first usable version,Writing,text,create,writing;create;newsletter,writing/prompts.json
+writing_22,Newsletter — Review an existing version,Writing,text,review,writing;review;newsletter,writing/prompts.json
+writing_23,Newsletter — Improve an existing version,Writing,text,revise,writing;revise;newsletter,writing/prompts.json
+writing_24,Case study — Create a first usable version,Writing,text,create,writing;create;case-study,writing/prompts.json
+writing_25,Case study — Review an existing version,Writing,text,review,writing;review;case-study,writing/prompts.json
+writing_26,Case study — Improve an existing version,Writing,text,revise,writing;revise;case-study,writing/prompts.json
+writing_27,Apology — Create a first usable version,Writing,text,create,writing;create;apology,writing/prompts.json
+writing_28,Apology — Review an existing version,Writing,text,review,writing;review;apology,writing/prompts.json
+writing_29,Apology — Improve an existing version,Writing,text,revise,writing;revise;apology,writing/prompts.json
+writing_30,Invitation — Create a first usable version,Writing,text,create,writing;create;invitation,writing/prompts.json
+writing_31,Invitation — Review an existing version,Writing,text,review,writing;review;invitation,writing/prompts.json
+writing_32,Invitation — Improve an existing version,Writing,text,revise,writing;revise;invitation,writing/prompts.json
+writing_33,Policy explanation — Create a first usable version,Writing,text,create,writing;create;policy-explanation,writing/prompts.json
+writing_34,Policy explanation — Review an existing version,Writing,text,review,writing;review;policy-explanation,writing/prompts.json
+writing_35,Policy explanation — Improve an existing version,Writing,text,revise,writing;revise;policy-explanation,writing/prompts.json
+writing_36,Recommendation letter — Create a first usable version,Writing,text,create,writing;create;recommendation-letter,writing/prompts.json
+writing_37,Recommendation letter — Review an existing version,Writing,text,review,writing;review;recommendation-letter,writing/prompts.json
+writing_38,Recommendation letter — Improve an existing version,Writing,text,revise,writing;revise;recommendation-letter,writing/prompts.json
+writing_39,Scene description — Create a first usable version,Writing,text,create,writing;create;scene-description,writing/prompts.json
+writing_40,Scene description — Review an existing version,Writing,text,review,writing;review;scene-description,writing/prompts.json
+writing_41,Scene description — Improve an existing version,Writing,text,revise,writing;revise;scene-description,writing/prompts.json
+writing_42,Editing checklist — Create a first usable version,Writing,text,create,writing;create;editing-checklist,writing/prompts.json
+writing_43,Editing checklist — Review an existing version,Writing,text,review,writing;review;editing-checklist,writing/prompts.json
+writing_44,Editing checklist — Improve an existing version,Writing,text,revise,writing;revise;editing-checklist,writing/prompts.json
+writing_45,Social post — Create a first usable version,Writing,text,create,writing;create;social-post,writing/prompts.json
+writing_46,Social post — Review an existing version,Writing,text,review,writing;review;social-post,writing/prompts.json
+writing_47,Social post — Improve an existing version,Writing,text,revise,writing;revise;social-post,writing/prompts.json
+writing_48,Interview profile — Create a first usable version,Writing,text,create,writing;create;interview-profile,writing/prompts.json
+writing_49,Interview profile — Review an existing version,Writing,text,review,writing;review;interview-profile,writing/prompts.json
+writing_50,Interview profile — Improve an existing version,Writing,text,revise,writing;revise;interview-profile,writing/prompts.json
+analysis_01,Explore [dataset] to answer [question],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_02,Compare [options] against [criteria],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_03,Analyze causes of [problem] using [evidence],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_04,Analyze trends in [series],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_05,Compare [segments] on [metric],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_06,Evaluate [hypothesis] using [data],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_07,Model outcomes for [decision] under [assumptions],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_08,Analyze themes in [responses],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_09,Define KPIs for [objective],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_10,Recommend visualizations for [data] and [audience],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_11,Audit [dataset] against [rules],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_12,Analyze retention in [activity_data],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_13,Analyze conversion through [funnel_steps],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_14,Build a forecast for [series] over [horizon],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_15,Investigate unusual observations in [data],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_16,Calculate unit economics from [inputs],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_17,Analyze geographic patterns in [location_data],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_18,Analyze text patterns in [corpus],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_19,Evaluate whether [program] achieved [goals],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_20,Assess uncertainty in [estimate],Analysis,text,original,analysis;original,analysis/prompts.json
+analysis_21,Missing data — Create a first usable version,Analysis,text,create,analysis;create;missing-data,analysis/prompts.json
+analysis_22,Missing data — Review an existing version,Analysis,text,review,analysis;review;missing-data,analysis/prompts.json
+analysis_23,Missing data — Improve an existing version,Analysis,text,revise,analysis;revise;missing-data,analysis/prompts.json
+analysis_24,Denominator audit — Create a first usable version,Analysis,text,create,analysis;create;denominator-audit,analysis/prompts.json
+analysis_25,Denominator audit — Review an existing version,Analysis,text,review,analysis;review;denominator-audit,analysis/prompts.json
+analysis_26,Denominator audit — Improve an existing version,Analysis,text,revise,analysis;revise;denominator-audit,analysis/prompts.json
+analysis_27,Sampling bias — Create a first usable version,Analysis,text,create,analysis;create;sampling-bias,analysis/prompts.json
+analysis_28,Sampling bias — Review an existing version,Analysis,text,review,analysis;review;sampling-bias,analysis/prompts.json
+analysis_29,Sampling bias — Improve an existing version,Analysis,text,revise,analysis;revise;sampling-bias,analysis/prompts.json
+analysis_30,Sensitivity check — Create a first usable version,Analysis,text,create,analysis;create;sensitivity-check,analysis/prompts.json
+analysis_31,Sensitivity check — Review an existing version,Analysis,text,review,analysis;review;sensitivity-check,analysis/prompts.json
+analysis_32,Sensitivity check — Improve an existing version,Analysis,text,revise,analysis;revise;sensitivity-check,analysis/prompts.json
+analysis_33,Reproducibility — Create a first usable version,Analysis,text,create,analysis;create;reproducibility,analysis/prompts.json
+analysis_34,Reproducibility — Review an existing version,Analysis,text,review,analysis;review;reproducibility,analysis/prompts.json
+analysis_35,Reproducibility — Improve an existing version,Analysis,text,revise,analysis;revise;reproducibility,analysis/prompts.json
+analysis_36,Outlier influence — Create a first usable version,Analysis,text,create,analysis;create;outlier-influence,analysis/prompts.json
+analysis_37,Outlier influence — Review an existing version,Analysis,text,review,analysis;review;outlier-influence,analysis/prompts.json
+analysis_38,Outlier influence — Improve an existing version,Analysis,text,revise,analysis;revise;outlier-influence,analysis/prompts.json
+analysis_39,Survey weighting — Create a first usable version,Analysis,text,create,analysis;create;survey-weighting,analysis/prompts.json
+analysis_40,Survey weighting — Review an existing version,Analysis,text,review,analysis;review;survey-weighting,analysis/prompts.json
+analysis_41,Survey weighting — Improve an existing version,Analysis,text,revise,analysis;revise;survey-weighting,analysis/prompts.json
+analysis_42,Experiment integrity — Create a first usable version,Analysis,text,create,analysis;create;experiment-integrity,analysis/prompts.json
+analysis_43,Experiment integrity — Review an existing version,Analysis,text,review,analysis;review;experiment-integrity,analysis/prompts.json
+analysis_44,Experiment integrity — Improve an existing version,Analysis,text,revise,analysis;revise;experiment-integrity,analysis/prompts.json
+analysis_45,Inventory patterns — Create a first usable version,Analysis,text,create,analysis;create;inventory-patterns,analysis/prompts.json
+analysis_46,Inventory patterns — Review an existing version,Analysis,text,review,analysis;review;inventory-patterns,analysis/prompts.json
+analysis_47,Inventory patterns — Improve an existing version,Analysis,text,revise,analysis;revise;inventory-patterns,analysis/prompts.json
+analysis_48,Time allocation — Create a first usable version,Analysis,text,create,analysis;create;time-allocation,analysis/prompts.json
+analysis_49,Time allocation — Review an existing version,Analysis,text,review,analysis;review;time-allocation,analysis/prompts.json
+analysis_50,Time allocation — Improve an existing version,Analysis,text,revise,analysis;revise;time-allocation,analysis/prompts.json
+troubleshooting_01,Troubleshoot [symptom] in [application],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_02,Diagnose [connectivity_problem],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_03,Diagnose [pipeline_failure] using [logs],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_04,Fix [formula_problem] in [workbook_context],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_05,Diagnose [build_error] in [environment],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_06,Investigate [model_symptom] using [evaluation_data],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_07,Diagnose [rendering_problem] in [browser_context],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_08,Troubleshoot [device_symptom] safely,Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_09,Diagnose delays in [workflow],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_10,Write a blameless review of [incident],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_11,Troubleshoot [login_problem] for [service],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_12,Investigate [delivery_issue] using [redacted_headers_or_errors],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_13,Investigate low storage on [system],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_14,Plan recovery from [data_loss_scenario],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_15,Diagnose [api_error] in [integration],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_16,Resolve [package_conflict] in [environment],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_17,Investigate [metric_discrepancy] between [reports],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_18,Diagnose [call_quality_issue] in [setup],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_19,Troubleshoot [automation_failure] using [run_history],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_20,Diagnose [printing_issue] on [device],Troubleshooting,text,original,troubleshooting;original,troubleshooting/prompts.json
+troubleshooting_21,Permission failure — Create a first usable version,Troubleshooting,text,create,troubleshooting;create;permission-failure,troubleshooting/prompts.json
+troubleshooting_22,Permission failure — Review an existing version,Troubleshooting,text,review,troubleshooting;review;permission-failure,troubleshooting/prompts.json
+troubleshooting_23,Permission failure — Improve an existing version,Troubleshooting,text,revise,troubleshooting;revise;permission-failure,troubleshooting/prompts.json
+troubleshooting_24,Sync conflict — Create a first usable version,Troubleshooting,text,create,troubleshooting;create;sync-conflict,troubleshooting/prompts.json
+troubleshooting_25,Sync conflict — Review an existing version,Troubleshooting,text,review,troubleshooting;review;sync-conflict,troubleshooting/prompts.json
+troubleshooting_26,Sync conflict — Improve an existing version,Troubleshooting,text,revise,troubleshooting;revise;sync-conflict,troubleshooting/prompts.json
+troubleshooting_27,Slow startup — Create a first usable version,Troubleshooting,text,create,troubleshooting;create;slow-startup,troubleshooting/prompts.json
+troubleshooting_28,Slow startup — Review an existing version,Troubleshooting,text,review,troubleshooting;review;slow-startup,troubleshooting/prompts.json
+troubleshooting_29,Slow startup — Improve an existing version,Troubleshooting,text,revise,troubleshooting;revise;slow-startup,troubleshooting/prompts.json
+troubleshooting_30,Certificate error — Create a first usable version,Troubleshooting,text,create,troubleshooting;create;certificate-error,troubleshooting/prompts.json
+troubleshooting_31,Certificate error — Review an existing version,Troubleshooting,text,review,troubleshooting;review;certificate-error,troubleshooting/prompts.json
+troubleshooting_32,Certificate error — Improve an existing version,Troubleshooting,text,revise,troubleshooting;revise;certificate-error,troubleshooting/prompts.json
+troubleshooting_33,Locale mismatch — Create a first usable version,Troubleshooting,text,create,troubleshooting;create;locale-mismatch,troubleshooting/prompts.json
+troubleshooting_34,Locale mismatch — Review an existing version,Troubleshooting,text,review,troubleshooting;review;locale-mismatch,troubleshooting/prompts.json
+troubleshooting_35,Locale mismatch — Improve an existing version,Troubleshooting,text,revise,troubleshooting;revise;locale-mismatch,troubleshooting/prompts.json
+troubleshooting_36,Import mismatch — Create a first usable version,Troubleshooting,text,create,troubleshooting;create;import-mismatch,troubleshooting/prompts.json
+troubleshooting_37,Import mismatch — Review an existing version,Troubleshooting,text,review,troubleshooting;review;import-mismatch,troubleshooting/prompts.json
+troubleshooting_38,Import mismatch — Improve an existing version,Troubleshooting,text,revise,troubleshooting;revise;import-mismatch,troubleshooting/prompts.json
+troubleshooting_39,Scheduled task — Create a first usable version,Troubleshooting,text,create,troubleshooting;create;scheduled-task,troubleshooting/prompts.json
+troubleshooting_40,Scheduled task — Review an existing version,Troubleshooting,text,review,troubleshooting;review;scheduled-task,troubleshooting/prompts.json
+troubleshooting_41,Scheduled task — Improve an existing version,Troubleshooting,text,revise,troubleshooting;revise;scheduled-task,troubleshooting/prompts.json
+troubleshooting_42,Memory pressure — Create a first usable version,Troubleshooting,text,create,troubleshooting;create;memory-pressure,troubleshooting/prompts.json
+troubleshooting_43,Memory pressure — Review an existing version,Troubleshooting,text,review,troubleshooting;review;memory-pressure,troubleshooting/prompts.json
+troubleshooting_44,Memory pressure — Improve an existing version,Troubleshooting,text,revise,troubleshooting;revise;memory-pressure,troubleshooting/prompts.json
+troubleshooting_45,Unexpected notifications — Create a first usable version,Troubleshooting,text,create,troubleshooting;create;unexpected-notifications,troubleshooting/prompts.json
+troubleshooting_46,Unexpected notifications — Review an existing version,Troubleshooting,text,review,troubleshooting;review;unexpected-notifications,troubleshooting/prompts.json
+troubleshooting_47,Unexpected notifications — Improve an existing version,Troubleshooting,text,revise,troubleshooting;revise;unexpected-notifications,troubleshooting/prompts.json
+troubleshooting_48,Broken links — Create a first usable version,Troubleshooting,text,create,troubleshooting;create;broken-links,troubleshooting/prompts.json
+troubleshooting_49,Broken links — Review an existing version,Troubleshooting,text,review,troubleshooting;review;broken-links,troubleshooting/prompts.json
+troubleshooting_50,Broken links — Improve an existing version,Troubleshooting,text,revise,troubleshooting;revise;broken-links,troubleshooting/prompts.json
+business_01,Value proposition — Create a first usable version,Business,text,create,business;create;value-proposition,business/prompts.json
+business_02,Value proposition — Review an existing version,Business,text,review,business;review;value-proposition,business/prompts.json
+business_03,Value proposition — Improve an existing version,Business,text,revise,business;revise;value-proposition,business/prompts.json
+business_04,Value proposition — Compare two approaches,Business,text,compare,business;compare;value-proposition,business/prompts.json
+business_05,Value proposition — Test a version on a small scale,Business,text,pilot,business;pilot;value-proposition,business/prompts.json
+business_06,Business model — Create a first usable version,Business,text,create,business;create;business-model,business/prompts.json
+business_07,Business model — Review an existing version,Business,text,review,business;review;business-model,business/prompts.json
+business_08,Business model — Improve an existing version,Business,text,revise,business;revise;business-model,business/prompts.json
+business_09,Business model — Compare two approaches,Business,text,compare,business;compare;business-model,business/prompts.json
+business_10,Business model — Test a version on a small scale,Business,text,pilot,business;pilot;business-model,business/prompts.json
+business_11,Customer discovery — Create a first usable version,Business,text,create,business;create;customer-discovery,business/prompts.json
+business_12,Customer discovery — Review an existing version,Business,text,review,business;review;customer-discovery,business/prompts.json
+business_13,Customer discovery — Improve an existing version,Business,text,revise,business;revise;customer-discovery,business/prompts.json
+business_14,Customer discovery — Compare two approaches,Business,text,compare,business;compare;customer-discovery,business/prompts.json
+business_15,Customer discovery — Test a version on a small scale,Business,text,pilot,business;pilot;customer-discovery,business/prompts.json
+business_16,Pricing experiment — Create a first usable version,Business,text,create,business;create;pricing-experiment,business/prompts.json
+business_17,Pricing experiment — Review an existing version,Business,text,review,business;review;pricing-experiment,business/prompts.json
+business_18,Pricing experiment — Improve an existing version,Business,text,revise,business;revise;pricing-experiment,business/prompts.json
+business_19,Pricing experiment — Compare two approaches,Business,text,compare,business;compare;pricing-experiment,business/prompts.json
+business_20,Pricing experiment — Test a version on a small scale,Business,text,pilot,business;pilot;pricing-experiment,business/prompts.json
+business_21,Competitor comparison — Create a first usable version,Business,text,create,business;create;competitor-comparison,business/prompts.json
+business_22,Competitor comparison — Review an existing version,Business,text,review,business;review;competitor-comparison,business/prompts.json
+business_23,Competitor comparison — Improve an existing version,Business,text,revise,business;revise;competitor-comparison,business/prompts.json
+business_24,Competitor comparison — Compare two approaches,Business,text,compare,business;compare;competitor-comparison,business/prompts.json
+business_25,Competitor comparison — Test a version on a small scale,Business,text,pilot,business;pilot;competitor-comparison,business/prompts.json
+business_26,Operating procedure — Create a first usable version,Business,text,create,business;create;operating-procedure,business/prompts.json
+business_27,Operating procedure — Review an existing version,Business,text,review,business;review;operating-procedure,business/prompts.json
+business_28,Operating procedure — Improve an existing version,Business,text,revise,business;revise;operating-procedure,business/prompts.json
+business_29,Operating procedure — Compare two approaches,Business,text,compare,business;compare;operating-procedure,business/prompts.json
+business_30,Operating procedure — Test a version on a small scale,Business,text,pilot,business;pilot;operating-procedure,business/prompts.json
+business_31,Partnership proposal — Create a first usable version,Business,text,create,business;create;partnership-proposal,business/prompts.json
+business_32,Partnership proposal — Review an existing version,Business,text,review,business;review;partnership-proposal,business/prompts.json
+business_33,Partnership proposal — Improve an existing version,Business,text,revise,business;revise;partnership-proposal,business/prompts.json
+business_34,Partnership proposal — Compare two approaches,Business,text,compare,business;compare;partnership-proposal,business/prompts.json
+business_35,Partnership proposal — Test a version on a small scale,Business,text,pilot,business;pilot;partnership-proposal,business/prompts.json
+business_36,Revenue assumptions — Create a first usable version,Business,text,create,business;create;revenue-assumptions,business/prompts.json
+business_37,Revenue assumptions — Review an existing version,Business,text,review,business;review;revenue-assumptions,business/prompts.json
+business_38,Revenue assumptions — Improve an existing version,Business,text,revise,business;revise;revenue-assumptions,business/prompts.json
+business_39,Revenue assumptions — Compare two approaches,Business,text,compare,business;compare;revenue-assumptions,business/prompts.json
+business_40,Revenue assumptions — Test a version on a small scale,Business,text,pilot,business;pilot;revenue-assumptions,business/prompts.json
+business_41,Service package — Create a first usable version,Business,text,create,business;create;service-package,business/prompts.json
+business_42,Service package — Review an existing version,Business,text,review,business;review;service-package,business/prompts.json
+business_43,Service package — Improve an existing version,Business,text,revise,business;revise;service-package,business/prompts.json
+business_44,Service package — Compare two approaches,Business,text,compare,business;compare;service-package,business/prompts.json
+business_45,Service package — Test a version on a small scale,Business,text,pilot,business;pilot;service-package,business/prompts.json
+business_46,Business review — Create a first usable version,Business,text,create,business;create;business-review,business/prompts.json
+business_47,Business review — Review an existing version,Business,text,review,business;review;business-review,business/prompts.json
+business_48,Business review — Improve an existing version,Business,text,revise,business;revise;business-review,business/prompts.json
+business_49,Business review — Compare two approaches,Business,text,compare,business;compare;business-review,business/prompts.json
+business_50,Business review — Test a version on a small scale,Business,text,pilot,business;pilot;business-review,business/prompts.json
+marketing_01,Positioning — Create a first usable version,Marketing,text,create,marketing;create;positioning,marketing/prompts.json
+marketing_02,Positioning — Review an existing version,Marketing,text,review,marketing;review;positioning,marketing/prompts.json
+marketing_03,Positioning — Improve an existing version,Marketing,text,revise,marketing;revise;positioning,marketing/prompts.json
+marketing_04,Positioning — Compare two approaches,Marketing,text,compare,marketing;compare;positioning,marketing/prompts.json
+marketing_05,Positioning — Test a version on a small scale,Marketing,text,pilot,marketing;pilot;positioning,marketing/prompts.json
+marketing_06,Audience profile — Create a first usable version,Marketing,text,create,marketing;create;audience-profile,marketing/prompts.json
+marketing_07,Audience profile — Review an existing version,Marketing,text,review,marketing;review;audience-profile,marketing/prompts.json
+marketing_08,Audience profile — Improve an existing version,Marketing,text,revise,marketing;revise;audience-profile,marketing/prompts.json
+marketing_09,Audience profile — Compare two approaches,Marketing,text,compare,marketing;compare;audience-profile,marketing/prompts.json
+marketing_10,Audience profile — Test a version on a small scale,Marketing,text,pilot,marketing;pilot;audience-profile,marketing/prompts.json
+marketing_11,Campaign brief — Create a first usable version,Marketing,text,create,marketing;create;campaign-brief,marketing/prompts.json
+marketing_12,Campaign brief — Review an existing version,Marketing,text,review,marketing;review;campaign-brief,marketing/prompts.json
+marketing_13,Campaign brief — Improve an existing version,Marketing,text,revise,marketing;revise;campaign-brief,marketing/prompts.json
+marketing_14,Campaign brief — Compare two approaches,Marketing,text,compare,marketing;compare;campaign-brief,marketing/prompts.json
+marketing_15,Campaign brief — Test a version on a small scale,Marketing,text,pilot,marketing;pilot;campaign-brief,marketing/prompts.json
+marketing_16,Search intent — Create a first usable version,Marketing,text,create,marketing;create;search-intent,marketing/prompts.json
+marketing_17,Search intent — Review an existing version,Marketing,text,review,marketing;review;search-intent,marketing/prompts.json
+marketing_18,Search intent — Improve an existing version,Marketing,text,revise,marketing;revise;search-intent,marketing/prompts.json
+marketing_19,Search intent — Compare two approaches,Marketing,text,compare,marketing;compare;search-intent,marketing/prompts.json
+marketing_20,Search intent — Test a version on a small scale,Marketing,text,pilot,marketing;pilot;search-intent,marketing/prompts.json
+marketing_21,Landing page — Create a first usable version,Marketing,text,create,marketing;create;landing-page,marketing/prompts.json
+marketing_22,Landing page — Review an existing version,Marketing,text,review,marketing;review;landing-page,marketing/prompts.json
+marketing_23,Landing page — Improve an existing version,Marketing,text,revise,marketing;revise;landing-page,marketing/prompts.json
+marketing_24,Landing page — Compare two approaches,Marketing,text,compare,marketing;compare;landing-page,marketing/prompts.json
+marketing_25,Landing page — Test a version on a small scale,Marketing,text,pilot,marketing;pilot;landing-page,marketing/prompts.json
+marketing_26,Email sequence — Create a first usable version,Marketing,text,create,marketing;create;email-sequence,marketing/prompts.json
+marketing_27,Email sequence — Review an existing version,Marketing,text,review,marketing;review;email-sequence,marketing/prompts.json
+marketing_28,Email sequence — Improve an existing version,Marketing,text,revise,marketing;revise;email-sequence,marketing/prompts.json
+marketing_29,Email sequence — Compare two approaches,Marketing,text,compare,marketing;compare;email-sequence,marketing/prompts.json
+marketing_30,Email sequence — Test a version on a small scale,Marketing,text,pilot,marketing;pilot;email-sequence,marketing/prompts.json
+marketing_31,Referral program — Create a first usable version,Marketing,text,create,marketing;create;referral-program,marketing/prompts.json
+marketing_32,Referral program — Review an existing version,Marketing,text,review,marketing;review;referral-program,marketing/prompts.json
+marketing_33,Referral program — Improve an existing version,Marketing,text,revise,marketing;revise;referral-program,marketing/prompts.json
+marketing_34,Referral program — Compare two approaches,Marketing,text,compare,marketing;compare;referral-program,marketing/prompts.json
+marketing_35,Referral program — Test a version on a small scale,Marketing,text,pilot,marketing;pilot;referral-program,marketing/prompts.json
+marketing_36,Brand messaging — Create a first usable version,Marketing,text,create,marketing;create;brand-messaging,marketing/prompts.json
+marketing_37,Brand messaging — Review an existing version,Marketing,text,review,marketing;review;brand-messaging,marketing/prompts.json
+marketing_38,Brand messaging — Improve an existing version,Marketing,text,revise,marketing;revise;brand-messaging,marketing/prompts.json
+marketing_39,Brand messaging — Compare two approaches,Marketing,text,compare,marketing;compare;brand-messaging,marketing/prompts.json
+marketing_40,Brand messaging — Test a version on a small scale,Marketing,text,pilot,marketing;pilot;brand-messaging,marketing/prompts.json
+marketing_41,Marketing measurement — Create a first usable version,Marketing,text,create,marketing;create;marketing-measurement,marketing/prompts.json
+marketing_42,Marketing measurement — Review an existing version,Marketing,text,review,marketing;review;marketing-measurement,marketing/prompts.json
+marketing_43,Marketing measurement — Improve an existing version,Marketing,text,revise,marketing;revise;marketing-measurement,marketing/prompts.json
+marketing_44,Marketing measurement — Compare two approaches,Marketing,text,compare,marketing;compare;marketing-measurement,marketing/prompts.json
+marketing_45,Marketing measurement — Test a version on a small scale,Marketing,text,pilot,marketing;pilot;marketing-measurement,marketing/prompts.json
+marketing_46,Community campaign — Create a first usable version,Marketing,text,create,marketing;create;community-campaign,marketing/prompts.json
+marketing_47,Community campaign — Review an existing version,Marketing,text,review,marketing;review;community-campaign,marketing/prompts.json
+marketing_48,Community campaign — Improve an existing version,Marketing,text,revise,marketing;revise;community-campaign,marketing/prompts.json
+marketing_49,Community campaign — Compare two approaches,Marketing,text,compare,marketing;compare;community-campaign,marketing/prompts.json
+marketing_50,Community campaign — Test a version on a small scale,Marketing,text,pilot,marketing;pilot;community-campaign,marketing/prompts.json
+productivity_01,Task capture — Create a first usable version,Productivity,text,create,productivity;create;task-capture,productivity/prompts.json
+productivity_02,Task capture — Review an existing version,Productivity,text,review,productivity;review;task-capture,productivity/prompts.json
+productivity_03,Task capture — Improve an existing version,Productivity,text,revise,productivity;revise;task-capture,productivity/prompts.json
+productivity_04,Task capture — Compare two approaches,Productivity,text,compare,productivity;compare;task-capture,productivity/prompts.json
+productivity_05,Task capture — Test a version on a small scale,Productivity,text,pilot,productivity;pilot;task-capture,productivity/prompts.json
+productivity_06,Daily prioritization — Create a first usable version,Productivity,text,create,productivity;create;daily-prioritization,productivity/prompts.json
+productivity_07,Daily prioritization — Review an existing version,Productivity,text,review,productivity;review;daily-prioritization,productivity/prompts.json
+productivity_08,Daily prioritization — Improve an existing version,Productivity,text,revise,productivity;revise;daily-prioritization,productivity/prompts.json
+productivity_09,Daily prioritization — Compare two approaches,Productivity,text,compare,productivity;compare;daily-prioritization,productivity/prompts.json
+productivity_10,Daily prioritization — Test a version on a small scale,Productivity,text,pilot,productivity;pilot;daily-prioritization,productivity/prompts.json
+productivity_11,Focus session — Create a first usable version,Productivity,text,create,productivity;create;focus-session,productivity/prompts.json
+productivity_12,Focus session — Review an existing version,Productivity,text,review,productivity;review;focus-session,productivity/prompts.json
+productivity_13,Focus session — Improve an existing version,Productivity,text,revise,productivity;revise;focus-session,productivity/prompts.json
+productivity_14,Focus session — Compare two approaches,Productivity,text,compare,productivity;compare;focus-session,productivity/prompts.json
+productivity_15,Focus session — Test a version on a small scale,Productivity,text,pilot,productivity;pilot;focus-session,productivity/prompts.json
+productivity_16,Email workflow — Create a first usable version,Productivity,text,create,productivity;create;email-workflow,productivity/prompts.json
+productivity_17,Email workflow — Review an existing version,Productivity,text,review,productivity;review;email-workflow,productivity/prompts.json
+productivity_18,Email workflow — Improve an existing version,Productivity,text,revise,productivity;revise;email-workflow,productivity/prompts.json
+productivity_19,Email workflow — Compare two approaches,Productivity,text,compare,productivity;compare;email-workflow,productivity/prompts.json
+productivity_20,Email workflow — Test a version on a small scale,Productivity,text,pilot,productivity;pilot;email-workflow,productivity/prompts.json
+productivity_21,Personal knowledge system — Create a first usable version,Productivity,text,create,productivity;create;personal-knowledge-system,productivity/prompts.json
+productivity_22,Personal knowledge system — Review an existing version,Productivity,text,review,productivity;review;personal-knowledge-system,productivity/prompts.json
+productivity_23,Personal knowledge system — Improve an existing version,Productivity,text,revise,productivity;revise;personal-knowledge-system,productivity/prompts.json
+productivity_24,Personal knowledge system — Compare two approaches,Productivity,text,compare,productivity;compare;personal-knowledge-system,productivity/prompts.json
+productivity_25,Personal knowledge system — Test a version on a small scale,Productivity,text,pilot,productivity;pilot;personal-knowledge-system,productivity/prompts.json
+productivity_26,Weekly review — Create a first usable version,Productivity,text,create,productivity;create;weekly-review,productivity/prompts.json
+productivity_27,Weekly review — Review an existing version,Productivity,text,review,productivity;review;weekly-review,productivity/prompts.json
+productivity_28,Weekly review — Improve an existing version,Productivity,text,revise,productivity;revise;weekly-review,productivity/prompts.json
+productivity_29,Weekly review — Compare two approaches,Productivity,text,compare,productivity;compare;weekly-review,productivity/prompts.json
+productivity_30,Weekly review — Test a version on a small scale,Productivity,text,pilot,productivity;pilot;weekly-review,productivity/prompts.json
+productivity_31,Decision fatigue — Create a first usable version,Productivity,text,create,productivity;create;decision-fatigue,productivity/prompts.json
+productivity_32,Decision fatigue — Review an existing version,Productivity,text,review,productivity;review;decision-fatigue,productivity/prompts.json
+productivity_33,Decision fatigue — Improve an existing version,Productivity,text,revise,productivity;revise;decision-fatigue,productivity/prompts.json
+productivity_34,Decision fatigue — Compare two approaches,Productivity,text,compare,productivity;compare;decision-fatigue,productivity/prompts.json
+productivity_35,Decision fatigue — Test a version on a small scale,Productivity,text,pilot,productivity;pilot;decision-fatigue,productivity/prompts.json
+productivity_36,Context switching — Create a first usable version,Productivity,text,create,productivity;create;context-switching,productivity/prompts.json
+productivity_37,Context switching — Review an existing version,Productivity,text,review,productivity;review;context-switching,productivity/prompts.json
+productivity_38,Context switching — Improve an existing version,Productivity,text,revise,productivity;revise;context-switching,productivity/prompts.json
+productivity_39,Context switching — Compare two approaches,Productivity,text,compare,productivity;compare;context-switching,productivity/prompts.json
+productivity_40,Context switching — Test a version on a small scale,Productivity,text,pilot,productivity;pilot;context-switching,productivity/prompts.json
+productivity_41,Digital cleanup — Create a first usable version,Productivity,text,create,productivity;create;digital-cleanup,productivity/prompts.json
+productivity_42,Digital cleanup — Review an existing version,Productivity,text,review,productivity;review;digital-cleanup,productivity/prompts.json
+productivity_43,Digital cleanup — Improve an existing version,Productivity,text,revise,productivity;revise;digital-cleanup,productivity/prompts.json
+productivity_44,Digital cleanup — Compare two approaches,Productivity,text,compare,productivity;compare;digital-cleanup,productivity/prompts.json
+productivity_45,Digital cleanup — Test a version on a small scale,Productivity,text,pilot,productivity;pilot;digital-cleanup,productivity/prompts.json
+productivity_46,Recovery day — Create a first usable version,Productivity,text,create,productivity;create;recovery-day,productivity/prompts.json
+productivity_47,Recovery day — Review an existing version,Productivity,text,review,productivity;review;recovery-day,productivity/prompts.json
+productivity_48,Recovery day — Improve an existing version,Productivity,text,revise,productivity;revise;recovery-day,productivity/prompts.json
+productivity_49,Recovery day — Compare two approaches,Productivity,text,compare,productivity;compare;recovery-day,productivity/prompts.json
+productivity_50,Recovery day — Test a version on a small scale,Productivity,text,pilot,productivity;pilot;recovery-day,productivity/prompts.json
+design_01,User journey — Create a first usable version,Design,text,create,design;create;user-journey,design/prompts.json
+design_02,User journey — Review an existing version,Design,text,review,design;review;user-journey,design/prompts.json
+design_03,User journey — Improve an existing version,Design,text,revise,design;revise;user-journey,design/prompts.json
+design_04,User journey — Compare two approaches,Design,text,compare,design;compare;user-journey,design/prompts.json
+design_05,User journey — Test a version on a small scale,Design,text,pilot,design;pilot;user-journey,design/prompts.json
+design_06,Wireframe brief — Create a first usable version,Design,text,create,design;create;wireframe-brief,design/prompts.json
+design_07,Wireframe brief — Review an existing version,Design,text,review,design;review;wireframe-brief,design/prompts.json
+design_08,Wireframe brief — Improve an existing version,Design,text,revise,design;revise;wireframe-brief,design/prompts.json
+design_09,Wireframe brief — Compare two approaches,Design,text,compare,design;compare;wireframe-brief,design/prompts.json
+design_10,Wireframe brief — Test a version on a small scale,Design,text,pilot,design;pilot;wireframe-brief,design/prompts.json
+design_11,Design system — Create a first usable version,Design,text,create,design;create;design-system,design/prompts.json
+design_12,Design system — Review an existing version,Design,text,review,design;review;design-system,design/prompts.json
+design_13,Design system — Improve an existing version,Design,text,revise,design;revise;design-system,design/prompts.json
+design_14,Design system — Compare two approaches,Design,text,compare,design;compare;design-system,design/prompts.json
+design_15,Design system — Test a version on a small scale,Design,text,pilot,design;pilot;design-system,design/prompts.json
+design_16,Usability test — Create a first usable version,Design,text,create,design;create;usability-test,design/prompts.json
+design_17,Usability test — Review an existing version,Design,text,review,design;review;usability-test,design/prompts.json
+design_18,Usability test — Improve an existing version,Design,text,revise,design;revise;usability-test,design/prompts.json
+design_19,Usability test — Compare two approaches,Design,text,compare,design;compare;usability-test,design/prompts.json
+design_20,Usability test — Test a version on a small scale,Design,text,pilot,design;pilot;usability-test,design/prompts.json
+design_21,Information architecture — Create a first usable version,Design,text,create,design;create;information-architecture,design/prompts.json
+design_22,Information architecture — Review an existing version,Design,text,review,design;review;information-architecture,design/prompts.json
+design_23,Information architecture — Improve an existing version,Design,text,revise,design;revise;information-architecture,design/prompts.json
+design_24,Information architecture — Compare two approaches,Design,text,compare,design;compare;information-architecture,design/prompts.json
+design_25,Information architecture — Test a version on a small scale,Design,text,pilot,design;pilot;information-architecture,design/prompts.json
+design_26,Form design — Create a first usable version,Design,text,create,design;create;form-design,design/prompts.json
+design_27,Form design — Review an existing version,Design,text,review,design;review;form-design,design/prompts.json
+design_28,Form design — Improve an existing version,Design,text,revise,design;revise;form-design,design/prompts.json
+design_29,Form design — Compare two approaches,Design,text,compare,design;compare;form-design,design/prompts.json
+design_30,Form design — Test a version on a small scale,Design,text,pilot,design;pilot;form-design,design/prompts.json
+design_31,Service blueprint — Create a first usable version,Design,text,create,design;create;service-blueprint,design/prompts.json
+design_32,Service blueprint — Review an existing version,Design,text,review,design;review;service-blueprint,design/prompts.json
+design_33,Service blueprint — Improve an existing version,Design,text,revise,design;revise;service-blueprint,design/prompts.json
+design_34,Service blueprint — Compare two approaches,Design,text,compare,design;compare;service-blueprint,design/prompts.json
+design_35,Service blueprint — Test a version on a small scale,Design,text,pilot,design;pilot;service-blueprint,design/prompts.json
+design_36,Visual hierarchy — Create a first usable version,Design,text,create,design;create;visual-hierarchy,design/prompts.json
+design_37,Visual hierarchy — Review an existing version,Design,text,review,design;review;visual-hierarchy,design/prompts.json
+design_38,Visual hierarchy — Improve an existing version,Design,text,revise,design;revise;visual-hierarchy,design/prompts.json
+design_39,Visual hierarchy — Compare two approaches,Design,text,compare,design;compare;visual-hierarchy,design/prompts.json
+design_40,Visual hierarchy — Test a version on a small scale,Design,text,pilot,design;pilot;visual-hierarchy,design/prompts.json
+design_41,Inclusive design — Create a first usable version,Design,text,create,design;create;inclusive-design,design/prompts.json
+design_42,Inclusive design — Review an existing version,Design,text,review,design;review;inclusive-design,design/prompts.json
+design_43,Inclusive design — Improve an existing version,Design,text,revise,design;revise;inclusive-design,design/prompts.json
+design_44,Inclusive design — Compare two approaches,Design,text,compare,design;compare;inclusive-design,design/prompts.json
+design_45,Inclusive design — Test a version on a small scale,Design,text,pilot,design;pilot;inclusive-design,design/prompts.json
+design_46,Design critique — Create a first usable version,Design,text,create,design;create;design-critique,design/prompts.json
+design_47,Design critique — Review an existing version,Design,text,review,design;review;design-critique,design/prompts.json
+design_48,Design critique — Improve an existing version,Design,text,revise,design;revise;design-critique,design/prompts.json
+design_49,Design critique — Compare two approaches,Design,text,compare,design;compare;design-critique,design/prompts.json
+design_50,Design critique — Test a version on a small scale,Design,text,pilot,design;pilot;design-critique,design/prompts.json
+career_01,Career inventory — Create a first usable version,Career,text,create,career;create;career-inventory,career/prompts.json
+career_02,Career inventory — Review an existing version,Career,text,review,career;review;career-inventory,career/prompts.json
+career_03,Career inventory — Improve an existing version,Career,text,revise,career;revise;career-inventory,career/prompts.json
+career_04,Career inventory — Compare two approaches,Career,text,compare,career;compare;career-inventory,career/prompts.json
+career_05,Career inventory — Test a version on a small scale,Career,text,pilot,career;pilot;career-inventory,career/prompts.json
+career_06,Role exploration — Create a first usable version,Career,text,create,career;create;role-exploration,career/prompts.json
+career_07,Role exploration — Review an existing version,Career,text,review,career;review;role-exploration,career/prompts.json
+career_08,Role exploration — Improve an existing version,Career,text,revise,career;revise;role-exploration,career/prompts.json
+career_09,Role exploration — Compare two approaches,Career,text,compare,career;compare;role-exploration,career/prompts.json
+career_10,Role exploration — Test a version on a small scale,Career,text,pilot,career;pilot;role-exploration,career/prompts.json
+career_11,Interview preparation — Create a first usable version,Career,text,create,career;create;interview-preparation,career/prompts.json
+career_12,Interview preparation — Review an existing version,Career,text,review,career;review;interview-preparation,career/prompts.json
+career_13,Interview preparation — Improve an existing version,Career,text,revise,career;revise;interview-preparation,career/prompts.json
+career_14,Interview preparation — Compare two approaches,Career,text,compare,career;compare;interview-preparation,career/prompts.json
+career_15,Interview preparation — Test a version on a small scale,Career,text,pilot,career;pilot;interview-preparation,career/prompts.json
+career_16,Portfolio project — Create a first usable version,Career,text,create,career;create;portfolio-project,career/prompts.json
+career_17,Portfolio project — Review an existing version,Career,text,review,career;review;portfolio-project,career/prompts.json
+career_18,Portfolio project — Improve an existing version,Career,text,revise,career;revise;portfolio-project,career/prompts.json
+career_19,Portfolio project — Compare two approaches,Career,text,compare,career;compare;portfolio-project,career/prompts.json
+career_20,Portfolio project — Test a version on a small scale,Career,text,pilot,career;pilot;portfolio-project,career/prompts.json
+career_21,Networking outreach — Create a first usable version,Career,text,create,career;create;networking-outreach,career/prompts.json
+career_22,Networking outreach — Review an existing version,Career,text,review,career;review;networking-outreach,career/prompts.json
+career_23,Networking outreach — Improve an existing version,Career,text,revise,career;revise;networking-outreach,career/prompts.json
+career_24,Networking outreach — Compare two approaches,Career,text,compare,career;compare;networking-outreach,career/prompts.json
+career_25,Networking outreach — Test a version on a small scale,Career,text,pilot,career;pilot;networking-outreach,career/prompts.json
+career_26,Career transition — Create a first usable version,Career,text,create,career;create;career-transition,career/prompts.json
+career_27,Career transition — Review an existing version,Career,text,review,career;review;career-transition,career/prompts.json
+career_28,Career transition — Improve an existing version,Career,text,revise,career;revise;career-transition,career/prompts.json
+career_29,Career transition — Compare two approaches,Career,text,compare,career;compare;career-transition,career/prompts.json
+career_30,Career transition — Test a version on a small scale,Career,text,pilot,career;pilot;career-transition,career/prompts.json
+career_31,Achievement bank — Create a first usable version,Career,text,create,career;create;achievement-bank,career/prompts.json
+career_32,Achievement bank — Review an existing version,Career,text,review,career;review;achievement-bank,career/prompts.json
+career_33,Achievement bank — Improve an existing version,Career,text,revise,career;revise;achievement-bank,career/prompts.json
+career_34,Achievement bank — Compare two approaches,Career,text,compare,career;compare;achievement-bank,career/prompts.json
+career_35,Achievement bank — Test a version on a small scale,Career,text,pilot,career;pilot;achievement-bank,career/prompts.json
+career_36,Manager conversation — Create a first usable version,Career,text,create,career;create;manager-conversation,career/prompts.json
+career_37,Manager conversation — Review an existing version,Career,text,review,career;review;manager-conversation,career/prompts.json
+career_38,Manager conversation — Improve an existing version,Career,text,revise,career;revise;manager-conversation,career/prompts.json
+career_39,Manager conversation — Compare two approaches,Career,text,compare,career;compare;manager-conversation,career/prompts.json
+career_40,Manager conversation — Test a version on a small scale,Career,text,pilot,career;pilot;manager-conversation,career/prompts.json
+career_41,Job search process — Create a first usable version,Career,text,create,career;create;job-search-process,career/prompts.json
+career_42,Job search process — Review an existing version,Career,text,review,career;review;job-search-process,career/prompts.json
+career_43,Job search process — Improve an existing version,Career,text,revise,career;revise;job-search-process,career/prompts.json
+career_44,Job search process — Compare two approaches,Career,text,compare,career;compare;job-search-process,career/prompts.json
+career_45,Job search process — Test a version on a small scale,Career,text,pilot,career;pilot;job-search-process,career/prompts.json
+career_46,Offer comparison — Create a first usable version,Career,text,create,career;create;offer-comparison,career/prompts.json
+career_47,Offer comparison — Review an existing version,Career,text,review,career;review;offer-comparison,career/prompts.json
+career_48,Offer comparison — Improve an existing version,Career,text,revise,career;revise;offer-comparison,career/prompts.json
+career_49,Offer comparison — Compare two approaches,Career,text,compare,career;compare;offer-comparison,career/prompts.json
+career_50,Offer comparison — Test a version on a small scale,Career,text,pilot,career;pilot;offer-comparison,career/prompts.json
+leadership_01,Team charter — Create a first usable version,Leadership,text,create,leadership;create;team-charter,leadership/prompts.json
+leadership_02,Team charter — Review an existing version,Leadership,text,review,leadership;review;team-charter,leadership/prompts.json
+leadership_03,Team charter — Improve an existing version,Leadership,text,revise,leadership;revise;team-charter,leadership/prompts.json
+leadership_04,Team charter — Compare two approaches,Leadership,text,compare,leadership;compare;team-charter,leadership/prompts.json
+leadership_05,Team charter — Test a version on a small scale,Leadership,text,pilot,leadership;pilot;team-charter,leadership/prompts.json
+leadership_06,Delegation — Create a first usable version,Leadership,text,create,leadership;create;delegation,leadership/prompts.json
+leadership_07,Delegation — Review an existing version,Leadership,text,review,leadership;review;delegation,leadership/prompts.json
+leadership_08,Delegation — Improve an existing version,Leadership,text,revise,leadership;revise;delegation,leadership/prompts.json
+leadership_09,Delegation — Compare two approaches,Leadership,text,compare,leadership;compare;delegation,leadership/prompts.json
+leadership_10,Delegation — Test a version on a small scale,Leadership,text,pilot,leadership;pilot;delegation,leadership/prompts.json
+leadership_11,One-on-one meeting — Create a first usable version,Leadership,text,create,leadership;create;one-on-one-meeting,leadership/prompts.json
+leadership_12,One-on-one meeting — Review an existing version,Leadership,text,review,leadership;review;one-on-one-meeting,leadership/prompts.json
+leadership_13,One-on-one meeting — Improve an existing version,Leadership,text,revise,leadership;revise;one-on-one-meeting,leadership/prompts.json
+leadership_14,One-on-one meeting — Compare two approaches,Leadership,text,compare,leadership;compare;one-on-one-meeting,leadership/prompts.json
+leadership_15,One-on-one meeting — Test a version on a small scale,Leadership,text,pilot,leadership;pilot;one-on-one-meeting,leadership/prompts.json
+leadership_16,Feedback conversation — Create a first usable version,Leadership,text,create,leadership;create;feedback-conversation,leadership/prompts.json
+leadership_17,Feedback conversation — Review an existing version,Leadership,text,review,leadership;review;feedback-conversation,leadership/prompts.json
+leadership_18,Feedback conversation — Improve an existing version,Leadership,text,revise,leadership;revise;feedback-conversation,leadership/prompts.json
+leadership_19,Feedback conversation — Compare two approaches,Leadership,text,compare,leadership;compare;feedback-conversation,leadership/prompts.json
+leadership_20,Feedback conversation — Test a version on a small scale,Leadership,text,pilot,leadership;pilot;feedback-conversation,leadership/prompts.json
+leadership_21,Team conflict — Create a first usable version,Leadership,text,create,leadership;create;team-conflict,leadership/prompts.json
+leadership_22,Team conflict — Review an existing version,Leadership,text,review,leadership;review;team-conflict,leadership/prompts.json
+leadership_23,Team conflict — Improve an existing version,Leadership,text,revise,leadership;revise;team-conflict,leadership/prompts.json
+leadership_24,Team conflict — Compare two approaches,Leadership,text,compare,leadership;compare;team-conflict,leadership/prompts.json
+leadership_25,Team conflict — Test a version on a small scale,Leadership,text,pilot,leadership;pilot;team-conflict,leadership/prompts.json
+leadership_26,Decision rights — Create a first usable version,Leadership,text,create,leadership;create;decision-rights,leadership/prompts.json
+leadership_27,Decision rights — Review an existing version,Leadership,text,review,leadership;review;decision-rights,leadership/prompts.json
+leadership_28,Decision rights — Improve an existing version,Leadership,text,revise,leadership;revise;decision-rights,leadership/prompts.json
+leadership_29,Decision rights — Compare two approaches,Leadership,text,compare,leadership;compare;decision-rights,leadership/prompts.json
+leadership_30,Decision rights — Test a version on a small scale,Leadership,text,pilot,leadership;pilot;decision-rights,leadership/prompts.json
+leadership_31,Change communication — Create a first usable version,Leadership,text,create,leadership;create;change-communication,leadership/prompts.json
+leadership_32,Change communication — Review an existing version,Leadership,text,review,leadership;review;change-communication,leadership/prompts.json
+leadership_33,Change communication — Improve an existing version,Leadership,text,revise,leadership;revise;change-communication,leadership/prompts.json
+leadership_34,Change communication — Compare two approaches,Leadership,text,compare,leadership;compare;change-communication,leadership/prompts.json
+leadership_35,Change communication — Test a version on a small scale,Leadership,text,pilot,leadership;pilot;change-communication,leadership/prompts.json
+leadership_36,Recognition — Create a first usable version,Leadership,text,create,leadership;create;recognition,leadership/prompts.json
+leadership_37,Recognition — Review an existing version,Leadership,text,review,leadership;review;recognition,leadership/prompts.json
+leadership_38,Recognition — Improve an existing version,Leadership,text,revise,leadership;revise;recognition,leadership/prompts.json
+leadership_39,Recognition — Compare two approaches,Leadership,text,compare,leadership;compare;recognition,leadership/prompts.json
+leadership_40,Recognition — Test a version on a small scale,Leadership,text,pilot,leadership;pilot;recognition,leadership/prompts.json
+leadership_41,Team retrospective — Create a first usable version,Leadership,text,create,leadership;create;team-retrospective,leadership/prompts.json
+leadership_42,Team retrospective — Review an existing version,Leadership,text,review,leadership;review;team-retrospective,leadership/prompts.json
+leadership_43,Team retrospective — Improve an existing version,Leadership,text,revise,leadership;revise;team-retrospective,leadership/prompts.json
+leadership_44,Team retrospective — Compare two approaches,Leadership,text,compare,leadership;compare;team-retrospective,leadership/prompts.json
+leadership_45,Team retrospective — Test a version on a small scale,Leadership,text,pilot,leadership;pilot;team-retrospective,leadership/prompts.json
+leadership_46,Succession readiness — Create a first usable version,Leadership,text,create,leadership;create;succession-readiness,leadership/prompts.json
+leadership_47,Succession readiness — Review an existing version,Leadership,text,review,leadership;review;succession-readiness,leadership/prompts.json
+leadership_48,Succession readiness — Improve an existing version,Leadership,text,revise,leadership;revise;succession-readiness,leadership/prompts.json
+leadership_49,Succession readiness — Compare two approaches,Leadership,text,compare,leadership;compare;succession-readiness,leadership/prompts.json
+leadership_50,Succession readiness — Test a version on a small scale,Leadership,text,pilot,leadership;pilot;succession-readiness,leadership/prompts.json
+customer_support_01,Ticket triage — Create a first usable version,Customer Support,text,create,customer_support;create;ticket-triage,customer-support/prompts.json
+customer_support_02,Ticket triage — Review an existing version,Customer Support,text,review,customer_support;review;ticket-triage,customer-support/prompts.json
+customer_support_03,Ticket triage — Improve an existing version,Customer Support,text,revise,customer_support;revise;ticket-triage,customer-support/prompts.json
+customer_support_04,Ticket triage — Compare two approaches,Customer Support,text,compare,customer_support;compare;ticket-triage,customer-support/prompts.json
+customer_support_05,Ticket triage — Test a version on a small scale,Customer Support,text,pilot,customer_support;pilot;ticket-triage,customer-support/prompts.json
+customer_support_06,Knowledge article — Create a first usable version,Customer Support,text,create,customer_support;create;knowledge-article,customer-support/prompts.json
+customer_support_07,Knowledge article — Review an existing version,Customer Support,text,review,customer_support;review;knowledge-article,customer-support/prompts.json
+customer_support_08,Knowledge article — Improve an existing version,Customer Support,text,revise,customer_support;revise;knowledge-article,customer-support/prompts.json
+customer_support_09,Knowledge article — Compare two approaches,Customer Support,text,compare,customer_support;compare;knowledge-article,customer-support/prompts.json
+customer_support_10,Knowledge article — Test a version on a small scale,Customer Support,text,pilot,customer_support;pilot;knowledge-article,customer-support/prompts.json
+customer_support_11,Escalation summary — Create a first usable version,Customer Support,text,create,customer_support;create;escalation-summary,customer-support/prompts.json
+customer_support_12,Escalation summary — Review an existing version,Customer Support,text,review,customer_support;review;escalation-summary,customer-support/prompts.json
+customer_support_13,Escalation summary — Improve an existing version,Customer Support,text,revise,customer_support;revise;escalation-summary,customer-support/prompts.json
+customer_support_14,Escalation summary — Compare two approaches,Customer Support,text,compare,customer_support;compare;escalation-summary,customer-support/prompts.json
+customer_support_15,Escalation summary — Test a version on a small scale,Customer Support,text,pilot,customer_support;pilot;escalation-summary,customer-support/prompts.json
+customer_support_16,Difficult conversation — Create a first usable version,Customer Support,text,create,customer_support;create;difficult-conversation,customer-support/prompts.json
+customer_support_17,Difficult conversation — Review an existing version,Customer Support,text,review,customer_support;review;difficult-conversation,customer-support/prompts.json
+customer_support_18,Difficult conversation — Improve an existing version,Customer Support,text,revise,customer_support;revise;difficult-conversation,customer-support/prompts.json
+customer_support_19,Difficult conversation — Compare two approaches,Customer Support,text,compare,customer_support;compare;difficult-conversation,customer-support/prompts.json
+customer_support_20,Difficult conversation — Test a version on a small scale,Customer Support,text,pilot,customer_support;pilot;difficult-conversation,customer-support/prompts.json
+customer_support_21,Support handover — Create a first usable version,Customer Support,text,create,customer_support;create;support-handover,customer-support/prompts.json
+customer_support_22,Support handover — Review an existing version,Customer Support,text,review,customer_support;review;support-handover,customer-support/prompts.json
+customer_support_23,Support handover — Improve an existing version,Customer Support,text,revise,customer_support;revise;support-handover,customer-support/prompts.json
+customer_support_24,Support handover — Compare two approaches,Customer Support,text,compare,customer_support;compare;support-handover,customer-support/prompts.json
+customer_support_25,Support handover — Test a version on a small scale,Customer Support,text,pilot,customer_support;pilot;support-handover,customer-support/prompts.json
+customer_support_26,Incident update — Create a first usable version,Customer Support,text,create,customer_support;create;incident-update,customer-support/prompts.json
+customer_support_27,Incident update — Review an existing version,Customer Support,text,review,customer_support;review;incident-update,customer-support/prompts.json
+customer_support_28,Incident update — Improve an existing version,Customer Support,text,revise,customer_support;revise;incident-update,customer-support/prompts.json
+customer_support_29,Incident update — Compare two approaches,Customer Support,text,compare,customer_support;compare;incident-update,customer-support/prompts.json
+customer_support_30,Incident update — Test a version on a small scale,Customer Support,text,pilot,customer_support;pilot;incident-update,customer-support/prompts.json
+customer_support_31,Response macro — Create a first usable version,Customer Support,text,create,customer_support;create;response-macro,customer-support/prompts.json
+customer_support_32,Response macro — Review an existing version,Customer Support,text,review,customer_support;review;response-macro,customer-support/prompts.json
+customer_support_33,Response macro — Improve an existing version,Customer Support,text,revise,customer_support;revise;response-macro,customer-support/prompts.json
+customer_support_34,Response macro — Compare two approaches,Customer Support,text,compare,customer_support;compare;response-macro,customer-support/prompts.json
+customer_support_35,Response macro — Test a version on a small scale,Customer Support,text,pilot,customer_support;pilot;response-macro,customer-support/prompts.json
+customer_support_36,Quality rubric — Create a first usable version,Customer Support,text,create,customer_support;create;quality-rubric,customer-support/prompts.json
+customer_support_37,Quality rubric — Review an existing version,Customer Support,text,review,customer_support;review;quality-rubric,customer-support/prompts.json
+customer_support_38,Quality rubric — Improve an existing version,Customer Support,text,revise,customer_support;revise;quality-rubric,customer-support/prompts.json
+customer_support_39,Quality rubric — Compare two approaches,Customer Support,text,compare,customer_support;compare;quality-rubric,customer-support/prompts.json
+customer_support_40,Quality rubric — Test a version on a small scale,Customer Support,text,pilot,customer_support;pilot;quality-rubric,customer-support/prompts.json
+customer_support_41,Self-service plan — Create a first usable version,Customer Support,text,create,customer_support;create;self-service-plan,customer-support/prompts.json
+customer_support_42,Self-service plan — Review an existing version,Customer Support,text,review,customer_support;review;self-service-plan,customer-support/prompts.json
+customer_support_43,Self-service plan — Improve an existing version,Customer Support,text,revise,customer_support;revise;self-service-plan,customer-support/prompts.json
+customer_support_44,Self-service plan — Compare two approaches,Customer Support,text,compare,customer_support;compare;self-service-plan,customer-support/prompts.json
+customer_support_45,Self-service plan — Test a version on a small scale,Customer Support,text,pilot,customer_support;pilot;self-service-plan,customer-support/prompts.json
+customer_support_46,Voice of customer — Create a first usable version,Customer Support,text,create,customer_support;create;voice-of-customer,customer-support/prompts.json
+customer_support_47,Voice of customer — Review an existing version,Customer Support,text,review,customer_support;review;voice-of-customer,customer-support/prompts.json
+customer_support_48,Voice of customer — Improve an existing version,Customer Support,text,revise,customer_support;revise;voice-of-customer,customer-support/prompts.json
+customer_support_49,Voice of customer — Compare two approaches,Customer Support,text,compare,customer_support;compare;voice-of-customer,customer-support/prompts.json
+customer_support_50,Voice of customer — Test a version on a small scale,Customer Support,text,pilot,customer_support;pilot;voice-of-customer,customer-support/prompts.json
+personal_development_01,Values reflection — Create a first usable version,Personal Development,text,create,personal_development;create;values-reflection,personal-development/prompts.json
+personal_development_02,Values reflection — Review an existing version,Personal Development,text,review,personal_development;review;values-reflection,personal-development/prompts.json
+personal_development_03,Values reflection — Improve an existing version,Personal Development,text,revise,personal_development;revise;values-reflection,personal-development/prompts.json
+personal_development_04,Values reflection — Compare two approaches,Personal Development,text,compare,personal_development;compare;values-reflection,personal-development/prompts.json
+personal_development_05,Values reflection — Test a version on a small scale,Personal Development,text,pilot,personal_development;pilot;values-reflection,personal-development/prompts.json
+personal_development_06,Confidence practice — Create a first usable version,Personal Development,text,create,personal_development;create;confidence-practice,personal-development/prompts.json
+personal_development_07,Confidence practice — Review an existing version,Personal Development,text,review,personal_development;review;confidence-practice,personal-development/prompts.json
+personal_development_08,Confidence practice — Improve an existing version,Personal Development,text,revise,personal_development;revise;confidence-practice,personal-development/prompts.json
+personal_development_09,Confidence practice — Compare two approaches,Personal Development,text,compare,personal_development;compare;confidence-practice,personal-development/prompts.json
+personal_development_10,Confidence practice — Test a version on a small scale,Personal Development,text,pilot,personal_development;pilot;confidence-practice,personal-development/prompts.json
+personal_development_11,Boundary setting — Create a first usable version,Personal Development,text,create,personal_development;create;boundary-setting,personal-development/prompts.json
+personal_development_12,Boundary setting — Review an existing version,Personal Development,text,review,personal_development;review;boundary-setting,personal-development/prompts.json
+personal_development_13,Boundary setting — Improve an existing version,Personal Development,text,revise,personal_development;revise;boundary-setting,personal-development/prompts.json
+personal_development_14,Boundary setting — Compare two approaches,Personal Development,text,compare,personal_development;compare;boundary-setting,personal-development/prompts.json
+personal_development_15,Boundary setting — Test a version on a small scale,Personal Development,text,pilot,personal_development;pilot;boundary-setting,personal-development/prompts.json
+personal_development_16,Reflective journaling — Create a first usable version,Personal Development,text,create,personal_development;create;reflective-journaling,personal-development/prompts.json
+personal_development_17,Reflective journaling — Review an existing version,Personal Development,text,review,personal_development;review;reflective-journaling,personal-development/prompts.json
+personal_development_18,Reflective journaling — Improve an existing version,Personal Development,text,revise,personal_development;revise;reflective-journaling,personal-development/prompts.json
+personal_development_19,Reflective journaling — Compare two approaches,Personal Development,text,compare,personal_development;compare;reflective-journaling,personal-development/prompts.json
+personal_development_20,Reflective journaling — Test a version on a small scale,Personal Development,text,pilot,personal_development;pilot;reflective-journaling,personal-development/prompts.json
+personal_development_21,Personal experiment — Create a first usable version,Personal Development,text,create,personal_development;create;personal-experiment,personal-development/prompts.json
+personal_development_22,Personal experiment — Review an existing version,Personal Development,text,review,personal_development;review;personal-experiment,personal-development/prompts.json
+personal_development_23,Personal experiment — Improve an existing version,Personal Development,text,revise,personal_development;revise;personal-experiment,personal-development/prompts.json
+personal_development_24,Personal experiment — Compare two approaches,Personal Development,text,compare,personal_development;compare;personal-experiment,personal-development/prompts.json
+personal_development_25,Personal experiment — Test a version on a small scale,Personal Development,text,pilot,personal_development;pilot;personal-experiment,personal-development/prompts.json
+personal_development_26,Communication practice — Create a first usable version,Personal Development,text,create,personal_development;create;communication-practice,personal-development/prompts.json
+personal_development_27,Communication practice — Review an existing version,Personal Development,text,review,personal_development;review;communication-practice,personal-development/prompts.json
+personal_development_28,Communication practice — Improve an existing version,Personal Development,text,revise,personal_development;revise;communication-practice,personal-development/prompts.json
+personal_development_29,Communication practice — Compare two approaches,Personal Development,text,compare,personal_development;compare;communication-practice,personal-development/prompts.json
+personal_development_30,Communication practice — Test a version on a small scale,Personal Development,text,pilot,personal_development;pilot;communication-practice,personal-development/prompts.json
+personal_development_31,Reading intention — Create a first usable version,Personal Development,text,create,personal_development;create;reading-intention,personal-development/prompts.json
+personal_development_32,Reading intention — Review an existing version,Personal Development,text,review,personal_development;review;reading-intention,personal-development/prompts.json
+personal_development_33,Reading intention — Improve an existing version,Personal Development,text,revise,personal_development;revise;reading-intention,personal-development/prompts.json
+personal_development_34,Reading intention — Compare two approaches,Personal Development,text,compare,personal_development;compare;reading-intention,personal-development/prompts.json
+personal_development_35,Reading intention — Test a version on a small scale,Personal Development,text,pilot,personal_development;pilot;reading-intention,personal-development/prompts.json
+personal_development_36,Personal review — Create a first usable version,Personal Development,text,create,personal_development;create;personal-review,personal-development/prompts.json
+personal_development_37,Personal review — Review an existing version,Personal Development,text,review,personal_development;review;personal-review,personal-development/prompts.json
+personal_development_38,Personal review — Improve an existing version,Personal Development,text,revise,personal_development;revise;personal-review,personal-development/prompts.json
+personal_development_39,Personal review — Compare two approaches,Personal Development,text,compare,personal_development;compare;personal-review,personal-development/prompts.json
+personal_development_40,Personal review — Test a version on a small scale,Personal Development,text,pilot,personal_development;pilot;personal-review,personal-development/prompts.json
+personal_development_41,Creative confidence — Create a first usable version,Personal Development,text,create,personal_development;create;creative-confidence,personal-development/prompts.json
+personal_development_42,Creative confidence — Review an existing version,Personal Development,text,review,personal_development;review;creative-confidence,personal-development/prompts.json
+personal_development_43,Creative confidence — Improve an existing version,Personal Development,text,revise,personal_development;revise;creative-confidence,personal-development/prompts.json
+personal_development_44,Creative confidence — Compare two approaches,Personal Development,text,compare,personal_development;compare;creative-confidence,personal-development/prompts.json
+personal_development_45,Creative confidence — Test a version on a small scale,Personal Development,text,pilot,personal_development;pilot;creative-confidence,personal-development/prompts.json
+personal_development_46,Decision reflection — Create a first usable version,Personal Development,text,create,personal_development;create;decision-reflection,personal-development/prompts.json
+personal_development_47,Decision reflection — Review an existing version,Personal Development,text,review,personal_development;review;decision-reflection,personal-development/prompts.json
+personal_development_48,Decision reflection — Improve an existing version,Personal Development,text,revise,personal_development;revise;decision-reflection,personal-development/prompts.json
+personal_development_49,Decision reflection — Compare two approaches,Personal Development,text,compare,personal_development;compare;decision-reflection,personal-development/prompts.json
+personal_development_50,Decision reflection — Test a version on a small scale,Personal Development,text,pilot,personal_development;pilot;decision-reflection,personal-development/prompts.json
+camera_motion_01,Orbit portrait / Locked-off study,Camera Motion,image,locked-off-study,camera-motion;cinematic;image;locked-off-study,camera-motion/prompts.json
+camera_motion_02,Orbit portrait / Slow push-in,Camera Motion,video,slow-push-in,camera-motion;cinematic;video;slow-push-in,camera-motion/prompts.json
+camera_motion_03,Orbit portrait / Lateral track,Camera Motion,video,lateral-track,camera-motion;cinematic;video;lateral-track,camera-motion/prompts.json
+camera_motion_04,Orbit portrait / Detail to reveal,Camera Motion,video,detail-to-reveal,camera-motion;cinematic;video;detail-to-reveal,camera-motion/prompts.json
+camera_motion_05,Orbit portrait / Editorial hero,Camera Motion,image,editorial-hero,camera-motion;cinematic;image;editorial-hero,camera-motion/prompts.json
+camera_motion_06,Architectural reveal / Locked-off study,Camera Motion,image,locked-off-study,camera-motion;cinematic;image;locked-off-study,camera-motion/prompts.json
+camera_motion_07,Architectural reveal / Slow push-in,Camera Motion,video,slow-push-in,camera-motion;cinematic;video;slow-push-in,camera-motion/prompts.json
+camera_motion_08,Architectural reveal / Lateral track,Camera Motion,video,lateral-track,camera-motion;cinematic;video;lateral-track,camera-motion/prompts.json
+camera_motion_09,Architectural reveal / Detail to reveal,Camera Motion,video,detail-to-reveal,camera-motion;cinematic;video;detail-to-reveal,camera-motion/prompts.json
+camera_motion_10,Architectural reveal / Editorial hero,Camera Motion,image,editorial-hero,camera-motion;cinematic;image;editorial-hero,camera-motion/prompts.json
+camera_motion_11,Street pursuit / Locked-off study,Camera Motion,image,locked-off-study,camera-motion;cinematic;image;locked-off-study,camera-motion/prompts.json
+camera_motion_12,Street pursuit / Slow push-in,Camera Motion,video,slow-push-in,camera-motion;cinematic;video;slow-push-in,camera-motion/prompts.json
+camera_motion_13,Street pursuit / Lateral track,Camera Motion,video,lateral-track,camera-motion;cinematic;video;lateral-track,camera-motion/prompts.json
+camera_motion_14,Street pursuit / Detail to reveal,Camera Motion,video,detail-to-reveal,camera-motion;cinematic;video;detail-to-reveal,camera-motion/prompts.json
+camera_motion_15,Street pursuit / Editorial hero,Camera Motion,image,editorial-hero,camera-motion;cinematic;image;editorial-hero,camera-motion/prompts.json
+camera_motion_16,Nature macro / Locked-off study,Camera Motion,image,locked-off-study,camera-motion;cinematic;image;locked-off-study,camera-motion/prompts.json
+camera_motion_17,Nature macro / Slow push-in,Camera Motion,video,slow-push-in,camera-motion;cinematic;video;slow-push-in,camera-motion/prompts.json
+camera_motion_18,Nature macro / Lateral track,Camera Motion,video,lateral-track,camera-motion;cinematic;video;lateral-track,camera-motion/prompts.json
+camera_motion_19,Nature macro / Detail to reveal,Camera Motion,video,detail-to-reveal,camera-motion;cinematic;video;detail-to-reveal,camera-motion/prompts.json
+camera_motion_20,Nature macro / Editorial hero,Camera Motion,image,editorial-hero,camera-motion;cinematic;image;editorial-hero,camera-motion/prompts.json
+camera_motion_21,Tabletop movement / Locked-off study,Camera Motion,image,locked-off-study,camera-motion;cinematic;image;locked-off-study,camera-motion/prompts.json
+camera_motion_22,Tabletop movement / Slow push-in,Camera Motion,video,slow-push-in,camera-motion;cinematic;video;slow-push-in,camera-motion/prompts.json
+camera_motion_23,Tabletop movement / Lateral track,Camera Motion,video,lateral-track,camera-motion;cinematic;video;lateral-track,camera-motion/prompts.json
+camera_motion_24,Tabletop movement / Detail to reveal,Camera Motion,video,detail-to-reveal,camera-motion;cinematic;video;detail-to-reveal,camera-motion/prompts.json
+camera_motion_25,Tabletop movement / Editorial hero,Camera Motion,image,editorial-hero,camera-motion;cinematic;image;editorial-hero,camera-motion/prompts.json
+lighting_01,Window portrait / Locked-off study,Lighting,image,locked-off-study,lighting;cinematic;image;locked-off-study,lighting/prompts.json
+lighting_02,Window portrait / Slow push-in,Lighting,video,slow-push-in,lighting;cinematic;video;slow-push-in,lighting/prompts.json
+lighting_03,Window portrait / Lateral track,Lighting,video,lateral-track,lighting;cinematic;video;lateral-track,lighting/prompts.json
+lighting_04,Window portrait / Detail to reveal,Lighting,video,detail-to-reveal,lighting;cinematic;video;detail-to-reveal,lighting/prompts.json
+lighting_05,Window portrait / Editorial hero,Lighting,image,editorial-hero,lighting;cinematic;image;editorial-hero,lighting/prompts.json
+lighting_06,Rainy neon / Locked-off study,Lighting,image,locked-off-study,lighting;cinematic;image;locked-off-study,lighting/prompts.json
+lighting_07,Rainy neon / Slow push-in,Lighting,video,slow-push-in,lighting;cinematic;video;slow-push-in,lighting/prompts.json
+lighting_08,Rainy neon / Lateral track,Lighting,video,lateral-track,lighting;cinematic;video;lateral-track,lighting/prompts.json
+lighting_09,Rainy neon / Detail to reveal,Lighting,video,detail-to-reveal,lighting;cinematic;video;detail-to-reveal,lighting/prompts.json
+lighting_10,Rainy neon / Editorial hero,Lighting,image,editorial-hero,lighting;cinematic;image;editorial-hero,lighting/prompts.json
+lighting_11,Desert daylight / Locked-off study,Lighting,image,locked-off-study,lighting;cinematic;image;locked-off-study,lighting/prompts.json
+lighting_12,Desert daylight / Slow push-in,Lighting,video,slow-push-in,lighting;cinematic;video;slow-push-in,lighting/prompts.json
+lighting_13,Desert daylight / Lateral track,Lighting,video,lateral-track,lighting;cinematic;video;lateral-track,lighting/prompts.json
+lighting_14,Desert daylight / Detail to reveal,Lighting,video,detail-to-reveal,lighting;cinematic;video;detail-to-reveal,lighting/prompts.json
+lighting_15,Desert daylight / Editorial hero,Lighting,image,editorial-hero,lighting;cinematic;image;editorial-hero,lighting/prompts.json
+lighting_16,Museum still life / Locked-off study,Lighting,image,locked-off-study,lighting;cinematic;image;locked-off-study,lighting/prompts.json
+lighting_17,Museum still life / Slow push-in,Lighting,video,slow-push-in,lighting;cinematic;video;slow-push-in,lighting/prompts.json
+lighting_18,Museum still life / Lateral track,Lighting,video,lateral-track,lighting;cinematic;video;lateral-track,lighting/prompts.json
+lighting_19,Museum still life / Detail to reveal,Lighting,video,detail-to-reveal,lighting;cinematic;video;detail-to-reveal,lighting/prompts.json
+lighting_20,Museum still life / Editorial hero,Lighting,image,editorial-hero,lighting;cinematic;image;editorial-hero,lighting/prompts.json
+lighting_21,Night interior / Locked-off study,Lighting,image,locked-off-study,lighting;cinematic;image;locked-off-study,lighting/prompts.json
+lighting_22,Night interior / Slow push-in,Lighting,video,slow-push-in,lighting;cinematic;video;slow-push-in,lighting/prompts.json
+lighting_23,Night interior / Lateral track,Lighting,video,lateral-track,lighting;cinematic;video;lateral-track,lighting/prompts.json
+lighting_24,Night interior / Detail to reveal,Lighting,video,detail-to-reveal,lighting;cinematic;video;detail-to-reveal,lighting/prompts.json
+lighting_25,Night interior / Editorial hero,Lighting,image,editorial-hero,lighting;cinematic;image;editorial-hero,lighting/prompts.json
+product_ads_01,Fragrance film / Locked-off study,Product Ads,image,locked-off-study,product-ads;cinematic;image;locked-off-study,product-ads/prompts.json
+product_ads_02,Fragrance film / Slow push-in,Product Ads,video,slow-push-in,product-ads;cinematic;video;slow-push-in,product-ads/prompts.json
+product_ads_03,Fragrance film / Lateral track,Product Ads,video,lateral-track,product-ads;cinematic;video;lateral-track,product-ads/prompts.json
+product_ads_04,Fragrance film / Detail to reveal,Product Ads,video,detail-to-reveal,product-ads;cinematic;video;detail-to-reveal,product-ads/prompts.json
+product_ads_05,Fragrance film / Editorial hero,Product Ads,image,editorial-hero,product-ads;cinematic;image;editorial-hero,product-ads/prompts.json
+product_ads_06,Footwear reveal / Locked-off study,Product Ads,image,locked-off-study,product-ads;cinematic;image;locked-off-study,product-ads/prompts.json
+product_ads_07,Footwear reveal / Slow push-in,Product Ads,video,slow-push-in,product-ads;cinematic;video;slow-push-in,product-ads/prompts.json
+product_ads_08,Footwear reveal / Lateral track,Product Ads,video,lateral-track,product-ads;cinematic;video;lateral-track,product-ads/prompts.json
+product_ads_09,Footwear reveal / Detail to reveal,Product Ads,video,detail-to-reveal,product-ads;cinematic;video;detail-to-reveal,product-ads/prompts.json
+product_ads_10,Footwear reveal / Editorial hero,Product Ads,image,editorial-hero,product-ads;cinematic;image;editorial-hero,product-ads/prompts.json
+product_ads_11,Beverage spot / Locked-off study,Product Ads,image,locked-off-study,product-ads;cinematic;image;locked-off-study,product-ads/prompts.json
+product_ads_12,Beverage spot / Slow push-in,Product Ads,video,slow-push-in,product-ads;cinematic;video;slow-push-in,product-ads/prompts.json
+product_ads_13,Beverage spot / Lateral track,Product Ads,video,lateral-track,product-ads;cinematic;video;lateral-track,product-ads/prompts.json
+product_ads_14,Beverage spot / Detail to reveal,Product Ads,video,detail-to-reveal,product-ads;cinematic;video;detail-to-reveal,product-ads/prompts.json
+product_ads_15,Beverage spot / Editorial hero,Product Ads,image,editorial-hero,product-ads;cinematic;image;editorial-hero,product-ads/prompts.json
+product_ads_16,Skincare still life / Locked-off study,Product Ads,image,locked-off-study,product-ads;cinematic;image;locked-off-study,product-ads/prompts.json
+product_ads_17,Skincare still life / Slow push-in,Product Ads,video,slow-push-in,product-ads;cinematic;video;slow-push-in,product-ads/prompts.json
+product_ads_18,Skincare still life / Lateral track,Product Ads,video,lateral-track,product-ads;cinematic;video;lateral-track,product-ads/prompts.json
+product_ads_19,Skincare still life / Detail to reveal,Product Ads,video,detail-to-reveal,product-ads;cinematic;video;detail-to-reveal,product-ads/prompts.json
+product_ads_20,Skincare still life / Editorial hero,Product Ads,image,editorial-hero,product-ads;cinematic;image;editorial-hero,product-ads/prompts.json
+product_ads_21,Technology launch / Locked-off study,Product Ads,image,locked-off-study,product-ads;cinematic;image;locked-off-study,product-ads/prompts.json
+product_ads_22,Technology launch / Slow push-in,Product Ads,video,slow-push-in,product-ads;cinematic;video;slow-push-in,product-ads/prompts.json
+product_ads_23,Technology launch / Lateral track,Product Ads,video,lateral-track,product-ads;cinematic;video;lateral-track,product-ads/prompts.json
+product_ads_24,Technology launch / Detail to reveal,Product Ads,video,detail-to-reveal,product-ads;cinematic;video;detail-to-reveal,product-ads/prompts.json
+product_ads_25,Technology launch / Editorial hero,Product Ads,image,editorial-hero,product-ads;cinematic;image;editorial-hero,product-ads/prompts.json
+characters_01,Explorer continuity / Locked-off study,Characters,image,locked-off-study,characters;cinematic;image;locked-off-study,characters/prompts.json
+characters_02,Explorer continuity / Slow push-in,Characters,video,slow-push-in,characters;cinematic;video;slow-push-in,characters/prompts.json
+characters_03,Explorer continuity / Lateral track,Characters,video,lateral-track,characters;cinematic;video;lateral-track,characters/prompts.json
+characters_04,Explorer continuity / Detail to reveal,Characters,video,detail-to-reveal,characters;cinematic;video;detail-to-reveal,characters/prompts.json
+characters_05,Explorer continuity / Editorial hero,Characters,image,editorial-hero,characters;cinematic;image;editorial-hero,characters/prompts.json
+characters_06,Artisan portrait / Locked-off study,Characters,image,locked-off-study,characters;cinematic;image;locked-off-study,characters/prompts.json
+characters_07,Artisan portrait / Slow push-in,Characters,video,slow-push-in,characters;cinematic;video;slow-push-in,characters/prompts.json
+characters_08,Artisan portrait / Lateral track,Characters,video,lateral-track,characters;cinematic;video;lateral-track,characters/prompts.json
+characters_09,Artisan portrait / Detail to reveal,Characters,video,detail-to-reveal,characters;cinematic;video;detail-to-reveal,characters/prompts.json
+characters_10,Artisan portrait / Editorial hero,Characters,image,editorial-hero,characters;cinematic;image;editorial-hero,characters/prompts.json
+characters_11,Urban protagonist / Locked-off study,Characters,image,locked-off-study,characters;cinematic;image;locked-off-study,characters/prompts.json
+characters_12,Urban protagonist / Slow push-in,Characters,video,slow-push-in,characters;cinematic;video;slow-push-in,characters/prompts.json
+characters_13,Urban protagonist / Lateral track,Characters,video,lateral-track,characters;cinematic;video;lateral-track,characters/prompts.json
+characters_14,Urban protagonist / Detail to reveal,Characters,video,detail-to-reveal,characters;cinematic;video;detail-to-reveal,characters/prompts.json
+characters_15,Urban protagonist / Editorial hero,Characters,image,editorial-hero,characters;cinematic;image;editorial-hero,characters/prompts.json
+characters_16,Fantasy librarian / Locked-off study,Characters,image,locked-off-study,characters;cinematic;image;locked-off-study,characters/prompts.json
+characters_17,Fantasy librarian / Slow push-in,Characters,video,slow-push-in,characters;cinematic;video;slow-push-in,characters/prompts.json
+characters_18,Fantasy librarian / Lateral track,Characters,video,lateral-track,characters;cinematic;video;lateral-track,characters/prompts.json
+characters_19,Fantasy librarian / Detail to reveal,Characters,video,detail-to-reveal,characters;cinematic;video;detail-to-reveal,characters/prompts.json
+characters_20,Fantasy librarian / Editorial hero,Characters,image,editorial-hero,characters;cinematic;image;editorial-hero,characters/prompts.json
+characters_21,Animated guide / Locked-off study,Characters,image,locked-off-study,characters;cinematic;image;locked-off-study,characters/prompts.json
+characters_22,Animated guide / Slow push-in,Characters,video,slow-push-in,characters;cinematic;video;slow-push-in,characters/prompts.json
+characters_23,Animated guide / Lateral track,Characters,video,lateral-track,characters;cinematic;video;lateral-track,characters/prompts.json
+characters_24,Animated guide / Detail to reveal,Characters,video,detail-to-reveal,characters;cinematic;video;detail-to-reveal,characters/prompts.json
+characters_25,Animated guide / Editorial hero,Characters,image,editorial-hero,characters;cinematic;image;editorial-hero,characters/prompts.json
+image_to_video_01,Portrait animation / Locked-off study,Image-to-Video,image,locked-off-study,image-to-video;cinematic;image;locked-off-study,image-to-video/prompts.json
+image_to_video_02,Portrait animation / Slow push-in,Image-to-Video,video,slow-push-in,image-to-video;cinematic;video;slow-push-in,image-to-video/prompts.json
+image_to_video_03,Portrait animation / Lateral track,Image-to-Video,video,lateral-track,image-to-video;cinematic;video;lateral-track,image-to-video/prompts.json
+image_to_video_04,Portrait animation / Detail to reveal,Image-to-Video,video,detail-to-reveal,image-to-video;cinematic;video;detail-to-reveal,image-to-video/prompts.json
+image_to_video_05,Portrait animation / Editorial hero,Image-to-Video,image,editorial-hero,image-to-video;cinematic;image;editorial-hero,image-to-video/prompts.json
+image_to_video_06,Landscape animation / Locked-off study,Image-to-Video,image,locked-off-study,image-to-video;cinematic;image;locked-off-study,image-to-video/prompts.json
+image_to_video_07,Landscape animation / Slow push-in,Image-to-Video,video,slow-push-in,image-to-video;cinematic;video;slow-push-in,image-to-video/prompts.json
+image_to_video_08,Landscape animation / Lateral track,Image-to-Video,video,lateral-track,image-to-video;cinematic;video;lateral-track,image-to-video/prompts.json
+image_to_video_09,Landscape animation / Detail to reveal,Image-to-Video,video,detail-to-reveal,image-to-video;cinematic;video;detail-to-reveal,image-to-video/prompts.json
+image_to_video_10,Landscape animation / Editorial hero,Image-to-Video,image,editorial-hero,image-to-video;cinematic;image;editorial-hero,image-to-video/prompts.json
+image_to_video_11,Product animation / Locked-off study,Image-to-Video,image,locked-off-study,image-to-video;cinematic;image;locked-off-study,image-to-video/prompts.json
+image_to_video_12,Product animation / Slow push-in,Image-to-Video,video,slow-push-in,image-to-video;cinematic;video;slow-push-in,image-to-video/prompts.json
+image_to_video_13,Product animation / Lateral track,Image-to-Video,video,lateral-track,image-to-video;cinematic;video;lateral-track,image-to-video/prompts.json
+image_to_video_14,Product animation / Detail to reveal,Image-to-Video,video,detail-to-reveal,image-to-video;cinematic;video;detail-to-reveal,image-to-video/prompts.json
+image_to_video_15,Product animation / Editorial hero,Image-to-Video,image,editorial-hero,image-to-video;cinematic;image;editorial-hero,image-to-video/prompts.json
+image_to_video_16,Illustration animation / Locked-off study,Image-to-Video,image,locked-off-study,image-to-video;cinematic;image;locked-off-study,image-to-video/prompts.json
+image_to_video_17,Illustration animation / Slow push-in,Image-to-Video,video,slow-push-in,image-to-video;cinematic;video;slow-push-in,image-to-video/prompts.json
+image_to_video_18,Illustration animation / Lateral track,Image-to-Video,video,lateral-track,image-to-video;cinematic;video;lateral-track,image-to-video/prompts.json
+image_to_video_19,Illustration animation / Detail to reveal,Image-to-Video,video,detail-to-reveal,image-to-video;cinematic;video;detail-to-reveal,image-to-video/prompts.json
+image_to_video_20,Illustration animation / Editorial hero,Image-to-Video,image,editorial-hero,image-to-video;cinematic;image;editorial-hero,image-to-video/prompts.json
+image_to_video_21,Interior animation / Locked-off study,Image-to-Video,image,locked-off-study,image-to-video;cinematic;image;locked-off-study,image-to-video/prompts.json
+image_to_video_22,Interior animation / Slow push-in,Image-to-Video,video,slow-push-in,image-to-video;cinematic;video;slow-push-in,image-to-video/prompts.json
+image_to_video_23,Interior animation / Lateral track,Image-to-Video,video,lateral-track,image-to-video;cinematic;video;lateral-track,image-to-video/prompts.json
+image_to_video_24,Interior animation / Detail to reveal,Image-to-Video,video,detail-to-reveal,image-to-video;cinematic;video;detail-to-reveal,image-to-video/prompts.json
+image_to_video_25,Interior animation / Editorial hero,Image-to-Video,image,editorial-hero,image-to-video;cinematic;image;editorial-hero,image-to-video/prompts.json
+visual_effects_01,Dust reveal / Locked-off study,Visual Effects,image,locked-off-study,visual-effects;cinematic;image;locked-off-study,visual-effects/prompts.json
+visual_effects_02,Dust reveal / Slow push-in,Visual Effects,video,slow-push-in,visual-effects;cinematic;video;slow-push-in,visual-effects/prompts.json
+visual_effects_03,Dust reveal / Lateral track,Visual Effects,video,lateral-track,visual-effects;cinematic;video;lateral-track,visual-effects/prompts.json
+visual_effects_04,Dust reveal / Detail to reveal,Visual Effects,video,detail-to-reveal,visual-effects;cinematic;video;detail-to-reveal,visual-effects/prompts.json
+visual_effects_05,Dust reveal / Editorial hero,Visual Effects,image,editorial-hero,visual-effects;cinematic;image;editorial-hero,visual-effects/prompts.json
+visual_effects_06,Water interaction / Locked-off study,Visual Effects,image,locked-off-study,visual-effects;cinematic;image;locked-off-study,visual-effects/prompts.json
+visual_effects_07,Water interaction / Slow push-in,Visual Effects,video,slow-push-in,visual-effects;cinematic;video;slow-push-in,visual-effects/prompts.json
+visual_effects_08,Water interaction / Lateral track,Visual Effects,video,lateral-track,visual-effects;cinematic;video;lateral-track,visual-effects/prompts.json
+visual_effects_09,Water interaction / Detail to reveal,Visual Effects,video,detail-to-reveal,visual-effects;cinematic;video;detail-to-reveal,visual-effects/prompts.json
+visual_effects_10,Water interaction / Editorial hero,Visual Effects,image,editorial-hero,visual-effects;cinematic;image;editorial-hero,visual-effects/prompts.json
+visual_effects_11,Fabric motion / Locked-off study,Visual Effects,image,locked-off-study,visual-effects;cinematic;image;locked-off-study,visual-effects/prompts.json
+visual_effects_12,Fabric motion / Slow push-in,Visual Effects,video,slow-push-in,visual-effects;cinematic;video;slow-push-in,visual-effects/prompts.json
+visual_effects_13,Fabric motion / Lateral track,Visual Effects,video,lateral-track,visual-effects;cinematic;video;lateral-track,visual-effects/prompts.json
+visual_effects_14,Fabric motion / Detail to reveal,Visual Effects,video,detail-to-reveal,visual-effects;cinematic;video;detail-to-reveal,visual-effects/prompts.json
+visual_effects_15,Fabric motion / Editorial hero,Visual Effects,image,editorial-hero,visual-effects;cinematic;image;editorial-hero,visual-effects/prompts.json
+visual_effects_16,Light sweep / Locked-off study,Visual Effects,image,locked-off-study,visual-effects;cinematic;image;locked-off-study,visual-effects/prompts.json
+visual_effects_17,Light sweep / Slow push-in,Visual Effects,video,slow-push-in,visual-effects;cinematic;video;slow-push-in,visual-effects/prompts.json
+visual_effects_18,Light sweep / Lateral track,Visual Effects,video,lateral-track,visual-effects;cinematic;video;lateral-track,visual-effects/prompts.json
+visual_effects_19,Light sweep / Detail to reveal,Visual Effects,video,detail-to-reveal,visual-effects;cinematic;video;detail-to-reveal,visual-effects/prompts.json
+visual_effects_20,Light sweep / Editorial hero,Visual Effects,image,editorial-hero,visual-effects;cinematic;image;editorial-hero,visual-effects/prompts.json
+visual_effects_21,Atmospheric transition / Locked-off study,Visual Effects,image,locked-off-study,visual-effects;cinematic;image;locked-off-study,visual-effects/prompts.json
+visual_effects_22,Atmospheric transition / Slow push-in,Visual Effects,video,slow-push-in,visual-effects;cinematic;video;slow-push-in,visual-effects/prompts.json
+visual_effects_23,Atmospheric transition / Lateral track,Visual Effects,video,lateral-track,visual-effects;cinematic;video;lateral-track,visual-effects/prompts.json
+visual_effects_24,Atmospheric transition / Detail to reveal,Visual Effects,video,detail-to-reveal,visual-effects;cinematic;video;detail-to-reveal,visual-effects/prompts.json
+visual_effects_25,Atmospheric transition / Editorial hero,Visual Effects,image,editorial-hero,visual-effects;cinematic;image;editorial-hero,visual-effects/prompts.json
+fashion_editorial_01,Desert silhouette / Locked-off study,Fashion Editorial,image,locked-off-study,fashion-editorial;cinematic;image;locked-off-study,fashion-editorial/prompts.json
+fashion_editorial_02,Desert silhouette / Slow push-in,Fashion Editorial,video,slow-push-in,fashion-editorial;cinematic;video;slow-push-in,fashion-editorial/prompts.json
+fashion_editorial_03,Desert silhouette / Lateral track,Fashion Editorial,video,lateral-track,fashion-editorial;cinematic;video;lateral-track,fashion-editorial/prompts.json
+fashion_editorial_04,Desert silhouette / Detail to reveal,Fashion Editorial,video,detail-to-reveal,fashion-editorial;cinematic;video;detail-to-reveal,fashion-editorial/prompts.json
+fashion_editorial_05,Desert silhouette / Editorial hero,Fashion Editorial,image,editorial-hero,fashion-editorial;cinematic;image;editorial-hero,fashion-editorial/prompts.json
+fashion_editorial_06,Studio tailoring / Locked-off study,Fashion Editorial,image,locked-off-study,fashion-editorial;cinematic;image;locked-off-study,fashion-editorial/prompts.json
+fashion_editorial_07,Studio tailoring / Slow push-in,Fashion Editorial,video,slow-push-in,fashion-editorial;cinematic;video;slow-push-in,fashion-editorial/prompts.json
+fashion_editorial_08,Studio tailoring / Lateral track,Fashion Editorial,video,lateral-track,fashion-editorial;cinematic;video;lateral-track,fashion-editorial/prompts.json
+fashion_editorial_09,Studio tailoring / Detail to reveal,Fashion Editorial,video,detail-to-reveal,fashion-editorial;cinematic;video;detail-to-reveal,fashion-editorial/prompts.json
+fashion_editorial_10,Studio tailoring / Editorial hero,Fashion Editorial,image,editorial-hero,fashion-editorial;cinematic;image;editorial-hero,fashion-editorial/prompts.json
+fashion_editorial_11,Street texture / Locked-off study,Fashion Editorial,image,locked-off-study,fashion-editorial;cinematic;image;locked-off-study,fashion-editorial/prompts.json
+fashion_editorial_12,Street texture / Slow push-in,Fashion Editorial,video,slow-push-in,fashion-editorial;cinematic;video;slow-push-in,fashion-editorial/prompts.json
+fashion_editorial_13,Street texture / Lateral track,Fashion Editorial,video,lateral-track,fashion-editorial;cinematic;video;lateral-track,fashion-editorial/prompts.json
+fashion_editorial_14,Street texture / Detail to reveal,Fashion Editorial,video,detail-to-reveal,fashion-editorial;cinematic;video;detail-to-reveal,fashion-editorial/prompts.json
+fashion_editorial_15,Street texture / Editorial hero,Fashion Editorial,image,editorial-hero,fashion-editorial;cinematic;image;editorial-hero,fashion-editorial/prompts.json
+fashion_editorial_16,Movement study / Locked-off study,Fashion Editorial,image,locked-off-study,fashion-editorial;cinematic;image;locked-off-study,fashion-editorial/prompts.json
+fashion_editorial_17,Movement study / Slow push-in,Fashion Editorial,video,slow-push-in,fashion-editorial;cinematic;video;slow-push-in,fashion-editorial/prompts.json
+fashion_editorial_18,Movement study / Lateral track,Fashion Editorial,video,lateral-track,fashion-editorial;cinematic;video;lateral-track,fashion-editorial/prompts.json
+fashion_editorial_19,Movement study / Detail to reveal,Fashion Editorial,video,detail-to-reveal,fashion-editorial;cinematic;video;detail-to-reveal,fashion-editorial/prompts.json
+fashion_editorial_20,Movement study / Editorial hero,Fashion Editorial,image,editorial-hero,fashion-editorial;cinematic;image;editorial-hero,fashion-editorial/prompts.json
+fashion_editorial_21,Accessories still life / Locked-off study,Fashion Editorial,image,locked-off-study,fashion-editorial;cinematic;image;locked-off-study,fashion-editorial/prompts.json
+fashion_editorial_22,Accessories still life / Slow push-in,Fashion Editorial,video,slow-push-in,fashion-editorial;cinematic;video;slow-push-in,fashion-editorial/prompts.json
+fashion_editorial_23,Accessories still life / Lateral track,Fashion Editorial,video,lateral-track,fashion-editorial;cinematic;video;lateral-track,fashion-editorial/prompts.json
+fashion_editorial_24,Accessories still life / Detail to reveal,Fashion Editorial,video,detail-to-reveal,fashion-editorial;cinematic;video;detail-to-reveal,fashion-editorial/prompts.json
+fashion_editorial_25,Accessories still life / Editorial hero,Fashion Editorial,image,editorial-hero,fashion-editorial;cinematic;image;editorial-hero,fashion-editorial/prompts.json
+environments_01,Brutalist retreat / Locked-off study,Environments,image,locked-off-study,environments;cinematic;image;locked-off-study,environments/prompts.json
+environments_02,Brutalist retreat / Slow push-in,Environments,video,slow-push-in,environments;cinematic;video;slow-push-in,environments/prompts.json
+environments_03,Brutalist retreat / Lateral track,Environments,video,lateral-track,environments;cinematic;video;lateral-track,environments/prompts.json
+environments_04,Brutalist retreat / Detail to reveal,Environments,video,detail-to-reveal,environments;cinematic;video;detail-to-reveal,environments/prompts.json
+environments_05,Brutalist retreat / Editorial hero,Environments,image,editorial-hero,environments;cinematic;image;editorial-hero,environments/prompts.json
+environments_06,Forest sanctuary / Locked-off study,Environments,image,locked-off-study,environments;cinematic;image;locked-off-study,environments/prompts.json
+environments_07,Forest sanctuary / Slow push-in,Environments,video,slow-push-in,environments;cinematic;video;slow-push-in,environments/prompts.json
+environments_08,Forest sanctuary / Lateral track,Environments,video,lateral-track,environments;cinematic;video;lateral-track,environments/prompts.json
+environments_09,Forest sanctuary / Detail to reveal,Environments,video,detail-to-reveal,environments;cinematic;video;detail-to-reveal,environments/prompts.json
+environments_10,Forest sanctuary / Editorial hero,Environments,image,editorial-hero,environments;cinematic;image;editorial-hero,environments/prompts.json
+environments_11,Future transit / Locked-off study,Environments,image,locked-off-study,environments;cinematic;image;locked-off-study,environments/prompts.json
+environments_12,Future transit / Slow push-in,Environments,video,slow-push-in,environments;cinematic;video;slow-push-in,environments/prompts.json
+environments_13,Future transit / Lateral track,Environments,video,lateral-track,environments;cinematic;video;lateral-track,environments/prompts.json
+environments_14,Future transit / Detail to reveal,Environments,video,detail-to-reveal,environments;cinematic;video;detail-to-reveal,environments/prompts.json
+environments_15,Future transit / Editorial hero,Environments,image,editorial-hero,environments;cinematic;image;editorial-hero,environments/prompts.json
+environments_16,Coastal room / Locked-off study,Environments,image,locked-off-study,environments;cinematic;image;locked-off-study,environments/prompts.json
+environments_17,Coastal room / Slow push-in,Environments,video,slow-push-in,environments;cinematic;video;slow-push-in,environments/prompts.json
+environments_18,Coastal room / Lateral track,Environments,video,lateral-track,environments;cinematic;video;lateral-track,environments/prompts.json
+environments_19,Coastal room / Detail to reveal,Environments,video,detail-to-reveal,environments;cinematic;video;detail-to-reveal,environments/prompts.json
+environments_20,Coastal room / Editorial hero,Environments,image,editorial-hero,environments;cinematic;image;editorial-hero,environments/prompts.json
+environments_21,Lunar landscape / Locked-off study,Environments,image,locked-off-study,environments;cinematic;image;locked-off-study,environments/prompts.json
+environments_22,Lunar landscape / Slow push-in,Environments,video,slow-push-in,environments;cinematic;video;slow-push-in,environments/prompts.json
+environments_23,Lunar landscape / Lateral track,Environments,video,lateral-track,environments;cinematic;video;lateral-track,environments/prompts.json
+environments_24,Lunar landscape / Detail to reveal,Environments,video,detail-to-reveal,environments;cinematic;video;detail-to-reveal,environments/prompts.json
+environments_25,Lunar landscape / Editorial hero,Environments,image,editorial-hero,environments;cinematic;image;editorial-hero,environments/prompts.json

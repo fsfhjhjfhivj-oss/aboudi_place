@@ -1,0 +1,255 @@
+<section id="aiView" class="view hidden">
+  <div class="workspace-heading">
+    <div>
+      <div class="eyebrow">
+        <span class="badge">GOOGLE AI / SERVER CONNECTED WHEN CONFIGURED</span>
+      </div>
+      <h1>
+        A creative partner.<br /><span class="serif"
+          >Not just a blank box.</span
+        >
+      </h1>
+      <p>
+        Develop the idea, refine the brief, then create images or video with an
+        authorized Google account.
+      </p>
+    </div>
+    <button class="button" id="aiConnectionButton">
+      <span id="aiConnectionDot">○</span
+      ><span id="aiConnectionLabel">Connect AI backend</span>
+    </button>
+  </div>
+  <div id="aiSetupBanner" class="ai-setup">
+    <div>
+      <strong
+        >Real AI needs the local server and your own Google account.</strong
+      >
+      <p>
+        Download this website, set <code>GOOGLE_API_KEY</code> privately in
+        <code>.env</code>, and run <code>npm start</code>. Open the address
+        printed by the server, then connect using its
+        <b>app access token</b>—not your Google key.
+      </p>
+    </div>
+    <button class="button small" id="aiSetupHelp">Connection & setup</button>
+  </div>
+  <div class="ai-modebar">
+    <div class="pills" id="aiModes">
+      <button class="selected" data-ai-mode="assistant">✳ Assistant</button
+      ><button data-ai-mode="image">◇ Generate image</button
+      ><button data-ai-mode="video">▷ Generate video</button>
+    </div>
+    <span id="aiModelLabel">No provider account connected</span>
+  </div>
+  <div class="ai-layout">
+    <div class="ai-main">
+      <div id="aiAssistantPanel">
+        <div class="ai-chat" id="aiMessages" aria-live="polite">
+          <div class="ai-welcome">
+            <span>✳</span>
+            <h3>What are we making?</h3>
+            <p>
+              Discuss an idea, improve a prompt, or draft a coherent shot list.
+              Only the text you submit and any explicitly selected reference go
+              to Google.
+            </p>
+            <div class="ai-suggestions">
+              <button
+                data-suggestion="Help me develop three original ideas for a 10-second product film, with a clear camera move and lighting direction."
+              >
+                Develop a film idea ↗</button
+              ><button
+                data-suggestion="Help me turn a rough visual idea into a precise cinematic prompt. Ask for the subject and audience first."
+              >
+                Shape a visual prompt ↗
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="ai-composer">
+          <label class="field"
+            ><span>Assistant action</span
+            ><select id="aiAction">
+              <option value="chat">Discuss an idea</option>
+              <option value="refine">Improve my prompt</option>
+              <option value="storyboard">Generate a shot list as JSON</option>
+            </select></label
+          ><label class="field"
+            ><span
+              >Your message
+              <small>DO NOT INCLUDE PASSWORDS OR API KEYS</small></span
+            ><textarea
+              id="aiMessage"
+              rows="4"
+              maxlength="24000"
+              placeholder="Describe what you want to create, or paste a prompt to improve…"
+            ></textarea>
+          </label>
+          <div class="ai-composer-actions">
+            <button class="text-button" id="aiUseCurrent">
+              Use current creative brief</button
+            ><button class="button lime" id="aiSend">Ask Google AI ↗</button>
+          </div>
+        </div>
+      </div>
+      <div id="aiGenerationPanel" class="hidden">
+        <div class="ai-generate-art">
+          <img
+            id="aiGenerationArtwork"
+            src="__ASSET_orange-glass__"
+            alt="Illustrative editorial artwork, not a preview of your generated result"
+          /><span
+            >YOUR RESULT WILL APPEAR BELOW AFTER A SUCCESSFUL PROVIDER
+            CALL</span
+          >
+        </div>
+        <div class="ai-generate-form">
+          <label class="field"
+            ><span>Generation prompt</span
+            ><textarea
+              id="aiGenerationPrompt"
+              rows="7"
+              maxlength="24000"
+              placeholder="Describe the image or video to generate…"
+            ></textarea>
+          </label>
+          <div class="field-pair">
+            <label class="field"
+              ><span>Aspect ratio</span
+              ><select id="aiGenerationRatio">
+                <option>16:9</option>
+                <option>9:16</option>
+                <option>1:1</option>
+                <option>4:5</option>
+              </select></label
+            ><label class="field" id="aiVideoDurationField"
+              ><span>Video duration / seconds</span
+              ><input
+                id="aiVideoDuration"
+                type="number"
+                min="3"
+                max="15"
+                value="6"
+            /></label>
+          </div>
+          <div class="ai-composer-actions">
+            <button class="text-button" id="aiUseCurrentGeneration">
+              Use current creative brief</button
+            ><button class="button lime" id="aiGenerate">
+              Generate image ↗
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <aside class="ai-sidebar">
+      <div class="panel-title"><span>↗</span> Before sending</div>
+      <label class="ai-check"
+        ><input type="checkbox" id="aiConsent" /><span
+          >I authorize sending this submitted content to Google and understand
+          that API usage may incur charges.</span
+        ></label
+      ><label class="ai-check"
+        ><input type="checkbox" id="aiReferenceConsent" /><span
+          >Include the reference image currently selected in the Create
+          workspace. I have permission to use it.</span
+        ></label
+      >
+      <div class="ai-reference-info" id="aiReferenceInfo">
+        No reference selected. Add one in Create if needed.
+      </div>
+      <div class="inline-notice">
+        A configured server is not proof of model access or billing
+        availability. Actual failures are shown—there are no simulated AI
+        replies or pretend renders.
+      </div>
+      <div class="ai-models" id="aiModelsInfo">
+        Provider details appear after connecting.
+      </div>
+      <div class="ai-limit-note">
+        The local server defaults to 30 submissions per UTC day, two concurrent
+        jobs, and 24-hour history retention. These are local safeguards, not a
+        guaranteed Google spending cap.
+      </div>
+      <button class="button small" id="aiRefreshJobs">
+        Refresh generation history
+      </button>
+    </aside>
+  </div>
+  <div class="section-top" style="margin-top: 35px">
+    <div>
+      <div class="eyebrow muted">REAL REQUESTS / REAL STATUS</div>
+      <h2>Generation history<span class="lime-dot">.</span></h2>
+    </div>
+    <span id="aiHistoryStatus" class="muted small-text"
+      >Connect to load this server's history.</span
+    >
+  </div>
+  <div id="aiJobGrid" class="ai-job-grid">
+    <div class="empty-state">
+      <h3>No provider results loaded.</h3>
+      <p>
+        Connect your backend and explicitly submit a request. Nothing is
+        generated or billed by this static preview.
+      </p>
+    </div>
+  </div>
+</section>
+<dialog id="aiConnectDialog" aria-labelledby="aiConnectTitle">
+  <div class="dialog-top">
+    <div>
+      <div class="eyebrow">A SERVER-SIDE CONNECTION</div>
+      <h2 id="aiConnectTitle">Connect your Google AI backend.</h2>
+    </div>
+    <button
+      class="icon-button"
+      data-close="aiConnectDialog"
+      aria-label="Close AI connection"
+    >
+      ✕
+    </button>
+  </div>
+  <div class="toolkit-body">
+    <p>
+      This page must be served by the included Node server. A static HTML
+      preview cannot securely call Google on its own.
+    </p>
+    <ol class="ai-setup-list">
+      <li>
+        Copy <code>.env.example</code> to <code>.env</code> in the downloaded
+        website folder.
+      </li>
+      <li>
+        Put your Google API key only in <code>GOOGLE_API_KEY</code> on that
+        server. Check billing, model access, and provider spending controls.
+      </li>
+      <li>
+        Run <code>npm start</code> with Node.js 20 or later. Open the printed
+        local address.
+      </li>
+      <li>
+        Copy the <b>APP ACCESS TOKEN</b> printed in that server's terminal and
+        enter it below.
+      </li>
+    </ol>
+    <label class="field"
+      ><span>App access token—not a Google API key</span
+      ><input
+        id="aiAppToken"
+        type="password"
+        autocomplete="off"
+        minlength="32"
+        placeholder="Server-generated app access token"
+    /></label>
+    <div class="button-row">
+      <button class="button lime" id="aiConnectConfirm">Connect backend</button
+      ><button class="button" id="aiDisconnect">Disconnect</button>
+    </div>
+    <p id="aiConnectionStatus" class="ai-connection-status" role="status"></p>
+    <div class="inline-notice">
+      The app token stays in memory for this page session. Your Google key stays
+      on the server. Disconnecting does not cancel requests already submitted to
+      Google. Use this shared-token server only as a single-owner workspace.
+    </div>
+  </div>
+</dialog>
