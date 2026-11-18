@@ -1,0 +1,1001 @@
+id,title,category,medium,variant,tags,promptVersion,directGeneration,requiresReference,path
+creative_01,Idea Spark,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_02,Story Premise Lab,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_03,Brand Name Workshop,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_04,Worldbuilding Canvas,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_05,Campaign Concepts,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_06,Playable Game Blueprint,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_07,Analogy Studio,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_08,Constraint Writing Challenge,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_09,Service Reimaginer,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_10,Storyboard Director,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_11,Podcast Concepts,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_12,Poetry Variations,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_13,Character Builder,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_14,Improv Workshop,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_15,Exhibition Journey,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_16,Object Remix,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_17,Seven-Day Creative Challenge,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_18,Mystery Kit,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_19,Visual Prompt Director,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_20,Problem Reframer,Creativity,text,original,creativity;original,5.0.0,False,False,creativity/prompts.json
+creative_21,Album concept · Create,Creativity,text,create,creative;create;album-concept,5.0.0,False,False,creativity/prompts.json
+creative_22,Album concept · Review,Creativity,text,review,creative;review;album-concept,5.0.0,False,False,creativity/prompts.json
+creative_23,Album concept · Refine,Creativity,text,revise,creative;revise;album-concept,5.0.0,False,False,creativity/prompts.json
+creative_24,Public installation · Create,Creativity,text,create,creative;create;public-installation,5.0.0,False,False,creativity/prompts.json
+creative_25,Public installation · Review,Creativity,text,review,creative;review;public-installation,5.0.0,False,False,creativity/prompts.json
+creative_26,Public installation · Refine,Creativity,text,revise,creative;revise;public-installation,5.0.0,False,False,creativity/prompts.json
+creative_27,Comic sequence · Create,Creativity,text,create,creative;create;comic-sequence,5.0.0,False,False,creativity/prompts.json
+creative_28,Comic sequence · Review,Creativity,text,review,creative;review;comic-sequence,5.0.0,False,False,creativity/prompts.json
+creative_29,Comic sequence · Refine,Creativity,text,revise,creative;revise;comic-sequence,5.0.0,False,False,creativity/prompts.json
+creative_30,Creative collaboration · Create,Creativity,text,create,creative;create;creative-collaboration,5.0.0,False,False,creativity/prompts.json
+creative_31,Creative collaboration · Review,Creativity,text,review,creative;review;creative-collaboration,5.0.0,False,False,creativity/prompts.json
+creative_32,Creative collaboration · Refine,Creativity,text,revise,creative;revise;creative-collaboration,5.0.0,False,False,creativity/prompts.json
+creative_33,Alternative ending · Create,Creativity,text,create,creative;create;alternative-ending,5.0.0,False,False,creativity/prompts.json
+creative_34,Alternative ending · Review,Creativity,text,review,creative;review;alternative-ending,5.0.0,False,False,creativity/prompts.json
+creative_35,Alternative ending · Refine,Creativity,text,revise,creative;revise;alternative-ending,5.0.0,False,False,creativity/prompts.json
+creative_36,Festival concept · Create,Creativity,text,create,creative;create;festival-concept,5.0.0,False,False,creativity/prompts.json
+creative_37,Festival concept · Review,Creativity,text,review,creative;review;festival-concept,5.0.0,False,False,creativity/prompts.json
+creative_38,Festival concept · Refine,Creativity,text,revise,creative;revise;festival-concept,5.0.0,False,False,creativity/prompts.json
+creative_39,Invented language · Create,Creativity,text,create,creative;create;invented-language,5.0.0,False,False,creativity/prompts.json
+creative_40,Invented language · Review,Creativity,text,review,creative;review;invented-language,5.0.0,False,False,creativity/prompts.json
+creative_41,Invented language · Refine,Creativity,text,revise,creative;revise;invented-language,5.0.0,False,False,creativity/prompts.json
+creative_42,Object storytelling · Create,Creativity,text,create,creative;create;object-storytelling,5.0.0,False,False,creativity/prompts.json
+creative_43,Object storytelling · Review,Creativity,text,review,creative;review;object-storytelling,5.0.0,False,False,creativity/prompts.json
+creative_44,Object storytelling · Refine,Creativity,text,revise,creative;revise;object-storytelling,5.0.0,False,False,creativity/prompts.json
+creative_45,Interactive narrative · Create,Creativity,text,create,creative;create;interactive-narrative,5.0.0,False,False,creativity/prompts.json
+creative_46,Interactive narrative · Review,Creativity,text,review,creative;review;interactive-narrative,5.0.0,False,False,creativity/prompts.json
+creative_47,Interactive narrative · Refine,Creativity,text,revise,creative;revise;interactive-narrative,5.0.0,False,False,creativity/prompts.json
+creative_48,Creative remix · Create,Creativity,text,create,creative;create;creative-remix,5.0.0,False,False,creativity/prompts.json
+creative_49,Creative remix · Review,Creativity,text,review,creative;review;creative-remix,5.0.0,False,False,creativity/prompts.json
+creative_50,Creative remix · Refine,Creativity,text,revise,creative;revise;creative-remix,5.0.0,False,False,creativity/prompts.json
+coding_01,Feature Implementation,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_02,Debugging Partner,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_03,Practical Code Review,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_04,Test Suite Designer,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_05,API Blueprint,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_06,SQL Query Builder,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_07,Behavior-Preserving Refactor,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_08,Defensive Security Review,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_09,Performance Investigation,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_10,Developer Documentation,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_11,CLI Builder,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_12,Migration Planner,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_13,Data Parser,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_14,Concurrency Design,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_15,Dependency Review,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_16,Configuration Architecture,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_17,Algorithm Comparison,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_18,Observability Plan,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_19,Accessible Component,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_20,Application Architecture,Coding,text,original,coding;original,5.0.0,False,False,coding/prompts.json
+coding_21,File importer · Create,Coding,text,create,coding;create;file-importer,5.0.0,False,False,coding/prompts.json
+coding_22,File importer · Review,Coding,text,review,coding;review;file-importer,5.0.0,False,False,coding/prompts.json
+coding_23,File importer · Refine,Coding,text,revise,coding;revise;file-importer,5.0.0,False,False,coding/prompts.json
+coding_24,Webhook handler · Create,Coding,text,create,coding;create;webhook-handler,5.0.0,False,False,coding/prompts.json
+coding_25,Webhook handler · Review,Coding,text,review,coding;review;webhook-handler,5.0.0,False,False,coding/prompts.json
+coding_26,Webhook handler · Refine,Coding,text,revise,coding;revise;webhook-handler,5.0.0,False,False,coding/prompts.json
+coding_27,Feature flag · Create,Coding,text,create,coding;create;feature-flag,5.0.0,False,False,coding/prompts.json
+coding_28,Feature flag · Review,Coding,text,review,coding;review;feature-flag,5.0.0,False,False,coding/prompts.json
+coding_29,Feature flag · Refine,Coding,text,revise,coding;revise;feature-flag,5.0.0,False,False,coding/prompts.json
+coding_30,Cache policy · Create,Coding,text,create,coding;create;cache-policy,5.0.0,False,False,coding/prompts.json
+coding_31,Cache policy · Review,Coding,text,review,coding;review;cache-policy,5.0.0,False,False,coding/prompts.json
+coding_32,Cache policy · Refine,Coding,text,revise,coding;revise;cache-policy,5.0.0,False,False,coding/prompts.json
+coding_33,Background job · Create,Coding,text,create,coding;create;background-job,5.0.0,False,False,coding/prompts.json
+coding_34,Background job · Review,Coding,text,review,coding;review;background-job,5.0.0,False,False,coding/prompts.json
+coding_35,Background job · Refine,Coding,text,revise,coding;revise;background-job,5.0.0,False,False,coding/prompts.json
+coding_36,Serialization · Create,Coding,text,create,coding;create;serialization,5.0.0,False,False,coding/prompts.json
+coding_37,Serialization · Review,Coding,text,review,coding;review;serialization,5.0.0,False,False,coding/prompts.json
+coding_38,Serialization · Refine,Coding,text,revise,coding;revise;serialization,5.0.0,False,False,coding/prompts.json
+coding_39,Search function · Create,Coding,text,create,coding;create;search-function,5.0.0,False,False,coding/prompts.json
+coding_40,Search function · Review,Coding,text,review,coding;review;search-function,5.0.0,False,False,coding/prompts.json
+coding_41,Search function · Refine,Coding,text,revise,coding;revise;search-function,5.0.0,False,False,coding/prompts.json
+coding_42,Permission model · Create,Coding,text,create,coding;create;permission-model,5.0.0,False,False,coding/prompts.json
+coding_43,Permission model · Review,Coding,text,review,coding;review;permission-model,5.0.0,False,False,coding/prompts.json
+coding_44,Permission model · Refine,Coding,text,revise,coding;revise;permission-model,5.0.0,False,False,coding/prompts.json
+coding_45,Repository automation · Create,Coding,text,create,coding;create;repository-automation,5.0.0,False,False,coding/prompts.json
+coding_46,Repository automation · Review,Coding,text,review,coding;review;repository-automation,5.0.0,False,False,coding/prompts.json
+coding_47,Repository automation · Refine,Coding,text,revise,coding;revise;repository-automation,5.0.0,False,False,coding/prompts.json
+coding_48,Error taxonomy · Create,Coding,text,create,coding;create;error-taxonomy,5.0.0,False,False,coding/prompts.json
+coding_49,Error taxonomy · Review,Coding,text,review,coding;review;error-taxonomy,5.0.0,False,False,coding/prompts.json
+coding_50,Error taxonomy · Refine,Coding,text,revise,coding;revise;error-taxonomy,5.0.0,False,False,coding/prompts.json
+research_01,Research Question Workshop,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_02,Search Strategy,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_03,Literature Synthesis,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_04,Source Credibility Review,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_05,Testable Hypotheses,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_06,Interview Guide,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_07,Survey Designer,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_08,Experiment Plan,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_09,Research Gap Map,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_10,Evidence Brief,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_11,Systematic Review Protocol,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_12,Research Ethics Review,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_13,Claim Verification,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_14,Historical Source Analysis,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_15,Data Management Plan,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_16,Mixed-Methods Design,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_17,Replication Plan,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_18,Causal Claim Review,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_19,Research Presentation,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_20,Grant Outline,Research,text,original,research;original,5.0.0,False,False,research/prompts.json
+research_21,Observation protocol · Create,Research,text,create,research;create;observation-protocol,5.0.0,False,False,research/prompts.json
+research_22,Observation protocol · Review,Research,text,review,research;review;observation-protocol,5.0.0,False,False,research/prompts.json
+research_23,Observation protocol · Refine,Research,text,revise,research;revise;observation-protocol,5.0.0,False,False,research/prompts.json
+research_24,Citation audit · Create,Research,text,create,research;create;citation-audit,5.0.0,False,False,research/prompts.json
+research_25,Citation audit · Review,Research,text,review,research;review;citation-audit,5.0.0,False,False,research/prompts.json
+research_26,Citation audit · Refine,Research,text,revise,research;revise;citation-audit,5.0.0,False,False,research/prompts.json
+research_27,Concept definition · Create,Research,text,create,research;create;concept-definition,5.0.0,False,False,research/prompts.json
+research_28,Concept definition · Review,Research,text,review,research;review;concept-definition,5.0.0,False,False,research/prompts.json
+research_29,Concept definition · Refine,Research,text,revise,research;revise;concept-definition,5.0.0,False,False,research/prompts.json
+research_30,Sampling strategy · Create,Research,text,create,research;create;sampling-strategy,5.0.0,False,False,research/prompts.json
+research_31,Sampling strategy · Review,Research,text,review,research;review;sampling-strategy,5.0.0,False,False,research/prompts.json
+research_32,Sampling strategy · Refine,Research,text,revise,research;revise;sampling-strategy,5.0.0,False,False,research/prompts.json
+research_33,Pilot study · Create,Research,text,create,research;create;pilot-study,5.0.0,False,False,research/prompts.json
+research_34,Pilot study · Review,Research,text,review,research;review;pilot-study,5.0.0,False,False,research/prompts.json
+research_35,Pilot study · Refine,Research,text,revise,research;revise;pilot-study,5.0.0,False,False,research/prompts.json
+research_36,Evidence disagreement · Create,Research,text,create,research;create;evidence-disagreement,5.0.0,False,False,research/prompts.json
+research_37,Evidence disagreement · Review,Research,text,review,research;review;evidence-disagreement,5.0.0,False,False,research/prompts.json
+research_38,Evidence disagreement · Refine,Research,text,revise,research;revise;evidence-disagreement,5.0.0,False,False,research/prompts.json
+research_39,Archival plan · Create,Research,text,create,research;create;archival-plan,5.0.0,False,False,research/prompts.json
+research_40,Archival plan · Review,Research,text,review,research;review;archival-plan,5.0.0,False,False,research/prompts.json
+research_41,Archival plan · Refine,Research,text,revise,research;revise;archival-plan,5.0.0,False,False,research/prompts.json
+research_42,Preregistration · Create,Research,text,create,research;create;preregistration,5.0.0,False,False,research/prompts.json
+research_43,Preregistration · Review,Research,text,review,research;review;preregistration,5.0.0,False,False,research/prompts.json
+research_44,Preregistration · Refine,Research,text,revise,research;revise;preregistration,5.0.0,False,False,research/prompts.json
+research_45,Research limitations · Create,Research,text,create,research;create;research-limitations,5.0.0,False,False,research/prompts.json
+research_46,Research limitations · Review,Research,text,review,research;review;research-limitations,5.0.0,False,False,research/prompts.json
+research_47,Research limitations · Refine,Research,text,revise,research;revise;research-limitations,5.0.0,False,False,research/prompts.json
+research_48,Public research summary · Create,Research,text,create,research;create;public-research-summary,5.0.0,False,False,research/prompts.json
+research_49,Public research summary · Review,Research,text,review,research;review;public-research-summary,5.0.0,False,False,research/prompts.json
+research_50,Public research summary · Refine,Research,text,revise,research;revise;public-research-summary,5.0.0,False,False,research/prompts.json
+learning_01,Explain It Clearly,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_02,Learning Roadmap,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_03,Socratic Tutor,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_04,Practice Set,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_05,Retrieval Flashcards,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_06,Misconception Repair,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_07,Worked Examples,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_08,Assessment Rubric,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_09,Retrieval Schedule,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_10,Teach-Back Feedback,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_11,Language Conversation Lesson,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_12,Find the First Math Error,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_13,Reading Comprehension,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_14,Learn by Building,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_15,Mock Oral Exam,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_16,Memory Aids,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_17,Connect Two Ideas,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_18,Study Log Review,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_19,Chart Reading Lesson,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_20,Deliberate Practice Routine,Learning,text,original,learning;original,5.0.0,False,False,learning/prompts.json
+learning_21,Historical reasoning · Create,Learning,text,create,learning;create;historical-reasoning,5.0.0,False,False,learning/prompts.json
+learning_22,Historical reasoning · Review,Learning,text,review,learning;review;historical-reasoning,5.0.0,False,False,learning/prompts.json
+learning_23,Historical reasoning · Refine,Learning,text,revise,learning;revise;historical-reasoning,5.0.0,False,False,learning/prompts.json
+learning_24,Scientific reasoning · Create,Learning,text,create,learning;create;scientific-reasoning,5.0.0,False,False,learning/prompts.json
+learning_25,Scientific reasoning · Review,Learning,text,review,learning;review;scientific-reasoning,5.0.0,False,False,learning/prompts.json
+learning_26,Scientific reasoning · Refine,Learning,text,revise,learning;revise;scientific-reasoning,5.0.0,False,False,learning/prompts.json
+learning_27,Debugging practice · Create,Learning,text,create,learning;create;debugging-practice,5.0.0,False,False,learning/prompts.json
+learning_28,Debugging practice · Review,Learning,text,review,learning;review;debugging-practice,5.0.0,False,False,learning/prompts.json
+learning_29,Debugging practice · Refine,Learning,text,revise,learning;revise;debugging-practice,5.0.0,False,False,learning/prompts.json
+learning_30,Writing practice · Create,Learning,text,create,learning;create;writing-practice,5.0.0,False,False,learning/prompts.json
+learning_31,Writing practice · Review,Learning,text,review,learning;review;writing-practice,5.0.0,False,False,learning/prompts.json
+learning_32,Writing practice · Refine,Learning,text,revise,learning;revise;writing-practice,5.0.0,False,False,learning/prompts.json
+learning_33,Lab preparation · Create,Learning,text,create,learning;create;lab-preparation,5.0.0,False,False,learning/prompts.json
+learning_34,Lab preparation · Review,Learning,text,review,learning;review;lab-preparation,5.0.0,False,False,learning/prompts.json
+learning_35,Lab preparation · Refine,Learning,text,revise,learning;revise;lab-preparation,5.0.0,False,False,learning/prompts.json
+learning_36,Exam wrapper · Create,Learning,text,create,learning;create;exam-wrapper,5.0.0,False,False,learning/prompts.json
+learning_37,Exam wrapper · Review,Learning,text,review,learning;review;exam-wrapper,5.0.0,False,False,learning/prompts.json
+learning_38,Exam wrapper · Refine,Learning,text,revise,learning;revise;exam-wrapper,5.0.0,False,False,learning/prompts.json
+learning_39,Peer teaching · Create,Learning,text,create,learning;create;peer-teaching,5.0.0,False,False,learning/prompts.json
+learning_40,Peer teaching · Review,Learning,text,review,learning;review;peer-teaching,5.0.0,False,False,learning/prompts.json
+learning_41,Peer teaching · Refine,Learning,text,revise,learning;revise;peer-teaching,5.0.0,False,False,learning/prompts.json
+learning_42,Learning transfer · Create,Learning,text,create,learning;create;learning-transfer,5.0.0,False,False,learning/prompts.json
+learning_43,Learning transfer · Review,Learning,text,review,learning;review;learning-transfer,5.0.0,False,False,learning/prompts.json
+learning_44,Learning transfer · Refine,Learning,text,revise,learning;revise;learning-transfer,5.0.0,False,False,learning/prompts.json
+learning_45,Concept map · Create,Learning,text,create,learning;create;concept-map,5.0.0,False,False,learning/prompts.json
+learning_46,Concept map · Review,Learning,text,review,learning;review;concept-map,5.0.0,False,False,learning/prompts.json
+learning_47,Concept map · Refine,Learning,text,revise,learning;revise;concept-map,5.0.0,False,False,learning/prompts.json
+learning_48,Feedback literacy · Create,Learning,text,create,learning;create;feedback-literacy,5.0.0,False,False,learning/prompts.json
+learning_49,Feedback literacy · Review,Learning,text,review,learning;review;feedback-literacy,5.0.0,False,False,learning/prompts.json
+learning_50,Feedback literacy · Refine,Learning,text,revise,learning;revise;feedback-literacy,5.0.0,False,False,learning/prompts.json
+planning_01,Project Blueprint,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_02,Realistic Weekly Schedule,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_03,Goal to Next Action,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_04,Risk Register,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_05,Decision-Focused Meeting,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_06,Event Run of Show,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_07,Product Roadmap,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_08,Contingency Playbook,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_09,Decision Process,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_10,Sustainable Habit Plan,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_11,Launch Readiness,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_12,Resource Allocation,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_13,Workshop Agenda,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_14,Role Onboarding,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_15,Responsibility Handover,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_16,Volunteer Program,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_17,Organize a Space,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_18,Quarterly Strategy,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_19,Negotiation Preparation,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_20,Sustainability Pilot,Planning,text,original,planning;original,5.0.0,False,False,planning/prompts.json
+planning_21,Research sprint · Create,Planning,text,create,planning;create;research-sprint,5.0.0,False,False,planning/prompts.json
+planning_22,Research sprint · Review,Planning,text,review,planning;review;research-sprint,5.0.0,False,False,planning/prompts.json
+planning_23,Research sprint · Refine,Planning,text,revise,planning;revise;research-sprint,5.0.0,False,False,planning/prompts.json
+planning_24,Content calendar · Create,Planning,text,create,planning;create;content-calendar,5.0.0,False,False,planning/prompts.json
+planning_25,Content calendar · Review,Planning,text,review,planning;review;content-calendar,5.0.0,False,False,planning/prompts.json
+planning_26,Content calendar · Refine,Planning,text,revise,planning;revise;content-calendar,5.0.0,False,False,planning/prompts.json
+planning_27,Maintenance calendar · Create,Planning,text,create,planning;create;maintenance-calendar,5.0.0,False,False,planning/prompts.json
+planning_28,Maintenance calendar · Review,Planning,text,review,planning;review;maintenance-calendar,5.0.0,False,False,planning/prompts.json
+planning_29,Maintenance calendar · Refine,Planning,text,revise,planning;revise;maintenance-calendar,5.0.0,False,False,planning/prompts.json
+planning_30,Study group · Create,Planning,text,create,planning;create;study-group,5.0.0,False,False,planning/prompts.json
+planning_31,Study group · Review,Planning,text,review,planning;review;study-group,5.0.0,False,False,planning/prompts.json
+planning_32,Study group · Refine,Planning,text,revise,planning;revise;study-group,5.0.0,False,False,planning/prompts.json
+planning_33,Move coordination · Create,Planning,text,create,planning;create;move-coordination,5.0.0,False,False,planning/prompts.json
+planning_34,Move coordination · Review,Planning,text,review,planning;review;move-coordination,5.0.0,False,False,planning/prompts.json
+planning_35,Move coordination · Refine,Planning,text,revise,planning;revise;move-coordination,5.0.0,False,False,planning/prompts.json
+planning_36,Decision review · Create,Planning,text,create,planning;create;decision-review,5.0.0,False,False,planning/prompts.json
+planning_37,Decision review · Review,Planning,text,review,planning;review;decision-review,5.0.0,False,False,planning/prompts.json
+planning_38,Decision review · Refine,Planning,text,revise,planning;revise;decision-review,5.0.0,False,False,planning/prompts.json
+planning_39,Volunteer rota · Create,Planning,text,create,planning;create;volunteer-rota,5.0.0,False,False,planning/prompts.json
+planning_40,Volunteer rota · Review,Planning,text,review,planning;review;volunteer-rota,5.0.0,False,False,planning/prompts.json
+planning_41,Volunteer rota · Refine,Planning,text,revise,planning;revise;volunteer-rota,5.0.0,False,False,planning/prompts.json
+planning_42,Budget process · Create,Planning,text,create,planning;create;budget-process,5.0.0,False,False,planning/prompts.json
+planning_43,Budget process · Review,Planning,text,review,planning;review;budget-process,5.0.0,False,False,planning/prompts.json
+planning_44,Budget process · Refine,Planning,text,revise,planning;revise;budget-process,5.0.0,False,False,planning/prompts.json
+planning_45,Seasonal preparation · Create,Planning,text,create,planning;create;seasonal-preparation,5.0.0,False,False,planning/prompts.json
+planning_46,Seasonal preparation · Review,Planning,text,review,planning;review;seasonal-preparation,5.0.0,False,False,planning/prompts.json
+planning_47,Seasonal preparation · Refine,Planning,text,revise,planning;revise;seasonal-preparation,5.0.0,False,False,planning/prompts.json
+planning_48,Exit plan · Create,Planning,text,create,planning;create;exit-plan,5.0.0,False,False,planning/prompts.json
+planning_49,Exit plan · Review,Planning,text,review,planning;review;exit-plan,5.0.0,False,False,planning/prompts.json
+planning_50,Exit plan · Refine,Planning,text,revise,planning;revise;exit-plan,5.0.0,False,False,planning/prompts.json
+writing_01,Reader-First Article,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_02,Professional Email,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_03,Clarity Rewrite,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_04,Executive Summary,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_05,Practical Proposal,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_06,Argument Outline,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_07,Voice Adaptation,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_08,Step-by-Step Instructions,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_09,Copy Variations,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_10,Editorial Critique,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_11,Speech Draft,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_12,Truthful Resume Bullets,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_13,Tailored Cover Letter,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_14,Release Notes,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_15,Customer Reply,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_16,Grounded FAQ,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_17,Nonfiction Narrative,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_18,Interface Microcopy,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_19,Research Abstract,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_20,Dialogue with Subtext,Writing,text,original,writing;original,5.0.0,False,False,writing/prompts.json
+writing_21,Newsletter · Create,Writing,text,create,writing;create;newsletter,5.0.0,False,False,writing/prompts.json
+writing_22,Newsletter · Review,Writing,text,review,writing;review;newsletter,5.0.0,False,False,writing/prompts.json
+writing_23,Newsletter · Refine,Writing,text,revise,writing;revise;newsletter,5.0.0,False,False,writing/prompts.json
+writing_24,Case study · Create,Writing,text,create,writing;create;case-study,5.0.0,False,False,writing/prompts.json
+writing_25,Case study · Review,Writing,text,review,writing;review;case-study,5.0.0,False,False,writing/prompts.json
+writing_26,Case study · Refine,Writing,text,revise,writing;revise;case-study,5.0.0,False,False,writing/prompts.json
+writing_27,Apology · Create,Writing,text,create,writing;create;apology,5.0.0,False,False,writing/prompts.json
+writing_28,Apology · Review,Writing,text,review,writing;review;apology,5.0.0,False,False,writing/prompts.json
+writing_29,Apology · Refine,Writing,text,revise,writing;revise;apology,5.0.0,False,False,writing/prompts.json
+writing_30,Invitation · Create,Writing,text,create,writing;create;invitation,5.0.0,False,False,writing/prompts.json
+writing_31,Invitation · Review,Writing,text,review,writing;review;invitation,5.0.0,False,False,writing/prompts.json
+writing_32,Invitation · Refine,Writing,text,revise,writing;revise;invitation,5.0.0,False,False,writing/prompts.json
+writing_33,Policy explanation · Create,Writing,text,create,writing;create;policy-explanation,5.0.0,False,False,writing/prompts.json
+writing_34,Policy explanation · Review,Writing,text,review,writing;review;policy-explanation,5.0.0,False,False,writing/prompts.json
+writing_35,Policy explanation · Refine,Writing,text,revise,writing;revise;policy-explanation,5.0.0,False,False,writing/prompts.json
+writing_36,Recommendation letter · Create,Writing,text,create,writing;create;recommendation-letter,5.0.0,False,False,writing/prompts.json
+writing_37,Recommendation letter · Review,Writing,text,review,writing;review;recommendation-letter,5.0.0,False,False,writing/prompts.json
+writing_38,Recommendation letter · Refine,Writing,text,revise,writing;revise;recommendation-letter,5.0.0,False,False,writing/prompts.json
+writing_39,Scene description · Create,Writing,text,create,writing;create;scene-description,5.0.0,False,False,writing/prompts.json
+writing_40,Scene description · Review,Writing,text,review,writing;review;scene-description,5.0.0,False,False,writing/prompts.json
+writing_41,Scene description · Refine,Writing,text,revise,writing;revise;scene-description,5.0.0,False,False,writing/prompts.json
+writing_42,Editing checklist · Create,Writing,text,create,writing;create;editing-checklist,5.0.0,False,False,writing/prompts.json
+writing_43,Editing checklist · Review,Writing,text,review,writing;review;editing-checklist,5.0.0,False,False,writing/prompts.json
+writing_44,Editing checklist · Refine,Writing,text,revise,writing;revise;editing-checklist,5.0.0,False,False,writing/prompts.json
+writing_45,Social post · Create,Writing,text,create,writing;create;social-post,5.0.0,False,False,writing/prompts.json
+writing_46,Social post · Review,Writing,text,review,writing;review;social-post,5.0.0,False,False,writing/prompts.json
+writing_47,Social post · Refine,Writing,text,revise,writing;revise;social-post,5.0.0,False,False,writing/prompts.json
+writing_48,Interview profile · Create,Writing,text,create,writing;create;interview-profile,5.0.0,False,False,writing/prompts.json
+writing_49,Interview profile · Review,Writing,text,review,writing;review;interview-profile,5.0.0,False,False,writing/prompts.json
+writing_50,Interview profile · Refine,Writing,text,revise,writing;revise;interview-profile,5.0.0,False,False,writing/prompts.json
+analysis_01,Dataset Exploration,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_02,Decision Matrix,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_03,Evidence-Led Root Cause,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_04,Time Trend Review,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_05,Segment Comparison,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_06,Hypothesis Test Plan,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_07,Scenario Model,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_08,Qualitative Coding,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_09,Useful KPI Dictionary,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_10,Chart Selection,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_11,Data Quality Audit,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_12,Retention Cohorts,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_13,Conversion Funnel,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_14,Forecast with a Baseline,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_15,Anomaly Investigation,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_16,Unit Economics,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_17,Geographic Patterns,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_18,Text Pattern Analysis,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_19,Program Evaluation,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_20,Uncertainty Register,Analysis,text,original,analysis;original,5.0.0,False,False,analysis/prompts.json
+analysis_21,Missing data · Create,Analysis,text,create,analysis;create;missing-data,5.0.0,False,False,analysis/prompts.json
+analysis_22,Missing data · Review,Analysis,text,review,analysis;review;missing-data,5.0.0,False,False,analysis/prompts.json
+analysis_23,Missing data · Refine,Analysis,text,revise,analysis;revise;missing-data,5.0.0,False,False,analysis/prompts.json
+analysis_24,Denominator audit · Create,Analysis,text,create,analysis;create;denominator-audit,5.0.0,False,False,analysis/prompts.json
+analysis_25,Denominator audit · Review,Analysis,text,review,analysis;review;denominator-audit,5.0.0,False,False,analysis/prompts.json
+analysis_26,Denominator audit · Refine,Analysis,text,revise,analysis;revise;denominator-audit,5.0.0,False,False,analysis/prompts.json
+analysis_27,Sampling bias · Create,Analysis,text,create,analysis;create;sampling-bias,5.0.0,False,False,analysis/prompts.json
+analysis_28,Sampling bias · Review,Analysis,text,review,analysis;review;sampling-bias,5.0.0,False,False,analysis/prompts.json
+analysis_29,Sampling bias · Refine,Analysis,text,revise,analysis;revise;sampling-bias,5.0.0,False,False,analysis/prompts.json
+analysis_30,Sensitivity check · Create,Analysis,text,create,analysis;create;sensitivity-check,5.0.0,False,False,analysis/prompts.json
+analysis_31,Sensitivity check · Review,Analysis,text,review,analysis;review;sensitivity-check,5.0.0,False,False,analysis/prompts.json
+analysis_32,Sensitivity check · Refine,Analysis,text,revise,analysis;revise;sensitivity-check,5.0.0,False,False,analysis/prompts.json
+analysis_33,Reproducibility · Create,Analysis,text,create,analysis;create;reproducibility,5.0.0,False,False,analysis/prompts.json
+analysis_34,Reproducibility · Review,Analysis,text,review,analysis;review;reproducibility,5.0.0,False,False,analysis/prompts.json
+analysis_35,Reproducibility · Refine,Analysis,text,revise,analysis;revise;reproducibility,5.0.0,False,False,analysis/prompts.json
+analysis_36,Outlier influence · Create,Analysis,text,create,analysis;create;outlier-influence,5.0.0,False,False,analysis/prompts.json
+analysis_37,Outlier influence · Review,Analysis,text,review,analysis;review;outlier-influence,5.0.0,False,False,analysis/prompts.json
+analysis_38,Outlier influence · Refine,Analysis,text,revise,analysis;revise;outlier-influence,5.0.0,False,False,analysis/prompts.json
+analysis_39,Survey weighting · Create,Analysis,text,create,analysis;create;survey-weighting,5.0.0,False,False,analysis/prompts.json
+analysis_40,Survey weighting · Review,Analysis,text,review,analysis;review;survey-weighting,5.0.0,False,False,analysis/prompts.json
+analysis_41,Survey weighting · Refine,Analysis,text,revise,analysis;revise;survey-weighting,5.0.0,False,False,analysis/prompts.json
+analysis_42,Experiment integrity · Create,Analysis,text,create,analysis;create;experiment-integrity,5.0.0,False,False,analysis/prompts.json
+analysis_43,Experiment integrity · Review,Analysis,text,review,analysis;review;experiment-integrity,5.0.0,False,False,analysis/prompts.json
+analysis_44,Experiment integrity · Refine,Analysis,text,revise,analysis;revise;experiment-integrity,5.0.0,False,False,analysis/prompts.json
+analysis_45,Inventory patterns · Create,Analysis,text,create,analysis;create;inventory-patterns,5.0.0,False,False,analysis/prompts.json
+analysis_46,Inventory patterns · Review,Analysis,text,review,analysis;review;inventory-patterns,5.0.0,False,False,analysis/prompts.json
+analysis_47,Inventory patterns · Refine,Analysis,text,revise,analysis;revise;inventory-patterns,5.0.0,False,False,analysis/prompts.json
+analysis_48,Time allocation · Create,Analysis,text,create,analysis;create;time-allocation,5.0.0,False,False,analysis/prompts.json
+analysis_49,Time allocation · Review,Analysis,text,review,analysis;review;time-allocation,5.0.0,False,False,analysis/prompts.json
+analysis_50,Time allocation · Refine,Analysis,text,revise,analysis;revise;time-allocation,5.0.0,False,False,analysis/prompts.json
+troubleshooting_01,Application Triage,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_02,Connectivity Diagnosis,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_03,Pipeline Recovery,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_04,Spreadsheet Repair,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_05,Build Failure Diagnosis,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_06,Model Quality Investigation,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_07,Rendering Debugger,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_08,Safe Device Checks,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_09,Workflow Bottleneck,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_10,Blameless Incident Review,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_11,Safe Account Recovery,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_12,Email Delivery Diagnosis,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_13,Storage Cleanup Plan,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_14,Backup Recovery,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_15,API Integration Triage,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_16,Dependency Conflict,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_17,Dashboard Reconciliation,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_18,Audio and Video Call Checks,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_19,Automation Recovery,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_20,Printer Diagnosis,Troubleshooting,text,original,troubleshooting;original,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_21,Permission failure · Create,Troubleshooting,text,create,troubleshooting;create;permission-failure,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_22,Permission failure · Review,Troubleshooting,text,review,troubleshooting;review;permission-failure,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_23,Permission failure · Refine,Troubleshooting,text,revise,troubleshooting;revise;permission-failure,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_24,Sync conflict · Create,Troubleshooting,text,create,troubleshooting;create;sync-conflict,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_25,Sync conflict · Review,Troubleshooting,text,review,troubleshooting;review;sync-conflict,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_26,Sync conflict · Refine,Troubleshooting,text,revise,troubleshooting;revise;sync-conflict,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_27,Slow startup · Create,Troubleshooting,text,create,troubleshooting;create;slow-startup,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_28,Slow startup · Review,Troubleshooting,text,review,troubleshooting;review;slow-startup,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_29,Slow startup · Refine,Troubleshooting,text,revise,troubleshooting;revise;slow-startup,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_30,Certificate error · Create,Troubleshooting,text,create,troubleshooting;create;certificate-error,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_31,Certificate error · Review,Troubleshooting,text,review,troubleshooting;review;certificate-error,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_32,Certificate error · Refine,Troubleshooting,text,revise,troubleshooting;revise;certificate-error,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_33,Locale mismatch · Create,Troubleshooting,text,create,troubleshooting;create;locale-mismatch,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_34,Locale mismatch · Review,Troubleshooting,text,review,troubleshooting;review;locale-mismatch,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_35,Locale mismatch · Refine,Troubleshooting,text,revise,troubleshooting;revise;locale-mismatch,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_36,Import mismatch · Create,Troubleshooting,text,create,troubleshooting;create;import-mismatch,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_37,Import mismatch · Review,Troubleshooting,text,review,troubleshooting;review;import-mismatch,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_38,Import mismatch · Refine,Troubleshooting,text,revise,troubleshooting;revise;import-mismatch,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_39,Scheduled task · Create,Troubleshooting,text,create,troubleshooting;create;scheduled-task,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_40,Scheduled task · Review,Troubleshooting,text,review,troubleshooting;review;scheduled-task,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_41,Scheduled task · Refine,Troubleshooting,text,revise,troubleshooting;revise;scheduled-task,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_42,Memory pressure · Create,Troubleshooting,text,create,troubleshooting;create;memory-pressure,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_43,Memory pressure · Review,Troubleshooting,text,review,troubleshooting;review;memory-pressure,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_44,Memory pressure · Refine,Troubleshooting,text,revise,troubleshooting;revise;memory-pressure,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_45,Unexpected notifications · Create,Troubleshooting,text,create,troubleshooting;create;unexpected-notifications,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_46,Unexpected notifications · Review,Troubleshooting,text,review,troubleshooting;review;unexpected-notifications,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_47,Unexpected notifications · Refine,Troubleshooting,text,revise,troubleshooting;revise;unexpected-notifications,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_48,Broken links · Create,Troubleshooting,text,create,troubleshooting;create;broken-links,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_49,Broken links · Review,Troubleshooting,text,review,troubleshooting;review;broken-links,5.0.0,False,False,troubleshooting/prompts.json
+troubleshooting_50,Broken links · Refine,Troubleshooting,text,revise,troubleshooting;revise;broken-links,5.0.0,False,False,troubleshooting/prompts.json
+business_01,Value proposition · Create,Business,text,create,business;create;value-proposition,5.0.0,False,False,business/prompts.json
+business_02,Value proposition · Review,Business,text,review,business;review;value-proposition,5.0.0,False,False,business/prompts.json
+business_03,Value proposition · Refine,Business,text,revise,business;revise;value-proposition,5.0.0,False,False,business/prompts.json
+business_04,Value proposition · Compare,Business,text,compare,business;compare;value-proposition,5.0.0,False,False,business/prompts.json
+business_05,Value proposition · Pilot,Business,text,pilot,business;pilot;value-proposition,5.0.0,False,False,business/prompts.json
+business_06,Business model · Create,Business,text,create,business;create;business-model,5.0.0,False,False,business/prompts.json
+business_07,Business model · Review,Business,text,review,business;review;business-model,5.0.0,False,False,business/prompts.json
+business_08,Business model · Refine,Business,text,revise,business;revise;business-model,5.0.0,False,False,business/prompts.json
+business_09,Business model · Compare,Business,text,compare,business;compare;business-model,5.0.0,False,False,business/prompts.json
+business_10,Business model · Pilot,Business,text,pilot,business;pilot;business-model,5.0.0,False,False,business/prompts.json
+business_11,Customer discovery · Create,Business,text,create,business;create;customer-discovery,5.0.0,False,False,business/prompts.json
+business_12,Customer discovery · Review,Business,text,review,business;review;customer-discovery,5.0.0,False,False,business/prompts.json
+business_13,Customer discovery · Refine,Business,text,revise,business;revise;customer-discovery,5.0.0,False,False,business/prompts.json
+business_14,Customer discovery · Compare,Business,text,compare,business;compare;customer-discovery,5.0.0,False,False,business/prompts.json
+business_15,Customer discovery · Pilot,Business,text,pilot,business;pilot;customer-discovery,5.0.0,False,False,business/prompts.json
+business_16,Pricing experiment · Create,Business,text,create,business;create;pricing-experiment,5.0.0,False,False,business/prompts.json
+business_17,Pricing experiment · Review,Business,text,review,business;review;pricing-experiment,5.0.0,False,False,business/prompts.json
+business_18,Pricing experiment · Refine,Business,text,revise,business;revise;pricing-experiment,5.0.0,False,False,business/prompts.json
+business_19,Pricing experiment · Compare,Business,text,compare,business;compare;pricing-experiment,5.0.0,False,False,business/prompts.json
+business_20,Pricing experiment · Pilot,Business,text,pilot,business;pilot;pricing-experiment,5.0.0,False,False,business/prompts.json
+business_21,Competitor comparison · Create,Business,text,create,business;create;competitor-comparison,5.0.0,False,False,business/prompts.json
+business_22,Competitor comparison · Review,Business,text,review,business;review;competitor-comparison,5.0.0,False,False,business/prompts.json
+business_23,Competitor comparison · Refine,Business,text,revise,business;revise;competitor-comparison,5.0.0,False,False,business/prompts.json
+business_24,Competitor comparison · Compare,Business,text,compare,business;compare;competitor-comparison,5.0.0,False,False,business/prompts.json
+business_25,Competitor comparison · Pilot,Business,text,pilot,business;pilot;competitor-comparison,5.0.0,False,False,business/prompts.json
+business_26,Operating procedure · Create,Business,text,create,business;create;operating-procedure,5.0.0,False,False,business/prompts.json
+business_27,Operating procedure · Review,Business,text,review,business;review;operating-procedure,5.0.0,False,False,business/prompts.json
+business_28,Operating procedure · Refine,Business,text,revise,business;revise;operating-procedure,5.0.0,False,False,business/prompts.json
+business_29,Operating procedure · Compare,Business,text,compare,business;compare;operating-procedure,5.0.0,False,False,business/prompts.json
+business_30,Operating procedure · Pilot,Business,text,pilot,business;pilot;operating-procedure,5.0.0,False,False,business/prompts.json
+business_31,Partnership proposal · Create,Business,text,create,business;create;partnership-proposal,5.0.0,False,False,business/prompts.json
+business_32,Partnership proposal · Review,Business,text,review,business;review;partnership-proposal,5.0.0,False,False,business/prompts.json
+business_33,Partnership proposal · Refine,Business,text,revise,business;revise;partnership-proposal,5.0.0,False,False,business/prompts.json
+business_34,Partnership proposal · Compare,Business,text,compare,business;compare;partnership-proposal,5.0.0,False,False,business/prompts.json
+business_35,Partnership proposal · Pilot,Business,text,pilot,business;pilot;partnership-proposal,5.0.0,False,False,business/prompts.json
+business_36,Revenue assumptions · Create,Business,text,create,business;create;revenue-assumptions,5.0.0,False,False,business/prompts.json
+business_37,Revenue assumptions · Review,Business,text,review,business;review;revenue-assumptions,5.0.0,False,False,business/prompts.json
+business_38,Revenue assumptions · Refine,Business,text,revise,business;revise;revenue-assumptions,5.0.0,False,False,business/prompts.json
+business_39,Revenue assumptions · Compare,Business,text,compare,business;compare;revenue-assumptions,5.0.0,False,False,business/prompts.json
+business_40,Revenue assumptions · Pilot,Business,text,pilot,business;pilot;revenue-assumptions,5.0.0,False,False,business/prompts.json
+business_41,Service package · Create,Business,text,create,business;create;service-package,5.0.0,False,False,business/prompts.json
+business_42,Service package · Review,Business,text,review,business;review;service-package,5.0.0,False,False,business/prompts.json
+business_43,Service package · Refine,Business,text,revise,business;revise;service-package,5.0.0,False,False,business/prompts.json
+business_44,Service package · Compare,Business,text,compare,business;compare;service-package,5.0.0,False,False,business/prompts.json
+business_45,Service package · Pilot,Business,text,pilot,business;pilot;service-package,5.0.0,False,False,business/prompts.json
+business_46,Business review · Create,Business,text,create,business;create;business-review,5.0.0,False,False,business/prompts.json
+business_47,Business review · Review,Business,text,review,business;review;business-review,5.0.0,False,False,business/prompts.json
+business_48,Business review · Refine,Business,text,revise,business;revise;business-review,5.0.0,False,False,business/prompts.json
+business_49,Business review · Compare,Business,text,compare,business;compare;business-review,5.0.0,False,False,business/prompts.json
+business_50,Business review · Pilot,Business,text,pilot,business;pilot;business-review,5.0.0,False,False,business/prompts.json
+marketing_01,Positioning · Create,Marketing,text,create,marketing;create;positioning,5.0.0,False,False,marketing/prompts.json
+marketing_02,Positioning · Review,Marketing,text,review,marketing;review;positioning,5.0.0,False,False,marketing/prompts.json
+marketing_03,Positioning · Refine,Marketing,text,revise,marketing;revise;positioning,5.0.0,False,False,marketing/prompts.json
+marketing_04,Positioning · Compare,Marketing,text,compare,marketing;compare;positioning,5.0.0,False,False,marketing/prompts.json
+marketing_05,Positioning · Pilot,Marketing,text,pilot,marketing;pilot;positioning,5.0.0,False,False,marketing/prompts.json
+marketing_06,Audience profile · Create,Marketing,text,create,marketing;create;audience-profile,5.0.0,False,False,marketing/prompts.json
+marketing_07,Audience profile · Review,Marketing,text,review,marketing;review;audience-profile,5.0.0,False,False,marketing/prompts.json
+marketing_08,Audience profile · Refine,Marketing,text,revise,marketing;revise;audience-profile,5.0.0,False,False,marketing/prompts.json
+marketing_09,Audience profile · Compare,Marketing,text,compare,marketing;compare;audience-profile,5.0.0,False,False,marketing/prompts.json
+marketing_10,Audience profile · Pilot,Marketing,text,pilot,marketing;pilot;audience-profile,5.0.0,False,False,marketing/prompts.json
+marketing_11,Campaign brief · Create,Marketing,text,create,marketing;create;campaign-brief,5.0.0,False,False,marketing/prompts.json
+marketing_12,Campaign brief · Review,Marketing,text,review,marketing;review;campaign-brief,5.0.0,False,False,marketing/prompts.json
+marketing_13,Campaign brief · Refine,Marketing,text,revise,marketing;revise;campaign-brief,5.0.0,False,False,marketing/prompts.json
+marketing_14,Campaign brief · Compare,Marketing,text,compare,marketing;compare;campaign-brief,5.0.0,False,False,marketing/prompts.json
+marketing_15,Campaign brief · Pilot,Marketing,text,pilot,marketing;pilot;campaign-brief,5.0.0,False,False,marketing/prompts.json
+marketing_16,Search intent · Create,Marketing,text,create,marketing;create;search-intent,5.0.0,False,False,marketing/prompts.json
+marketing_17,Search intent · Review,Marketing,text,review,marketing;review;search-intent,5.0.0,False,False,marketing/prompts.json
+marketing_18,Search intent · Refine,Marketing,text,revise,marketing;revise;search-intent,5.0.0,False,False,marketing/prompts.json
+marketing_19,Search intent · Compare,Marketing,text,compare,marketing;compare;search-intent,5.0.0,False,False,marketing/prompts.json
+marketing_20,Search intent · Pilot,Marketing,text,pilot,marketing;pilot;search-intent,5.0.0,False,False,marketing/prompts.json
+marketing_21,Landing page · Create,Marketing,text,create,marketing;create;landing-page,5.0.0,False,False,marketing/prompts.json
+marketing_22,Landing page · Review,Marketing,text,review,marketing;review;landing-page,5.0.0,False,False,marketing/prompts.json
+marketing_23,Landing page · Refine,Marketing,text,revise,marketing;revise;landing-page,5.0.0,False,False,marketing/prompts.json
+marketing_24,Landing page · Compare,Marketing,text,compare,marketing;compare;landing-page,5.0.0,False,False,marketing/prompts.json
+marketing_25,Landing page · Pilot,Marketing,text,pilot,marketing;pilot;landing-page,5.0.0,False,False,marketing/prompts.json
+marketing_26,Email sequence · Create,Marketing,text,create,marketing;create;email-sequence,5.0.0,False,False,marketing/prompts.json
+marketing_27,Email sequence · Review,Marketing,text,review,marketing;review;email-sequence,5.0.0,False,False,marketing/prompts.json
+marketing_28,Email sequence · Refine,Marketing,text,revise,marketing;revise;email-sequence,5.0.0,False,False,marketing/prompts.json
+marketing_29,Email sequence · Compare,Marketing,text,compare,marketing;compare;email-sequence,5.0.0,False,False,marketing/prompts.json
+marketing_30,Email sequence · Pilot,Marketing,text,pilot,marketing;pilot;email-sequence,5.0.0,False,False,marketing/prompts.json
+marketing_31,Referral program · Create,Marketing,text,create,marketing;create;referral-program,5.0.0,False,False,marketing/prompts.json
+marketing_32,Referral program · Review,Marketing,text,review,marketing;review;referral-program,5.0.0,False,False,marketing/prompts.json
+marketing_33,Referral program · Refine,Marketing,text,revise,marketing;revise;referral-program,5.0.0,False,False,marketing/prompts.json
+marketing_34,Referral program · Compare,Marketing,text,compare,marketing;compare;referral-program,5.0.0,False,False,marketing/prompts.json
+marketing_35,Referral program · Pilot,Marketing,text,pilot,marketing;pilot;referral-program,5.0.0,False,False,marketing/prompts.json
+marketing_36,Brand messaging · Create,Marketing,text,create,marketing;create;brand-messaging,5.0.0,False,False,marketing/prompts.json
+marketing_37,Brand messaging · Review,Marketing,text,review,marketing;review;brand-messaging,5.0.0,False,False,marketing/prompts.json
+marketing_38,Brand messaging · Refine,Marketing,text,revise,marketing;revise;brand-messaging,5.0.0,False,False,marketing/prompts.json
+marketing_39,Brand messaging · Compare,Marketing,text,compare,marketing;compare;brand-messaging,5.0.0,False,False,marketing/prompts.json
+marketing_40,Brand messaging · Pilot,Marketing,text,pilot,marketing;pilot;brand-messaging,5.0.0,False,False,marketing/prompts.json
+marketing_41,Marketing measurement · Create,Marketing,text,create,marketing;create;marketing-measurement,5.0.0,False,False,marketing/prompts.json
+marketing_42,Marketing measurement · Review,Marketing,text,review,marketing;review;marketing-measurement,5.0.0,False,False,marketing/prompts.json
+marketing_43,Marketing measurement · Refine,Marketing,text,revise,marketing;revise;marketing-measurement,5.0.0,False,False,marketing/prompts.json
+marketing_44,Marketing measurement · Compare,Marketing,text,compare,marketing;compare;marketing-measurement,5.0.0,False,False,marketing/prompts.json
+marketing_45,Marketing measurement · Pilot,Marketing,text,pilot,marketing;pilot;marketing-measurement,5.0.0,False,False,marketing/prompts.json
+marketing_46,Community campaign · Create,Marketing,text,create,marketing;create;community-campaign,5.0.0,False,False,marketing/prompts.json
+marketing_47,Community campaign · Review,Marketing,text,review,marketing;review;community-campaign,5.0.0,False,False,marketing/prompts.json
+marketing_48,Community campaign · Refine,Marketing,text,revise,marketing;revise;community-campaign,5.0.0,False,False,marketing/prompts.json
+marketing_49,Community campaign · Compare,Marketing,text,compare,marketing;compare;community-campaign,5.0.0,False,False,marketing/prompts.json
+marketing_50,Community campaign · Pilot,Marketing,text,pilot,marketing;pilot;community-campaign,5.0.0,False,False,marketing/prompts.json
+productivity_01,Task capture · Create,Productivity,text,create,productivity;create;task-capture,5.0.0,False,False,productivity/prompts.json
+productivity_02,Task capture · Review,Productivity,text,review,productivity;review;task-capture,5.0.0,False,False,productivity/prompts.json
+productivity_03,Task capture · Refine,Productivity,text,revise,productivity;revise;task-capture,5.0.0,False,False,productivity/prompts.json
+productivity_04,Task capture · Compare,Productivity,text,compare,productivity;compare;task-capture,5.0.0,False,False,productivity/prompts.json
+productivity_05,Task capture · Pilot,Productivity,text,pilot,productivity;pilot;task-capture,5.0.0,False,False,productivity/prompts.json
+productivity_06,Daily prioritization · Create,Productivity,text,create,productivity;create;daily-prioritization,5.0.0,False,False,productivity/prompts.json
+productivity_07,Daily prioritization · Review,Productivity,text,review,productivity;review;daily-prioritization,5.0.0,False,False,productivity/prompts.json
+productivity_08,Daily prioritization · Refine,Productivity,text,revise,productivity;revise;daily-prioritization,5.0.0,False,False,productivity/prompts.json
+productivity_09,Daily prioritization · Compare,Productivity,text,compare,productivity;compare;daily-prioritization,5.0.0,False,False,productivity/prompts.json
+productivity_10,Daily prioritization · Pilot,Productivity,text,pilot,productivity;pilot;daily-prioritization,5.0.0,False,False,productivity/prompts.json
+productivity_11,Focus session · Create,Productivity,text,create,productivity;create;focus-session,5.0.0,False,False,productivity/prompts.json
+productivity_12,Focus session · Review,Productivity,text,review,productivity;review;focus-session,5.0.0,False,False,productivity/prompts.json
+productivity_13,Focus session · Refine,Productivity,text,revise,productivity;revise;focus-session,5.0.0,False,False,productivity/prompts.json
+productivity_14,Focus session · Compare,Productivity,text,compare,productivity;compare;focus-session,5.0.0,False,False,productivity/prompts.json
+productivity_15,Focus session · Pilot,Productivity,text,pilot,productivity;pilot;focus-session,5.0.0,False,False,productivity/prompts.json
+productivity_16,Email workflow · Create,Productivity,text,create,productivity;create;email-workflow,5.0.0,False,False,productivity/prompts.json
+productivity_17,Email workflow · Review,Productivity,text,review,productivity;review;email-workflow,5.0.0,False,False,productivity/prompts.json
+productivity_18,Email workflow · Refine,Productivity,text,revise,productivity;revise;email-workflow,5.0.0,False,False,productivity/prompts.json
+productivity_19,Email workflow · Compare,Productivity,text,compare,productivity;compare;email-workflow,5.0.0,False,False,productivity/prompts.json
+productivity_20,Email workflow · Pilot,Productivity,text,pilot,productivity;pilot;email-workflow,5.0.0,False,False,productivity/prompts.json
+productivity_21,Personal knowledge system · Create,Productivity,text,create,productivity;create;personal-knowledge-system,5.0.0,False,False,productivity/prompts.json
+productivity_22,Personal knowledge system · Review,Productivity,text,review,productivity;review;personal-knowledge-system,5.0.0,False,False,productivity/prompts.json
+productivity_23,Personal knowledge system · Refine,Productivity,text,revise,productivity;revise;personal-knowledge-system,5.0.0,False,False,productivity/prompts.json
+productivity_24,Personal knowledge system · Compare,Productivity,text,compare,productivity;compare;personal-knowledge-system,5.0.0,False,False,productivity/prompts.json
+productivity_25,Personal knowledge system · Pilot,Productivity,text,pilot,productivity;pilot;personal-knowledge-system,5.0.0,False,False,productivity/prompts.json
+productivity_26,Weekly review · Create,Productivity,text,create,productivity;create;weekly-review,5.0.0,False,False,productivity/prompts.json
+productivity_27,Weekly review · Review,Productivity,text,review,productivity;review;weekly-review,5.0.0,False,False,productivity/prompts.json
+productivity_28,Weekly review · Refine,Productivity,text,revise,productivity;revise;weekly-review,5.0.0,False,False,productivity/prompts.json
+productivity_29,Weekly review · Compare,Productivity,text,compare,productivity;compare;weekly-review,5.0.0,False,False,productivity/prompts.json
+productivity_30,Weekly review · Pilot,Productivity,text,pilot,productivity;pilot;weekly-review,5.0.0,False,False,productivity/prompts.json
+productivity_31,Decision fatigue · Create,Productivity,text,create,productivity;create;decision-fatigue,5.0.0,False,False,productivity/prompts.json
+productivity_32,Decision fatigue · Review,Productivity,text,review,productivity;review;decision-fatigue,5.0.0,False,False,productivity/prompts.json
+productivity_33,Decision fatigue · Refine,Productivity,text,revise,productivity;revise;decision-fatigue,5.0.0,False,False,productivity/prompts.json
+productivity_34,Decision fatigue · Compare,Productivity,text,compare,productivity;compare;decision-fatigue,5.0.0,False,False,productivity/prompts.json
+productivity_35,Decision fatigue · Pilot,Productivity,text,pilot,productivity;pilot;decision-fatigue,5.0.0,False,False,productivity/prompts.json
+productivity_36,Context switching · Create,Productivity,text,create,productivity;create;context-switching,5.0.0,False,False,productivity/prompts.json
+productivity_37,Context switching · Review,Productivity,text,review,productivity;review;context-switching,5.0.0,False,False,productivity/prompts.json
+productivity_38,Context switching · Refine,Productivity,text,revise,productivity;revise;context-switching,5.0.0,False,False,productivity/prompts.json
+productivity_39,Context switching · Compare,Productivity,text,compare,productivity;compare;context-switching,5.0.0,False,False,productivity/prompts.json
+productivity_40,Context switching · Pilot,Productivity,text,pilot,productivity;pilot;context-switching,5.0.0,False,False,productivity/prompts.json
+productivity_41,Digital cleanup · Create,Productivity,text,create,productivity;create;digital-cleanup,5.0.0,False,False,productivity/prompts.json
+productivity_42,Digital cleanup · Review,Productivity,text,review,productivity;review;digital-cleanup,5.0.0,False,False,productivity/prompts.json
+productivity_43,Digital cleanup · Refine,Productivity,text,revise,productivity;revise;digital-cleanup,5.0.0,False,False,productivity/prompts.json
+productivity_44,Digital cleanup · Compare,Productivity,text,compare,productivity;compare;digital-cleanup,5.0.0,False,False,productivity/prompts.json
+productivity_45,Digital cleanup · Pilot,Productivity,text,pilot,productivity;pilot;digital-cleanup,5.0.0,False,False,productivity/prompts.json
+productivity_46,Recovery day · Create,Productivity,text,create,productivity;create;recovery-day,5.0.0,False,False,productivity/prompts.json
+productivity_47,Recovery day · Review,Productivity,text,review,productivity;review;recovery-day,5.0.0,False,False,productivity/prompts.json
+productivity_48,Recovery day · Refine,Productivity,text,revise,productivity;revise;recovery-day,5.0.0,False,False,productivity/prompts.json
+productivity_49,Recovery day · Compare,Productivity,text,compare,productivity;compare;recovery-day,5.0.0,False,False,productivity/prompts.json
+productivity_50,Recovery day · Pilot,Productivity,text,pilot,productivity;pilot;recovery-day,5.0.0,False,False,productivity/prompts.json
+design_01,User journey · Create,Design,text,create,design;create;user-journey,5.0.0,False,False,design/prompts.json
+design_02,User journey · Review,Design,text,review,design;review;user-journey,5.0.0,False,False,design/prompts.json
+design_03,User journey · Refine,Design,text,revise,design;revise;user-journey,5.0.0,False,False,design/prompts.json
+design_04,User journey · Compare,Design,text,compare,design;compare;user-journey,5.0.0,False,False,design/prompts.json
+design_05,User journey · Pilot,Design,text,pilot,design;pilot;user-journey,5.0.0,False,False,design/prompts.json
+design_06,Wireframe brief · Create,Design,text,create,design;create;wireframe-brief,5.0.0,False,False,design/prompts.json
+design_07,Wireframe brief · Review,Design,text,review,design;review;wireframe-brief,5.0.0,False,False,design/prompts.json
+design_08,Wireframe brief · Refine,Design,text,revise,design;revise;wireframe-brief,5.0.0,False,False,design/prompts.json
+design_09,Wireframe brief · Compare,Design,text,compare,design;compare;wireframe-brief,5.0.0,False,False,design/prompts.json
+design_10,Wireframe brief · Pilot,Design,text,pilot,design;pilot;wireframe-brief,5.0.0,False,False,design/prompts.json
+design_11,Design system · Create,Design,text,create,design;create;design-system,5.0.0,False,False,design/prompts.json
+design_12,Design system · Review,Design,text,review,design;review;design-system,5.0.0,False,False,design/prompts.json
+design_13,Design system · Refine,Design,text,revise,design;revise;design-system,5.0.0,False,False,design/prompts.json
+design_14,Design system · Compare,Design,text,compare,design;compare;design-system,5.0.0,False,False,design/prompts.json
+design_15,Design system · Pilot,Design,text,pilot,design;pilot;design-system,5.0.0,False,False,design/prompts.json
+design_16,Usability test · Create,Design,text,create,design;create;usability-test,5.0.0,False,False,design/prompts.json
+design_17,Usability test · Review,Design,text,review,design;review;usability-test,5.0.0,False,False,design/prompts.json
+design_18,Usability test · Refine,Design,text,revise,design;revise;usability-test,5.0.0,False,False,design/prompts.json
+design_19,Usability test · Compare,Design,text,compare,design;compare;usability-test,5.0.0,False,False,design/prompts.json
+design_20,Usability test · Pilot,Design,text,pilot,design;pilot;usability-test,5.0.0,False,False,design/prompts.json
+design_21,Information architecture · Create,Design,text,create,design;create;information-architecture,5.0.0,False,False,design/prompts.json
+design_22,Information architecture · Review,Design,text,review,design;review;information-architecture,5.0.0,False,False,design/prompts.json
+design_23,Information architecture · Refine,Design,text,revise,design;revise;information-architecture,5.0.0,False,False,design/prompts.json
+design_24,Information architecture · Compare,Design,text,compare,design;compare;information-architecture,5.0.0,False,False,design/prompts.json
+design_25,Information architecture · Pilot,Design,text,pilot,design;pilot;information-architecture,5.0.0,False,False,design/prompts.json
+design_26,Form design · Create,Design,text,create,design;create;form-design,5.0.0,False,False,design/prompts.json
+design_27,Form design · Review,Design,text,review,design;review;form-design,5.0.0,False,False,design/prompts.json
+design_28,Form design · Refine,Design,text,revise,design;revise;form-design,5.0.0,False,False,design/prompts.json
+design_29,Form design · Compare,Design,text,compare,design;compare;form-design,5.0.0,False,False,design/prompts.json
+design_30,Form design · Pilot,Design,text,pilot,design;pilot;form-design,5.0.0,False,False,design/prompts.json
+design_31,Service blueprint · Create,Design,text,create,design;create;service-blueprint,5.0.0,False,False,design/prompts.json
+design_32,Service blueprint · Review,Design,text,review,design;review;service-blueprint,5.0.0,False,False,design/prompts.json
+design_33,Service blueprint · Refine,Design,text,revise,design;revise;service-blueprint,5.0.0,False,False,design/prompts.json
+design_34,Service blueprint · Compare,Design,text,compare,design;compare;service-blueprint,5.0.0,False,False,design/prompts.json
+design_35,Service blueprint · Pilot,Design,text,pilot,design;pilot;service-blueprint,5.0.0,False,False,design/prompts.json
+design_36,Visual hierarchy · Create,Design,text,create,design;create;visual-hierarchy,5.0.0,False,False,design/prompts.json
+design_37,Visual hierarchy · Review,Design,text,review,design;review;visual-hierarchy,5.0.0,False,False,design/prompts.json
+design_38,Visual hierarchy · Refine,Design,text,revise,design;revise;visual-hierarchy,5.0.0,False,False,design/prompts.json
+design_39,Visual hierarchy · Compare,Design,text,compare,design;compare;visual-hierarchy,5.0.0,False,False,design/prompts.json
+design_40,Visual hierarchy · Pilot,Design,text,pilot,design;pilot;visual-hierarchy,5.0.0,False,False,design/prompts.json
+design_41,Inclusive design · Create,Design,text,create,design;create;inclusive-design,5.0.0,False,False,design/prompts.json
+design_42,Inclusive design · Review,Design,text,review,design;review;inclusive-design,5.0.0,False,False,design/prompts.json
+design_43,Inclusive design · Refine,Design,text,revise,design;revise;inclusive-design,5.0.0,False,False,design/prompts.json
+design_44,Inclusive design · Compare,Design,text,compare,design;compare;inclusive-design,5.0.0,False,False,design/prompts.json
+design_45,Inclusive design · Pilot,Design,text,pilot,design;pilot;inclusive-design,5.0.0,False,False,design/prompts.json
+design_46,Design critique · Create,Design,text,create,design;create;design-critique,5.0.0,False,False,design/prompts.json
+design_47,Design critique · Review,Design,text,review,design;review;design-critique,5.0.0,False,False,design/prompts.json
+design_48,Design critique · Refine,Design,text,revise,design;revise;design-critique,5.0.0,False,False,design/prompts.json
+design_49,Design critique · Compare,Design,text,compare,design;compare;design-critique,5.0.0,False,False,design/prompts.json
+design_50,Design critique · Pilot,Design,text,pilot,design;pilot;design-critique,5.0.0,False,False,design/prompts.json
+career_01,Career inventory · Create,Career,text,create,career;create;career-inventory,5.0.0,False,False,career/prompts.json
+career_02,Career inventory · Review,Career,text,review,career;review;career-inventory,5.0.0,False,False,career/prompts.json
+career_03,Career inventory · Refine,Career,text,revise,career;revise;career-inventory,5.0.0,False,False,career/prompts.json
+career_04,Career inventory · Compare,Career,text,compare,career;compare;career-inventory,5.0.0,False,False,career/prompts.json
+career_05,Career inventory · Pilot,Career,text,pilot,career;pilot;career-inventory,5.0.0,False,False,career/prompts.json
+career_06,Role exploration · Create,Career,text,create,career;create;role-exploration,5.0.0,False,False,career/prompts.json
+career_07,Role exploration · Review,Career,text,review,career;review;role-exploration,5.0.0,False,False,career/prompts.json
+career_08,Role exploration · Refine,Career,text,revise,career;revise;role-exploration,5.0.0,False,False,career/prompts.json
+career_09,Role exploration · Compare,Career,text,compare,career;compare;role-exploration,5.0.0,False,False,career/prompts.json
+career_10,Role exploration · Pilot,Career,text,pilot,career;pilot;role-exploration,5.0.0,False,False,career/prompts.json
+career_11,Interview preparation · Create,Career,text,create,career;create;interview-preparation,5.0.0,False,False,career/prompts.json
+career_12,Interview preparation · Review,Career,text,review,career;review;interview-preparation,5.0.0,False,False,career/prompts.json
+career_13,Interview preparation · Refine,Career,text,revise,career;revise;interview-preparation,5.0.0,False,False,career/prompts.json
+career_14,Interview preparation · Compare,Career,text,compare,career;compare;interview-preparation,5.0.0,False,False,career/prompts.json
+career_15,Interview preparation · Pilot,Career,text,pilot,career;pilot;interview-preparation,5.0.0,False,False,career/prompts.json
+career_16,Portfolio project · Create,Career,text,create,career;create;portfolio-project,5.0.0,False,False,career/prompts.json
+career_17,Portfolio project · Review,Career,text,review,career;review;portfolio-project,5.0.0,False,False,career/prompts.json
+career_18,Portfolio project · Refine,Career,text,revise,career;revise;portfolio-project,5.0.0,False,False,career/prompts.json
+career_19,Portfolio project · Compare,Career,text,compare,career;compare;portfolio-project,5.0.0,False,False,career/prompts.json
+career_20,Portfolio project · Pilot,Career,text,pilot,career;pilot;portfolio-project,5.0.0,False,False,career/prompts.json
+career_21,Networking outreach · Create,Career,text,create,career;create;networking-outreach,5.0.0,False,False,career/prompts.json
+career_22,Networking outreach · Review,Career,text,review,career;review;networking-outreach,5.0.0,False,False,career/prompts.json
+career_23,Networking outreach · Refine,Career,text,revise,career;revise;networking-outreach,5.0.0,False,False,career/prompts.json
+career_24,Networking outreach · Compare,Career,text,compare,career;compare;networking-outreach,5.0.0,False,False,career/prompts.json
+career_25,Networking outreach · Pilot,Career,text,pilot,career;pilot;networking-outreach,5.0.0,False,False,career/prompts.json
+career_26,Career transition · Create,Career,text,create,career;create;career-transition,5.0.0,False,False,career/prompts.json
+career_27,Career transition · Review,Career,text,review,career;review;career-transition,5.0.0,False,False,career/prompts.json
+career_28,Career transition · Refine,Career,text,revise,career;revise;career-transition,5.0.0,False,False,career/prompts.json
+career_29,Career transition · Compare,Career,text,compare,career;compare;career-transition,5.0.0,False,False,career/prompts.json
+career_30,Career transition · Pilot,Career,text,pilot,career;pilot;career-transition,5.0.0,False,False,career/prompts.json
+career_31,Achievement bank · Create,Career,text,create,career;create;achievement-bank,5.0.0,False,False,career/prompts.json
+career_32,Achievement bank · Review,Career,text,review,career;review;achievement-bank,5.0.0,False,False,career/prompts.json
+career_33,Achievement bank · Refine,Career,text,revise,career;revise;achievement-bank,5.0.0,False,False,career/prompts.json
+career_34,Achievement bank · Compare,Career,text,compare,career;compare;achievement-bank,5.0.0,False,False,career/prompts.json
+career_35,Achievement bank · Pilot,Career,text,pilot,career;pilot;achievement-bank,5.0.0,False,False,career/prompts.json
+career_36,Manager conversation · Create,Career,text,create,career;create;manager-conversation,5.0.0,False,False,career/prompts.json
+career_37,Manager conversation · Review,Career,text,review,career;review;manager-conversation,5.0.0,False,False,career/prompts.json
+career_38,Manager conversation · Refine,Career,text,revise,career;revise;manager-conversation,5.0.0,False,False,career/prompts.json
+career_39,Manager conversation · Compare,Career,text,compare,career;compare;manager-conversation,5.0.0,False,False,career/prompts.json
+career_40,Manager conversation · Pilot,Career,text,pilot,career;pilot;manager-conversation,5.0.0,False,False,career/prompts.json
+career_41,Job search process · Create,Career,text,create,career;create;job-search-process,5.0.0,False,False,career/prompts.json
+career_42,Job search process · Review,Career,text,review,career;review;job-search-process,5.0.0,False,False,career/prompts.json
+career_43,Job search process · Refine,Career,text,revise,career;revise;job-search-process,5.0.0,False,False,career/prompts.json
+career_44,Job search process · Compare,Career,text,compare,career;compare;job-search-process,5.0.0,False,False,career/prompts.json
+career_45,Job search process · Pilot,Career,text,pilot,career;pilot;job-search-process,5.0.0,False,False,career/prompts.json
+career_46,Offer comparison · Create,Career,text,create,career;create;offer-comparison,5.0.0,False,False,career/prompts.json
+career_47,Offer comparison · Review,Career,text,review,career;review;offer-comparison,5.0.0,False,False,career/prompts.json
+career_48,Offer comparison · Refine,Career,text,revise,career;revise;offer-comparison,5.0.0,False,False,career/prompts.json
+career_49,Offer comparison · Compare,Career,text,compare,career;compare;offer-comparison,5.0.0,False,False,career/prompts.json
+career_50,Offer comparison · Pilot,Career,text,pilot,career;pilot;offer-comparison,5.0.0,False,False,career/prompts.json
+leadership_01,Team charter · Create,Leadership,text,create,leadership;create;team-charter,5.0.0,False,False,leadership/prompts.json
+leadership_02,Team charter · Review,Leadership,text,review,leadership;review;team-charter,5.0.0,False,False,leadership/prompts.json
+leadership_03,Team charter · Refine,Leadership,text,revise,leadership;revise;team-charter,5.0.0,False,False,leadership/prompts.json
+leadership_04,Team charter · Compare,Leadership,text,compare,leadership;compare;team-charter,5.0.0,False,False,leadership/prompts.json
+leadership_05,Team charter · Pilot,Leadership,text,pilot,leadership;pilot;team-charter,5.0.0,False,False,leadership/prompts.json
+leadership_06,Delegation · Create,Leadership,text,create,leadership;create;delegation,5.0.0,False,False,leadership/prompts.json
+leadership_07,Delegation · Review,Leadership,text,review,leadership;review;delegation,5.0.0,False,False,leadership/prompts.json
+leadership_08,Delegation · Refine,Leadership,text,revise,leadership;revise;delegation,5.0.0,False,False,leadership/prompts.json
+leadership_09,Delegation · Compare,Leadership,text,compare,leadership;compare;delegation,5.0.0,False,False,leadership/prompts.json
+leadership_10,Delegation · Pilot,Leadership,text,pilot,leadership;pilot;delegation,5.0.0,False,False,leadership/prompts.json
+leadership_11,One-on-one meeting · Create,Leadership,text,create,leadership;create;one-on-one-meeting,5.0.0,False,False,leadership/prompts.json
+leadership_12,One-on-one meeting · Review,Leadership,text,review,leadership;review;one-on-one-meeting,5.0.0,False,False,leadership/prompts.json
+leadership_13,One-on-one meeting · Refine,Leadership,text,revise,leadership;revise;one-on-one-meeting,5.0.0,False,False,leadership/prompts.json
+leadership_14,One-on-one meeting · Compare,Leadership,text,compare,leadership;compare;one-on-one-meeting,5.0.0,False,False,leadership/prompts.json
+leadership_15,One-on-one meeting · Pilot,Leadership,text,pilot,leadership;pilot;one-on-one-meeting,5.0.0,False,False,leadership/prompts.json
+leadership_16,Feedback conversation · Create,Leadership,text,create,leadership;create;feedback-conversation,5.0.0,False,False,leadership/prompts.json
+leadership_17,Feedback conversation · Review,Leadership,text,review,leadership;review;feedback-conversation,5.0.0,False,False,leadership/prompts.json
+leadership_18,Feedback conversation · Refine,Leadership,text,revise,leadership;revise;feedback-conversation,5.0.0,False,False,leadership/prompts.json
+leadership_19,Feedback conversation · Compare,Leadership,text,compare,leadership;compare;feedback-conversation,5.0.0,False,False,leadership/prompts.json
+leadership_20,Feedback conversation · Pilot,Leadership,text,pilot,leadership;pilot;feedback-conversation,5.0.0,False,False,leadership/prompts.json
+leadership_21,Team conflict · Create,Leadership,text,create,leadership;create;team-conflict,5.0.0,False,False,leadership/prompts.json
+leadership_22,Team conflict · Review,Leadership,text,review,leadership;review;team-conflict,5.0.0,False,False,leadership/prompts.json
+leadership_23,Team conflict · Refine,Leadership,text,revise,leadership;revise;team-conflict,5.0.0,False,False,leadership/prompts.json
+leadership_24,Team conflict · Compare,Leadership,text,compare,leadership;compare;team-conflict,5.0.0,False,False,leadership/prompts.json
+leadership_25,Team conflict · Pilot,Leadership,text,pilot,leadership;pilot;team-conflict,5.0.0,False,False,leadership/prompts.json
+leadership_26,Decision rights · Create,Leadership,text,create,leadership;create;decision-rights,5.0.0,False,False,leadership/prompts.json
+leadership_27,Decision rights · Review,Leadership,text,review,leadership;review;decision-rights,5.0.0,False,False,leadership/prompts.json
+leadership_28,Decision rights · Refine,Leadership,text,revise,leadership;revise;decision-rights,5.0.0,False,False,leadership/prompts.json
+leadership_29,Decision rights · Compare,Leadership,text,compare,leadership;compare;decision-rights,5.0.0,False,False,leadership/prompts.json
+leadership_30,Decision rights · Pilot,Leadership,text,pilot,leadership;pilot;decision-rights,5.0.0,False,False,leadership/prompts.json
+leadership_31,Change communication · Create,Leadership,text,create,leadership;create;change-communication,5.0.0,False,False,leadership/prompts.json
+leadership_32,Change communication · Review,Leadership,text,review,leadership;review;change-communication,5.0.0,False,False,leadership/prompts.json
+leadership_33,Change communication · Refine,Leadership,text,revise,leadership;revise;change-communication,5.0.0,False,False,leadership/prompts.json
+leadership_34,Change communication · Compare,Leadership,text,compare,leadership;compare;change-communication,5.0.0,False,False,leadership/prompts.json
+leadership_35,Change communication · Pilot,Leadership,text,pilot,leadership;pilot;change-communication,5.0.0,False,False,leadership/prompts.json
+leadership_36,Recognition · Create,Leadership,text,create,leadership;create;recognition,5.0.0,False,False,leadership/prompts.json
+leadership_37,Recognition · Review,Leadership,text,review,leadership;review;recognition,5.0.0,False,False,leadership/prompts.json
+leadership_38,Recognition · Refine,Leadership,text,revise,leadership;revise;recognition,5.0.0,False,False,leadership/prompts.json
+leadership_39,Recognition · Compare,Leadership,text,compare,leadership;compare;recognition,5.0.0,False,False,leadership/prompts.json
+leadership_40,Recognition · Pilot,Leadership,text,pilot,leadership;pilot;recognition,5.0.0,False,False,leadership/prompts.json
+leadership_41,Team retrospective · Create,Leadership,text,create,leadership;create;team-retrospective,5.0.0,False,False,leadership/prompts.json
+leadership_42,Team retrospective · Review,Leadership,text,review,leadership;review;team-retrospective,5.0.0,False,False,leadership/prompts.json
+leadership_43,Team retrospective · Refine,Leadership,text,revise,leadership;revise;team-retrospective,5.0.0,False,False,leadership/prompts.json
+leadership_44,Team retrospective · Compare,Leadership,text,compare,leadership;compare;team-retrospective,5.0.0,False,False,leadership/prompts.json
+leadership_45,Team retrospective · Pilot,Leadership,text,pilot,leadership;pilot;team-retrospective,5.0.0,False,False,leadership/prompts.json
+leadership_46,Succession readiness · Create,Leadership,text,create,leadership;create;succession-readiness,5.0.0,False,False,leadership/prompts.json
+leadership_47,Succession readiness · Review,Leadership,text,review,leadership;review;succession-readiness,5.0.0,False,False,leadership/prompts.json
+leadership_48,Succession readiness · Refine,Leadership,text,revise,leadership;revise;succession-readiness,5.0.0,False,False,leadership/prompts.json
+leadership_49,Succession readiness · Compare,Leadership,text,compare,leadership;compare;succession-readiness,5.0.0,False,False,leadership/prompts.json
+leadership_50,Succession readiness · Pilot,Leadership,text,pilot,leadership;pilot;succession-readiness,5.0.0,False,False,leadership/prompts.json
+customer_support_01,Ticket triage · Create,Customer Support,text,create,customer_support;create;ticket-triage,5.0.0,False,False,customer-support/prompts.json
+customer_support_02,Ticket triage · Review,Customer Support,text,review,customer_support;review;ticket-triage,5.0.0,False,False,customer-support/prompts.json
+customer_support_03,Ticket triage · Refine,Customer Support,text,revise,customer_support;revise;ticket-triage,5.0.0,False,False,customer-support/prompts.json
+customer_support_04,Ticket triage · Compare,Customer Support,text,compare,customer_support;compare;ticket-triage,5.0.0,False,False,customer-support/prompts.json
+customer_support_05,Ticket triage · Pilot,Customer Support,text,pilot,customer_support;pilot;ticket-triage,5.0.0,False,False,customer-support/prompts.json
+customer_support_06,Knowledge article · Create,Customer Support,text,create,customer_support;create;knowledge-article,5.0.0,False,False,customer-support/prompts.json
+customer_support_07,Knowledge article · Review,Customer Support,text,review,customer_support;review;knowledge-article,5.0.0,False,False,customer-support/prompts.json
+customer_support_08,Knowledge article · Refine,Customer Support,text,revise,customer_support;revise;knowledge-article,5.0.0,False,False,customer-support/prompts.json
+customer_support_09,Knowledge article · Compare,Customer Support,text,compare,customer_support;compare;knowledge-article,5.0.0,False,False,customer-support/prompts.json
+customer_support_10,Knowledge article · Pilot,Customer Support,text,pilot,customer_support;pilot;knowledge-article,5.0.0,False,False,customer-support/prompts.json
+customer_support_11,Escalation summary · Create,Customer Support,text,create,customer_support;create;escalation-summary,5.0.0,False,False,customer-support/prompts.json
+customer_support_12,Escalation summary · Review,Customer Support,text,review,customer_support;review;escalation-summary,5.0.0,False,False,customer-support/prompts.json
+customer_support_13,Escalation summary · Refine,Customer Support,text,revise,customer_support;revise;escalation-summary,5.0.0,False,False,customer-support/prompts.json
+customer_support_14,Escalation summary · Compare,Customer Support,text,compare,customer_support;compare;escalation-summary,5.0.0,False,False,customer-support/prompts.json
+customer_support_15,Escalation summary · Pilot,Customer Support,text,pilot,customer_support;pilot;escalation-summary,5.0.0,False,False,customer-support/prompts.json
+customer_support_16,Difficult conversation · Create,Customer Support,text,create,customer_support;create;difficult-conversation,5.0.0,False,False,customer-support/prompts.json
+customer_support_17,Difficult conversation · Review,Customer Support,text,review,customer_support;review;difficult-conversation,5.0.0,False,False,customer-support/prompts.json
+customer_support_18,Difficult conversation · Refine,Customer Support,text,revise,customer_support;revise;difficult-conversation,5.0.0,False,False,customer-support/prompts.json
+customer_support_19,Difficult conversation · Compare,Customer Support,text,compare,customer_support;compare;difficult-conversation,5.0.0,False,False,customer-support/prompts.json
+customer_support_20,Difficult conversation · Pilot,Customer Support,text,pilot,customer_support;pilot;difficult-conversation,5.0.0,False,False,customer-support/prompts.json
+customer_support_21,Support handover · Create,Customer Support,text,create,customer_support;create;support-handover,5.0.0,False,False,customer-support/prompts.json
+customer_support_22,Support handover · Review,Customer Support,text,review,customer_support;review;support-handover,5.0.0,False,False,customer-support/prompts.json
+customer_support_23,Support handover · Refine,Customer Support,text,revise,customer_support;revise;support-handover,5.0.0,False,False,customer-support/prompts.json
+customer_support_24,Support handover · Compare,Customer Support,text,compare,customer_support;compare;support-handover,5.0.0,False,False,customer-support/prompts.json
+customer_support_25,Support handover · Pilot,Customer Support,text,pilot,customer_support;pilot;support-handover,5.0.0,False,False,customer-support/prompts.json
+customer_support_26,Incident update · Create,Customer Support,text,create,customer_support;create;incident-update,5.0.0,False,False,customer-support/prompts.json
+customer_support_27,Incident update · Review,Customer Support,text,review,customer_support;review;incident-update,5.0.0,False,False,customer-support/prompts.json
+customer_support_28,Incident update · Refine,Customer Support,text,revise,customer_support;revise;incident-update,5.0.0,False,False,customer-support/prompts.json
+customer_support_29,Incident update · Compare,Customer Support,text,compare,customer_support;compare;incident-update,5.0.0,False,False,customer-support/prompts.json
+customer_support_30,Incident update · Pilot,Customer Support,text,pilot,customer_support;pilot;incident-update,5.0.0,False,False,customer-support/prompts.json
+customer_support_31,Response macro · Create,Customer Support,text,create,customer_support;create;response-macro,5.0.0,False,False,customer-support/prompts.json
+customer_support_32,Response macro · Review,Customer Support,text,review,customer_support;review;response-macro,5.0.0,False,False,customer-support/prompts.json
+customer_support_33,Response macro · Refine,Customer Support,text,revise,customer_support;revise;response-macro,5.0.0,False,False,customer-support/prompts.json
+customer_support_34,Response macro · Compare,Customer Support,text,compare,customer_support;compare;response-macro,5.0.0,False,False,customer-support/prompts.json
+customer_support_35,Response macro · Pilot,Customer Support,text,pilot,customer_support;pilot;response-macro,5.0.0,False,False,customer-support/prompts.json
+customer_support_36,Quality rubric · Create,Customer Support,text,create,customer_support;create;quality-rubric,5.0.0,False,False,customer-support/prompts.json
+customer_support_37,Quality rubric · Review,Customer Support,text,review,customer_support;review;quality-rubric,5.0.0,False,False,customer-support/prompts.json
+customer_support_38,Quality rubric · Refine,Customer Support,text,revise,customer_support;revise;quality-rubric,5.0.0,False,False,customer-support/prompts.json
+customer_support_39,Quality rubric · Compare,Customer Support,text,compare,customer_support;compare;quality-rubric,5.0.0,False,False,customer-support/prompts.json
+customer_support_40,Quality rubric · Pilot,Customer Support,text,pilot,customer_support;pilot;quality-rubric,5.0.0,False,False,customer-support/prompts.json
+customer_support_41,Self-service plan · Create,Customer Support,text,create,customer_support;create;self-service-plan,5.0.0,False,False,customer-support/prompts.json
+customer_support_42,Self-service plan · Review,Customer Support,text,review,customer_support;review;self-service-plan,5.0.0,False,False,customer-support/prompts.json
+customer_support_43,Self-service plan · Refine,Customer Support,text,revise,customer_support;revise;self-service-plan,5.0.0,False,False,customer-support/prompts.json
+customer_support_44,Self-service plan · Compare,Customer Support,text,compare,customer_support;compare;self-service-plan,5.0.0,False,False,customer-support/prompts.json
+customer_support_45,Self-service plan · Pilot,Customer Support,text,pilot,customer_support;pilot;self-service-plan,5.0.0,False,False,customer-support/prompts.json
+customer_support_46,Voice of customer · Create,Customer Support,text,create,customer_support;create;voice-of-customer,5.0.0,False,False,customer-support/prompts.json
+customer_support_47,Voice of customer · Review,Customer Support,text,review,customer_support;review;voice-of-customer,5.0.0,False,False,customer-support/prompts.json
+customer_support_48,Voice of customer · Refine,Customer Support,text,revise,customer_support;revise;voice-of-customer,5.0.0,False,False,customer-support/prompts.json
+customer_support_49,Voice of customer · Compare,Customer Support,text,compare,customer_support;compare;voice-of-customer,5.0.0,False,False,customer-support/prompts.json
+customer_support_50,Voice of customer · Pilot,Customer Support,text,pilot,customer_support;pilot;voice-of-customer,5.0.0,False,False,customer-support/prompts.json
+personal_development_01,Values reflection · Create,Personal Development,text,create,personal_development;create;values-reflection,5.0.0,False,False,personal-development/prompts.json
+personal_development_02,Values reflection · Review,Personal Development,text,review,personal_development;review;values-reflection,5.0.0,False,False,personal-development/prompts.json
+personal_development_03,Values reflection · Refine,Personal Development,text,revise,personal_development;revise;values-reflection,5.0.0,False,False,personal-development/prompts.json
+personal_development_04,Values reflection · Compare,Personal Development,text,compare,personal_development;compare;values-reflection,5.0.0,False,False,personal-development/prompts.json
+personal_development_05,Values reflection · Pilot,Personal Development,text,pilot,personal_development;pilot;values-reflection,5.0.0,False,False,personal-development/prompts.json
+personal_development_06,Confidence practice · Create,Personal Development,text,create,personal_development;create;confidence-practice,5.0.0,False,False,personal-development/prompts.json
+personal_development_07,Confidence practice · Review,Personal Development,text,review,personal_development;review;confidence-practice,5.0.0,False,False,personal-development/prompts.json
+personal_development_08,Confidence practice · Refine,Personal Development,text,revise,personal_development;revise;confidence-practice,5.0.0,False,False,personal-development/prompts.json
+personal_development_09,Confidence practice · Compare,Personal Development,text,compare,personal_development;compare;confidence-practice,5.0.0,False,False,personal-development/prompts.json
+personal_development_10,Confidence practice · Pilot,Personal Development,text,pilot,personal_development;pilot;confidence-practice,5.0.0,False,False,personal-development/prompts.json
+personal_development_11,Boundary setting · Create,Personal Development,text,create,personal_development;create;boundary-setting,5.0.0,False,False,personal-development/prompts.json
+personal_development_12,Boundary setting · Review,Personal Development,text,review,personal_development;review;boundary-setting,5.0.0,False,False,personal-development/prompts.json
+personal_development_13,Boundary setting · Refine,Personal Development,text,revise,personal_development;revise;boundary-setting,5.0.0,False,False,personal-development/prompts.json
+personal_development_14,Boundary setting · Compare,Personal Development,text,compare,personal_development;compare;boundary-setting,5.0.0,False,False,personal-development/prompts.json
+personal_development_15,Boundary setting · Pilot,Personal Development,text,pilot,personal_development;pilot;boundary-setting,5.0.0,False,False,personal-development/prompts.json
+personal_development_16,Reflective journaling · Create,Personal Development,text,create,personal_development;create;reflective-journaling,5.0.0,False,False,personal-development/prompts.json
+personal_development_17,Reflective journaling · Review,Personal Development,text,review,personal_development;review;reflective-journaling,5.0.0,False,False,personal-development/prompts.json
+personal_development_18,Reflective journaling · Refine,Personal Development,text,revise,personal_development;revise;reflective-journaling,5.0.0,False,False,personal-development/prompts.json
+personal_development_19,Reflective journaling · Compare,Personal Development,text,compare,personal_development;compare;reflective-journaling,5.0.0,False,False,personal-development/prompts.json
+personal_development_20,Reflective journaling · Pilot,Personal Development,text,pilot,personal_development;pilot;reflective-journaling,5.0.0,False,False,personal-development/prompts.json
+personal_development_21,Personal experiment · Create,Personal Development,text,create,personal_development;create;personal-experiment,5.0.0,False,False,personal-development/prompts.json
+personal_development_22,Personal experiment · Review,Personal Development,text,review,personal_development;review;personal-experiment,5.0.0,False,False,personal-development/prompts.json
+personal_development_23,Personal experiment · Refine,Personal Development,text,revise,personal_development;revise;personal-experiment,5.0.0,False,False,personal-development/prompts.json
+personal_development_24,Personal experiment · Compare,Personal Development,text,compare,personal_development;compare;personal-experiment,5.0.0,False,False,personal-development/prompts.json
+personal_development_25,Personal experiment · Pilot,Personal Development,text,pilot,personal_development;pilot;personal-experiment,5.0.0,False,False,personal-development/prompts.json
+personal_development_26,Communication practice · Create,Personal Development,text,create,personal_development;create;communication-practice,5.0.0,False,False,personal-development/prompts.json
+personal_development_27,Communication practice · Review,Personal Development,text,review,personal_development;review;communication-practice,5.0.0,False,False,personal-development/prompts.json
+personal_development_28,Communication practice · Refine,Personal Development,text,revise,personal_development;revise;communication-practice,5.0.0,False,False,personal-development/prompts.json
+personal_development_29,Communication practice · Compare,Personal Development,text,compare,personal_development;compare;communication-practice,5.0.0,False,False,personal-development/prompts.json
+personal_development_30,Communication practice · Pilot,Personal Development,text,pilot,personal_development;pilot;communication-practice,5.0.0,False,False,personal-development/prompts.json
+personal_development_31,Reading intention · Create,Personal Development,text,create,personal_development;create;reading-intention,5.0.0,False,False,personal-development/prompts.json
+personal_development_32,Reading intention · Review,Personal Development,text,review,personal_development;review;reading-intention,5.0.0,False,False,personal-development/prompts.json
+personal_development_33,Reading intention · Refine,Personal Development,text,revise,personal_development;revise;reading-intention,5.0.0,False,False,personal-development/prompts.json
+personal_development_34,Reading intention · Compare,Personal Development,text,compare,personal_development;compare;reading-intention,5.0.0,False,False,personal-development/prompts.json
+personal_development_35,Reading intention · Pilot,Personal Development,text,pilot,personal_development;pilot;reading-intention,5.0.0,False,False,personal-development/prompts.json
+personal_development_36,Personal review · Create,Personal Development,text,create,personal_development;create;personal-review,5.0.0,False,False,personal-development/prompts.json
+personal_development_37,Personal review · Review,Personal Development,text,review,personal_development;review;personal-review,5.0.0,False,False,personal-development/prompts.json
+personal_development_38,Personal review · Refine,Personal Development,text,revise,personal_development;revise;personal-review,5.0.0,False,False,personal-development/prompts.json
+personal_development_39,Personal review · Compare,Personal Development,text,compare,personal_development;compare;personal-review,5.0.0,False,False,personal-development/prompts.json
+personal_development_40,Personal review · Pilot,Personal Development,text,pilot,personal_development;pilot;personal-review,5.0.0,False,False,personal-development/prompts.json
+personal_development_41,Creative confidence · Create,Personal Development,text,create,personal_development;create;creative-confidence,5.0.0,False,False,personal-development/prompts.json
+personal_development_42,Creative confidence · Review,Personal Development,text,review,personal_development;review;creative-confidence,5.0.0,False,False,personal-development/prompts.json
+personal_development_43,Creative confidence · Refine,Personal Development,text,revise,personal_development;revise;creative-confidence,5.0.0,False,False,personal-development/prompts.json
+personal_development_44,Creative confidence · Compare,Personal Development,text,compare,personal_development;compare;creative-confidence,5.0.0,False,False,personal-development/prompts.json
+personal_development_45,Creative confidence · Pilot,Personal Development,text,pilot,personal_development;pilot;creative-confidence,5.0.0,False,False,personal-development/prompts.json
+personal_development_46,Decision reflection · Create,Personal Development,text,create,personal_development;create;decision-reflection,5.0.0,False,False,personal-development/prompts.json
+personal_development_47,Decision reflection · Review,Personal Development,text,review,personal_development;review;decision-reflection,5.0.0,False,False,personal-development/prompts.json
+personal_development_48,Decision reflection · Refine,Personal Development,text,revise,personal_development;revise;decision-reflection,5.0.0,False,False,personal-development/prompts.json
+personal_development_49,Decision reflection · Compare,Personal Development,text,compare,personal_development;compare;decision-reflection,5.0.0,False,False,personal-development/prompts.json
+personal_development_50,Decision reflection · Pilot,Personal Development,text,pilot,personal_development;pilot;decision-reflection,5.0.0,False,False,personal-development/prompts.json
+camera_motion_01,Orbit portrait / Locked-off study,Camera Motion,image,locked-off-study,camera-motion;cinematic;image;locked-off-study,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_02,Orbit portrait / Slow push-in,Camera Motion,video,slow-push-in,camera-motion;cinematic;video;slow-push-in,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_03,Orbit portrait / Lateral track,Camera Motion,video,lateral-track,camera-motion;cinematic;video;lateral-track,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_04,Orbit portrait / Detail to reveal,Camera Motion,video,detail-to-reveal,camera-motion;cinematic;video;detail-to-reveal,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_05,Orbit portrait / Editorial hero,Camera Motion,image,editorial-hero,camera-motion;cinematic;image;editorial-hero,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_06,Architectural reveal / Locked-off study,Camera Motion,image,locked-off-study,camera-motion;cinematic;image;locked-off-study,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_07,Architectural reveal / Slow push-in,Camera Motion,video,slow-push-in,camera-motion;cinematic;video;slow-push-in,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_08,Architectural reveal / Lateral track,Camera Motion,video,lateral-track,camera-motion;cinematic;video;lateral-track,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_09,Architectural reveal / Detail to reveal,Camera Motion,video,detail-to-reveal,camera-motion;cinematic;video;detail-to-reveal,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_10,Architectural reveal / Editorial hero,Camera Motion,image,editorial-hero,camera-motion;cinematic;image;editorial-hero,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_11,Street pursuit / Locked-off study,Camera Motion,image,locked-off-study,camera-motion;cinematic;image;locked-off-study,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_12,Street pursuit / Slow push-in,Camera Motion,video,slow-push-in,camera-motion;cinematic;video;slow-push-in,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_13,Street pursuit / Lateral track,Camera Motion,video,lateral-track,camera-motion;cinematic;video;lateral-track,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_14,Street pursuit / Detail to reveal,Camera Motion,video,detail-to-reveal,camera-motion;cinematic;video;detail-to-reveal,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_15,Street pursuit / Editorial hero,Camera Motion,image,editorial-hero,camera-motion;cinematic;image;editorial-hero,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_16,Nature macro / Locked-off study,Camera Motion,image,locked-off-study,camera-motion;cinematic;image;locked-off-study,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_17,Nature macro / Slow push-in,Camera Motion,video,slow-push-in,camera-motion;cinematic;video;slow-push-in,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_18,Nature macro / Lateral track,Camera Motion,video,lateral-track,camera-motion;cinematic;video;lateral-track,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_19,Nature macro / Detail to reveal,Camera Motion,video,detail-to-reveal,camera-motion;cinematic;video;detail-to-reveal,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_20,Nature macro / Editorial hero,Camera Motion,image,editorial-hero,camera-motion;cinematic;image;editorial-hero,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_21,Tabletop movement / Locked-off study,Camera Motion,image,locked-off-study,camera-motion;cinematic;image;locked-off-study,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_22,Tabletop movement / Slow push-in,Camera Motion,video,slow-push-in,camera-motion;cinematic;video;slow-push-in,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_23,Tabletop movement / Lateral track,Camera Motion,video,lateral-track,camera-motion;cinematic;video;lateral-track,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_24,Tabletop movement / Detail to reveal,Camera Motion,video,detail-to-reveal,camera-motion;cinematic;video;detail-to-reveal,5.0.0,True,False,camera-motion/prompts.json
+camera_motion_25,Tabletop movement / Editorial hero,Camera Motion,image,editorial-hero,camera-motion;cinematic;image;editorial-hero,5.0.0,True,False,camera-motion/prompts.json
+lighting_01,Window portrait / Locked-off study,Lighting,image,locked-off-study,lighting;cinematic;image;locked-off-study,5.0.0,True,False,lighting/prompts.json
+lighting_02,Window portrait / Slow push-in,Lighting,video,slow-push-in,lighting;cinematic;video;slow-push-in,5.0.0,True,False,lighting/prompts.json
+lighting_03,Window portrait / Lateral track,Lighting,video,lateral-track,lighting;cinematic;video;lateral-track,5.0.0,True,False,lighting/prompts.json
+lighting_04,Window portrait / Detail to reveal,Lighting,video,detail-to-reveal,lighting;cinematic;video;detail-to-reveal,5.0.0,True,False,lighting/prompts.json
+lighting_05,Window portrait / Editorial hero,Lighting,image,editorial-hero,lighting;cinematic;image;editorial-hero,5.0.0,True,False,lighting/prompts.json
+lighting_06,Rainy neon / Locked-off study,Lighting,image,locked-off-study,lighting;cinematic;image;locked-off-study,5.0.0,True,False,lighting/prompts.json
+lighting_07,Rainy neon / Slow push-in,Lighting,video,slow-push-in,lighting;cinematic;video;slow-push-in,5.0.0,True,False,lighting/prompts.json
+lighting_08,Rainy neon / Lateral track,Lighting,video,lateral-track,lighting;cinematic;video;lateral-track,5.0.0,True,False,lighting/prompts.json
+lighting_09,Rainy neon / Detail to reveal,Lighting,video,detail-to-reveal,lighting;cinematic;video;detail-to-reveal,5.0.0,True,False,lighting/prompts.json
+lighting_10,Rainy neon / Editorial hero,Lighting,image,editorial-hero,lighting;cinematic;image;editorial-hero,5.0.0,True,False,lighting/prompts.json
+lighting_11,Desert daylight / Locked-off study,Lighting,image,locked-off-study,lighting;cinematic;image;locked-off-study,5.0.0,True,False,lighting/prompts.json
+lighting_12,Desert daylight / Slow push-in,Lighting,video,slow-push-in,lighting;cinematic;video;slow-push-in,5.0.0,True,False,lighting/prompts.json
+lighting_13,Desert daylight / Lateral track,Lighting,video,lateral-track,lighting;cinematic;video;lateral-track,5.0.0,True,False,lighting/prompts.json
+lighting_14,Desert daylight / Detail to reveal,Lighting,video,detail-to-reveal,lighting;cinematic;video;detail-to-reveal,5.0.0,True,False,lighting/prompts.json
+lighting_15,Desert daylight / Editorial hero,Lighting,image,editorial-hero,lighting;cinematic;image;editorial-hero,5.0.0,True,False,lighting/prompts.json
+lighting_16,Museum still life / Locked-off study,Lighting,image,locked-off-study,lighting;cinematic;image;locked-off-study,5.0.0,True,False,lighting/prompts.json
+lighting_17,Museum still life / Slow push-in,Lighting,video,slow-push-in,lighting;cinematic;video;slow-push-in,5.0.0,True,False,lighting/prompts.json
+lighting_18,Museum still life / Lateral track,Lighting,video,lateral-track,lighting;cinematic;video;lateral-track,5.0.0,True,False,lighting/prompts.json
+lighting_19,Museum still life / Detail to reveal,Lighting,video,detail-to-reveal,lighting;cinematic;video;detail-to-reveal,5.0.0,True,False,lighting/prompts.json
+lighting_20,Museum still life / Editorial hero,Lighting,image,editorial-hero,lighting;cinematic;image;editorial-hero,5.0.0,True,False,lighting/prompts.json
+lighting_21,Night interior / Locked-off study,Lighting,image,locked-off-study,lighting;cinematic;image;locked-off-study,5.0.0,True,False,lighting/prompts.json
+lighting_22,Night interior / Slow push-in,Lighting,video,slow-push-in,lighting;cinematic;video;slow-push-in,5.0.0,True,False,lighting/prompts.json
+lighting_23,Night interior / Lateral track,Lighting,video,lateral-track,lighting;cinematic;video;lateral-track,5.0.0,True,False,lighting/prompts.json
+lighting_24,Night interior / Detail to reveal,Lighting,video,detail-to-reveal,lighting;cinematic;video;detail-to-reveal,5.0.0,True,False,lighting/prompts.json
+lighting_25,Night interior / Editorial hero,Lighting,image,editorial-hero,lighting;cinematic;image;editorial-hero,5.0.0,True,False,lighting/prompts.json
+product_ads_01,Fragrance film / Locked-off study,Product Ads,image,locked-off-study,product-ads;cinematic;image;locked-off-study,5.0.0,True,False,product-ads/prompts.json
+product_ads_02,Fragrance film / Slow push-in,Product Ads,video,slow-push-in,product-ads;cinematic;video;slow-push-in,5.0.0,True,False,product-ads/prompts.json
+product_ads_03,Fragrance film / Lateral track,Product Ads,video,lateral-track,product-ads;cinematic;video;lateral-track,5.0.0,True,False,product-ads/prompts.json
+product_ads_04,Fragrance film / Detail to reveal,Product Ads,video,detail-to-reveal,product-ads;cinematic;video;detail-to-reveal,5.0.0,True,False,product-ads/prompts.json
+product_ads_05,Fragrance film / Editorial hero,Product Ads,image,editorial-hero,product-ads;cinematic;image;editorial-hero,5.0.0,True,False,product-ads/prompts.json
+product_ads_06,Footwear reveal / Locked-off study,Product Ads,image,locked-off-study,product-ads;cinematic;image;locked-off-study,5.0.0,True,False,product-ads/prompts.json
+product_ads_07,Footwear reveal / Slow push-in,Product Ads,video,slow-push-in,product-ads;cinematic;video;slow-push-in,5.0.0,True,False,product-ads/prompts.json
+product_ads_08,Footwear reveal / Lateral track,Product Ads,video,lateral-track,product-ads;cinematic;video;lateral-track,5.0.0,True,False,product-ads/prompts.json
+product_ads_09,Footwear reveal / Detail to reveal,Product Ads,video,detail-to-reveal,product-ads;cinematic;video;detail-to-reveal,5.0.0,True,False,product-ads/prompts.json
+product_ads_10,Footwear reveal / Editorial hero,Product Ads,image,editorial-hero,product-ads;cinematic;image;editorial-hero,5.0.0,True,False,product-ads/prompts.json
+product_ads_11,Beverage spot / Locked-off study,Product Ads,image,locked-off-study,product-ads;cinematic;image;locked-off-study,5.0.0,True,False,product-ads/prompts.json
+product_ads_12,Beverage spot / Slow push-in,Product Ads,video,slow-push-in,product-ads;cinematic;video;slow-push-in,5.0.0,True,False,product-ads/prompts.json
+product_ads_13,Beverage spot / Lateral track,Product Ads,video,lateral-track,product-ads;cinematic;video;lateral-track,5.0.0,True,False,product-ads/prompts.json
+product_ads_14,Beverage spot / Detail to reveal,Product Ads,video,detail-to-reveal,product-ads;cinematic;video;detail-to-reveal,5.0.0,True,False,product-ads/prompts.json
+product_ads_15,Beverage spot / Editorial hero,Product Ads,image,editorial-hero,product-ads;cinematic;image;editorial-hero,5.0.0,True,False,product-ads/prompts.json
+product_ads_16,Skincare still life / Locked-off study,Product Ads,image,locked-off-study,product-ads;cinematic;image;locked-off-study,5.0.0,True,False,product-ads/prompts.json
+product_ads_17,Skincare still life / Slow push-in,Product Ads,video,slow-push-in,product-ads;cinematic;video;slow-push-in,5.0.0,True,False,product-ads/prompts.json
+product_ads_18,Skincare still life / Lateral track,Product Ads,video,lateral-track,product-ads;cinematic;video;lateral-track,5.0.0,True,False,product-ads/prompts.json
+product_ads_19,Skincare still life / Detail to reveal,Product Ads,video,detail-to-reveal,product-ads;cinematic;video;detail-to-reveal,5.0.0,True,False,product-ads/prompts.json
+product_ads_20,Skincare still life / Editorial hero,Product Ads,image,editorial-hero,product-ads;cinematic;image;editorial-hero,5.0.0,True,False,product-ads/prompts.json
+product_ads_21,Technology launch / Locked-off study,Product Ads,image,locked-off-study,product-ads;cinematic;image;locked-off-study,5.0.0,True,False,product-ads/prompts.json
+product_ads_22,Technology launch / Slow push-in,Product Ads,video,slow-push-in,product-ads;cinematic;video;slow-push-in,5.0.0,True,False,product-ads/prompts.json
+product_ads_23,Technology launch / Lateral track,Product Ads,video,lateral-track,product-ads;cinematic;video;lateral-track,5.0.0,True,False,product-ads/prompts.json
+product_ads_24,Technology launch / Detail to reveal,Product Ads,video,detail-to-reveal,product-ads;cinematic;video;detail-to-reveal,5.0.0,True,False,product-ads/prompts.json
+product_ads_25,Technology launch / Editorial hero,Product Ads,image,editorial-hero,product-ads;cinematic;image;editorial-hero,5.0.0,True,False,product-ads/prompts.json
+characters_01,Explorer continuity / Locked-off study,Characters,image,locked-off-study,characters;cinematic;image;locked-off-study,5.0.0,True,False,characters/prompts.json
+characters_02,Explorer continuity / Slow push-in,Characters,video,slow-push-in,characters;cinematic;video;slow-push-in,5.0.0,True,False,characters/prompts.json
+characters_03,Explorer continuity / Lateral track,Characters,video,lateral-track,characters;cinematic;video;lateral-track,5.0.0,True,False,characters/prompts.json
+characters_04,Explorer continuity / Detail to reveal,Characters,video,detail-to-reveal,characters;cinematic;video;detail-to-reveal,5.0.0,True,False,characters/prompts.json
+characters_05,Explorer continuity / Editorial hero,Characters,image,editorial-hero,characters;cinematic;image;editorial-hero,5.0.0,True,False,characters/prompts.json
+characters_06,Artisan portrait / Locked-off study,Characters,image,locked-off-study,characters;cinematic;image;locked-off-study,5.0.0,True,False,characters/prompts.json
+characters_07,Artisan portrait / Slow push-in,Characters,video,slow-push-in,characters;cinematic;video;slow-push-in,5.0.0,True,False,characters/prompts.json
+characters_08,Artisan portrait / Lateral track,Characters,video,lateral-track,characters;cinematic;video;lateral-track,5.0.0,True,False,characters/prompts.json
+characters_09,Artisan portrait / Detail to reveal,Characters,video,detail-to-reveal,characters;cinematic;video;detail-to-reveal,5.0.0,True,False,characters/prompts.json
+characters_10,Artisan portrait / Editorial hero,Characters,image,editorial-hero,characters;cinematic;image;editorial-hero,5.0.0,True,False,characters/prompts.json
+characters_11,Urban protagonist / Locked-off study,Characters,image,locked-off-study,characters;cinematic;image;locked-off-study,5.0.0,True,False,characters/prompts.json
+characters_12,Urban protagonist / Slow push-in,Characters,video,slow-push-in,characters;cinematic;video;slow-push-in,5.0.0,True,False,characters/prompts.json
+characters_13,Urban protagonist / Lateral track,Characters,video,lateral-track,characters;cinematic;video;lateral-track,5.0.0,True,False,characters/prompts.json
+characters_14,Urban protagonist / Detail to reveal,Characters,video,detail-to-reveal,characters;cinematic;video;detail-to-reveal,5.0.0,True,False,characters/prompts.json
+characters_15,Urban protagonist / Editorial hero,Characters,image,editorial-hero,characters;cinematic;image;editorial-hero,5.0.0,True,False,characters/prompts.json
+characters_16,Fantasy librarian / Locked-off study,Characters,image,locked-off-study,characters;cinematic;image;locked-off-study,5.0.0,True,False,characters/prompts.json
+characters_17,Fantasy librarian / Slow push-in,Characters,video,slow-push-in,characters;cinematic;video;slow-push-in,5.0.0,True,False,characters/prompts.json
+characters_18,Fantasy librarian / Lateral track,Characters,video,lateral-track,characters;cinematic;video;lateral-track,5.0.0,True,False,characters/prompts.json
+characters_19,Fantasy librarian / Detail to reveal,Characters,video,detail-to-reveal,characters;cinematic;video;detail-to-reveal,5.0.0,True,False,characters/prompts.json
+characters_20,Fantasy librarian / Editorial hero,Characters,image,editorial-hero,characters;cinematic;image;editorial-hero,5.0.0,True,False,characters/prompts.json
+characters_21,Animated guide / Locked-off study,Characters,image,locked-off-study,characters;cinematic;image;locked-off-study,5.0.0,True,False,characters/prompts.json
+characters_22,Animated guide / Slow push-in,Characters,video,slow-push-in,characters;cinematic;video;slow-push-in,5.0.0,True,False,characters/prompts.json
+characters_23,Animated guide / Lateral track,Characters,video,lateral-track,characters;cinematic;video;lateral-track,5.0.0,True,False,characters/prompts.json
+characters_24,Animated guide / Detail to reveal,Characters,video,detail-to-reveal,characters;cinematic;video;detail-to-reveal,5.0.0,True,False,characters/prompts.json
+characters_25,Animated guide / Editorial hero,Characters,image,editorial-hero,characters;cinematic;image;editorial-hero,5.0.0,True,False,characters/prompts.json
+image_to_video_01,Portrait animation / Locked-off study,Image-to-Video,image,locked-off-study,image-to-video;cinematic;image;locked-off-study,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_02,Portrait animation / Slow push-in,Image-to-Video,video,slow-push-in,image-to-video;cinematic;video;slow-push-in,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_03,Portrait animation / Lateral track,Image-to-Video,video,lateral-track,image-to-video;cinematic;video;lateral-track,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_04,Portrait animation / Detail to reveal,Image-to-Video,video,detail-to-reveal,image-to-video;cinematic;video;detail-to-reveal,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_05,Portrait animation / Editorial hero,Image-to-Video,image,editorial-hero,image-to-video;cinematic;image;editorial-hero,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_06,Landscape animation / Locked-off study,Image-to-Video,image,locked-off-study,image-to-video;cinematic;image;locked-off-study,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_07,Landscape animation / Slow push-in,Image-to-Video,video,slow-push-in,image-to-video;cinematic;video;slow-push-in,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_08,Landscape animation / Lateral track,Image-to-Video,video,lateral-track,image-to-video;cinematic;video;lateral-track,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_09,Landscape animation / Detail to reveal,Image-to-Video,video,detail-to-reveal,image-to-video;cinematic;video;detail-to-reveal,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_10,Landscape animation / Editorial hero,Image-to-Video,image,editorial-hero,image-to-video;cinematic;image;editorial-hero,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_11,Product animation / Locked-off study,Image-to-Video,image,locked-off-study,image-to-video;cinematic;image;locked-off-study,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_12,Product animation / Slow push-in,Image-to-Video,video,slow-push-in,image-to-video;cinematic;video;slow-push-in,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_13,Product animation / Lateral track,Image-to-Video,video,lateral-track,image-to-video;cinematic;video;lateral-track,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_14,Product animation / Detail to reveal,Image-to-Video,video,detail-to-reveal,image-to-video;cinematic;video;detail-to-reveal,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_15,Product animation / Editorial hero,Image-to-Video,image,editorial-hero,image-to-video;cinematic;image;editorial-hero,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_16,Illustration animation / Locked-off study,Image-to-Video,image,locked-off-study,image-to-video;cinematic;image;locked-off-study,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_17,Illustration animation / Slow push-in,Image-to-Video,video,slow-push-in,image-to-video;cinematic;video;slow-push-in,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_18,Illustration animation / Lateral track,Image-to-Video,video,lateral-track,image-to-video;cinematic;video;lateral-track,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_19,Illustration animation / Detail to reveal,Image-to-Video,video,detail-to-reveal,image-to-video;cinematic;video;detail-to-reveal,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_20,Illustration animation / Editorial hero,Image-to-Video,image,editorial-hero,image-to-video;cinematic;image;editorial-hero,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_21,Interior animation / Locked-off study,Image-to-Video,image,locked-off-study,image-to-video;cinematic;image;locked-off-study,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_22,Interior animation / Slow push-in,Image-to-Video,video,slow-push-in,image-to-video;cinematic;video;slow-push-in,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_23,Interior animation / Lateral track,Image-to-Video,video,lateral-track,image-to-video;cinematic;video;lateral-track,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_24,Interior animation / Detail to reveal,Image-to-Video,video,detail-to-reveal,image-to-video;cinematic;video;detail-to-reveal,5.0.0,True,True,image-to-video/prompts.json
+image_to_video_25,Interior animation / Editorial hero,Image-to-Video,image,editorial-hero,image-to-video;cinematic;image;editorial-hero,5.0.0,True,True,image-to-video/prompts.json
+visual_effects_01,Dust reveal / Locked-off study,Visual Effects,image,locked-off-study,visual-effects;cinematic;image;locked-off-study,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_02,Dust reveal / Slow push-in,Visual Effects,video,slow-push-in,visual-effects;cinematic;video;slow-push-in,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_03,Dust reveal / Lateral track,Visual Effects,video,lateral-track,visual-effects;cinematic;video;lateral-track,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_04,Dust reveal / Detail to reveal,Visual Effects,video,detail-to-reveal,visual-effects;cinematic;video;detail-to-reveal,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_05,Dust reveal / Editorial hero,Visual Effects,image,editorial-hero,visual-effects;cinematic;image;editorial-hero,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_06,Water interaction / Locked-off study,Visual Effects,image,locked-off-study,visual-effects;cinematic;image;locked-off-study,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_07,Water interaction / Slow push-in,Visual Effects,video,slow-push-in,visual-effects;cinematic;video;slow-push-in,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_08,Water interaction / Lateral track,Visual Effects,video,lateral-track,visual-effects;cinematic;video;lateral-track,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_09,Water interaction / Detail to reveal,Visual Effects,video,detail-to-reveal,visual-effects;cinematic;video;detail-to-reveal,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_10,Water interaction / Editorial hero,Visual Effects,image,editorial-hero,visual-effects;cinematic;image;editorial-hero,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_11,Fabric motion / Locked-off study,Visual Effects,image,locked-off-study,visual-effects;cinematic;image;locked-off-study,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_12,Fabric motion / Slow push-in,Visual Effects,video,slow-push-in,visual-effects;cinematic;video;slow-push-in,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_13,Fabric motion / Lateral track,Visual Effects,video,lateral-track,visual-effects;cinematic;video;lateral-track,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_14,Fabric motion / Detail to reveal,Visual Effects,video,detail-to-reveal,visual-effects;cinematic;video;detail-to-reveal,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_15,Fabric motion / Editorial hero,Visual Effects,image,editorial-hero,visual-effects;cinematic;image;editorial-hero,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_16,Light sweep / Locked-off study,Visual Effects,image,locked-off-study,visual-effects;cinematic;image;locked-off-study,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_17,Light sweep / Slow push-in,Visual Effects,video,slow-push-in,visual-effects;cinematic;video;slow-push-in,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_18,Light sweep / Lateral track,Visual Effects,video,lateral-track,visual-effects;cinematic;video;lateral-track,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_19,Light sweep / Detail to reveal,Visual Effects,video,detail-to-reveal,visual-effects;cinematic;video;detail-to-reveal,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_20,Light sweep / Editorial hero,Visual Effects,image,editorial-hero,visual-effects;cinematic;image;editorial-hero,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_21,Atmospheric transition / Locked-off study,Visual Effects,image,locked-off-study,visual-effects;cinematic;image;locked-off-study,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_22,Atmospheric transition / Slow push-in,Visual Effects,video,slow-push-in,visual-effects;cinematic;video;slow-push-in,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_23,Atmospheric transition / Lateral track,Visual Effects,video,lateral-track,visual-effects;cinematic;video;lateral-track,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_24,Atmospheric transition / Detail to reveal,Visual Effects,video,detail-to-reveal,visual-effects;cinematic;video;detail-to-reveal,5.0.0,True,False,visual-effects/prompts.json
+visual_effects_25,Atmospheric transition / Editorial hero,Visual Effects,image,editorial-hero,visual-effects;cinematic;image;editorial-hero,5.0.0,True,False,visual-effects/prompts.json
+fashion_editorial_01,Desert silhouette / Locked-off study,Fashion Editorial,image,locked-off-study,fashion-editorial;cinematic;image;locked-off-study,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_02,Desert silhouette / Slow push-in,Fashion Editorial,video,slow-push-in,fashion-editorial;cinematic;video;slow-push-in,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_03,Desert silhouette / Lateral track,Fashion Editorial,video,lateral-track,fashion-editorial;cinematic;video;lateral-track,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_04,Desert silhouette / Detail to reveal,Fashion Editorial,video,detail-to-reveal,fashion-editorial;cinematic;video;detail-to-reveal,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_05,Desert silhouette / Editorial hero,Fashion Editorial,image,editorial-hero,fashion-editorial;cinematic;image;editorial-hero,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_06,Studio tailoring / Locked-off study,Fashion Editorial,image,locked-off-study,fashion-editorial;cinematic;image;locked-off-study,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_07,Studio tailoring / Slow push-in,Fashion Editorial,video,slow-push-in,fashion-editorial;cinematic;video;slow-push-in,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_08,Studio tailoring / Lateral track,Fashion Editorial,video,lateral-track,fashion-editorial;cinematic;video;lateral-track,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_09,Studio tailoring / Detail to reveal,Fashion Editorial,video,detail-to-reveal,fashion-editorial;cinematic;video;detail-to-reveal,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_10,Studio tailoring / Editorial hero,Fashion Editorial,image,editorial-hero,fashion-editorial;cinematic;image;editorial-hero,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_11,Street texture / Locked-off study,Fashion Editorial,image,locked-off-study,fashion-editorial;cinematic;image;locked-off-study,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_12,Street texture / Slow push-in,Fashion Editorial,video,slow-push-in,fashion-editorial;cinematic;video;slow-push-in,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_13,Street texture / Lateral track,Fashion Editorial,video,lateral-track,fashion-editorial;cinematic;video;lateral-track,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_14,Street texture / Detail to reveal,Fashion Editorial,video,detail-to-reveal,fashion-editorial;cinematic;video;detail-to-reveal,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_15,Street texture / Editorial hero,Fashion Editorial,image,editorial-hero,fashion-editorial;cinematic;image;editorial-hero,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_16,Movement study / Locked-off study,Fashion Editorial,image,locked-off-study,fashion-editorial;cinematic;image;locked-off-study,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_17,Movement study / Slow push-in,Fashion Editorial,video,slow-push-in,fashion-editorial;cinematic;video;slow-push-in,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_18,Movement study / Lateral track,Fashion Editorial,video,lateral-track,fashion-editorial;cinematic;video;lateral-track,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_19,Movement study / Detail to reveal,Fashion Editorial,video,detail-to-reveal,fashion-editorial;cinematic;video;detail-to-reveal,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_20,Movement study / Editorial hero,Fashion Editorial,image,editorial-hero,fashion-editorial;cinematic;image;editorial-hero,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_21,Accessories still life / Locked-off study,Fashion Editorial,image,locked-off-study,fashion-editorial;cinematic;image;locked-off-study,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_22,Accessories still life / Slow push-in,Fashion Editorial,video,slow-push-in,fashion-editorial;cinematic;video;slow-push-in,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_23,Accessories still life / Lateral track,Fashion Editorial,video,lateral-track,fashion-editorial;cinematic;video;lateral-track,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_24,Accessories still life / Detail to reveal,Fashion Editorial,video,detail-to-reveal,fashion-editorial;cinematic;video;detail-to-reveal,5.0.0,True,False,fashion-editorial/prompts.json
+fashion_editorial_25,Accessories still life / Editorial hero,Fashion Editorial,image,editorial-hero,fashion-editorial;cinematic;image;editorial-hero,5.0.0,True,False,fashion-editorial/prompts.json
+environments_01,Brutalist retreat / Locked-off study,Environments,image,locked-off-study,environments;cinematic;image;locked-off-study,5.0.0,True,False,environments/prompts.json
+environments_02,Brutalist retreat / Slow push-in,Environments,video,slow-push-in,environments;cinematic;video;slow-push-in,5.0.0,True,False,environments/prompts.json
+environments_03,Brutalist retreat / Lateral track,Environments,video,lateral-track,environments;cinematic;video;lateral-track,5.0.0,True,False,environments/prompts.json
+environments_04,Brutalist retreat / Detail to reveal,Environments,video,detail-to-reveal,environments;cinematic;video;detail-to-reveal,5.0.0,True,False,environments/prompts.json
+environments_05,Brutalist retreat / Editorial hero,Environments,image,editorial-hero,environments;cinematic;image;editorial-hero,5.0.0,True,False,environments/prompts.json
+environments_06,Forest sanctuary / Locked-off study,Environments,image,locked-off-study,environments;cinematic;image;locked-off-study,5.0.0,True,False,environments/prompts.json
+environments_07,Forest sanctuary / Slow push-in,Environments,video,slow-push-in,environments;cinematic;video;slow-push-in,5.0.0,True,False,environments/prompts.json
+environments_08,Forest sanctuary / Lateral track,Environments,video,lateral-track,environments;cinematic;video;lateral-track,5.0.0,True,False,environments/prompts.json
+environments_09,Forest sanctuary / Detail to reveal,Environments,video,detail-to-reveal,environments;cinematic;video;detail-to-reveal,5.0.0,True,False,environments/prompts.json
+environments_10,Forest sanctuary / Editorial hero,Environments,image,editorial-hero,environments;cinematic;image;editorial-hero,5.0.0,True,False,environments/prompts.json
+environments_11,Future transit / Locked-off study,Environments,image,locked-off-study,environments;cinematic;image;locked-off-study,5.0.0,True,False,environments/prompts.json
+environments_12,Future transit / Slow push-in,Environments,video,slow-push-in,environments;cinematic;video;slow-push-in,5.0.0,True,False,environments/prompts.json
+environments_13,Future transit / Lateral track,Environments,video,lateral-track,environments;cinematic;video;lateral-track,5.0.0,True,False,environments/prompts.json
+environments_14,Future transit / Detail to reveal,Environments,video,detail-to-reveal,environments;cinematic;video;detail-to-reveal,5.0.0,True,False,environments/prompts.json
+environments_15,Future transit / Editorial hero,Environments,image,editorial-hero,environments;cinematic;image;editorial-hero,5.0.0,True,False,environments/prompts.json
+environments_16,Coastal room / Locked-off study,Environments,image,locked-off-study,environments;cinematic;image;locked-off-study,5.0.0,True,False,environments/prompts.json
+environments_17,Coastal room / Slow push-in,Environments,video,slow-push-in,environments;cinematic;video;slow-push-in,5.0.0,True,False,environments/prompts.json
+environments_18,Coastal room / Lateral track,Environments,video,lateral-track,environments;cinematic;video;lateral-track,5.0.0,True,False,environments/prompts.json
+environments_19,Coastal room / Detail to reveal,Environments,video,detail-to-reveal,environments;cinematic;video;detail-to-reveal,5.0.0,True,False,environments/prompts.json
+environments_20,Coastal room / Editorial hero,Environments,image,editorial-hero,environments;cinematic;image;editorial-hero,5.0.0,True,False,environments/prompts.json
+environments_21,Lunar landscape / Locked-off study,Environments,image,locked-off-study,environments;cinematic;image;locked-off-study,5.0.0,True,False,environments/prompts.json
+environments_22,Lunar landscape / Slow push-in,Environments,video,slow-push-in,environments;cinematic;video;slow-push-in,5.0.0,True,False,environments/prompts.json
+environments_23,Lunar landscape / Lateral track,Environments,video,lateral-track,environments;cinematic;video;lateral-track,5.0.0,True,False,environments/prompts.json
+environments_24,Lunar landscape / Detail to reveal,Environments,video,detail-to-reveal,environments;cinematic;video;detail-to-reveal,5.0.0,True,False,environments/prompts.json
+environments_25,Lunar landscape / Editorial hero,Environments,image,editorial-hero,environments;cinematic;image;editorial-hero,5.0.0,True,False,environments/prompts.json

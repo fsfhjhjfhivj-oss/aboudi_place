@@ -1,0 +1,20 @@
+{
+  "edition": "Atelier 05",
+  "promptCount": 1000,
+  "idsPreserved": true,
+  "categoriesPreserved": true,
+  "changedFields": {
+    "title": 800,
+    "objective": 640,
+    "scope": 1000,
+    "exampleOutput": 840,
+    "difficultyGuide": 1000,
+    "promptText": 1000
+  },
+  "entriesWithInputGuides": 1000,
+  "entriesWithSuccessCriteria": 1000,
+  "directGenerationPrompts": 200,
+  "requiresActualReference": 25,
+  "independentSemanticVerification": false,
+  "note": "An editorial migration, not an external fact check or proof that any model output is correct. Workflow variants remain explicitly labeled."
+}
