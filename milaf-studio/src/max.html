@@ -1,0 +1,214 @@
+<div class="max-workbar" aria-label="Workspace status">
+  <div class="max-workbar-left">
+    <span class="max-edition">ATELIER / 05</span
+    ><span
+      class="max-save-state"
+      id="maxSaveState"
+      role="status"
+      aria-live="polite"
+      >Preparing local recovery…</span
+    >
+  </div>
+  <button id="maxCommandButton" class="max-command-trigger">
+    ⌕ Jump to a prompt, project, or action <kbd>⌘ K</kbd>
+  </button>
+  <div class="max-workbar-actions">
+    <button id="maxVersionQuick">＋ Save version</button
+    ><button id="maxSettingsButton">Workspace settings ↗</button>
+  </div>
+</div>
+<div id="maxRestoreBanner" class="max-restore-banner hidden">
+  <div>
+    <strong>A previous workspace is available.</strong
+    ><span id="maxRestoreDescription"></span>
+  </div>
+  <button class="button lime small" id="maxRestoreWorkspace">
+    Restore workspace</button
+  ><button class="button small" id="maxDiscardRecovery">Start fresh</button>
+</div>
+<dialog
+  id="maxCommandDialog"
+  class="max-command-dialog"
+  aria-labelledby="maxCommandTitle"
+>
+  <div class="max-command-head">
+    <h2 id="maxCommandTitle" class="sr-only">Jump to anything</h2>
+    <span>⌕</span
+    ><input
+      id="maxCommandInput"
+      role="combobox"
+      aria-label="Search commands, prompts, and projects"
+      aria-autocomplete="list"
+      aria-expanded="true"
+      aria-controls="maxCommandResults"
+      placeholder="Find a prompt. Open a project. Do the next thing."
+    /><button
+      class="max-key"
+      data-close="maxCommandDialog"
+      aria-label="Close command palette"
+    >
+      ESC
+    </button>
+  </div>
+  <div
+    id="maxCommandResults"
+    class="max-command-results"
+    role="listbox"
+    aria-label="Search results"
+  ></div>
+  <div class="max-command-footer">
+    <span>↑ ↓ to move · Enter to open · Esc to close</span
+    ><span>LOCAL SEARCH / NO AI CALL</span>
+  </div>
+</dialog>
+<dialog id="maxSettingsDialog" aria-labelledby="maxSettingsTitle">
+  <div class="dialog-top">
+    <div>
+      <div class="eyebrow">YOUR WORKSPACE. YOUR RULES.</div>
+      <h2 id="maxSettingsTitle">A place for the work in progress.</h2>
+    </div>
+    <button
+      class="icon-button"
+      data-close="maxSettingsDialog"
+      aria-label="Close workspace settings"
+    >
+      ✕
+    </button>
+  </div>
+  <div class="max-settings-body">
+    <div class="max-settings-grid">
+      <section>
+        <div class="mini-heading">LOCAL RECOVERY</div>
+        <label class="max-toggle"
+          ><input type="checkbox" id="maxAutosave" checked /><span
+            ><strong>Autosave text & shot planning</strong
+            ><small
+              >Recover the workspace in this browser. Not a cloud backup.</small
+            ></span
+          ></label
+        ><label class="max-toggle"
+          ><input type="checkbox" id="maxIncludeReferences" /><span
+            ><strong>Include reference images in recovery</strong
+            ><small
+              >Off by default. Enabling this stores private images in autosave
+              and versions.</small
+            ></span
+          ></label
+        ><label class="field"
+          ><span>Display density</span
+          ><select id="maxDensity">
+            <option value="comfortable">Comfortable / readable</option>
+            <option value="compact">Compact / more on screen</option>
+          </select></label
+        ><label class="max-toggle"
+          ><input type="checkbox" id="maxReduceMotion" /><span
+            ><strong>Reduce motion</strong
+            ><small
+              >Also respects your operating system preference.</small
+            ></span
+          ></label
+        >
+        <p id="maxStorageStatus" class="max-storage-status">
+          Local recovery uses IndexedDB when available.
+        </p>
+        <button id="maxClearRecovery" class="text-button">
+          Clear recovery data & turn autosave off
+        </button>
+      </section>
+      <section>
+        <div class="mini-heading">PRIVATE BACKUPS</div>
+        <p class="muted small-text">
+          Export favorites, projects, imported prompts, personal collections,
+          recovery data, and saved versions. Backups can contain private project
+          images. AI credentials, current chat, and server-generated media are
+          excluded.
+        </p>
+        <div class="max-backup-actions">
+          <button class="button lime" id="maxExportBackup">
+            Export workspace backup ↗</button
+          ><label class="button"
+            ><input
+              type="file"
+              id="maxImportBackup"
+              accept="application/json,.json"
+              hidden
+            />Import & merge a backup</label
+          ><button class="button" id="maxOpenCollections">
+            Manage personal collections
+          </button>
+        </div>
+        <div class="inline-notice">
+          Import merges valid items within local limits. It never makes an AI
+          call or restores a provider key. Download server-generated media
+          separately.
+        </div>
+      </section>
+    </div>
+    <div class="max-version-heading">
+      <div>
+        <div class="mini-heading">VERSION HISTORY</div>
+        <p class="muted small-text">
+          Up to 20 explicit snapshots. Restore a different direction without
+          guessing what changed.
+        </p>
+      </div>
+      <button class="button lime small" id="maxCreateVersion">
+        ＋ Save current version
+      </button>
+    </div>
+    <div id="maxVersionList" class="max-version-list"></div>
+  </div>
+</dialog>
+<dialog id="maxCollectionsDialog" aria-labelledby="maxCollectionsTitle">
+  <div class="dialog-top">
+    <div>
+      <div class="eyebrow">A LITTLE ORDER FOR YOUR NEXT IDEA</div>
+      <h2 id="maxCollectionsTitle">Your personal collections.</h2>
+    </div>
+    <button
+      class="icon-button"
+      data-close="maxCollectionsDialog"
+      aria-label="Close personal collections"
+    >
+      ✕
+    </button>
+  </div>
+  <div class="toolkit-body">
+    <p id="maxCollectionContext" class="muted small-text">
+      Organize prompt IDs into local collections. This does not duplicate or
+      modify the original prompts.
+    </p>
+    <form id="maxCollectionForm" class="max-collection-form">
+      <label class="field"
+        ><span>Collection name</span
+        ><input
+          id="maxCollectionName"
+          maxlength="60"
+          required
+          placeholder="e.g. Autumn product campaign" /></label
+      ><button class="button lime" type="submit">Create collection ＋</button>
+    </form>
+    <div id="maxCollectionList" class="max-collection-list"></div>
+  </div>
+</dialog>
+<dialog
+  id="maxCompareDialog"
+  class="max-compare-dialog"
+  aria-labelledby="maxCompareTitle"
+>
+  <div class="dialog-top">
+    <div>
+      <div class="eyebrow">SIDE BY SIDE / NO PROVIDER CALL</div>
+      <h2 id="maxCompareTitle">Choose the stronger starting point.</h2>
+    </div>
+    <button
+      class="icon-button"
+      data-close="maxCompareDialog"
+      aria-label="Close prompt comparison"
+    >
+      ✕
+    </button>
+  </div>
+  <div id="maxCompareColumns" class="max-compare-columns"></div>
+</dialog>
+<div id="maxPrintSheet" aria-hidden="true"></div>

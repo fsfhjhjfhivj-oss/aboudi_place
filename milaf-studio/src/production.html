@@ -1,0 +1,30 @@
+<section id="productionView" class="view hidden" aria-labelledby="productionTitle">
+  <header class="production-hero"><img src="__ASSET_atelier-dawn__" alt=""/><div><span class="production-kicker">MILAF / PRODUCTION STUDIO</span><h1 id="productionTitle">Make the shot.<br><em>Hand off the vision.</em></h1><p>Build a photo or video brief, preview the prompt, and give your client one file to share with their AI agent.</p></div></header>
+  <div class="production-steps" aria-label="Workflow"><span><b>01</b> Describe the scene</span><span><b>02</b> Direct the frame</span><span><b>03</b> Export for your client</span></div>
+  <div class="production-layout">
+    <form id="productionForm" class="production-panel">
+      <div class="production-panel-head"><h2>Production brief</h2><button type="button" class="text-button" id="productionFromCreate">Import current scene</button></div>
+      <label class="field"><span>Format</span><select id="prodMedium"><option value="photo">Photo / single frame</option><option value="video">Video / motion</option></select></label>
+      <div class="production-presets" aria-label="Example briefs"><button type="button" data-production-preset="product">Product photo</button><button type="button" data-production-preset="portrait">Editorial portrait</button><button type="button" data-production-preset="film">Cinematic short</button><button type="button" data-production-preset="reference">Animate a reference</button></div>
+      <label class="field"><span>Project title</span><input id="prodTitle" maxlength="100" placeholder="e.g., Rain on Glass"/></label>
+      <label class="field"><span>Subject, setting & action · required</span><textarea id="prodScene" rows="3" maxlength="1800" required placeholder="e.g., An unbranded amber bottle on wet slate, with a thin line of sunlight across the cap."></textarea></label>
+      <label class="field"><span>Purpose & audience</span><input id="prodPurpose" maxlength="500" placeholder="e.g., A premium storefront hero for first-time customers"/></label>
+      <div class="field-pair"><label class="field"><span>Framing & focus</span><input id="prodFraming" maxlength="500" placeholder="e.g., Close-up, sharp label plane, space on the right"/></label><label class="field"><span>Light & palette</span><input id="prodLight" maxlength="500" placeholder="e.g., Soft side light, charcoal and amber"/></label></div>
+      <div class="field-pair"><label class="field"><span>Aspect ratio</span><select id="prodRatio"><option>16:9</option><option>9:16</option><option>4:5</option><option>1:1</option></select></label><label class="field production-video hidden"><span>Target seconds</span><input id="prodDuration" type="number" min="3" max="15" step="1" value="6"/></label></div>
+      <label class="field production-video hidden"><span>Camera movement</span><select id="prodMotion"><option>Locked camera</option><option>Slow push-in</option><option>Steady lateral track</option><option>Gentle pullback</option><option>Controlled orbit</option></select></label>
+      <label class="field production-video hidden"><span>Opening → change → final frame</span><textarea id="prodBeats" rows="2" maxlength="1000" placeholder="e.g., Start wide on the doorway; mist drifts past; finish with its reflection centered."></textarea></label>
+      <label class="field"><span>Keep / avoid</span><textarea id="prodConstraints" rows="2" maxlength="1000" placeholder="e.g., Keep the bottle shape unchanged. No added text, logos, or duplicate props."></textarea></label>
+      <label class="production-check"><input id="prodReference" type="checkbox"/> Require a client-supplied reference image</label>
+      <label id="prodReferenceField" class="field hidden"><span>Reference filename or description (not an attachment)</span><input id="prodReferenceName" maxlength="220" placeholder="e.g., product-front.png, approved packshot"/></label>
+      <p class="production-note">Only the brief is exported. Attach any authorized reference separately in the receiving tool.</p>
+    </form>
+    <aside class="production-panel production-output">
+      <div class="production-panel-head"><h2>Client handoff</h2><span id="productionStatus" role="status">Add your subject to begin</span></div>
+      <div class="production-format" id="productionFormat">PHOTO · 16:9</div>
+      <label class="field"><span>Direct generation prompt</span><textarea id="productionPrompt" rows="11" readonly placeholder="Your copy-ready prompt appears here."></textarea></label>
+      <ul class="production-checks" id="productionChecks"></ul>
+      <div class="production-actions"><button class="button lime" id="productionExport">Download client brief (.md) ↓</button><button class="button" id="productionJSON">Export JSON</button><button class="button" id="productionCopy">Copy prompt</button><button class="button" id="productionAI">Open in AI Studio ↗</button></div>
+      <p class="production-note">Use the Markdown file with an agent that reads uploads, or paste its contents. In a media generator, paste just the direct prompt. Generation depends on the tool’s capabilities and access.</p>
+    </aside>
+  </div>
+</section>

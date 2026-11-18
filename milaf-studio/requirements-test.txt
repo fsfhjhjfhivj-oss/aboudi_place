@@ -1,0 +1,2 @@
+# Optional browser regression tests only; not required by the server.
+playwright==1.62.0

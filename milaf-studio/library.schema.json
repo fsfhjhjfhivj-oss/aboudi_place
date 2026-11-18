@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Prompt Milaf enriched library",
+  "type": "object",
+  "required": [
+    "libraryName",
+    "categories"
+  ],
+  "properties": {
+    "libraryName": {
+      "const": "Prompt Milaf"
+    },
+    "categories": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "prompts"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "prompts": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/$defs/prompt"
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "nonempty": {
+      "type": "string",
+      "minLength": 1
+    },
+    "prompt": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "roleContext",
+        "objective",
+        "scope",
+        "outputFormat",
+        "exampleOutput",
+        "difficultyGuide",
+        "templates",
+        "promptText",
+        "medium",
+        "variant",
+        "tags"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/nonempty"
+        },
+        "title": {
+          "$ref": "#/$defs/nonempty"
+        },
+        "roleContext": {
+          "$ref": "#/$defs/nonempty"
+        },
+        "objective": {
+          "$ref": "#/$defs/nonempty"
+        },
+        "scope": {
+          "$ref": "#/$defs/nonempty"
+        },
+        "outputFormat": {
+          "$ref": "#/$defs/nonempty"
+        },
+        "exampleOutput": {
+          "$ref": "#/$defs/nonempty"
+        },
+        "promptText": {
+          "$ref": "#/$defs/nonempty"
+        },
+        "variant": {
+          "$ref": "#/$defs/nonempty"
+        },
+        "medium": {
+          "enum": [
+            "text",
+            "image",
+            "video"
+          ]
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "templates": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^\\[[a-z_]+\\]$"
+          }
+        },
+        "difficultyGuide": {
+          "type": "object",
+          "required": [
+            "beginner",
+            "intermediate",
+            "expert"
+          ],
+          "properties": {
+            "beginner": {
+              "$ref": "#/$defs/nonempty"
+            },
+            "intermediate": {
+              "$ref": "#/$defs/nonempty"
+            },
+            "expert": {
+              "$ref": "#/$defs/nonempty"
+            }
+          }
+        },
+        "cinematography": {
+          "type": "object"
+        },
+        "promptVersion": {
+          "type": "string"
+        },
+        "successCriteria": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/nonempty"
+          }
+        },
+        "inputGuide": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": [
+              "description",
+              "example",
+              "required"
+            ],
+            "properties": {
+              "description": {
+                "$ref": "#/$defs/nonempty"
+              },
+              "example": {
+                "type": "string"
+              },
+              "required": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "generationPrompt": {
+          "$ref": "#/$defs/nonempty"
+        },
+        "negativePrompt": {
+          "type": "string"
+        },
+        "requiresReference": {
+          "type": "boolean"
+        },
+        "conversationStarters": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

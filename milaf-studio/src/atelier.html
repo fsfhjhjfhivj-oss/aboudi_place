@@ -1,0 +1,77 @@
+<dialog id="atelierPreviewDialog" aria-labelledby="atelierPreviewTitle">
+  <div class="dialog-top">
+    <div>
+      <div class="eyebrow">NOTHING IS SENT BY OPENING THIS PREVIEW</div>
+      <h2 id="atelierPreviewTitle">Exactly what goes into this request.</h2>
+    </div>
+    <button
+      class="icon-button"
+      data-close="atelierPreviewDialog"
+      aria-label="Close request preview"
+    >
+      ✕
+    </button>
+  </div>
+  <div class="toolkit-body">
+    <div class="atelier-request-preview" id="atelierPreviewContent"></div>
+    <p class="small-text muted">
+      The app access token authenticates the local server separately. It is not
+      part of this prompt. Your Google API key stays on that server.
+    </p>
+  </div>
+</dialog>
+<dialog id="atelierTalkDialog" aria-labelledby="atelierTalkTitle">
+  <div class="dialog-top">
+    <div>
+      <div class="eyebrow">YOU DON'T NEED TO SPEAK IN PROMPT TEMPLATES</div>
+      <h2 id="atelierTalkTitle">Start messy. We'll make it clearer.</h2>
+    </div>
+    <button
+      class="icon-button"
+      data-close="atelierTalkDialog"
+      aria-label="Close conversation guide"
+    >
+      ✕
+    </button>
+  </div>
+  <div class="toolkit-body">
+    <h3>Tell Milaf what you're trying to do.</h3>
+    <p>
+      “I'm making a short film for a small repair shop. I want it to feel warm,
+      not like an ad. Give me three directions.”
+    </p>
+    <h3>Then adjust one thing at a time.</h3>
+    <p>
+      “Keep the second idea. Make the camera move slower.”<br />“Explain that
+      without technical words.”<br />“Use my actual draft. Don't add claims I
+      haven't supported.”
+    </p>
+    <h3>Keep the important context visible.</h3>
+    <p>
+      The model receives up to the latest 12 text messages, each capped at 4,000
+      characters, plus the current request. Pin important notes in the context
+      panel when the conversation gets longer. This is bounded conversation
+      context, not permanent AI memory.
+    </p>
+    <h3>Use a prompt, or just talk.</h3>
+    <p>
+      Choose Talk it through for a natural conversation, Upgrade a prompt for a
+      copy-ready revision, Explain clearly for learning, Explore directions for
+      three distinct options, or Build a shot list for structured JSON you can
+      import.
+    </p>
+    <h3>Voice is optional—and browser-dependent.</h3>
+    <p>
+      Voice typing needs browser support and microphone permission.
+      Browser/operating-system speech services may process audio or text
+      remotely. Nothing is recorded, spoken, or submitted automatically. Voice
+      capture fills the message box; you still review it and authorize the AI
+      request.
+    </p>
+    <div class="inline-notice">
+      Milaf is an AI, not a person. Check facts, review generated work, and
+      don't put passwords, API keys, or sensitive personal information into the
+      conversation.
+    </div>
+  </div>
+</dialog>
